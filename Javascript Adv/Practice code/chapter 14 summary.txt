@@ -1,0 +1,37 @@
+chapter 14 summary
+
+1) we create a canvas element and canvas context which we will use
+   to draw.....
+
+2)we set the attribute height and weight of the canvas, then we 
+ prepend the canvas to the body of the page...
+
+3)we had to create an array colval..
+--a)we used a for loop to add a number of items with the value of 0
+     to get the number of items we divide the width by 10
+
+
+4)we had to create a matrix function to run at 50 millisec intervals
+
+//**in the function**//
+5)In the function, we set the the fillStyle to be black, and gave it
+  an opacity of .05 which gives us a fading effect
+
+6)we set the canvas font color green
+
+7)we had to use the array Map, to iterate thru all the items to
+ colval array
+
+--8/a)we use Math.random() to alternate between 0 or 1,
+   to make sure that the values is 0 or 1, we make a condition
+   that checks if the Math.random value is less than 0.5....
+
+--9/b)we set position X by multiplying the index value by 10
+
+--10/c)we use the ctx filltext() method to display "output" value
+      on the specified x and y axis
+
+--11/d)we check if posY is greater than 100 plus a random number 
+      between 0-300, then set colval index to 0
+
+--12/e)but if posY is less, then increment colval index at posY by 10

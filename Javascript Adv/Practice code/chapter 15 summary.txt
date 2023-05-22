@@ -1,0 +1,23 @@
+chapter 15 summary
+
+*****Project*******
+--**Working with JSON***--
+
+1)created a json file named people.json
+
+2-3)in this json file we had to create an array that stores objects
+ with the same property names (first,last,topic)
+
+4)in the JS file, 
+--a)we use the people.json file as URL
+ 
+--b)we use fetch to connect the URL 
+
+--c)we use the .json() method to format the response data into JSON
+   format thats because we are dealing with a JSON file in the first
+   place..
+
+5)we console log the data
+
+6)using the foreach() we iterate through the objects in the data and
+ display it in the console  

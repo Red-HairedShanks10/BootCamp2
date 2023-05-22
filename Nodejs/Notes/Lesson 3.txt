@@ -1,0 +1,54 @@
+******Creating a Nodejs module***********
+
+A nodejs application can consists of many different javascript files,
+reasonn behind this, is focused on effeciency and to maintain 
+effeciency of any node.js application we need to make sure that
+these files access each other's code....
+
+**???(1)***
+a)How do we make these files access each other?
+
+***///***
+
+
+///******///
+--to make a javascript file's content accessible we use the
+  exports key word to add the variables,functions, arrays etc
+  as properties of the exports object...
+
+--we can then import the readily accessible content in another javascript file using the require() method to target the file
+and assign it to a constant object 
+
+example of require:
+   
+ //here we create a constant that holds all the objects(variable,
+   functions, arrays etc)
+   const numbersModule = require("./numbers.js");
+ 
+  //here we then use dot notation to access the properties
+  a)numbersModule.num_arr.foreach(n => console.log(n));
+ b)numbersModule.addNum(3,4);
+
+--the require method belongs to the global Module object...
+
+///******///
+
+///**Running NPM***//
+
+NPM--is a Nodejs package manager, which helps with managing external packages(these are external modules built by other developers and made available online)
+
+using npm in command prompt we can install, remove and modify external packages...
+
+--npm init
+
+--npm install/i (package name) -save/-s or you could have the 
+  (--global/-g) flag
+
+
+
+
+
+
+
+
+  

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter14</title>
+
+
+</head>
+<!--pg365 -> pg371-->
+
+<body bgcolor="aqua">
+
+    <!-- pg365 local file reader
+    <div id="message"></div>
+    <script>
+
+        
+        let message = document.getElementById("message");
+        if (window.FileReader) {
+            message.innerText = "Good to go!";
+        } else {
+            message.innerText = "No FileReader :(";
+        }
+    </script> -->
+
+    <!--pg365 Uploading files
+    <input type="file" onchange="uploadFile(this.files)" />
+    <div id="message"></div>
+    <script>
+        let message = document.getElementById("message");
+        function uploadFile(files) {
+            console.log(files[0]);
+            message.innerText = files[0].name;
+        }
+    </script> -->
+
+    <!-- pg66 uploading multiple file
+    <input type="file" multiple onchange="uploadFile(this.files)" />
+    <div id="message"></div>
+    <script>
+        let message = document.getElementById("message");
+        function uploadFile(files) {
+            for (let i = 0; i < files.length; i++) {
+               // message.innerHTML += files[i].name + "<br>";
+               console.log(files[i]);
+            message.innerText += files[i].name;
+            }
+        }
+    </script> -->
+
+    <!-- pg367 Reading files 
+    <input type="file" onchange="uploadAndReadFile(this.files)" />
+    <div id="message"></div>
+    <script>
+        let message = document.getElementById("message");
+        function uploadAndReadFile(files) {
+            let fr = new FileReader();
+            fr.onload = function (e) {
+                message.innerHTML = e.target.result;
+            };
+            fr.readAsText(files[0]);
+        } 
+
+    </script>-->
+
+    <!-- pg369 Getting position data with GeoLocation example 1
+    <script>
+        window.onload = init;
+        function init() {
+            console.dir(navigator.geolocation);
+        }
+    </script> -->
+
+    <!-- pg370 example 2
+     <script>
+        window.onload = init;
+        function init() {
+        navigator.geolocation.getCurrentPosition(showGeoPosition);
+        }
+        function showGeoPosition(data) {
+        console.dir(data);
+        }
+        </script> -->
+
+    <!-- pg371
+        <canvas id="c1"></canvas>
+        <style>
+        canvas {
+        border: 1px solid black;
+        }
+        </style> 
+        <script>
+        let canvas = document.getElementById("c1");
+        let ctx = canvas.getContext("2d");
+        canvas.width = 500; //px
+        canvas.height = 500; //px
+        ctx.fillStyle = "pink";
+        ctx.fillRect(20, 40, 100, 100);
+        </script> -->
+
+    <!-- pg374
+    <canvas id="canvas1"></canvas>
+    <style>
+        #canvas1 {
+            border: 1px solid black;
+        }
+    </style>
+    <script>
+        let canvas = document.getElementById("canvas1");
+        let ctx = canvas.getContext("2d");
+        canvas.width = 100;
+        canvas.height = 100;
+        ctx.lineWidth = 2;
+        ctx.moveTo(0, 0);
+        ctx.lineTo(100, 100);
+        ctx.stroke();
+
+        ctx.lineWidth = 2;
+        ctx.moveTo(100, 0);
+        ctx.lineTo(0, 100);
+        ctx.stroke();
+    </script>-->
+
+    <!-- pg375
+    <canvas id="canvas1"></canvas>
+    <style>
+        #canvas1 {
+        border: 1px solid black;
+        }
+        </style>
+    <script>
+    let canvas = document.getElementById("canvas1");
+    let ctx = canvas.getContext("2d");
+    canvas.width = 150;
+    canvas.height = 200;
+    ctx.beginPath();
+    ctx.arc(100, 50, 50, 0, Math.PI * 2);
+    ctx.stroke();
+    </script> -->
+
+    <!-- pg377
+    <canvas id="canvas1"></canvas>
+    <style>
+        #canvas1 {
+        border: 1px solid black;
+        }
+        </style>
+    <script>
+        let canvas = document.getElementById("canvas1");
+        let ctx = canvas.getContext("2d");
+        canvas.width = 200;
+        canvas.height = 200;
+        ctx.font = "24px Arial";
+        let txt = "Hi canvas!";
+        ctx.fillText(txt, 40, 100);
+    </script> -->
+
+    <!-- pg378
+    <canvas id="c1"></canvas>
+    <style>
+        canvas {
+        border: 1px solid black;
+        }
+        </style>
+    <img id="img1" src="../Onistunka.png" />
+    <script>
+        window.onload = function () {
+            let canvas = document.getElementById("c1");
+            canvas.height = 300;
+            canvas.width = 300;
+            let ctx = canvas.getContext("2d");
+            let myImage = document.getElementById("img1");
+            ctx.drawImage(myImage, 10, 10);
+        };
+    </script> -->
+
+    <!-- pg380-pg381
+    <canvas id="canvas1"></canvas>
+    <canvas id="canvas2"></canvas>
+    <canvas id="canvas3"></canvas>
+    <style>
+        canvas {
+            border: 1px solid black;
+        }
+    </style>
+
+    <script>
+        let canvas1 = document.getElementById("canvas1");
+        let ctx1 = canvas1.getContext("2d");
+        ctx1.strokeRect(5, 5, 150, 100);
+        let canvas2 = document.getElementById("canvas2");
+        let ctx2 = canvas2.getContext("2d");
+        ctx2.beginPath();
+        ctx2.arc(60, 60, 20, 0, 2 * Math.PI);
+        ctx2.stroke();
+        let canvas3 = document.getElementById("canvas3");
+        let ctx3 = canvas3.getContext("2d");
+        ctx3.drawImage(canvas1, 10, 10);
+        ctx3.drawImage(canvas2, 10, 10);
+    </script> -->
+
+    
+</body>
+
+</html>

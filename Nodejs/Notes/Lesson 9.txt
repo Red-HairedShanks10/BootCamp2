@@ -1,0 +1,13 @@
+This lesson we focus on:
+
+/**Setting up routes for our application
+
+/**Responding with data from another module
+
+/**Getting request URL parameters
+
+/**Moving route callbacks to controllers
+
+//*******************************//
+
+//*****9.1 making routes with Express.js**//

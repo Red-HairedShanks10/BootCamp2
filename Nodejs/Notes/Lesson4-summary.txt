@@ -1,0 +1,31 @@
+Lesson4 summary****
+we learn about:
+
+1)creating a basic web server with npm
+2)making code that processes requests and returninf response
+3)running web server in our browsers....
+
+///**Main.js--Code***////
+--1)we start of with requiring the http and status-codes modules...
+
+--2)we then use the http.createServer() method to create a Server
+    instance and we store the server in the app variable....
+   
+--a)we then setup the app to receive HTTP requests and send HTTP
+     responses
+
+ --b)we then use httpStatus.OK to use a response code(200) that indicates
+     that there were no problems in returning the http response header
+     which is in the form of an HTML content type....
+
+--c)we assign the local variable responseMessage with a response in HTML
+   --we then close the response with res.end(), in order to indicate that
+     we are no longer writing content...
+
+--d)we then use the listen() to indicate that the server is awaiting for
+   requests at port 3000
+
+     
+
+
+ 

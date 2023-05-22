@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix-Effect</title>
+</head>
+
+<body>
+
+    <body>
+        <div class="output"></div>
+        <script>
+           //1)
+            let canvas = document.createElement("canvas");
+            let ctx = canvas.getContext("2d");
+            //2)
+            canvas.setAttribute("width", "500");
+            canvas.setAttribute("height", "300");
+            document.body.prepend(canvas);
+            //3)
+            let colVal = [];
+            for (let x = 0; x < 50; x++) {
+                colVal.push(0);
+            }
+            //4)
+            function matrix() {
+                //5)
+                ctx.fillStyle = "rgba(0,0,0,.05)";
+                ctx.fillRect(0, 0, canvas.width, canvas.height);
+                //6)
+                ctx.fillStyle = "green";
+                //7)
+                colVal.map((posY, index) => {
+                    //8)
+                    let output = Math.random() < 0.5 ? 0 : 1;
+                    //9)
+                    let posX = (index * 10); 
+                    //10)
+                    ctx.fillText(output, posX, posY);
+                    //11)
+                    if (posY > 100 + Math.random() * 300) {
+                        colVal[index] = 0;
+                    } else {
+                        //12)
+                        colVal[index] = posY + 10;
+                    }
+                });
+            }
+            //run at 50 milliseconds intervals
+            setInterval(matrix, 50);
+        </script>
+
+    </body>
+
+</html>

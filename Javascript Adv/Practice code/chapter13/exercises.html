@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercises 13</title>
+</head>
+
+<body>
+
+    <!--pg349**exercise 13.1-->
+    <script>
+
+         //1)
+        function greet(fullName) {
+            console.log(`Welcome, ${fullName[0]} ${fullName[1]}`)
+        }
+        //2)
+        function greetingCall(user, callback) {
+            //a)
+           let fullName = user.split(" ");
+           //b)
+            callback(fullName);
+        }
+        //3)
+        greetingCall("Chrollo Lu", greet);
+    </script> 
+
+    <!--pg352**exercise 13.2
+    <script>
+        const myPromise = new Promise((resolve, reject) => {
+            resolve("Start Counting");
+        });
+        function counter(val) {
+            console.log(val);
+        }
+        myPromise
+            .then(value => { counter(value); return "one" })
+            .then(value => { counter(value); return "two" })
+            .then(value => { counter(value); return "three" })
+            .then(value => { counter(value); });
+
+            
+    </script>-->
+
+    <!--pg354**exercise 13.3
+    <script>
+        let cnt = 0;
+        function outputTime(val) {
+            return new Promise(resolve => {
+                setTimeout(() => {
+                    cnt++;
+                    resolve(`x value ${val} counter:${cnt}`);
+                }, 1000);
+            });
+        }
+        async function aCall(val) {
+            console.log(`ready ${val} counter:${cnt}`);
+            const res = await outputTime(val);
+            console.log(res);
+        }
+        for (let x = 1; x < 4; x++) {
+            aCall(x);
+        }
+    </script>-->
+
+</body>
+
+</html>

@@ -1,0 +1,60 @@
+lesson16 summary
+We apply what we learnt in from the previous lessons of this Unit:
+
+--such as setting up a Mongodb database
+--Building model using Mongoose
+--Connect models and controllers....
+
+
+
+*********
+
+****Main.js****
+1)we require the needed modules...
+
+//16.1--we set up mongoose
+--using mongoose.connect we set up a connection to the confetti_cuisine database...
+
+*******
+
+****Subscriber.js******
+
+//**16.2 we define a subscriber schema
+
+--this schema allows our subscriber object to have a name, email and zipCode fields with
+  appropriate data types
+
+//**16.3--creating a subcriber model
+--here we assign the model to the module.exports object(in order for it to be required)...
+  (is there another way?)
+
+**********
+
+*****Subscriber controller******
+
+//16.4
+
+1)we require the subscriber model....
+
+2)a function that retrieves all subscribers
+--a)we use find() to run a query that finds all subscribers in the databas 
+     then return a promise
+--b)using .then() to continue the query, and render a view if receiving data is a
+    success or catch an error if there was one....
+
+--c) log when promise is complete
+
+3)this function renders a contact view
+
+4)in this function we create an instance of subscriber and saves it to the database
+
+***************
+
+***views****
+1)layout.ejs - for the applications overall styling foundation
+2)index - this if for the home page content
+3)courses - shows the content for course page
+4)contact -contact content
+5)thanks - displays message(thanks) after form submission
+6)error - displays error message for non-existing content..
+***********

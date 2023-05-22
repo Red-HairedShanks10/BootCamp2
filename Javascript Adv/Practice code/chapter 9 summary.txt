@@ -1,0 +1,36 @@
+chapter 9 summary
+
+--we learnt the basics on how to manipulate HTML elements with JS
+--we look at BOM which represents the browser window
+--we Looked at the DOM which is where all the html elements are 
+  stored 
+
+//***Project***//
+
+**Manipulating HTML elements
+
+--we were given HTML code which we were suppose to manipulate...
+
+**Inside the script tag **
+
+1) we had to select the element with output class..
+
+2)we had to create an object that would hold the element within 
+  the output elemnt
+  b)then updated the the ul tag id to "mainList"
+   --the we displayed the mainList in the console...
+  
+
+3)we had to search for elements with the div tag and display them
+  in console as an array...
+
+4)using the for loop
+a)we set the id of each div tag to "id" with a number 
+
+b)we then alternate color of each div's content to red or blue
+--if the division of i by 2 retruns a remainder then make it red
+--if not(or returns a 0) then make the content blue...
+
+--we have three div elements so set in an array format...
+
+

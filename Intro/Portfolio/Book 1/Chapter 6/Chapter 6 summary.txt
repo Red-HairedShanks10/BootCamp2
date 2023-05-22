@@ -1,0 +1,12 @@
+Book 1 Chapter 6 summary
+
+Conditionals and Loops:
+
+In this chapter we learn that conditionals and loops are control structures that help with controlling when, where and how pieces of code 
+are executed...
+
+1) we can use if, else if and else statements to execute code if certain conditions are true...
+ 2) we also use loops to execute code as long as a condition is true, through while loops and or for loops
+
+
+

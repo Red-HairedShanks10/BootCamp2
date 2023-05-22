@@ -1,0 +1,4 @@
+****Lesson3 Summary****
+in this lesson we learnt about creating modules.
+--modules are essentially javascript files that can interact with each other's
+  code for different functionality....

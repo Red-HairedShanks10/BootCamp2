@@ -1,0 +1,55 @@
+chapter 12 summary
+
+in this chapter we learnt about: 
+1)regular expression
+--how to search and replace text depending on specified patterns
+  using regular expressions
+
+2)how to debug
+--focused on error handling
+--using the debug as well...
+
+3)using strict mode and using cookies as well
+
+
+
+//**Exercise 12.5**//
+
+1)we had to create a function with an argument called "val"
+ 
+2)we then had to use try and we had to check if val is a number
+  or not using isNan()
+ a)if isNan returns true then throw an error message
+ b)if isNan returns false then display message -->
+
+3)we use catch to catch any errors and then we had to output the 
+  error values to the console...
+
+4)we use finally to output the val that was given to the function
+
+5)we try out two values...
+
+///******////
+
+
+//**Project**//
+1)we set the two textAreas and the button as Javascript objects
+
+2)we had to add an eventListener when the button is clicked, which
+  will call the function "getEmail"
+
+3)in this function
+
+a)we had to extract only content that has a pattern of an email address,in the first textArea(we use the match() method)
+ b)
+
+4)we had to loop through all the the email matches
+
+a)using the if statement we check if there is already an email in
+ the eholder, and if not we add a that email in the eholder array
+
+6)we join the emails, with a comma and output it in the second textArea...
+
+////*******////
+  
+  

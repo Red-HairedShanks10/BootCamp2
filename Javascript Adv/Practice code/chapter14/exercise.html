@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise-14</title>
+</head>
+
+<body>
+
+    <!-- Practice exercise 14.1
+    <script>
+        const message = document.getElementById("message");
+        const output = document.querySelector(".output");
+        const myInput = document.querySelector("input");
+        myInput.addEventListener("change", uploadAndReadFile);
+        function uploadAndReadFile(e) {
+            const files = e.target.files;
+            for (let i = 0; i < files.length; i++) {
+                const file = files[i];
+                const img = document.createElement("img");
+                img.classList.add("thumb");
+                img.file = file;
+                output.appendChild(img);
+                const reader = new FileReader();
+                reader.onload = (function (myImg) {
+                    return function (e) {
+                        myImg.src = e.target.result;
+                    };
+                })(img);
+                reader.readAsDataURL(file);
+            }
+        }
+    </script> -->
+
+    <!-- Practice exercise 14.2-->
+
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+    </head>
+
+   
+    <canvas id="canvas" width="640" height="640">Not Supported</canvas>
+    <script>
+        //3)
+        let canvas = document.querySelector('#canvas');
+        let ctx = canvas.getContext("2d");
+        //4)
+        ctx.fillStyle = "red";
+        //5) filled shape
+        ctx.fillRect(100, 100, 500, 300);
+        //6)// outline
+        ctx.strokeRect(90, 90, 520, 320); 
+        //7)//transparent
+        ctx.clearRect(150, 150, 400, 200); 
+    </script> 
+
+    <!-- Practice exercise 14.3
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+    <canvas id="canvas" width="640" height="640">Not Supported</canvas>
+    <script>
+        const canvas = document.querySelector("#canvas");
+        const ctx = canvas.getContext("2d");
+        ctx.beginPath();
+        ctx.fillStyle = "red";
+        ctx.arc(300, 130, 100, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.beginPath();
+        ctx.fillStyle = "black";
+        ctx.arc(250, 120, 20, 0, Math.PI * 2);
+        ctx.moveTo(370, 120);
+        ctx.arc(350, 120, 20, 0, Math.PI * 2);
+        ctx.moveTo(240, 160);
+        ctx.arc(300, 160, 60, 0, Math.PI);
+        ctx.fill();
+        ctx.moveTo(300, 130);
+        ctx.lineTo(300, 150);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.moveTo(300, 230);
+        ctx.lineTo(300, 270);
+        ctx.lineTo(400, 270);
+        ctx.lineTo(200, 270);
+        ctx.lineTo(300, 270);
+        ctx.lineTo(300, 350);
+        ctx.lineTo(400, 500);
+        ctx.moveTo(300, 350);
+        ctx.lineTo(200, 500);
+        ctx.stroke();
+        ctx.beginPath();
+        ctx.fillStyle = "blue";
+        ctx.moveTo(200, 50);
+        ctx.lineTo(400, 50);
+        ctx.lineTo(300, 20);
+        ctx.lineTo(200, 50);
+        ctx.fill();
+        ctx.stroke();
+    </script> -->
+
+    <!-- Practice exercise 14.4
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+    <canvas id="canvas" width="640" height="640">Not Supported</canvas>
+    <script>
+        const canvas = document.querySelector('#canvas');
+        const ctx = canvas.getContext('2d');
+        const str = "Hello World";
+        ctx.font = 'italic 50px Comic';
+        ctx.fillStyle = 'blue';
+        //ctx.textAlign = 'left';
+        ctx.fillText(str, 100, 100);
+        ctx.font = 'bold 20px Arial';
+        ctx.fillStyle = 'red';
+        for (let x = 1; x < 11; x++) {
+            ctx.fillText("counter:" + x, 50, (200 + (40 * x)));
+        }
+    </script> -->
+
+    <!-- Practice exercise 14.5
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+    <div><label>Image</label>
+        <input type="file" id="imgLoader" name="imgLoader">
+    </div>
+    <div><canvas id="canvas"></canvas></div>
+    <script>
+        const canvas = document.querySelector("#canvas");
+        const ctx = canvas.getContext("2d");
+        const imgLoader = document.querySelector("#imgLoader");
+        imgLoader.addEventListener("change", handleUpload);
+        function handleUpload(e) {
+            console.log(e);
+            const reader = new FileReader();
+            reader.onload = function (e) {
+                console.log(e);
+                const img = new Image();
+                img.onload = function () {
+                    canvas.width = img.width / 2;
+                    canvas.height = img.height / 2;
+                    ctx.drawImage(img, 0, 0, img.width / 2,
+                        img.height / 2);
+                }
+                img.src = e.target.result;
+            }
+            reader.readAsDataURL(e.target.files[0]);
+        }
+    </script> -->
+
+    <!-- Practice exercise 14.6
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+    <div><canvas id="canvas"></canvas></div>
+    <script>
+        const canvas = document.getElementById("canvas");
+        const ctx = canvas.getContext("2d");
+        const ballSize = 10;
+        let x = canvas.width / 2;
+        let y = canvas.height / 2;
+        let dirX = 1;
+        let dirY = 1;
+        function drawBall() {
+            ctx.beginPath();
+            ctx.arc(x, y, ballSize, 0, Math.PI * 2);
+            ctx.fillStyle = "red";
+            ctx.fill();
+            ctx.closePath();
+        }
+        function move() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            drawBall();
+            if (x > canvas.width - ballSize || x < ballSize) {
+                dirX *= -1;
+            }
+            if (y > canvas.height - ballSize || y < ballSize) {
+                dirY *= -1;
+            }
+            x += dirX;
+            y += dirY;
+        }
+        setInterval(move, 10);
+    </script> -->
+
+    
+</body>
+
+</html>

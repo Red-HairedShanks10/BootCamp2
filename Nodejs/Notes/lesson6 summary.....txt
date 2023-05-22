@@ -1,0 +1,14 @@
+**Summary**
+In this lesson we learned how to serve individual files using fs module.which we 
+can use to read content/data of files and help us detemine what proper response 
+we can return.... 
+
+*******
+
+
+1)Serving static files with fs module
+a)First, we require the module
+b)then we created a routMap to pair routes with files on the server
+c)if the routeMap of the file is the correct match:
+ d) we use the data content of the file(index.html) as a response...
+ e)otherwise if its not the correct URL then we display this...  

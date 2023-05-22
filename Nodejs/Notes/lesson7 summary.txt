@@ -1,0 +1,53 @@
+Lesson7 summary
+--we use what we learned from the previous lessons such as:
+
+--creating  local modules...
+--using external modules we installed 
+--routing
+--handling request data....
+
+Starting this project*****
+
+1)we had to initialize the the application package.json
+2)we setup the directory structure....
+***********
+
+****Main.js***
+
+1)
+we imported the needed modules...
+(including the local modules-router, utils, contentTypes)
+
+
+*******
+
+*****Utils.js*******
+7.5*
+1)we require fs and http-status-codes
+  --a)we also import the contentTypes' module
+
+2)we then had to export the a function that will reads the files 
+  and returns the right response depending on which file is being
+   read...
+
+***7.8***
+we use the router module in our main to set up individual routes
+ 
+
+**********
+
+****router js***
+1)we import the neccessary modules...
+
+2)we create a routes object that has route functions (POST and GET)
+
+3)we also create a function that hanldes requests
+
+4)we create get and post functions that map the route functions in th routes object
+
+*********
+
+****contact.html****
+we added a form that had to submit a name to the home page....
+
+

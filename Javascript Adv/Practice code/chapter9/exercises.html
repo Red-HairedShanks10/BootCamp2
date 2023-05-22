@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise-9</title>
+</head>
+
+<body>
+    <div class="output"></div>
+    <script>
+        
+        //**********Exercise 9.1************** */
+
+        //finding the document object nested in window object using console.dir(window):
+        console.dir(window);
+        //document will be in a list before external....
+
+        //**END OF EXERCISE 9.1*********/
+
+
+        //*pg217*******EXERCISE 9.2***************//
+
+        //displays the protocol of current file
+        console.log(window.location.protocol);
+
+        //displays the directory of current file....
+        console.log(window.location.href);
+
+        //***END OF EXERCISE 9.2*****************//
+
+
+        //* pg221***********EXERCISE 9.3*************
+
+        let output = document.querySelector('.output');//1)gets the element with a class 'output' and stores it in the variable "output"
+        output.textContent = "Hello World";//2)the  textcontent property will have the string value of "Hello world"
+        output.classList.add("red");//3)adding a class to the element
+        output.id = "tester";//4)updating the id property to the string value "tester"
+        output.style.backgroundColor = "red";//5)background color for the element will be set to red
+        console.log(document.URL);//6)display on the console the URL of the current file.....
+        output.textContent = document.URL;//textcontent for the element will change to URL of file....
+
+    //**************************END OF EXERCISE 9.3***********/
+
+    </script>
+
+
+
+
+</body>
+<!-- <script src="exercises.js"></script> -->
+
+</html>

@@ -1,0 +1,38 @@
+Chapter 7 summary
+
+//***exercise 7.1**//
+
+1)we had to create a Person class, with a constructor that will initialise 
+  the properties, firstname annd lastname...
+
+2) we had to create  Person instances to make friend variables 
+
+3)display the friends with a greeting in the console...
+
+//******///
+
+
+//***Projects****//
+
+//Employee tracker//
+
+1)add constructor values(firstnames, LastNames, years(of work))
+
+2)we create two Employee instances with names and years of experience
+(and then place the employees to workers array)
+
+
+3)created a prototype to return details for each of the employees
+
+4)we had to use the foreach() array method to iterate through the array 
+workers[] 
+
+--using the worker parameter value, which will be given
+  all the content for each of the Employee instances in each iteration,
+ 
+--so for e.x first iteration, worker is now equal to emp1 
+
+--now we can access the details function made through the protoype, to return
+  the string value...
+
+//******///

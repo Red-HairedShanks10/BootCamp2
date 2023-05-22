@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StarRater</title>
+</head>
+
+<body>
+
+
+    <!--Star Rater system-->
+    <ul class="stars">
+        <li class="star">&#10029;</li>
+        <li class="star">&#10029;</li>
+        <li class="star">&#10029;</li>
+        <li class="star">&#10029;</li>
+        <li class="star">&#10029;</li>
+    </ul>
+    <div class="output"></div>
+
+    <style>
+        .stars ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .star {
+            font-size: 2em;
+            color: #ddd;
+            display: inline-block;
+        }
+
+        .orange {
+            color: rgb(226, 134, 5);
+        }
+
+        .output {
+            background-color: #ddd;
+        }
+    </style>
+
+    <script>
+         //1-2) creating objects that store elements with the following class names
+        let starsUL = document.querySelector(".stars");
+        let output = document.querySelector(".output");
+        let stars = document.querySelectorAll(".star");
+        //3)
+        stars.forEach((star, index) => {
+            star.starValue = (index + 1);
+            star.addEventListener("click", starRate);
+        });
+        function starRate(el) {
+            //4)
+            output.innerHTML = `You Rated this ${el.target.starValue} stars`;
+            //5)
+            stars.forEach((star, index) => {
+                if (index < el.target.starValue) {
+                    star.classList.add("orange");
+                } else {
+                    star.classList.remove("orange");
+                }
+            });
+        }
+    </script>
+    <!--end of Star Rater system-->
+</body>
+
+</html>

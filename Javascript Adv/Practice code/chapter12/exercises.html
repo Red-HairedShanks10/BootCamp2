@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ch12 exercises</title>
+</head>
+
+<body>
+
+    <!-- pg310/311 Practice exercise 12.1
+    <div id="output">Complete JavaScript Course</div>
+    Search for:
+    <input id="sText" type="text">
+    <br> Replace with:
+    <input id="rText" type="text">
+    <br>
+    <button>Replace</button>
+    <script>
+
+        const output = document.getElementById("output");
+        const findValue = document.getElementById("sText");
+        const replaceValue = document.getElementById("rText");
+        document.querySelector("button").addEventListener("click", lookUp);
+        function lookUp() {
+            const s = output.textContent;
+            const rt = replaceValue.value;
+            const re = new RegExp(findValue.value, "gi");
+            if (s.match(re)) {
+                let newValue = s.replace(re, rt);
+                output.textContent = newValue;
+            }
+        }
+    </script> -->
+
+    <!-- pg313 Practice exercise 12.2
+    <div class="output"></div>
+    <input type="text" placeholder="Enter Email">
+    <button>Check</button>
+    <script>
+        const output = document.querySelector(".output");
+        const emailVal = document.querySelector("input");
+        const btn = document.querySelector("button");
+        const emailExp =
+            /([A-Za-z0-9._-]+@[A-Za-z0-9._-]+\.[A-Za-z0-9]+)\w+/;
+        btn.addEventListener("click", (e) => {
+            const val = emailVal.value;
+            const result = emailExp.test(val);
+            let response = "";
+            if (!result) {
+                response = "Invalid Email";
+                output.style.color = "red";
+            } else {
+                response = "Valid Email";
+                output.style.color = "green";
+            }
+            emailVal.value = "";
+            output.textContent = response;
+        });
+
+    </script> -->
+
+    <!-- pg315 Exercise 12.3
+    <script>
+        function showNames() {
+            let lastOne = "";
+            for (let i = 0; i < arguments.length; i++) {
+                lastOne = arguments[i];
+            }
+            return lastOne;
+        }
+        console.log(showNames("JavaScript", "Laurence", "Mike", "Larry"));
+
+    </script> -->
+
+    <!-- pg320 Exercise 12.4
+    <script>
+        let val = 5;
+        val += adder();
+        val += adder();
+        val += adder();
+        console.log(val);
+        function adder() {
+            let counter = val;
+            for (let i = 0; i < val; i++) {
+                counter++;
+            }
+            return counter;
+        }
+    </script> -->
+
+    <!-- pg326 Exercise 12.5 -->
+    <script>
+        //1
+        function test(val) {
+            //2)
+            try {
+                if (isNaN(val)) {//a)
+                    throw "Not a number";
+                } else {//b)
+                    console.log("Got number");
+                }
+
+            } 
+            //3)            
+            catch (e) {
+                console.error(e);
+            } 
+            //4)
+            finally {
+                console.log("Done " + val);
+            }
+        }
+
+        //5)
+        test("a");
+        test(100)
+    </script> 
+
+    <!-- pg329 Exercise 12.6
+    <script>
+        console.log(document.cookie);
+        console.log(rCookie("test1"));
+        console.log(rCookie("test"));
+        cCookie("test1", "new Cookie", 30);
+        dCookie("test2");
+        function cCookie(cName, value, days) {
+            if (days) {
+                const d = new Date();
+                d.setTime(d.getTime() + (days * 24 * 60 * 60 * 1000));
+                let e = "; expires=" + d.toUTCString();
+                document.cookie = cName + "=" + value + e + "; path=/";
+            }
+        }
+        function rCookie(cName) {
+            let cookieValue = false;
+            let arr = document.cookie.split("; ");
+            arr.forEach(str => {
+                const cookie = str.split("=");
+                if (cookie[0] == cName) {
+                    cookieValue = cookie[1];
+                }
+            });
+            return cookieValue;
+        }
+        function dCookie(cName) {
+            cCookie(cName, "", -1);
+        }
+    </script> -->
+
+    <!-- pg332 exercise 12.7
+    <style>
+        .ready {
+            background-color: #ddd;
+            color: red;
+            text-decoration: line-through;
+        }
+    </style>
+    <div class="main">
+        <input placeholder="New Item" value="test item" maxlength="30">
+        <button>Add</button>
+    </div>
+    <ul class="output">
+    </ul>
+
+    <script>
+        const userTask = document.querySelector(".main input");
+        const addBtn = document.querySelector(".main button");
+        const output = document.querySelector(".output");
+        const tasks = JSON.parse(localStorage.getItem("tasklist")) || [];
+        addBtn.addEventListener("click", createListItem);
+        if (tasks.length > 0) {
+            tasks.forEach((task) => {
+                genItem(task.val, task.checked);
+            });
+        }
+        function saveTasks() {
+            localStorage.setItem("tasklist", JSON.stringify(tasks));
+        }
+        function buildTasks() {
+            tasks.length = 0;
+            const curList = output.querySelectorAll("li");
+            curList.forEach((el) => {
+                const tempTask = {
+                    val: el.textContent,
+                    checked: false
+                };
+                if (el.classList.contains("ready")) {
+                    tempTask.checked = true;
+                }
+                tasks.push(tempTask);
+            });
+            saveTasks();
+        }
+        function genItem(val, complete) {
+            const li = document.createElement("li");
+            const temp = document.createTextNode(val);
+            li.appendChild(temp);
+            output.append(li);
+            userTask.value = "";
+            if (complete) {
+                li.classList.add("ready");
+            }
+            li.addEventListener("click", (e) => {
+                li.classList.toggle("ready");
+                buildTasks();
+            });
+            return val;
+        }
+        function createListItem() {
+            const val = userTask.value;
+            if (val.length > 0) {
+                const myObj = {
+                    val: genItem(val, false),
+                    checked: false
+                };
+                tasks.push(myObj);
+                saveTasks();
+            }
+        }
+    </script> -->
+
+    <!-- pg336 exercise 12.8
+    <script>
+
+        let myList = [{
+            "name": "Learn JavaScript",
+            "status": true
+        },
+        {
+            "name": "Try JSON",
+            "status": false
+        }
+        ];
+        reloader();
+        function reloader() {
+            myList.forEach((el) => {
+                console.log(`${el.name} = ${el.status}`);
+            });
+        } </script>-->
+
+    <!-- pg337 exercise 12.9
+    <script>
+
+        let myList = [{
+            "name": "Learn JavaScript",
+            "status": true
+        },
+        {
+            "name": "Try JSON",
+            "status": false
+        }
+        ];
+        const newStr = JSON.stringify(myList);
+        const newObj = JSON.parse(newStr);
+        newObj.forEach((el) => {
+            console.log(el);
+        });
+
+    </script> -->
+
+</body>
+
+</html>

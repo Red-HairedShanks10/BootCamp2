@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password-checker</title>
+</head>
+
+<body>
+
+
+    <script>
+        //1-2)
+        let allowed = ["Kurapika", "Luffy", "Kakashi"];
+        function passwordChecker(pass) {
+            return allowed.includes(pass);
+        }
+        
+        //3)
+        function login(password) {
+            //a)
+            return new Promise((resolve, reject) => {
+                //b)
+                if (passwordChecker(password)) {
+                    resolve({
+                        status: true
+                    });
+                } else {
+                    reject({
+                        status: false
+                    });
+                }
+            });
+        }
+
+         //4)
+        function checker(pass) {
+            //a)
+            login(pass)
+                //b)
+                .then(valid_pass => {
+                    console.log("Approve:");
+                    console.log(valid_pass);
+                })
+                //c)
+                .catch(inv_pass => {
+                    console.log("Reject:");
+                    console.log(inv_pass);
+                })
+        }
+        //5)
+        checker("Kurapika");
+        checker("456");
+    </script>
+</body>
+
+</html>

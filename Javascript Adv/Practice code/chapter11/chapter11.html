@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 11</title>
+
+
+</head>
+<!-- pg266 -> pg 270 
+    <body>
+   
+      //*
+     <p id="unique" onclick="magic()">Click here for magic!</p> 
+    
+
+    //*pg 270  
+    <div id="divvy" onmouseover="changeColor()" style="width: 100px;
+    height: 100px; background-color: pink;">
+
+
+</body> -->
+
+<!--pg 271 
+    <body>
+    <div id="divvy" style="width: 100px; height: 100px; background-color: pink;">
+   
+    </body> -->
+
+<!--pg273
+    
+    <body>
+        <div id="welcome">Hi there!</div>
+        <form>
+        <input type="text" name="firstname" placeholder="First name" />
+        <input type="text" name="lastname" placeholder="Last name" />
+        <input type="button" onclick="sendInfo()" value="Submit" />
+        </form>
+    </body> -->
+
+<!--pg276
+<body>
+    <style>
+        div {
+            border: 1px solid black;
+            margin-left: 5px;
+        }
+    </style>
+    <div id="message">Bubbling events</div>
+    <div id="output">
+        1
+        <div>
+            2
+            <div>
+                3
+                <div>
+                    4
+                    <div>5</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </body> -->
+
+<!--pg280   
+<body>
+    <div id="welcome">Hi there!</div>
+    <form>
+        <input type="text" name="firstname" placeholder="First name" onchange="logEvent()" />
+        <input type="text" name="lastname" placeholder="Last name" onblur="logEvent()" />
+        <input type="button" onclick="sendInfo()" value="Submit" />
+    </form>
+</body> -->
+
+
+<!--pg283
+<body>
+    <div id="wrapper">JavaScript is fun!</div>
+    <input type="text" name="myNum1" onkeypress="numCheck()">
+    <input type="text" name="myNum2" onkeypress="numCheck2()">
+    </body> -->
+
+<!--pg284  
+    <body>
+        <div id="wrapper">JavaScript is fun!</div>
+        <input type="text" name="myNum1" onkeypress="return numCheck()"
+        onpaste="return false">
+        <input type="text" name="myNum2" onkeypress="return numCheck2()"
+        onpaste="return false">
+        </body> -->
+
+
+<!--pg285-pg287
+<body>
+
+    <style>
+        .box {
+            height: 200px;
+            width: 200px;
+            padding: 20px;
+            margin: 0 50px;
+            display: inline-block;
+            border: 1px solid black;
+        }
+
+        #dragme {
+            background-color: red;
+        }
+    </style>
+
+    <--divs 
+    <div class="box" ondrop="dDrop()" ondragover="nDrop()">
+        1
+        <div id="dragme" ondragstart="dStart()" draggable="true">
+            Drag Me Please!
+        </div>
+    </div>
+
+    <div class="box" ondrop="dDrop()" ondragover="nDrop()">2</div>
+</body> -->
+
+
+<!-- pg289
+<body>
+    <form action="anotherpage.html" method="get">
+        <input type="text" placeholder="name" name="name" />
+        <input type="submit" value="send" />
+     </form>
+
+</body> -->
+
+<!-- pg290
+<body>
+    <div id="wrapper"></div>
+    <form action="anotherpage.html" method="get" onsubmit="return valForm()">
+        <input type="text" id="firstName" name="firstName" placeholder="First name" />
+        <input type="text" id="lastName" name="lastName" placeholder="Last name" />
+        <input type="text" id="age" name="age" placeholder="Age" />
+        <input type="submit" value="submit" />
+    </form>
+
+</body> -->
+
+<!-- <body>
+ 
+    <button onclick="toTheRight()">Go right</button>
+    <div id="block"></div>  
+     
+
+    <style>
+        div {
+        background-color: purple;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        }
+        </style>
+        
+</body> -->
+
+
+
+
+
+<script src="chapter11.js"></script>
+
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercise-11</title>
+</head>
+
+
+
+<body>
+   <h1>Hello</h1>
+   <p>This the font</p>
+    <!--pg267-- exercise-11.1 -->
+    <script>
+        //1)
+        let darkMode = false;
+       //2)
+        window.onclick = () => {
+            console.log(darkMode);
+            //3)
+            if (!darkMode) {//a)
+
+                document.body.style.backgroundColor = "black";
+                document.body.style.color = "white";
+                darkMode = true;
+
+            } else {//b)
+                document.body.style.backgroundColor = "white";
+                document.body.style.color = "black";
+                darkMode = false;
+            }
+        }
+    </script>
+    <!--End of exercise-11.1 -->
+
+    <!--pg268-- exercise 11.2 
+
+    <div>red</div>
+    <div>blue</div>
+    <div>green</div>
+    <div>yellow</div>
+    <script>
+        const divs = document.querySelectorAll("div");
+        divs.forEach((el) => {
+            el.addEventListener("click", () => {
+                document.body.style.backgroundColor = el.textContent;
+            });
+        })
+    </script>
+
+   End of exercise-11.2 -->
+
+    <!--pg269-- exercise 11.3 
+    <script>
+        document.addEventListener("DOMContentLoaded", (e) => {
+            message("Document ready", e);
+        });
+        window.onload = (e) => {
+            message("Window ready", e);
+        }
+        function message(val, event) {
+            console.log(event);
+            console.log(val);
+        }
+    </script>
+
+    End of exercise-11.3 -->
+
+    <!--Exercise 11.4
+    <div class="output"></div>
+    <script>
+        const output = document.querySelector(".output");
+        output.textContent = "hello world";
+        output.style.height = "200px";
+        output.style.width = "400px";
+        output.style.backgroundColor = "red";
+        output.addEventListener("mousedown", function (e) {
+            message("green", e);
+        });
+        output.addEventListener("mouseover", function (e) {
+            message("red", e);
+        });
+        output.addEventListener("mouseout", function (e) {
+            message("yellow", e);
+        });
+        output.addEventListener("mouseup", function (e) {
+            message("blue", e);
+        });
+        function message(elColor, event) {
+            console.log(event.type);
+            output.style.backgroundColor = elColor;
+        }
+    </script>
+
+  End of exercise-11.4 -->
+
+    <!--Exercise 11.5
+    <script>
+        const myInput = document.querySelector("input[name='message']");
+        const output = document.querySelector(".output");
+        const btn1 = document.querySelector(".btn1");
+        const btn2 = document.querySelector(".btn2");
+        const btn3 = document.querySelector(".btn3");
+        const log = [];
+        btn1.addEventListener("click", tracker);
+        btn2.addEventListener("click", tracker);
+        btn3.addEventListener("click", (e) => {
+            console.log(log);
+        });
+        function tracker(e) {
+            output.textContent = myInput.value;
+            const ev = e.target;
+            console.dir(ev);
+            const temp = {
+                message: myInput.value,
+                type: ev.type,
+                class: ev.className,
+                tag: ev.tagName
+            };
+            log.push(temp);
+            myInput.value = "";
+        }
+    </script>
+
+    End of Exercise 11.5-->
+
+    <!--Exercise 11.6
+    <script>
+        const main = document.querySelector(".container");
+        const boxes = document.querySelectorAll(".box");
+        main.addEventListener("click", (e) => {
+            console.log("4");
+        }, false);
+        main.addEventListener("click", (e) => {
+            console.log("1");
+        }, true);
+        boxes.forEach(ele => {
+            ele.addEventListener("click", (e) => {
+                console.log("3");
+                console.log(e.target.textContent);
+            }, false);
+            ele.addEventListener("click", (e) => {
+                console.log("2");
+                console.log(e.target.textContent);
+            }, true);
+
+        });
+    </script>
+
+
+    END Exercise 11.4-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

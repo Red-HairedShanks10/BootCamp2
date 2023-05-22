@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects-11</title>
+</head>
+
+<body>
+    <!--pg294**Building Analytics**-->
+    <div class="container">
+        <div class="box" id="box0">Box #1</div>
+        <div class="box" id="box1">Box #2</div>
+        <div class="box" id="box2">Box #3</div>
+        <div class="box" id="box3">Box #4</div>
+
+        <style>
+            .box {
+                width: 200px;
+                height: 100px;
+                border: 1px solid black
+            }
+        </style>
+
+
+        <script>
+            const counter = [];
+            const main = document.querySelector(".container");
+            main.addEventListener("click", tracker);
+            function tracker(e) {
+                const el = e.target;
+                if (el.id) {
+                    const temp = {};
+                    temp.content = el.textContent;
+                    temp.id = el.id;
+                    temp.tagName = el.tagName;
+                    temp.class = el.className;
+                    console.dir(el);
+                    counter.push(temp);
+                    console.log(counter);
+                }
+            }
+        </script>
+        <!--End of Analytics-->
+
+
+
+        <!--Mouse Tracker 
+        <style>
+            .holder {
+                display: inline-block;
+                width: 300px;
+                height: 300px;
+                border: 1px solid black;
+                padding: 10px;
+            }
+
+            .active {
+                background-color: red;
+            }
+        </style>
+
+        <div class="holder">
+            <div id="output"></div>
+        </div>
+        <script>
+            const ele = document.querySelector(".holder");
+            ele.addEventListener("mouseover",
+                (e) => { e.target.classList.add("active"); });
+            ele.addEventListener("mouseout",
+                (e) => { e.target.classList.remove("active"); });
+            ele.addEventListener("mousemove", coordin);
+            function coordin() {
+                let html = "X:" + event.clientX + " | Y:" + event.clientY;
+                document.getElementById("output").innerHTML = html;
+            }
+        </script>-->
+
+        <!-- Box clicker speed test game 
+        <div class="output"></div>
+        <div class="message"></div>
+
+        <style>
+            .output {
+                width: 500px;
+                height: 500px;
+                border: 1px solid black;
+                margin: auto;
+                text-align: center;
+            }
+
+            .box {
+                width: 50px;
+                height: 50px;
+                position: relative;
+                top: 50px;
+                left: 20%;
+                background-color: red;
+            }
+
+            .message {
+                text-align: center;
+                padding: 10px;
+                font-size: 1.3em;
+            }
+        </style>
+
+        <script>
+            const output = document.querySelector('.output');
+            const message = document.querySelector('.message');
+            message.textContent = "Press to Start";
+            const box = document.createElement('div');
+            const game = {
+                timer: 0,
+                start: null
+            };
+            box.classList.add('box');
+            output.append(box);
+            box.addEventListener('click', (e) => {
+                box.textContent = "";
+                box.style.display = 'none';
+                game.timer = setTimeout(addBox, ranNum(3000));
+                if (!game.start) {
+                    message.textContent = 'Loading....';
+                } else {
+                    const cur = new Date().getTime();
+                    const dur = (cur - game.start) / 1000;
+                    message.textContent = `It took ${dur} seconds to click`;
+                }
+            });
+            function addBox() {
+                message.textContent = 'Click it...';
+                game.start = new Date().getTime();
+                box.style.display = 'block';
+                box.style.left = ranNum(450) + 'px';
+                box.style.top = ranNum(450) + 'px';
+            }
+            function ranNum(max) {
+                return Math.floor(Math.random() * max);
+            }
+        </script>
+
+        End of Box clicker speed test game -->
+
+</body>
+
+</html>

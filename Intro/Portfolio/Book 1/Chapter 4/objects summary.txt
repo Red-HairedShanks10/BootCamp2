@@ -1,0 +1,12 @@
+Book 1 chapter 4 summary 
+Objects:
+
+
+in this Chapter we learn that  Objects are similar to arrays in that they can store multiple data together
+with the differences being that we can 
+
+1) use objects to represent a single thing with multpile attributes, e.g an animal like dog and its many characteristic(legs,teeth,bark etc)
+2) we access the data stored in an array with numbers(indexes) through square brackets[],
+   --while in objects, we access elements inside an object with strings called keys/properties associated with that object 
+
+   
