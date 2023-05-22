@@ -45,6 +45,7 @@ app.post("/contact", homeController.postedSignUpForm);
 app.use(errorController.pageNotFoundError);
 app.use(errorController.internalServerError);
 
+//listen on port 3000
 app.listen(app.get("port"), () => {
   console.log(`Server running at http://localhost:${app.get("port")}`);
 });
