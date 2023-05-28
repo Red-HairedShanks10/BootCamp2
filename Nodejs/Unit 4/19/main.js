@@ -5,6 +5,7 @@ const app = express();
 const router = express.Router()
 const Subscriber = require("./models/subscriber");
 const subscribersController = require("./controllers/subscribersController");
+const coursesController = require("./controllers/coursesController");
 const usersController = require("./controllers/usersController");
 const homeController = require("./controllers/homeController");
 const layouts = require("express-ejs-layouts");
@@ -42,6 +43,15 @@ router.get("/users/new", usersController.new);
 // Accepts POST requests and passes that incoming body body data to the create action
 // Followed by a view redirect
 router.post("/users/create", usersController.create, usersController.redirectView)
+
+//for courses route
+router.get("/courses", coursesController.index, coursesController.indexView);
+router.get("/courses/new", coursesController.new);
+router.post("/courses/create", coursesController.create, coursesController.redirectView);
+router.get("/courses/:id", coursesController.show, coursesController.showView);
+router.get("/courses/:id/edit", coursesController.edit);
+router.put("/courses/:id/update", coursesController.update, coursesController.redirectView);
+router.delete("/courses/:id/delete", coursesController.delete, coursesController.redirectView);
 
 // This show route, uses the /users path and passes the :id parameter to the userController.show
 router.get("/users/:id", usersController.show, usersController.showView)
