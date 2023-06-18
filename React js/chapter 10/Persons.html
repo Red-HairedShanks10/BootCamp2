@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>List of Persons</title>
+    <script src="https://unpkg.com/redux@latest/dist/redux.js"></script>
+</head>
+
+<body>
+    <script>
+        //defining addPerson action//function ultimately returns action object
+        function addPerson(id, name, age) {
+            return {
+                type: "ADD",
+                personData: {
+                    id: id,
+                    name: name,
+                    age: age
+                }
+            }
+        }
+        //defiining removePerson action//also returns an action object
+        function removePerson(id) {
+            return {
+                type: "REMOVE",
+                personId: id
+            }
+        }
+
+        //this object will be assigned to 'state'
+        const initialState = {
+            persons: []
+        };
+
+        //reducer() has access to action.type and payload//by getting the action object
+        function reducer(state, action) {
+            if (state === undefined) {// if 'state' is undefined...
+                state = initialState; //initialstate is assigned to state//this is done to ensure we always have a state to work with
+            }
+            if (action.type === "ADD") {
+                const newPerson = {
+                    id: action.personData.id,
+                    name: action.personData.name,
+                    age: action.personData.age
+                }
+                return {//we return an array that stores our 'state'(it is prohibited to return the actual state i guess?) 
+                    ...state,
+                    persons: state.persons.concat(newPerson)
+                }
+            } else if (action.type === "REMOVE") {//if action type is REMOVE...
+                return {//...then return new persons array with  removed person using state.person.filter()  
+                    ...state,
+                    persons: state.persons.filter(person => person.id !==
+                        action.personId)
+                }
+            } else {
+                return state;
+            }
+        }
+        //we create a new store//and linked our actions, reducer and store
+        var store = Redux.createStore(reducer);//also use reducer function as an argument for the Redux.createStore()
+        store.subscribe(showState);
+        
+        //showstate will help log state's value in the consolo
+        function showState() {
+            console.log(store.getState());
+        }
+
+        //we use dispatch() to send each action to the reducer, which returns a new state after each evaluation
+        store.dispatch(addPerson(1, "Greg", 5));
+        store.dispatch(addPerson(2, "Carol", 3));
+        store.dispatch(addPerson(3, "Gabriel", 6));
+        store.dispatch(addPerson(4, "Fred", 8));
+        store.dispatch(removePerson(4));
+
+    </script>
+</body>
+
+</html>
