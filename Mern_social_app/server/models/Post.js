@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const postSchema = mongoose.Schema(
   {
-    userId: {
+    userId: { //string reference to user's id from user model
       type: String,
       required: true,
     },
