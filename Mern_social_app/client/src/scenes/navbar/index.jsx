@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          NotTwitter-Twitter
+          New-Twitter
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween
