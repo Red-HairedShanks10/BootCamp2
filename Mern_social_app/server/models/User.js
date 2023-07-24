@@ -29,9 +29,9 @@ const UserSchema = new mongoose.Schema(
       type: String,
       default: "",
     },
-    friends: {
+    friends: {//sub document
       type: Array,
-      default: [],
+      default: [],//empty array will store other users
     },
     location: String,
     occupation: String,

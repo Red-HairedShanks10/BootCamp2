@@ -18,7 +18,7 @@ const postSchema = mongoose.Schema(
     description: String,
     picturePath: String,
     userPicturePath: String,
-    likes: {
+    likes: {//will refer to the userID, to specify who liked a post....
       type: Map,
       of: Boolean,
     },
