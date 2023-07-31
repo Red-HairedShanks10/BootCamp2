@@ -9,7 +9,8 @@ public class HelloApp {
         //declaring multiple variables in one statement
         // int x,y,z;
 
-        /*
+        /* using the class variable   within the main method
+        assigning it a value
         helloMessage = "Hello World!";
         System.out.println(helloMessage); */
 
