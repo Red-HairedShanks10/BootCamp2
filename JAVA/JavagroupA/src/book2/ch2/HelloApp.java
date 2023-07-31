@@ -10,7 +10,7 @@ public class HelloApp {
         // int x,y,z;
 
         /* using the class variable   within the main method
-        assigning it a value
+        *assigning it a value
         helloMessage = "Hello World!";
         System.out.println(helloMessage); */
 
