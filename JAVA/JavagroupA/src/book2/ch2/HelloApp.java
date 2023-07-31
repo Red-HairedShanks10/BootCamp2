@@ -10,6 +10,6 @@ public class HelloApp {
         System.out.println(helloMessage); */
 
         //declaring multiple variables in one statement
-        int x,y,z;
+       // int x,y,z;
     }
 }
