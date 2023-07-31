@@ -1,5 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-     System.out.print("hello");
+        double x = 5.02;
+        double y = 0.01;
+        double z = x + y;
+        System.out.println(z);
     }
 }
