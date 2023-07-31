@@ -9,5 +9,7 @@ public class HelloApp {
         helloMessage = "Hello World!";
         System.out.println(helloMessage); */
 
+        //declaring multiple variables in one statement
+        int x,y,z;
     }
 }
