@@ -7,5 +7,9 @@ public class Main {
         double y = 0.01;
         double z = x + y;
         System.out.println(z);
+
+        //for/For loop test
+
+
     }
 }
