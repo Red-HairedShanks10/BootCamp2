@@ -3,7 +3,7 @@ package book2.ch2;
 public class HelloApp {
 
     static String helloMessage;//declaring a class variable of string type
-    int num1;
+    int num1; //can you declare class variables without 'static' and get away with it?
     public static void main(String[] args)
     {
         //declaring multiple variables in one statement
