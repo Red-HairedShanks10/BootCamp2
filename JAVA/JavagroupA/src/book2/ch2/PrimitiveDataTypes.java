@@ -11,6 +11,5 @@ public class PrimitiveDataTypes {
         /*//
         int xInt;
         long yLong;*/
-
     }
 }
