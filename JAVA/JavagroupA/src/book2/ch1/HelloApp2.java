@@ -13,11 +13,11 @@ public class HelloApp2 {
        HelloApp.main(args);//the helloMessage string will display a value bcoz main is where assign value to the string */
 
         //**Using an instance from a different package
-        HelloApp instanceVarBTwo = new HelloApp();
-        System.out.println(instanceVarBTwo.iHelloMessage);//will return null becoz of initial declaration....
+        HelloApp instanceVarBTwo = new HelloApp();//creating instance
+        System.out.println( "instance value:  " + instanceVarBTwo.iHelloMessage);//will return null becoz of initial declaration....
         //*can we assign a value to this instance var? and use it without HelloApp.main()
         instanceVarBTwo.iHelloMessage = "Hello instance message from HelloApp2";
-        System.out.println(instanceVarBTwo.iHelloMessage);
+        System.out.println("instance value:  " + instanceVarBTwo.iHelloMessage);
 
         //Using class var from HelloApp
         System.out.println("helloMessage value:  " + HelloApp.helloMessage);
