@@ -1,6 +1,6 @@
 package book2.ch2;
 
-public class HelloApp {
+public class HelloApp_copy {
 
     public static String helloMessage;//declaring a class variable of string type
   public int num1; //can you declare class variables without 'static' and get away with it?//answr: num1 bcomes an instance variable
