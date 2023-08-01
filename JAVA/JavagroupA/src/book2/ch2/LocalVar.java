@@ -5,8 +5,7 @@ public class LocalVar {
         //local variables are only used within the scope there are declared and initialised
         int taxRate = 10;
         double subTotal = 10;
-        double total;
-        total = 45;
+        double total = 45;
 
 
         if (taxRate > 0)
