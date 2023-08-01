@@ -22,7 +22,7 @@ public class HelloApp {
 
         //****using instance variable
         HelloApp instanceVarMessage = new HelloApp();//first create an instance
-        instanceVarMessage.iHelloMessage = "Hello World im an instance Variable";
+        instanceVarMessage.iHelloMessage = "Hello World im an instance Variable";//use instance to access non-stat var
         System.out.println(instanceVarMessage.iHelloMessage);
 
         //**Using Class variable without making an instance...
