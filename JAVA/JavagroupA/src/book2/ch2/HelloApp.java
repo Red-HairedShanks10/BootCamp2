@@ -15,7 +15,8 @@ public class HelloApp {
         System.out.println(helloMessage); */
 
 
-
-
     }
 }
+
+//line comment (ctrl+/)
+//block comment(ctrl + shift + /)
