@@ -1,6 +1,8 @@
 package book2.ch2;
 
 public class ShadowApp {
+
+    static int x;
     public static void main(String[] args) {
         {
             x = 5;
