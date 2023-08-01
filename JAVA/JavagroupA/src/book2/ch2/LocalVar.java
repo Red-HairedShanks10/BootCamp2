@@ -2,7 +2,7 @@ package book2.ch2;
 
 public class LocalVar {
     public static  void  main(String[] args){
-        //local variables are only used within the method there are declared and initialised
+        //local variables are only used within the scope there are declared and initialised
         int taxRate = 10;
         double subTotal = 10;
         double total;
@@ -11,7 +11,7 @@ public class LocalVar {
 
         if (taxRate > 0)
         {
-            double taxAmount = subTotal * taxRate;
+            double taxAmount = subTotal * taxRate;//taxAmount var is only accessible within this if block
             total = subTotal + total;
             System.out.println(total);
         }
