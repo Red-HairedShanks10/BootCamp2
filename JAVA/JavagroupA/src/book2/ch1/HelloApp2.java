@@ -9,7 +9,8 @@ public class HelloApp2 {
        /* Greeter gObject = new Greeter();
         gObject.sayHello(); */
        System.out.println(HelloApp.helloMessage);
-       // HelloApp.main(args);
+       HelloApp.main(args);
+
 
 
     }
