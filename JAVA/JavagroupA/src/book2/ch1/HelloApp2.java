@@ -8,8 +8,8 @@ public class HelloApp2 {
 
        /* Greeter gObject = new Greeter();
         gObject.sayHello(); */
-       System.out.println(HelloApp.helloMessage);
-       HelloApp.main(args);
+       System.out.println(HelloApp.helloMessage);//will be null becoz of the initial declaration in HelloApp
+       HelloApp.main(args);//the helloMessage string will display a value bcoz main is where assign value to the string
 
 
 
