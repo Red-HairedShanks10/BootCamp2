@@ -9,6 +9,7 @@ public class ScannerApp {
     public static void main(String[] args) {
        System.out.println("enter a number: ");
        int x = scannerIn.nextInt();
+       System.out.println("Your number is: " + x );
 
 
     }
