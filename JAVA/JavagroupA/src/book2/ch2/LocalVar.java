@@ -15,7 +15,7 @@ public class LocalVar {
             total = subTotal + total;
             System.out.println(total);
         }
-
+      //  System.out.println(total);//total value will be the same as the total value in the if block
     }
 
 }
