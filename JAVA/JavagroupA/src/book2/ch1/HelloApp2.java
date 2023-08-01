@@ -19,6 +19,12 @@ public class HelloApp2 {
         instanceVarBTwo.iHelloMessage = "Hello message from HelloApp2";
         System.out.println(instanceVarBTwo.iHelloMessage);
 
+        //Using class var from HelloApp
+        System.out.println("helloMessage value:  " + HelloApp.helloMessage);
+        //After assigning a value
+        HelloApp.helloMessage = "Hello from HelloApp2";
+        System.out.println("helloMessage value now:  " + HelloApp.helloMessage);
+
 
 
 
