@@ -9,5 +9,6 @@ public class C_TypeCasting {
 
         double price = 9.99;
         int iPrice = (int) price;
+        System.out.println(iPrice);
     }
 }
