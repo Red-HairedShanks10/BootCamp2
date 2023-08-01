@@ -8,9 +8,9 @@ public class PrimitiveDataTypes {
         xInt = 32;
         yLong = xInt;*/
 
-        //
+        /*//
         int xInt;
-        long yLong;
+        long yLong;*/
 
     }
 }
