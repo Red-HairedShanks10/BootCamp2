@@ -19,6 +19,9 @@ public class ScannerApp {
             int x = scannerIn.nextInt();//using Scanner's nextInt() to read the input value?
             System.out.println("Your number is: " + x );//printing the input value...
         }
+        else {
+            System.out.println("wrong input...");
+        }
 
 
 
