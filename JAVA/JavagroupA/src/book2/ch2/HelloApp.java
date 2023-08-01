@@ -25,7 +25,7 @@ public class HelloApp {
         instanceVarMessage.iHelloMessage = "Hello World im an instance Variable";
         System.out.println(instanceVarMessage.iHelloMessage);
 
-        //**Using Class variable
+        //**Using Class variable without making an instance...
         helloMessage = "Hell I am a Class Variable";
         System.out.println(helloMessage);
 
