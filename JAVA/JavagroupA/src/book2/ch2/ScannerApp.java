@@ -9,8 +9,11 @@ public class ScannerApp {
     public static void main(String[] args) {
 
        System.out.println("enter a number: ");//prompt a user to enter a number
-       int x = scannerIn.nextInt();//using Scanner's nextInt() to store the value?
+       int x = scannerIn.nextInt();//using Scanner's nextInt() to read the input value?
        System.out.println("Your number is: " + x );//printing the input value...
+
+
+        //if user inputs a different data type the program crashes
 
 
     }
