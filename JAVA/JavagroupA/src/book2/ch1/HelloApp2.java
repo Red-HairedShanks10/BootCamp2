@@ -15,7 +15,7 @@ public class HelloApp2 {
         //**Using an instance from a different package
         HelloApp instanceVarBTwo = new HelloApp();
         System.out.println(instanceVarBTwo.iHelloMessage);//will return null becoz of initial declaration....
-        //*can we assign a value to this instance var?
+        //*can we assign a value to this instance var? and use it without HelloApp.main()
         instanceVarBTwo.iHelloMessage = "Hello message from HelloApp2";
         System.out.println(instanceVarBTwo.iHelloMessage);
 
