@@ -1,19 +1,13 @@
 package book2.ch2;
 
 public class C_Scope {
-    public static void main(String[] args) {
-
-    }
-}
-
-class ScopeApp {
     static int x;
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         x = 5;
         System.out.println("main: x = " + x);
         myMethod();
     }
+
     public static void myMethod()
     {
         int y;
@@ -28,3 +22,5 @@ class ScopeApp {
         System.out.println("myMethod: y = " + y);
     }
 }
+
+
