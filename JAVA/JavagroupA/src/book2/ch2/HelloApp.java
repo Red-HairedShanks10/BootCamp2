@@ -20,13 +20,14 @@ public class HelloApp {
       /*  HelloApp numberInstance = new HelloApp();// to use num1 instance variable
         numberInstance.num1 = 45; */
 
+        System.out.println("Variables used IN Main:");
         //****using instance variable
         HelloApp instanceVarMessage = new HelloApp();//first create an instance
-        instanceVarMessage.iHelloMessage = "Hello World im an instance Variable";//use instance to access non-stat var
+        instanceVarMessage.iHelloMessage = "Hello World im an instance Variable From HelloApp";//use instance to access non-stat var
         System.out.println(instanceVarMessage.iHelloMessage);
 
         //**Using Class variable without making an instance...
-        helloMessage = "Hell I am a Class Variable";
+        helloMessage = "Hello I am a Class Variable From HelloApp ";
         System.out.println(helloMessage);
 
 
