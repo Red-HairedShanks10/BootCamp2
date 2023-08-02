@@ -1,9 +1,10 @@
 package book2.chapter3;
 
 import java.util.Scanner;
+
 /*Using the different arithmetic operations in this MarbleApp*/
 public class MarbleApp {
-   static Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
 
@@ -30,9 +31,7 @@ public class MarbleApp {
         }
 
 
-
     }
-
 
 
 }
