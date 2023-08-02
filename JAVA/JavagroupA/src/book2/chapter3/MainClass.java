@@ -9,5 +9,11 @@ public class MainClass {
         int b = -a; // b is -5
         int c = -b; // c is +5
 
+        //unary plus
+        int a2 = -5; // a is -5
+        int b2 = +a2; // b is -5
+        a2 = 5; // a is now 5
+        int c2 = +a2; // c is 5
+
     }
 }
