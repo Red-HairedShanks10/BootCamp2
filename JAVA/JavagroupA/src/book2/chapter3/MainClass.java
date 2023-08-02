@@ -28,11 +28,14 @@ public class MainClass {
         System.out.println(cf.format(salesTax));*/
 
 
-        double xnum = 19923.3288;
+       /* double xnum = 19923.3288;
         NumberFormat nf = NumberFormat.getNumberInstance();
         nf.setMinimumFractionDigits(3);//giving them a min of 3 digits after comma
         nf.setMaximumFractionDigits(3);//giving them a max of 3 digits after comma
-        System.out.println(nf.format(xnum));
+        System.out.println(nf.format(xnum)); */
+
+        //% format:
+
 
     }
 }
