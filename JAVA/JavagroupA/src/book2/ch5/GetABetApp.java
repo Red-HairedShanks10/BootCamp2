@@ -1,6 +1,7 @@
 package book2.ch5;
-
+/*Using this Class to explore the do while loop*/
 import java.util.Scanner;
+
 public class GetABetApp {
     static Scanner sc = new Scanner(System.in);
 
@@ -10,13 +11,12 @@ public class GetABetApp {
         double bet = 0; // the bet entered by the user
         System.out.println("You can bet between 1 and " + bank);
 
-        do
-        {
-           System.out.print("Enter your bet: ");
+        do {
+            System.out.print("Enter your bet: ");
             bet = sc.nextDouble();
-        } while ( (bet <= 0) || (bet > bank) );
+        } while ((bet <= 0) || (bet > bank));
         System.out.println("Your money's good here.");
     }
-    }
+}
 
 
