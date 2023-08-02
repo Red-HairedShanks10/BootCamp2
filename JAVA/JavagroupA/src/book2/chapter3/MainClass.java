@@ -30,8 +30,8 @@ public class MainClass {
 
         double xnum = 19923.3288;
         NumberFormat nf = NumberFormat.getNumberInstance();
-        nf.setMinimumFractionDigits(3);
-        nf.setMaximumFractionDigits(3);
+        nf.setMinimumFractionDigits(3);//giving them a min of 3 digits after comma
+        nf.setMaximumFractionDigits(3);//giving them a max of 3 digits after comma
         System.out.println(nf.format(xnum));
 
     }
