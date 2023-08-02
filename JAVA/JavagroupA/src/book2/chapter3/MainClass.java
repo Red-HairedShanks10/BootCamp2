@@ -25,7 +25,7 @@ public class MainClass {
 
        double salesTax = 2.425;
         NumberFormat cf = NumberFormat.getCurrencyInstance();
-
+        System.out.println(cf.format(salesTax));
 
     }
 }
