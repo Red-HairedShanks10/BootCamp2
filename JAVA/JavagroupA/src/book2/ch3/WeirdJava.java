@@ -1,4 +1,4 @@
-package book2.chapter3;
+package book2.ch3;
 /*Testing the weird and bad parts of Java numbers*/
 
 import java.text.NumberFormat;

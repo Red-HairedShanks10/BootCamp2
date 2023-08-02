@@ -1,4 +1,4 @@
-package book2.chapter3;
+package book2.ch3;
 
 /*Trying other Math methods*/
 public class MathFunctionsApp {
