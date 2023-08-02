@@ -1,4 +1,5 @@
 package book2.ch5;
+/*this is fixing the scope issue from CountToTenError*/
 
 public class CountToTenErrorFixed {
     public static void main(String[] args) {
