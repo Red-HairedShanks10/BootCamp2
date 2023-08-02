@@ -7,8 +7,8 @@ public class DiceApp {
         int roll;//
         String msg = "Here are 100 random rolls of the dice:";
         System.out.println(msg);
-        for (int i = 0; i < 100; i++) {
-            roll = randomInt(1, 6);
+        for (int i = 0; i < 100; i++) {// executes the code a 100 times
+            roll = randomInt(1, 6);//calls randomInt() created in line 17...
             System.out.print(roll + " ");
         }
         System.out.println();
