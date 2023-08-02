@@ -18,6 +18,13 @@ public class NumberFormatApp {
         System.out.println("My allowance is: " + cf.format(myAllowance));
     }
 
+    public static void printCostOfPaintBallGun()
+    {
+        double costOfPaintBallGun = 74.555;
+        cf = NumberFormat.getCurrencyInstance();
+        System.out.println("Cost of Paint Ball Gun: " + cf.format(costOfPaintBallGun));
+    }
+
 
 
 
