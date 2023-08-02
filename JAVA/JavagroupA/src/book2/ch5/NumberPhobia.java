@@ -16,10 +16,10 @@ public class NumberPhobia {
 
             if (input.equalsIgnoreCase("N")) {
                 break;
-                number += 2;
+                num += 2;
             }else {
                    System.out.println("You quit: ");
-            }
+            }System.out.println("\nWhew! That was close.\n");
         }
 
         }
