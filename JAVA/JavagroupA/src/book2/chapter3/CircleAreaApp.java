@@ -7,5 +7,7 @@ public class CircleAreaApp {
     public static void main(String[] args) {
 
         System.out.println("Welcome to the circle area calculator.");
+        System.out.print("Enter the radius of your circle: ");
+
     }
 }
