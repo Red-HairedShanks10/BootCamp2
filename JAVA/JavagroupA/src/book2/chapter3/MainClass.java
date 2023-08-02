@@ -1,6 +1,6 @@
 package book2.chapter3;
 
-import java.text.NumberFormat;
+import java.text.NumberFormat;//using NumberFormat to get currency....
 
 /*Using this class to work on miscellaneous code*/
 public class MainClass {
@@ -23,7 +23,7 @@ public class MainClass {
         int d = a3 * -(b3 + c3); // d is -27
       /***************/
 
-       double salesTax = 2.425;
+        double salesTax = 2.425;
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         System.out.println(cf.format(salesTax));
 
