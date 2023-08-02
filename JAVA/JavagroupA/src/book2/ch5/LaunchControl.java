@@ -9,8 +9,9 @@ public class LaunchControl {
             if (count == 8){
                 System.out.println ("Ignition sequence start!");
             }
-            else
+            else {
                 System.out.println(count + "...");
+            }
         }
         System.out.println("All engines running!");
         System.out.println("Liftoff! We have a liftoff!");
