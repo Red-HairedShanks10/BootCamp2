@@ -5,7 +5,9 @@ public class CountToTenErrorFixed {
         int i;
         for (i = 1; i <=10; i++){
             System.out.println(i);
+
         }
+        System.out.println("The final value of i is " + i);
     }
 
 }
