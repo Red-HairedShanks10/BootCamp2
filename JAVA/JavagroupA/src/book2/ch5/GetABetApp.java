@@ -6,6 +6,9 @@ public class GetABetApp {
 
     public static void main(String[] args) {
 
+        int bank = 1000; // assume the user has $1,000
+        //int bet; // the bet entered by the user
+       // System.out.println("You can bet between 1 and " + bank);
     }
 
 }
