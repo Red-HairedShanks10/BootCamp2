@@ -22,7 +22,7 @@ public class NumberFormatApp {
     {
         double costOfPaintBallGun = 74.555;
         cf = NumberFormat.getCurrencyInstance();
-        System.out.println("Cost of Paint Ball Gun: " + cf.format(costOfPaintBallGun));
+        System.out.println("Cost of Arial-SV Paint Ball Gun: " + cf.format(costOfPaintBallGun));
     }
 
 
