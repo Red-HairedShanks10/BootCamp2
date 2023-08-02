@@ -32,6 +32,7 @@ public class MainClass {
         NumberFormat nf = NumberFormat.getNumberInstance();
         nf.setMinimumFractionDigits(3);
         nf.setMaximumFractionDigits(3);
+        System.out.println(nf.format(xnum));
 
     }
 }
