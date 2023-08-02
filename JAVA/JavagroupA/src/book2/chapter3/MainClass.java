@@ -28,7 +28,8 @@ public class MainClass {
         System.out.println(cf.format(salesTax));
 
 
-        double x = 19923.3288;
+        double xnum = 19923.3288;
+        NumberFormat nf = NumberFormat.getNumberInstance();
 
     }
 }
