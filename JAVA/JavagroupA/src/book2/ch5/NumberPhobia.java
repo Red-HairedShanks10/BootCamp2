@@ -10,7 +10,7 @@ public class NumberPhobia {
         string input; //string input
 
         while (true) {
-
+            System.out.println(number + " ");
         }
     }
 
