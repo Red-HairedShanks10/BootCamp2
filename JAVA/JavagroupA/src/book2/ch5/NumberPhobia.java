@@ -12,7 +12,7 @@ public class NumberPhobia {
         while (true) {
             System.out.println(num + " ");
             System.out.print("Do you want to keep counting?" + " (Y or N)");
-            input = sc.next();
+            input = sc.nextLine();
 
             if (input.equalsIgnoreCase("N")) {
                 break;
