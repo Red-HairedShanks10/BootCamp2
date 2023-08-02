@@ -1,7 +1,7 @@
 package book2.chapter3;
 
 import java.util.Scanner;
-
+/*Using the different arithmetic operations in this MarbleApp*/
 public class MarbleApp {
    static Scanner sc = new Scanner(System.in);
 
@@ -21,7 +21,7 @@ public class MarbleApp {
             numberOfChildren = sc.nextInt();
 // calculate the results
             marblesPerChild = numberOfMarbles / numberOfChildren;
-            marblesLeftOver = numberOfMarbles % numberOfChildren;
+            marblesLeftOver = numberOfMarbles % numberOfChildren;//using % to find remainder of marbles
 // print the results
             System.out.println("Give each child " +
                     marblesPerChild + " marbles.");
