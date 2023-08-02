@@ -11,6 +11,13 @@ public class NumberFormatApp {
         printCostOfPaintBallGun();
     }
 
+    public static void printMyAllowance()
+    {
+        double myAllowance = 3340;
+        cf = NumberFormat.getCurrencyInstance();
+        System.out.println("My allowance is: " + cf.format(myAllowance));
+    }
+
 
 
 
