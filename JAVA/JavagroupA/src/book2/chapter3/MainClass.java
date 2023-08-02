@@ -23,9 +23,9 @@ public class MainClass {
         int d = a3 * -(b3 + c3); // d is -27
       /***************/
 
-        double salesTax = 2.425;
+       /* double salesTax = 2.425;
         NumberFormat cf = NumberFormat.getCurrencyInstance();
-        System.out.println(cf.format(salesTax));
+        System.out.println(cf.format(salesTax));*/
 
 
         double xnum = 19923.3288;
