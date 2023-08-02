@@ -12,7 +12,7 @@ public class GetABetApp {
 
         do
         {
-           // System.out.print("Enter your bet: ");
+           System.out.print("Enter your bet: ");
            // bet = sc.nextInt();
         } while ( (bet <= 0) || (bet > bank) );
         //System.out.println("Your money's good here.");
