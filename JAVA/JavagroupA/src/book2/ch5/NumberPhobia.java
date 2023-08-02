@@ -10,7 +10,7 @@ public class NumberPhobia {
         string input; //string input
 
         while (true) {
-            System.out.println(number + " ");
+            System.out.println(num + " ");
             System.out.print("Do you want to keep counting?" + " (Y or N)");
             input = sc.next();
 
