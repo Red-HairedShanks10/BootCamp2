@@ -1,5 +1,6 @@
 package book2.chapter3;
 
+/*Trying other Math methods*/
 public class MathFunctionsApp {
 
     public static void main(String[] args)
