@@ -27,5 +27,8 @@ public class MainClass {
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         System.out.println(cf.format(salesTax));
 
+
+        double x = 19923.3288;
+
     }
 }
