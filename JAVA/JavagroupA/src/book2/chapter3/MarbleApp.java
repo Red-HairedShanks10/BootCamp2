@@ -24,10 +24,8 @@ public class MarbleApp {
             marblesPerChild = numberOfMarbles / numberOfChildren;
             marblesLeftOver = numberOfMarbles % numberOfChildren;//using % to find remainder of marbles
 // print the results
-            System.out.println("Give each child " +
-                    marblesPerChild + " marbles.");
-            System.out.println("You will have " +
-                    marblesLeftOver + " marbles left over.");
+            System.out.println("Give each child " + marblesPerChild + " marbles.");
+            System.out.println("You will have " + marblesLeftOver + " marbles left over.");
         }
 
 
