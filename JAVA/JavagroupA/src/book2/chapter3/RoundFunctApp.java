@@ -20,7 +20,7 @@ public class RoundFunctApp {
         System.out.println("round(x): " +  Math.round(x));
         System.out.println("round(x): " +  Math.round(x));
 
-        System.out.println("floor(x): " +  Math.round(x));
+        System.out.println("rint(x): " +  Math.round(x));
         System.out.println("round(x): " +  Math.round(x));
         System.out.println("round(x): " +  Math.round(x));
 
