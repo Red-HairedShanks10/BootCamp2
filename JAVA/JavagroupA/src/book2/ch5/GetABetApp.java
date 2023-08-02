@@ -4,4 +4,8 @@ import java.util.Scanner;
 public class GetABetApp {
     static Scanner sc = new Scanner(System.in);
 
+    public static void main(String[] args) {
+
+    }
+
 }
