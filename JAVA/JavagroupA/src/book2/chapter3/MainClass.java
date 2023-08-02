@@ -39,5 +39,7 @@ public class MainClass {
          NumberFormat pf = NumberFormat.getPercentInstance();
          System.out.println(pf.format(grade));
 
+
+
     }
 }
