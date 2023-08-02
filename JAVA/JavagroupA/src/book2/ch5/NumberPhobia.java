@@ -9,7 +9,7 @@ public class NumberPhobia {
         int num = 2;
         String input; //string input
 
-        while (true) {
+      /*  while (true) {
             System.out.println(num + " ");
             System.out.print("Do you want to keep counting?" + " (Y or N)");
             input = sc.nextLine();
@@ -21,9 +21,9 @@ public class NumberPhobia {
                 System.out.println("You quit: ");
             }
             System.out.println("\nWhew! That was close.\n");
-        }
+        }*/
 
     }
 }
 
-}
+
