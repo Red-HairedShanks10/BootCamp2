@@ -36,7 +36,7 @@ public class MainClass {
 
         //% format:
         double grade = .92;
-        // NumberFormat pf = NumberFormat.getPercentInstance();
+         NumberFormat pf = NumberFormat.getPercentInstance();
         // System.out.println(pf.format(grade));
 
     }
