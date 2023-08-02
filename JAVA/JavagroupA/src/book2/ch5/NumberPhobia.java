@@ -14,6 +14,14 @@ public class NumberPhobia {
             System.out.print("Do you want to keep counting?" + " (Y or N)");
             input = sc.next();
 
+            if (input.equalsIgnoreCase("N")) {
+                break;
+                number += 2;
+            }else {
+                   System.out.println("You quit: ");
+            }
+        }
+
         }
     }
 
