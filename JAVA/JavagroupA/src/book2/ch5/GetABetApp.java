@@ -15,7 +15,7 @@ public class GetABetApp {
            System.out.print("Enter your bet: ");
             bet = sc.nextDouble();
         } while ( (bet <= 0) || (bet > bank) );
-        //System.out.println("Your money's good here.");
+        System.out.println("Your money's good here.");
     }
     }
 
