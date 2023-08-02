@@ -31,6 +31,7 @@ public class MainClass {
         double xnum = 19923.3288;
         NumberFormat nf = NumberFormat.getNumberInstance();
         nf.setMinimumFractionDigits(3);
+        nf.setMaximumFractionDigits(3);
 
     }
 }
