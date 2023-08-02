@@ -8,6 +8,7 @@ public class CircleAreaApp {
 
         System.out.println("Welcome to the circle area calculator.");
         System.out.print("Enter the radius of your circle: ");
+        double radius = sc.nextDouble();
 
     }
 }
