@@ -20,6 +20,10 @@ public class VoterApp {
 
         String msg;
 
+        switch (err){
+
+        }
+
 
 
 
