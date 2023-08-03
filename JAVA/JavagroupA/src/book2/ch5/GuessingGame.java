@@ -12,7 +12,7 @@ public class GuessingGame {
             /*within the main loop body: */
             boolean validInput;//to indicate if the user input is valid
             int number, guess;//to store user's guess
-            String answer;//storing the actually number
+            String answer;//storing the user's answer
             // Pick a random number
             number = (int) (Math.random() * 10) + 1;
             // Get the guess
@@ -36,7 +36,7 @@ public class GuessingGame {
                 System.out.println("You're wrong! " +
                         "The number was " + number);
             // Play again?
-            do {
+            do {//this loop essentially ask the user if they want to play again
                 System.out.print("\nPlay again? (Y or N)");
                 answer = sc.next();
                 validInput = true;
