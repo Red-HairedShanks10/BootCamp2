@@ -18,7 +18,8 @@ public class GetInteger2 {
                 return sc.nextInt();
             }catch (InputMismatchException ex){
                 sc.next();
-
+                System.out.print("That's not " + "an integer." +
+                       +  " Try again: ");
             }
 
         }
