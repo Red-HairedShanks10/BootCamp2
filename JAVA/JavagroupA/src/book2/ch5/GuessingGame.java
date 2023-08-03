@@ -25,11 +25,10 @@ public class GuessingGame {
                 if ((guess < 1) || (guess > 10)) {//make sure user guesses a number between 1-10
                     System.out.print
                             ("I said, between 1 and 10. " + "Try again: ");
-                    validInput = false;//set valid input false
+                    validInput = false;//set valid input false//so user can play again
                 }
-            }//end of do while loop
+            }while (!validInput);//end of do while loop
 
-            while (!validInput);
             // Check the guess
             if (guess == number)
                 System.out.println("You're right!");
