@@ -7,6 +7,7 @@ public class GetInteger2 {
     public static void main(String[] args){
         System.out.print("Enter an integer: ");
         int i = GetAnInteger();
+        System.out.println("You entered " + i);
     }
 
 
