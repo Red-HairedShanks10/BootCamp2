@@ -3,7 +3,8 @@ package book2.ch8;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class GetInteger2 {
+
+public class GetInterger {
     static Scanner sc = new Scanner(System.in);
     public static void main(String[] args){
         System.out.print("Enter an integer: ");
@@ -24,5 +25,19 @@ public class GetInteger2 {
 
         }
     }
+
+}
+
+
+
+
+
+
+
+
+
+
+class GetInteger2 {
+
 
 }
