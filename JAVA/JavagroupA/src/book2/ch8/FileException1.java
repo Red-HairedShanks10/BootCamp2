@@ -36,12 +36,8 @@ class FileException2 {
 
 class FileException3 {
 
-    public static void main(String[] args) {
-
-
-            openFile("C:\test.txt");
-
-
+    public static void main(String[] args)  throws FileNotFoundException {
+        openFile("C:\test.txt");
     }
 
     public static void openFile(String fileName) throws FileNotFoundException {
