@@ -53,5 +53,20 @@ public class GuessingGameMethod2
         }
     }
 
+    public static boolean askForAnotherRound()
+    {
+        while (true)
+        {
+            String answer;
+            System.out.print("\nPlay again? (Y or N) ");
+            answer = sc.next();
+            if (answer.equalsIgnoreCase("Y"))
+                return true;
+else if (answer.equalsIgnoreCase("N"))
+            return false;
+        }
+    }
+
+
 
 }
