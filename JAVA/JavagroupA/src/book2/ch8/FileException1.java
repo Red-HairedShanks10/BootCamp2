@@ -38,11 +38,8 @@ class FileException3 {
 
     public static void main(String[] args) {
 
-        try {
-            openFile("C:\test.txt");
-        }catch (FileNotFoundException error){
-            System.out.println("file error(File not found");
-        }
+        openFile("C:\test.txt");
+
     }
 
     public static void openFile(String fileName) {
