@@ -5,4 +5,8 @@ public class FileException1 {
     {
         openFile("C:\test.txt");
     }
+
+    public static void openFile(String fileName){
+
+    }
 }
