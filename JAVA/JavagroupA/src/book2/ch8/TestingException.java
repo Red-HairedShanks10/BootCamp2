@@ -11,8 +11,8 @@ public class TestingException {
         }
         catch (Exception e)
         {
-            System.out.println("Oops, you can't "
-                    + "divide by zero.");
+            System.out.println("error: Oops, you can't "
+                    + e);
         }
     }
 }
