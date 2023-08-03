@@ -22,39 +22,33 @@ public class VoterApp {
 
         switch (err){
             case 1:
-                msg = "Voter marked more than one " + "candidate.\nBallot rejected.";
+                msg = "case 1: Voter marked more than one " + "candidate.\nBallot rejected.";
                 break;
 
-
             case 2:
-                msg = "Box checked and write-in candidate " + "entered.\nBallot rejected.";
+                msg = "case 2: Box checked and write-in candidate " + "entered.\nBallot rejected.";
                 break;
 
             case 3:
-                msg = "Entire ballot was blank.\n" + "Ballot filled in according to " + "secret plan.";
+                msg = "case 3: Entire ballot was blank.\n" + "Ballot filled in according to " + "secret plan.";
                 break;
 
             case 4:
-                msg = "Nothing unusual about the ballot.\n" + "Voter randomly selected for tax audit.";
+                msg = "case 4: Nothing unusual about the ballot.\n" + "Voter randomly selected for tax audit.";
                 break;
 
             case 5:
-                msg = "Voter filled in every box.\n" + "Ballot counted twice.";
+                msg = "case 5: Voter filled in every box.\n" + "Ballot counted twice.";
                 break;
 
             case 6:
-                msg = "Voter drooled in voting machine.\n" + "Beginning spin cycle.";
+                msg = " case 6: Voter drooled in voting machine.\n" + "Beginning spin cycle.";
                 break;
 
-
-
+            default:
+                msg = " Default: Voter filled out ballot correctly.\n" + "Ballot discarded anyway.";
+                break;
         }
-
-
-
-
-
-
-
+        System.out.println(msg);
     }
 }
