@@ -9,8 +9,11 @@ public class RandomNumApp {
 
     }
 
+
     public static int getRandomNumber(){
         int randomNumber = (int) Math.floor(Math.random() * 10 + 1 );
         return randomNumber;
     }
+
+
 }
