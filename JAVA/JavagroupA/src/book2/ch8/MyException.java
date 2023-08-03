@@ -16,7 +16,7 @@ public class MyException {
     public static void doSomething(boolean t) throws Exception {
         String name = "N";
         if (name.length() < 2) {
-            throw new Exception();
+            throw new Exception("name to short");
         }
     }
 }
