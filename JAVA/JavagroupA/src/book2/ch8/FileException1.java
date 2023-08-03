@@ -10,7 +10,7 @@ public class FileException1 {
     public static void openFile(String fileName) {
         try {
             FileInputStream f = new FileInputStream(fileName);
-        }catch (exception err){
+        }catch (Exception err){
             System.out.println(err);
         }
 
