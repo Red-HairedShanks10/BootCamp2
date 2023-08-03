@@ -9,9 +9,8 @@ public class MyException {
         {
             doSomething(true);
         }
-        catch (Exception e)
-        {
-            System.out.println("Exception!");
+        catch (Exception error) {
+            System.out.println(error);
         }
     }
     public static void doSomething(boolean t) throws Exception {
