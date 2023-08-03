@@ -30,6 +30,10 @@ public class CrazyWithZeros {
             c = a / b;
             System.out.println("It worked the second time!");
         }
+        finally
+        {
+            System.out.println("Better clean up my mess.");
+        }
 
 
 
