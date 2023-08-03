@@ -16,7 +16,10 @@ public class GetInteger2 {
 
             try {
                 return sc.nextInt();
-            }catch (InputMismatchException ex)
+            }catch (InputMismatchException ex){
+                sc.next();
+
+            }
 
         }
     }
