@@ -21,16 +21,13 @@ class FileException2 {
     public static void main(String[] args) {
         try {
             openFile("C:\test.txt");
-        }catch (FileNotFoundException f_error){
+        }catch (FileNotFoundException error){
             System.out.println("file error(File not found");
         }
     }
 
     public static void openFile(String fileName) {
-
             FileInputStream f = new FileInputStream(fileName);
-            System.out.println(err);
-
     }
 
 }
