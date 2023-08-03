@@ -11,8 +11,7 @@ public class TestingException {
         }
         catch (Exception e)
         {
-            System.out.println("error: Oops, you can't "
-                    + e);
+            System.out.println("error: " + e);
         }
     }
 }
