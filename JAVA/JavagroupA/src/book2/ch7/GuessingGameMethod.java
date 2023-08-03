@@ -23,8 +23,7 @@ public class GuessingGameMethod {
 // Pick a random number
         number = getRandomNumber();//calls getRandomNumber
 // Get the guess
-        System.out.println("\nI'm thinking of a number "
-                + "between 1 and 10.");
+        System.out.println("\nI'm thinking of a number " + "between 1 and 10.");
         System.out.print("What do you think it is? ");
         guess = getGuess();//calls getGuess()
 // Check the guess
@@ -38,17 +37,17 @@ public class GuessingGameMethod {
     }
 
     public static int getRandomNumber() {//getRandomNumber() returns int number
-        return (int) (Math.random() * 10) + 1;//randomise number
+        return (int) (Math.random() * 10) + 1;//randomise number//convert double into int
     }
 
     public static int getGuess() {//getGuess returns int
         while (true) {
-            int guess = sc.nextInt();//
+            int guess = sc.nextInt();//get int guess from user
             if ((guess < 1) || (guess > 10)) {
-                System.out.print("I said, between 1 and 10. "
-                        + "Try again: ");
-            } else
+                System.out.print("I said, between 1 and 10. " + "Try again:) ");
+            } else{
                 return guess;
+            }
         }
     }
 
