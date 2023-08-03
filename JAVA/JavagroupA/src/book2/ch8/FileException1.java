@@ -27,7 +27,7 @@ class FileException2 {
         }
     }
 
-    public static void openFile(String fileName) {
+    public static void openFile(String fileName)throws FileNotFoundException {
             FileInputStream f = new FileInputStream(fileName);
     }
 
