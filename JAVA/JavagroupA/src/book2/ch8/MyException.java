@@ -14,9 +14,8 @@ public class MyException {
             System.out.println("Exception!");
         }
     }
-    public static void doSomething(boolean t)
-            throws Exception
-    {
+    public static void doSomething(boolean t) throws Exception {
+        String name = "N";
         if (t)
             throw new Exception();
     }
