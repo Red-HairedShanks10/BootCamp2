@@ -23,7 +23,7 @@ public class GuessingGameMethod {
 // Pick a random number
         number = getRandomNumber();//calls getRandomNumber
 // Get the guess
-        System.out.println("\nI'm thinking of a number " + "between 1 and 100.");
+        System.out.println("\nI'm thinking of a number " + "between 1 and 10.");
         System.out.print("What do you think it is? ");
         guess = getGuess();//calls getGuess()
 // Check the guess
@@ -37,14 +37,14 @@ public class GuessingGameMethod {
     }
 
     public static int getRandomNumber() {//getRandomNumber() returns int number
-        return (int) (Math.random() * 100) + 1;//randomise number//convert double into int
+        return (int) (Math.random() * 10) + 1;//randomise number//convert double into int
     }
 
     public static int getGuess() {//getGuess returns int
         while (true) {
             int guess = sc.nextInt();//get int guess from user
-            if ((guess < 1) || (guess > 100)) {//check if guess is within range
-                System.out.print("I said, between 1 and 100. " +
+            if ((guess < 1) || (guess > 10)) {//check if guess is within range
+                System.out.print("I said, between 1 and 10. " +
                         "Try again:) ");
             } else{
                 return guess;//otherwise return the guess its correct...
@@ -53,7 +53,7 @@ public class GuessingGameMethod {
     }
 
     public static boolean askForAnotherRound() {
-        while (true) {
+       /* while (true) {
             String answer;
             System.out.print("\nPlay again? (Y or N) ");
             answer = sc.next();
@@ -62,23 +62,18 @@ public class GuessingGameMethod {
             else if (answer.equalsIgnoreCase("N"))
                 return false;
         }
-
-       /* boolean validInput;
+*/
+       /* boolean validInput;*/
         do {
-            validInput = true;
-            String answer;
+             String answer;
             System.out.print("\nPlay again? (Y or N) ");
-            answer = sc.next().toLowerCase();
-
-            if (answer.equalsIgnoreCase("Y")) {
+            answer = sc.next();
+            if (answer.equalsIgnoreCase("Y"))
                 return true;
-            }
-
-            else if (answer.equalsIgnoreCase("N")){
+            else if (answer.equalsIgnoreCase("N"))
                 return false;
-            }
 
-        }while (!validInput);*/
+        }while (true);
 
         //return validInput;
     }
