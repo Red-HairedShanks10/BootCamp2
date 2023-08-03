@@ -1,5 +1,5 @@
 package book2.ch5;
-/*Using all the loops to make simple Guessing Game*/
+/*Using loops to make simple Guessing Game*/
 import java.util.Scanner;
 
 public class GuessingGame {
