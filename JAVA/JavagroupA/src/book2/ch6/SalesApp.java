@@ -9,7 +9,7 @@ public class SalesApp {
     public static void main(String[] args) {
         double commissionRate;
 
-        System.out.println("enter a  charater A-C to see your commision Rate: ");
+        System.out.println("enter a charater A-C to see your commision Rate: ");
         String userClass =sc.nextLine();
         char salesClass = userClass.charAt(0);
 
