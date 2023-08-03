@@ -1,5 +1,6 @@
 package book2.ch6;
 
+/*Exploring how switch statement works vs else if Statement*/
 import java.util.Scanner;
 
 public class VoterApp {
