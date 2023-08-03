@@ -1,5 +1,7 @@
 package book2.ch7;
 
+import java.util.Scanner;
+
 public class GuessingGameMethod {
 
     static Scanner sc = new Scanner(System.in);
