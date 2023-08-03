@@ -7,13 +7,15 @@ public class GuessingGameMethod {
 
     public static void main(String[] args) {
         System.out.println("Let's play a guessing game!");
-        do {
-            playARound();
-        } while (askForAnotherRound());
+
+        do {//main method do while loop//it will continue until the user wants to quit
+            playARound();//plays one round of the game
+        } while (askForAnotherRound());//user can ask for a round//if true the do another round
+
         System.out.println("\nThank you for playing!");
     }
 
-    public static void playARound() {
+    public static void playARound() {//play a single round
 
         boolean validInput;
         int number, guess;
