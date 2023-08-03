@@ -30,11 +30,11 @@ public class GuessingGame {
             }while (!validInput);//end of do while loop
 
             // Check the guess
-            if (guess == number)
+            if (guess == number)//if guess is correct:
                 System.out.println("You're right!");
-            else
+            else//otherwise if guess is incorrect:
                 System.out.println("You're wrong! " +
-                        "The number was " + number);//so user can play again
+                        "The number was " + number);
             // Play again?
             do {
                 System.out.print("\nPlay again? (Y or N)");
