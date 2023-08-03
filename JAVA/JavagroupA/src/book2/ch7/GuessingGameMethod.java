@@ -44,9 +44,10 @@ public class GuessingGameMethod {
         while (true) {
             int guess = sc.nextInt();//get int guess from user
             if ((guess < 1) || (guess > 100)) {//check if guess is within range
-                System.out.print("I said, between 1 and 100. " + "Try again:) ");
+                System.out.print("I said, between 1 and 100. " +
+                        "Try again:) ");
             } else{
-                return guess;
+                return guess;//otherwise return the guess its correct...
             }
         }
     }
@@ -61,6 +62,25 @@ public class GuessingGameMethod {
             else if (answer.equalsIgnoreCase("N"))
                 return false;
         }
+
+       /* boolean validInput;
+        do {
+            validInput = true;
+            String answer;
+            System.out.print("\nPlay again? (Y or N) ");
+            answer = sc.next().toLowerCase();
+
+            if (answer.equalsIgnoreCase("Y")) {
+                return true;
+            }
+
+            else if (answer.equalsIgnoreCase("N")){
+                return false;
+            }
+
+        }while (!validInput);*/
+
+        //return validInput;
     }
 
 
