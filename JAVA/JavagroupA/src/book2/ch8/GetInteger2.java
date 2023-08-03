@@ -11,6 +11,9 @@ public class GetInteger2 {
     }
     public static int GetAnInteger(){
 
+        while(true){
+
+        }
     }
 
 }
