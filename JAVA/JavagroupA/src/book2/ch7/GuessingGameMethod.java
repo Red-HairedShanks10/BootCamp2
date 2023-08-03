@@ -29,21 +29,21 @@ public class GuessingGameMethod {
         guess = getGuess();//calls getGuess()
 // Check the guess
         if (guess == number) {//check if the guess is the correct number
-            System.out.println("You're right!");
+            System.out.println("You're right!");//if guess is correct
         }
-        else {
+        else {//otherwise if guess is wrong:
             System.out.println("You're wrong!" + " The number was " + number);
         }
 
     }
 
-    public static int getRandomNumber() {
-        return (int) (Math.random() * 10) + 1;
+    public static int getRandomNumber() {//getRandomNumber() returns int number
+        return (int) (Math.random() * 10) + 1;//randomise number
     }
 
-    public static int getGuess() {
+    public static int getGuess() {//getGuess returns int
         while (true) {
-            int guess = sc.nextInt();
+            int guess = sc.nextInt();//
             if ((guess < 1) || (guess > 10)) {
                 System.out.print("I said, between 1 and 10. "
                         + "Try again: ");
