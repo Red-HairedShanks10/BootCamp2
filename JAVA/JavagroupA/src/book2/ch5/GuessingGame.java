@@ -19,14 +19,13 @@ public class GuessingGame {
             System.out.println("\nI'm thinking of a number " + "between 1 and 10.");
             System.out.print("What do you think it is? ");
 
-            do {
+            do {//this loop gets valid input from user....
                 guess = sc.nextInt();
                 validInput = true;
-                if ((guess < 1) || (guess > 10)) {
+                if ((guess < 1) || (guess > 10)) {//make sure user guesses a number between 1-10
                     System.out.print
-                            ("I said, between 1 and 10. "
-                                    + "Try again: ");
-                    validInput = false;
+                            ("I said, between 1 and 10. " + "Try again: ");
+                    validInput = false;//set valid input
                 }
             }
             while (!validInput);
