@@ -3,12 +3,16 @@ package book2.ch8;
 import java.io.*;
 
 public class FileException1 {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         openFile("C:\test.txt");
     }
 
-    public static void openFile(String fileName){
-        FileInputStream f = new FileInputStream(fileName);
+    public static void openFile(String fileName) {
+        try {
+            FileInputStream f = new FileInputStream(fileName);
+        }catch (exception err){
+            System.out.println(err);
+        }
+
     }
 }
