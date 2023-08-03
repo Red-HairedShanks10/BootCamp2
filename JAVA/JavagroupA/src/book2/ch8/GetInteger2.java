@@ -1,5 +1,6 @@
 package book2.ch8;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class GetInteger2 {
@@ -14,8 +15,8 @@ public class GetInteger2 {
         while(true){
 
             try {
-
-            }
+                return sc.nextInt();
+            }catch (InputMismatchException ex)
 
         }
     }
