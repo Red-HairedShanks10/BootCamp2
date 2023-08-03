@@ -38,5 +38,20 @@ public class GuessingGameMethod2
         return (int)(Math.random() * 10) + 1;
     }
 
+    public static int getGuess()
+    {
+        while (true)
+        {
+            int guess = sc.nextInt();
+            if ((guess < 1) || (guess > 10))
+            {
+                System.out.print("I said, between 1 and 10. "
+                        + "Try again: ");
+            }
+            else
+                return guess;
+        }
+    }
+
 
 }
