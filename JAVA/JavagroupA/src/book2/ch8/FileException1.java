@@ -1,5 +1,7 @@
 package book2.ch8;
 
+import java.io.FileInputStream;
+
 public class FileException1 {
     public static void main(String[] args)
     {
@@ -7,6 +9,6 @@ public class FileException1 {
     }
 
     public static void openFile(String fileName){
-
+        FileInputStream f = new FileInputStream(name);
     }
 }
