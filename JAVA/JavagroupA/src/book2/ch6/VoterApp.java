@@ -1,11 +1,13 @@
 package book2.ch6;
 
 /*Exploring how switch statement works vs else if Statement*/
+
 import java.util.Scanner;
 
 public class VoterApp {
 
     static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
 
         System.out.println
@@ -21,7 +23,7 @@ public class VoterApp {
 
         String msg;
 
-        switch (err){
+        switch (err) {
             case 1:
                 msg = "case 1: Voter marked more than one " + "candidate.\nBallot rejected.";
                 break;
