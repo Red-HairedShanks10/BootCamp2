@@ -42,9 +42,9 @@ public class GuessingGame {
                 validInput = true;
                 if (answer.equalsIgnoreCase("Y")) ;
                 else if (answer.equalsIgnoreCase("N"))
-                    keepPlaying = false;
+                    keepPlaying = false;//set keepPlaying false//if user answer is No
                 else
-                    validInput = false;
+                    validInput = false;//set validInput false if user input is Invalid
             }
             while (!validInput);
         }
