@@ -33,6 +33,17 @@ public class VoterApp {
             case 3:
                 msg = "Entire ballot was blank.\n" + "Ballot filled in according to " + "secret plan.";
                 break;
+
+            case 4:
+                msg = "Nothing unusual about the ballot.\n" + "Voter randomly selected for tax audit.";
+                break;
+
+            case 5:
+                msg = "Voter filled in every box.\n" + "Ballot counted twice.";
+                break;
+
+
+
         }
 
 
