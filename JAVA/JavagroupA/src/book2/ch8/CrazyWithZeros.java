@@ -24,6 +24,11 @@ public class CrazyWithZeros {
         {
             c = a / b;
             System.out.println("It worked!");
+        }catch (Exception e)
+        {
+            System.out.println("Didn't work the first time.");
+            c = a / b;
+            System.out.println("It worked the second time!");
         }
 
 
