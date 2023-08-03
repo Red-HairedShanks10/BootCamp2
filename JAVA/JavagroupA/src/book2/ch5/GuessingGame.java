@@ -3,10 +3,10 @@ package book2.ch5;
 import java.util.Scanner;
 
 public class GuessingGame {
-    static Scanner sc = new Scanner(System.in);
+    static Scanner sc = new Scanner(System.in);//set up our scanner
 
     public static void main(String[] args) {
-        boolean keepPlaying = true;
+        boolean keepPlaying = true;//boolean value changed for false if user wants to stop playing
         System.out.println("Let's play a guessing game!");
         while (keepPlaying) {
             boolean validInput;
