@@ -26,11 +26,12 @@ public class GuessingGameMethod {
         System.out.print("What do you think it is? ");
         guess = getGuess();
 // Check the guess
-        if (guess == number)
+        if (guess == number) {
             System.out.println("You're right!");
-        else
-            System.out.println("You're wrong!"
-                    + " The number was " + number);
+        }
+        else {
+            System.out.println("You're wrong!" + " The number was " + number);
+        }
         public static int getRandomNumber ()
         {
             return (int) (Math.random() * 10) + 1;
