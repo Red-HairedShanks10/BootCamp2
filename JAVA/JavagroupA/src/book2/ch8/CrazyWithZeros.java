@@ -16,14 +16,14 @@ public class CrazyWithZeros {
     }
 
 
-    public static int divideTheseNumbers(int a, int b) →16
+    public static int divideTheseNumbers(int a, int b)
             throws Exception
     {
         int c;
         try
         {
-            c = a / b; →22
-            System.out.println("It worked!"); →23
+            c = a / b;
+            System.out.println("It worked!");
         }
 
 
