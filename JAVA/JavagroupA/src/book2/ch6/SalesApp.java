@@ -14,13 +14,16 @@ public class SalesApp {
 
         switch (salesClass)
         {
-            case 1:
+            case 'A':
+            case 'a':
                 commissionRate = 0.02;
                 break;
-            case 2:
+            case 'B':
+            case 'b':
                 commissionRate = 0.035;
                 break;
-            case 3:
+            case 'C':
+            case 'c':
                 commissionRate = 0.05;
                 break;
             default:
