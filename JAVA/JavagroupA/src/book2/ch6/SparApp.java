@@ -2,7 +2,7 @@ package book2.ch6;
 
 import java.util.Scanner;
 
-public class CarWashApp {
+public class SparApp {
 
     static Scanner sc = new Scanner(System.in);
 
