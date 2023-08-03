@@ -34,6 +34,8 @@ public class CrazyWithZeros {
         {
             System.out.println("Better clean up my mess.");
         }
+        System.out.println("It worked after all.");
+        return c;
 
 
 
