@@ -25,8 +25,11 @@ public class VoterApp {
                 msg = "Voter marked more than one " + "candidate.\nBallot rejected.";
                 break;
 
-            case 2:
 
+            case 2:
+                msg = "Box checked and write-in candidate "
+                        + "entered.\nBallot rejected.";
+                break;
         }
 
 
