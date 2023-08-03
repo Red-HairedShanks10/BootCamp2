@@ -7,7 +7,7 @@ public class DividebyZero {
             int a = 10, b = 0;
             System.out.println(a/b);
         }catch(ArithmeticException ex){
-            System.out.println("error: " + ex.getMessage());
+            System.out.println("error: you can't " + ex.getMessage());
 
         }
 

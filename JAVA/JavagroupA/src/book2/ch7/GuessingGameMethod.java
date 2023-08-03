@@ -1,5 +1,6 @@
 package book2.ch7;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class GuessingGameMethod {
@@ -41,14 +42,23 @@ public class GuessingGameMethod {
     }
 
     public static int getGuess() {//getGuess returns int
+        int guess = 0;
         while (true) {
-            int guess = sc.nextInt();//get int guess from user
+
+            try {
+                guess = sc.nextInt();//get int guess from user
+            }
+            catch (InputMismatchException ex){
+                System.out.println("error message: enter number");
+            }
             if ((guess < 1) || (guess > 10)) {//check if guess is within range
                 System.out.print("I said, between 1 and 10. " +
                         "Try again:) ");
             } else{
                 return guess;//otherwise return the guess its correct...
             }
+
+            sc.next();
         }
     }
 
