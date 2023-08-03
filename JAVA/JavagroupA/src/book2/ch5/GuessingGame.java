@@ -12,7 +12,7 @@ public class GuessingGame {
             /*within the main loop body: */
             boolean validInput;//to indicate if the user input is valid
             int number, guess;//to store user's guess
-            String answer;
+            String answer;//storing the actually number
             // Pick a random number
             number = (int) (Math.random() * 10) + 1;
             // Get the guess
