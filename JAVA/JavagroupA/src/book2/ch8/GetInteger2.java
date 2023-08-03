@@ -19,7 +19,7 @@ public class GetInteger2 {
             }catch (InputMismatchException ex){
                 sc.next();
                 System.out.print("That's not " + "an integer." +
-                       +  " Try again: ");
+                        " Try again: ");
             }
 
         }
