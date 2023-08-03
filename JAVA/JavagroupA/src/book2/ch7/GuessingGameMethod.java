@@ -17,18 +17,18 @@ public class GuessingGameMethod {
 
     public static void playARound() {//play a single round
 
-        boolean validInput;
-        int number, guess;
-        String answer;
+        boolean validInput;//for valid user input
+        int number, guess;//random number and guess of the user
+        String answer;//user's answer
 // Pick a random number
-        number = getRandomNumber();
+        number = getRandomNumber();//calls getRandomNumber
 // Get the guess
         System.out.println("\nI'm thinking of a number "
                 + "between 1 and 10.");
         System.out.print("What do you think it is? ");
-        guess = getGuess();
+        guess = getGuess();//calls getGuess()
 // Check the guess
-        if (guess == number)
+        if (guess == number)//check if the guess is the correct number
             System.out.println("You're right!");
         else
             System.out.println("You're wrong!"
