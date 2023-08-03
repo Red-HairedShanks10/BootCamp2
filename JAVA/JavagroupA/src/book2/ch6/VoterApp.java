@@ -42,6 +42,10 @@ public class VoterApp {
                 msg = "Voter filled in every box.\n" + "Ballot counted twice.";
                 break;
 
+            case 6:
+                msg = "Voter drooled in voting machine.\n" + "Beginning spin cycle.";
+                break;
+
 
 
         }
