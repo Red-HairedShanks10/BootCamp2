@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class GuessingGameMethod2 {
+public class GuessingGameMethod {
     static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
