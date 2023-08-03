@@ -18,6 +18,9 @@ public class VoterApp {
 
         int err = sc.nextInt();
 
+        String msg;
+
+
 
 
 
