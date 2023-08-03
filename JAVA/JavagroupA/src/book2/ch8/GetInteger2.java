@@ -13,6 +13,10 @@ public class GetInteger2 {
 
         while(true){
 
+            try {
+
+            }
+
         }
     }
 
