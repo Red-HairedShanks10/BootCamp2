@@ -13,6 +13,9 @@ public class FileException1 {
         }catch (Exception err){
             System.out.println(err);
         }
-
     }
+}
+
+class FileException2 {
+
 }
