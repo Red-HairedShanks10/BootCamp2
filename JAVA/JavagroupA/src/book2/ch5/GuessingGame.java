@@ -9,6 +9,7 @@ public class GuessingGame {
         boolean keepPlaying = true;//boolean value changed for false if user wants to stop playing
         System.out.println("Let's play a guessing game!");
         while (keepPlaying) {//main while loop continues if boolean value is true
+            /*within the main loop body: */
             boolean validInput;
             int number, guess;
             String answer;
