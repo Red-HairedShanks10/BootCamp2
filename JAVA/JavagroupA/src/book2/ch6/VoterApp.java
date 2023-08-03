@@ -27,8 +27,11 @@ public class VoterApp {
 
 
             case 2:
-                msg = "Box checked and write-in candidate "
-                        + "entered.\nBallot rejected.";
+                msg = "Box checked and write-in candidate " + "entered.\nBallot rejected.";
+                break;
+
+            case 3:
+                msg = "Entire ballot was blank.\n" + "Ballot filled in according to " + "secret plan.";
                 break;
         }
 
