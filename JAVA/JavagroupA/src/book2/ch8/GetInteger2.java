@@ -9,6 +9,8 @@ public class GetInteger2 {
         int i = GetAnInteger();
         System.out.println("You entered " + i);
     }
-    public static int GetAnInteger()
+    public static int GetAnInteger(){
+
+    }
 
 }
