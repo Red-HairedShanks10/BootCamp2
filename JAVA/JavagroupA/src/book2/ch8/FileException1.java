@@ -9,6 +9,6 @@ public class FileException1 {
     }
 
     public static void openFile(String fileName){
-        FileInputStream f = new FileInputStream(name);
+        FileInputStream f = new FileInputStream(fileName);
     }
 }
