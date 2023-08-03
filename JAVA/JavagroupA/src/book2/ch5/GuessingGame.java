@@ -10,8 +10,8 @@ public class GuessingGame {
         System.out.println("Let's play a guessing game!");
         while (keepPlaying) {//main while loop continues if boolean value is true
             /*within the main loop body: */
-            boolean validInput;
-            int number, guess;
+            boolean validInput;//to indicate if the user input is valid
+            int number, guess;//to store user's guess
             String answer;
             // Pick a random number
             number = (int) (Math.random() * 10) + 1;
