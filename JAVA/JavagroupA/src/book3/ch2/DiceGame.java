@@ -1,7 +1,6 @@
 package book3.ch2;
 
-public class DiceGame {
-}
+
 public class DiceGame
 {
     public static void main(String[] args)
