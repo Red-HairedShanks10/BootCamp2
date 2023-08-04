@@ -15,12 +15,12 @@ public class Player {
 
     public int getHealth()//get accessor retrieves the field value
     {
-        return health;
+        return this.health;
     }
 
     public void setHealth(int h)//set accessor sets the value of the field
     {
-        health = h;
+        this.health = h;
     }
 
 
