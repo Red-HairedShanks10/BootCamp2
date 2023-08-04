@@ -4,6 +4,8 @@ public class OrderApp {
 
     public static void main(String[] args) {
 
+        Order order1 = new Order();
+        order1.setQuantityOrdered(200);
     }
-    
+
 }
