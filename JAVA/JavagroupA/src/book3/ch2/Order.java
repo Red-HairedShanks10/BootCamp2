@@ -12,7 +12,13 @@ public class Order {
         this.unitPrice = unitPrice;
     }
 
+
+    //for
     public double getQuantityOrdered() {
         return quantityOrdered;
+    }
+
+    public void setQuantityOrdered(double quantityOrdered) {
+        this.quantityOrdered = quantityOrdered;
     }
 }
