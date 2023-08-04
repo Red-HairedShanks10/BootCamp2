@@ -3,15 +3,9 @@ package book3.ch2;
 import java.util.Set;
 
 public class Player {
-
-
     public  Player(){//constructor...
 
     }
-
-
-
-
 
     public static void main(String[] args) {
 
