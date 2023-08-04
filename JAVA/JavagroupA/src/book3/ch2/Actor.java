@@ -16,9 +16,9 @@ public Actor(String cfirstName, String clastName, boolean cGood){
     this.good = cGood;
 }
 
-public void printObject(){
+/*public void printObject(){
     System.out.println(this);
-}
+}*/
 
 /*@Override
  *//*   public String toString(){
