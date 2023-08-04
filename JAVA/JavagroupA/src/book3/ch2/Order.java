@@ -21,4 +21,8 @@ public class Order {
     public void setQuantityOrdered(double qtyOrdered) {
         this.quantityOrdered = qtyOrdered;
     }
+
+    public double getOrderTotal(){
+        return unitPrice * quantityOrdered;
+    }
 }
