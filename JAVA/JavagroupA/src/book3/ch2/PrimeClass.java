@@ -26,6 +26,6 @@ public class PrimeClass {
 
 
 
-class staticInit{
+class StatInit{
 
         }
