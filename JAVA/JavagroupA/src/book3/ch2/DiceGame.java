@@ -1,5 +1,5 @@
 package book3.ch2;
-
+/*Example shows you cant declare more than one public classs in one file*/
 
 public class DiceGame
 {
@@ -9,7 +9,10 @@ public class DiceGame
         d.roll();
     }
 }
+
+
 public class Dice
+
 {
     public void roll()
     {
