@@ -6,7 +6,7 @@ public class Player {
 
     }
     private int health;
-    public int getHealth()
+    public int getHealth()//get accessor retrieves the field value
     {
         return health;
     }
