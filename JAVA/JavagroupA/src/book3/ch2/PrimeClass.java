@@ -8,8 +8,13 @@ public class PrimeClass {
 
     public static void main(String[] args) {
 
+    }
 
-
+    private int getX()
+    {
+        System.out.print("Enter the starting value "
+                + "for x: ");
+        return sc.nextInt();
     }
 
 }
