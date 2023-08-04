@@ -10,8 +10,7 @@ public class PrimeClass {
 
     }
 
-    private int getX()
-    {
+    private int getX() {
         System.out.print("Enter the starting value "
                 + "for x: ");
         return sc.nextInt();
