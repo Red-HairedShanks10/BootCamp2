@@ -8,8 +8,8 @@ public class Order {
         return unitPrice;
     }
 
-    public void setUnitPrice(double unitPrice) {
-        this.unitPrice = unitPrice;
+    public void setUnitPrice(double uPrice) {
+        this.unitPrice = uPrice;
     }
 
 
@@ -18,7 +18,7 @@ public class Order {
         return quantityOrdered;
     }
 
-    public void setQuantityOrdered(double quantityOrdered) {
-        this.quantityOrdered = quantityOrdered;
+    public void setQuantityOrdered(double qtyOrdered) {
+        this.quantityOrdered = qtyOrdered;
     }
 }
