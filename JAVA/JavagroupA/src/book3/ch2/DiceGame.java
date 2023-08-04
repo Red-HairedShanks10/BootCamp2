@@ -11,6 +11,7 @@ public class DiceGame
 }
 
 
+/*
 public class Dice
 
 {
@@ -18,4 +19,4 @@ public class Dice
     {
 // code that rolls the dice goes here
     }
-}
+}*/
