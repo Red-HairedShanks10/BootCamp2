@@ -11,4 +11,8 @@ public class StatInit {
         x = sc.nextInt();
         System.out.println("you entered: " + x);
     }
+
+    public StatInit(){
+        System.out.println("default constructor: ");
+    }
 }
