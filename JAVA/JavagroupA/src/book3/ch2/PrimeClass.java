@@ -17,4 +17,15 @@ public class PrimeClass {
         return sc.nextInt();
     }
 
+
+
+
+
 }
+
+
+
+
+class staticInit{
+
+        }
