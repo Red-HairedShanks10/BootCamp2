@@ -1,7 +1,7 @@
 package book3.ch2;
 
 public class Order {
-
+///we can have contructor overloading(but for what purpose?)
     double unitPrice, quantityOrdered;
 
     public double getUnitPrice() {
