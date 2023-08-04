@@ -1,8 +1,12 @@
 package book3.ch2;
 
 public class Order {
-
     double unitPrice, quantityOrdered;
+    public Order(){
+
+    }
+
+
 
     public double getUnitPrice() {
         return unitPrice;
