@@ -1,7 +1,10 @@
 package book3.ch2;
 
+import java.util.Scanner;
+
 public class OrderApp {
 
+    Scanner sc = new Scanner(System.in);
     public static void main(String[] args) {
 
         Order order1 = new Order();
