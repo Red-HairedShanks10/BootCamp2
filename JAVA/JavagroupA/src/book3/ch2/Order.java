@@ -2,7 +2,7 @@ package book3.ch2;
 
 public class Order {
     double unitPrice, quantityOrdered;
-    public Order(){
+    public Order(double u, double p){
 
     }
 
