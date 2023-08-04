@@ -10,7 +10,7 @@ public class Player {
     {
         return health;
     }
-    public void setHealth(int h)
+    public void setHealth(int h)//set accessor sets the value of a field
     {
         health = h;
     }
