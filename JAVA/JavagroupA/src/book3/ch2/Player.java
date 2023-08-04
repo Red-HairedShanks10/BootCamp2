@@ -5,7 +5,7 @@ public class Player {
     public static void main(String[] args) {
 
     }
-    private int health;
+    private int health;//variable field
     public int getHealth()//get accessor retrieves the field value
     {
         return health;
