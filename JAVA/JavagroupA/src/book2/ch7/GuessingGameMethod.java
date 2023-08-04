@@ -62,7 +62,7 @@ public class GuessingGameMethod {
         }
     }
 
-    public static boolean askForAnotherRound() {
+    public static boolean askForAnotherRound() {//ask the player for another round....
        /* while (true) {
             String answer;
             System.out.print("\nPlay again? (Y or N) ");
