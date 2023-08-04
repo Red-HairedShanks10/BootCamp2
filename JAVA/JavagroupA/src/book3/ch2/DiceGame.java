@@ -11,7 +11,7 @@ public class DiceGame
 }
 
 
-/*
+/*cant make it public bcoz theres public class already!!
 public class Dice
 
 {
@@ -20,3 +20,13 @@ public class Dice
 // code that rolls the dice goes here
     }
 }*/
+
+
+//instead create a class without stating visibility field
+class Dice
+{
+    public void roll()
+    {
+// code that rolls the dice goes here
+    }
+}
