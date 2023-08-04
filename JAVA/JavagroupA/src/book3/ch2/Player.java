@@ -20,8 +20,9 @@ public class Player {
 
     public void setHealth(int h)//set accessor sets the value of the field
     {
-        if (health > 5 ){
         this.health = h;
+        if (this.health > 5 ){
+            System.out.println(this.health);
         }else {
             System.out.println("health is to low!!! you might die my guy!!!");
         }
