@@ -8,7 +8,7 @@ public class PlayApp {
         player1.setHealth(10);
         player2.setHealth(20);
         System.out.println("Player 1 has health at: " + player1.getHealth() );
-
+        System.out.println("Player 2 has health at: " + player2.getHealth() );
 
     }
 
