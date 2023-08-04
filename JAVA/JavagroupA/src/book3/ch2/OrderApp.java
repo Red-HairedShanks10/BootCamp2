@@ -7,7 +7,7 @@ public class OrderApp {
         Order order1 = new Order();
         order1.setQuantityOrdered(2);
         order1.setUnitPrice(20);
-        Sys
+        System.out.println(order1.getOrderTotal());
     }
 
 }
