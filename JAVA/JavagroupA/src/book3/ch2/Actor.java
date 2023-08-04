@@ -20,11 +20,19 @@ public void printObject(){
     System.out.println(this);
 }
 
-@Override
- /*   public String toString(){
+/*@Override
+ *//*   public String toString(){
       return this.firstName + " " + this.lastName;
 }
 */
 
-
+    @Override
+    public String toString() {
+        return "Actor{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", good=" + good +
+                ", great=" + great +
+                '}';
+    }
 }
