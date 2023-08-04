@@ -1,5 +1,7 @@
 package book3.ch2;
 
+import java.util.Set;
+
 public class Player {
 
     public static void main(String[] args) {
@@ -10,10 +12,12 @@ public class Player {
     {
         return health;
     }
-    public void setHealth(int h)//set accessor sets the value of a field
+    public void setHealth(int h)//set accessor sets the value of the field
     {
         health = h;
     }
+
+
 }
 
 
