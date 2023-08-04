@@ -17,9 +17,13 @@ public Actor(String cfirstName, String clastName, boolean cGood){
 }
 
 public void printObject(){
-
+    System.out.println(this);
 }
 
+@Override
+    public String toString(){
+      return this.firstName + " " + this.lastName;
+}
 
 
 
