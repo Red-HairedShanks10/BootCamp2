@@ -8,4 +8,6 @@ public class ActorApp {
         System.out.println(actor1.firstName +  actor1.lastName + " is a good actor : " + actor1.good);
         System.out.println(actor2.firstName + actor2.lastName + " is a good actor : " + actor2.good);
     }
+
+
 }

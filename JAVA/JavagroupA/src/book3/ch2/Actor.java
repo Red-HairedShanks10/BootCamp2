@@ -16,5 +16,11 @@ public Actor(String cfirstName, String clastName, boolean cGood){
     this.good = cGood;
 }
 
+public void printObject(){
+
+}
+
+
+
 
 }
