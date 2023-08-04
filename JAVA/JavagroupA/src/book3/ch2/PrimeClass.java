@@ -7,6 +7,8 @@ public class PrimeClass {
 
     public static void main(String[] args) {
 
+        public int x = getX();
+
     }
 
 }
