@@ -12,7 +12,7 @@ public class StatInit {
         System.out.println("you entered: " + x);
     }
 
-//    public StatInit(){
-//        System.out.println("default constructor: ");
-//    }
+    public StatInit(){
+        System.out.println("default constructor: ");
+    }
 }
