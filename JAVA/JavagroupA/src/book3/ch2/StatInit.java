@@ -7,7 +7,7 @@ public class StatInit {
     public int x;
     {
         System.out.print(
-                "Enter the starting value for x: ");
+//                "Enter the starting value for x: ");
         x = sc.nextInt();
         System.out.println("you entered: " + x);
     }
