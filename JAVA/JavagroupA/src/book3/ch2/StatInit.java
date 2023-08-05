@@ -6,7 +6,7 @@ public class StatInit {
     Scanner sc = new Scanner(System.in);
     public int x;
     {
-        System.out.print(
+//        System.out.print(
                 "Enter the starting value for x: ");
         x = sc.nextInt();
         System.out.println("you entered: " + x);
