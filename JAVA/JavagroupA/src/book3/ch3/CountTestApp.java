@@ -21,6 +21,7 @@ class CountTest {
     private static int instanceCount = 0;
 
     public CountTest() {
+        //since the instance count is used in the constructor//it will increment exactly as a new instance is created
         instanceCount++;
     }
 
