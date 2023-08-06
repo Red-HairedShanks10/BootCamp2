@@ -21,6 +21,8 @@ public class SingletonClass {
         SingletonClass s2 = SingletonClass.getInstance();
         if (s1 == s2){
             System.out.println("objects are the same");
-        }else
+        }else{
+            System.out.println("objects arent the same....");
+        }
     }
 }
