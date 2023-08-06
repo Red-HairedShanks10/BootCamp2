@@ -3,7 +3,7 @@ package book3.ch3;
 public class CountTestApp {
     public static void main(String[] args) {
         printCount();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) {//we use this loop to create about 11 instance(0-10)
             CountTest c1 = new CountTest();
             printCount();
         }
