@@ -19,4 +19,11 @@ public class CountTestApp {
 
 class CountTest{
     private static int instanceCount = 0;
+
+    public CountTest(){
+        instanceCount++;
+    }
+
+
+
 }
