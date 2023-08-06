@@ -17,4 +17,6 @@ public class CountTestApp {
 
 }
 
-class CountTest
+class CountTest{
+    private static int instanceCount = 0;
+}
