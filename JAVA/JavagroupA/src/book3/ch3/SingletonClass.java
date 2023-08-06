@@ -8,6 +8,8 @@ public class SingletonClass {
 
 
     public static SingletonClass getInstance(){
+            if (instance == null){
 
+            }
     }
 }
