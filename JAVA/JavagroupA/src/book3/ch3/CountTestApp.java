@@ -25,7 +25,7 @@ class CountTest{
     }
 
     public static int getInstanceCount(){
-
+        return instanceCount;
     }
 
 
