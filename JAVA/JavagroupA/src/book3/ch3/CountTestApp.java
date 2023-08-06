@@ -9,6 +9,9 @@ public class CountTestApp {
         }
     }
 
-    private static void printCount()
+    private static void printCount(){
+        System.out.println("There are now "
+                + CountTest.getInstanceCount()
+    }
 
 }
