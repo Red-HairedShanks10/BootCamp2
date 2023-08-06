@@ -8,4 +8,7 @@ public class CountTestApp {
             printCount();
         }
     }
+
+    private static void printCount()
+
 }
