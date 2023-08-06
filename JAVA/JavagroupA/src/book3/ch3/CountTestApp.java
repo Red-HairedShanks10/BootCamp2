@@ -16,3 +16,5 @@ public class CountTestApp {
     }
 
 }
+
+class CountTest
