@@ -11,5 +11,6 @@ public class SingletonClass {
             if (instance == null){
                 instance = new SingletonClass();
             }
+            return instance;
     }
 }
