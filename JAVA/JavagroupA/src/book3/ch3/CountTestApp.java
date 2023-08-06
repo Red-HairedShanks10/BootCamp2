@@ -25,7 +25,7 @@ class CountTest {
         instanceCount++;
     }
 
-    public static int getInstanceCount() {
+    public static int getInstanceCount() {//since the constructor cant return a value// we use this method to do so
         return instanceCount;
     }
 
