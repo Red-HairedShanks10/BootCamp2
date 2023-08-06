@@ -17,6 +17,6 @@ public class SingletonClass {
 
 
     public static void main(String[] args) {
-        SingletonClass s1 = new SingletonClass.getInstance();
+        SingletonClass s1 = SingletonClass.getInstance();
     }
 }
