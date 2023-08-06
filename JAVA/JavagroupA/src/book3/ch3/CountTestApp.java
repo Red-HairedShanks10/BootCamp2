@@ -24,6 +24,9 @@ class CountTest{
         instanceCount++;
     }
 
+    public static int getInstanceCount(){
+
+    }
 
 
 }
