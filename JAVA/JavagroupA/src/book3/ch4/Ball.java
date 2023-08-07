@@ -43,7 +43,7 @@ class BaseBall extends Ball {
 
 public class Ball {
 
-    private double weight;
+   public double weight;
     public Ball(double pWeight){
         System.out.println("Hello from the Ball constructor");
         this.weight = pWeight;
@@ -55,7 +55,6 @@ public class Ball {
         BaseBall baseBall2 = new BaseBall(5.4);
         SoftBall softBall1 = new SoftBall(2.3);
         baseBall2.hit(baseBall2);
-
 
 
     }
@@ -75,6 +74,11 @@ class BaseBall extends Ball{
 
     public static void hit(BaseBall b){
         System.out.println("hitting this ball: " + b);
+    }
+
+    @Override
+    public String toString(){
+         return "weight is " + weight;
     }
 
 
