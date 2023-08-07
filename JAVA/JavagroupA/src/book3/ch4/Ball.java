@@ -8,16 +8,18 @@ public class Ball {
         BaseBall baseBall1 = new BaseBall();
         baseBall1.hit();
     }
+
     private double weight;
-    protected double getWeight(){
+
+    protected double getWeight() {
         return this.weight;
     }
 
-    protected void setWeight(double pWeight){
+    protected void setWeight(double pWeight) {
         this.weight = pWeight;
     }
 
-    public void hit(){
+    public void hit() {
         System.out.println("you hit the ball!!");
     }
 
@@ -25,13 +27,15 @@ public class Ball {
 }
 
 
-class BaseBall extends Ball{
-    public BaseBall(){
+class BaseBall extends Ball {
+    public BaseBall() {
         setWeight(60);
     }
 
-    public void hit(){
+    public void hit() {
         System.out.println("You hit it far up");
         super.hit();
     }
+
 }
+
