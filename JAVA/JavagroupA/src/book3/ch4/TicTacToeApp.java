@@ -7,4 +7,8 @@ public class TicTacToeApp {
         Player p2 = new BetterPlayer();
         playTheGame(p1, p2);
     }
+
+    public static void playTheGame(Player p1, Player p2){
+
+    }
 }
