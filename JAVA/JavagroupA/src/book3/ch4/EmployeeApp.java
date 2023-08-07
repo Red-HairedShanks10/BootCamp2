@@ -12,7 +12,7 @@ public class EmployeeApp {
       EmployeeApp emp = new SalariedEmployee(2000);
 
       if (emp instanceof SalariedEmployee){
-          msg = "the employee's salary is " + ((SalariedEmployee) emp).salary;
+          msg = "the employee's salary is " + cf.format (((SalariedEmployee) emp).salary);
       }
     }
 }
