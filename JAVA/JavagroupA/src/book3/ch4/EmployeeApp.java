@@ -25,6 +25,9 @@ double salary;
 public SalariedEmployee(double salary){
 this.salary = salary;
 }
+public String getFormattedSalary(){
+
+}
 
 }
 
