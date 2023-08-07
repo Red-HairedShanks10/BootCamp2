@@ -44,10 +44,10 @@ class BaseBall extends Ball {
 public class Ball {
 
     private double weight;
- /*   public Ball(double pWeight){
+    public Ball(double pWeight){
         System.out.println("Hello from the Ball constructor");
         this.weight = pWeight;
-    }*/
+    }
 
 
     public static void main(String[] args) {
@@ -68,10 +68,10 @@ public class Ball {
 
 
 class BaseBall extends Ball{
- /*   public BaseBall(double baseBallW) {
+ /**/   public BaseBall(double baseBallW) {
         super(baseBallW);//this calls the base class's constructor//whether implicit ot explicit
         System.out.println("BaseBall constructor weight: " + baseBallW);
-    }*/
+    }
 
     public static void hit(BaseBall b){
         System.out.println("hitting this ball: " + b);
@@ -81,8 +81,8 @@ class BaseBall extends Ball{
 }
 
 class SoftBall extends Ball{
-   /* public SoftBall(double softBallW){
+   /**/ public SoftBall(double softBallW){
         super(softBallW);//this calls the base class's constructor//whether implicit ot explicit
         System.out.println("Softball constructor weight: " + softBallW);
-    }*/
+    }
 }
