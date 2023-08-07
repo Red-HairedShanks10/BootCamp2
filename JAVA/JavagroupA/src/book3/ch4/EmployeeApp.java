@@ -6,7 +6,7 @@ public class EmployeeApp {
     }
 
     public static void main(String[] args) {
-
+      EmployeeApp emp = new SalariedEmployee();
     }
 }
 
