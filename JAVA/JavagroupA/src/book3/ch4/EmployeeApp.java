@@ -9,7 +9,7 @@ public class EmployeeApp {
       static String msg;
     public static void main(String[] args) {
 
-        NumberFormat hf = NumberFormat.getPercentInstance();
+
       EmployeeApp emp = new SalariedEmployee(2000);
 
       if (emp instanceof SalariedEmployee){
@@ -40,8 +40,8 @@ this.rate = rate;
 }
 
     public String getFormattedRate(){
-
-        msg = cf.format(this.salary);
+        NumberFormat hf = NumberFormat.getPercentInstance();
+        msg = hf.format(this.salary);
     }
 
 }
