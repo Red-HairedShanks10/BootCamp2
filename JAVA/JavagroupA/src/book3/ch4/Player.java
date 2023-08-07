@@ -12,6 +12,8 @@ public class Player {
         }return -1;
 
     }
-    private int firstOpenSquare()
+    private int firstOpenSquare(){
+        int square = 0;
+    }
 
 }
