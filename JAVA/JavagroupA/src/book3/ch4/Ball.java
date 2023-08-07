@@ -44,10 +44,10 @@ class BaseBall extends Ball {
 public class Ball {
 
     private double weight;
-    public Ball(double pWeight){
+ /*   public Ball(double pWeight){
         System.out.println("Hello from the Ball constructor");
         this.weight = pWeight;
-    }
+    }*/
 
 
     public static void main(String[] args) {
