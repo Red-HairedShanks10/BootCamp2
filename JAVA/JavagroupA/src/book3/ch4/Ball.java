@@ -52,8 +52,8 @@ public class Ball {
 
     public static void main(String[] args) {
 
-        BaseBall baseBall2 = new BaseBall();
-        SoftBall softBall1 = new SoftBall();
+        BaseBall baseBall2 = new BaseBall(5.4);
+        SoftBall softBall1 = new SoftBall(2.3);
         baseBall2.hit(baseBall2);
 
 
