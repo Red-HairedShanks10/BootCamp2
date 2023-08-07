@@ -13,7 +13,7 @@ public class EmployeeApp {
 class SalariedEmployee extends EmployeeApp{
 double salary;
 public SalariedEmployee(double salary){
-
+this.salary = salary;
 }
 
 }
