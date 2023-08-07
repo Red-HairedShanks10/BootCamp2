@@ -56,6 +56,12 @@ public class Ball {
         SoftBall softBall1 = new SoftBall(3.4);
     }
 
+
+  public void hit(BaseBall b){
+        Sys
+  }
+
+
 }
 
 
