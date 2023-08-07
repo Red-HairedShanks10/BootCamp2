@@ -9,10 +9,13 @@ public class EmployeeApp {
       static String msg;
     public static void main(String[] args) {
         NumberFormat cf = NumberFormat.getNumberInstance();
+        NumberFormat hf = NumberFormat.getPercentInstance();
       EmployeeApp emp = new SalariedEmployee(2000);
 
       if (emp instanceof SalariedEmployee){
           msg = "the employee's salary is " + cf.format (((SalariedEmployee) emp).salary);
+      }else if(emp instanceof HourlyEmployee) {
+
       }
     }
 }
