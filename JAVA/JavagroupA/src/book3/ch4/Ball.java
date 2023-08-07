@@ -15,7 +15,9 @@ public class Ball {
         this.weight = pWeight;
     }
 
-    public void hit()
+    public void hit(){
+        System.out.println("you hit the ball!!");
+    }
 
 
 }
