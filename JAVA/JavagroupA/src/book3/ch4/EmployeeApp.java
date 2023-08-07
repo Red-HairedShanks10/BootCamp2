@@ -21,7 +21,7 @@ public SalariedEmployee(double salary){
 class HourlyEmployee {
 double rate;
 
-public HourlyEmployee(){
+public HourlyEmployee(double rate){
 
 }
 
