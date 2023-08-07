@@ -29,7 +29,7 @@ public SalariedEmployee(double salary){
 this.salary = salary;
 }
 public void getFormattedSalary(){
-    NumberFormat cf = NumberFormat.getNumberInstance();
+    NumberFormat cf = NumberFormat.getCurrencyInstance();
     msg = cf.format(this.salary);
     System.out.println("employee salary is: " + msg);
 
