@@ -5,7 +5,8 @@ public class Ball {
 
     public static void main(String[] args) {
 
-        BaseBall baseBall1 = new BaseBall()
+        BaseBall baseBall1 = new BaseBall();
+        baseBall1.hit();
     }
     private double weight;
     protected double getWeight(){
