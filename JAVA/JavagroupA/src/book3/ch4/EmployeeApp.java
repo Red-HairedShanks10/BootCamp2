@@ -16,7 +16,7 @@ public class EmployeeApp {
           msg += (((SalariedEmployee) emp).getFormattedSalary());
       } else if (emp instanceof  HourlyEmployee) {
           msg = "rate is ";
-          msg +=
+
       }
 
 
@@ -28,10 +28,10 @@ double salary;
 public SalariedEmployee(double salary){
 this.salary = salary;
 }
-public String getFormattedSalary(){
+public void getFormattedSalary(){
     NumberFormat cf = NumberFormat.getNumberInstance();
     msg = cf.format(this.salary);
-    return msg;
+    
 }
 
 }
@@ -43,10 +43,10 @@ public HourlyEmployee(double rate){
 this.rate = rate;
 }
 
-    public String getFormattedRate(){
+    public void getFormattedRate(){
         NumberFormat hf = NumberFormat.getPercentInstance();
         msg = hf.format(this.rate);
-        return msg;
+
     }
 
 }
