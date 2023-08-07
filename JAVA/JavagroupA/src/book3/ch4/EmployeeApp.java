@@ -1,11 +1,14 @@
 package book3.ch4;
 
+import java.text.NumberFormat;
+
 public class EmployeeApp {
     public EmployeeApp getEmployee() {
         return this;
     }
 
     public static void main(String[] args) {
+        NumberFormat cf = NumberFormat.getNumberInstance();
       EmployeeApp emp = new SalariedEmployee();
     }
 }
