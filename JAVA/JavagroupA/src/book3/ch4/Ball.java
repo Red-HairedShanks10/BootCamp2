@@ -54,6 +54,7 @@ public class Ball {
 
         BaseBall baseBall2 = new BaseBall();
         SoftBall softBall1 = new SoftBall();
+        baseBall2.hit(baseBall2);
 
 
 
