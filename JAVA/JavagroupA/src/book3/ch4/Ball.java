@@ -42,5 +42,7 @@ class BaseBall extends Ball {
 */
 
 public class Ball {
+    public Ball(){
 
+    }
 }
