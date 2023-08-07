@@ -12,6 +12,8 @@ public class EmployeeApp {
         Scanner sc = new Scanner(System.in);
         System.out.println("eneter salaried or hourly");
         String wageType = sc.nextLine();
+        System.out.println("please enter rate or salary");
+        double wage = sc.nextDouble();
 
       EmployeeApp emp = new SalariedEmployee(2000);
       if (emp instanceof SalariedEmployee){
