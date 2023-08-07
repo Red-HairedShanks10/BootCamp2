@@ -48,8 +48,7 @@ public class Ball {
         BaseBall baseBall2 = new BaseBall();
     }
     public Ball(){
-        System.out.println(
-                "Hello from the Ball constructor");
+        System.out.println("Hello from the Ball constructor");
     }
 }
 
