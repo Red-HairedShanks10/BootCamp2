@@ -5,3 +5,7 @@ public class EmployeeApp {
         return this;
     }
 }
+
+class SalariedEmployee extends EmployeeApp{
+
+}
