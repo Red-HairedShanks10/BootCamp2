@@ -28,6 +28,7 @@ this.salary = salary;
 public String getFormattedSalary(){
     NumberFormat cf = NumberFormat.getNumberInstance();
     msg = cf.format(this.salary);
+    return msg;
 }
 
 }
