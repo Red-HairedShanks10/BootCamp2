@@ -65,9 +65,9 @@ class BaseBall extends Ball{
     }
 }
 
-class Softball extends Ball{
-    public BaseBall(double  baseBallW){
-        super(baseBallW);//this calls the base class's constructor//whether implicit ot explicit
-        System.out.println("BaseBall constructor weight: " + baseBallW);
+class SoftBall extends Ball{
+    public SoftBall(double softBallW){
+        super(softBallW);//this calls the base class's constructor//whether implicit ot explicit
+        System.out.println("BaseBall constructor weight: " + softBallW);
     }
 }
