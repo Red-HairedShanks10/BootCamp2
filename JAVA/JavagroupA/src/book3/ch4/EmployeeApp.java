@@ -11,12 +11,12 @@ public class EmployeeApp {
 
 
       EmployeeApp emp = new SalariedEmployee(2000);
-
       if (emp instanceof SalariedEmployee){
-
-      }else if(emp instanceof HourlyEmployee) {
-
+          msg = "employee's salary is ";
+          msg += (((SalariedEmployee) emp).getFormattedSalary());
       }
+
+
     }
 }
 
