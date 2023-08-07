@@ -42,6 +42,10 @@ class BaseBall extends Ball {
 */
 
 public class Ball {
+
+    public static void main(String[] args) {
+
+    }
     public Ball(){
         System.out.println(
                 "Hello from the Ball constructor");
