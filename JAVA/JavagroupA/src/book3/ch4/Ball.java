@@ -5,4 +5,6 @@ public class Ball {
     protected double getWeight(){
         return this.weight;
     }
+
+    protected void setWeight(double weight)
 }
