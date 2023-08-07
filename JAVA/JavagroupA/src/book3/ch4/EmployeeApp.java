@@ -6,7 +6,7 @@ public class EmployeeApp {
     public EmployeeApp getEmployee() {
         return this;
     }
-
+      static String msg;
     public static void main(String[] args) {
         NumberFormat cf = NumberFormat.getNumberInstance();
       EmployeeApp emp = new SalariedEmployee(2000);
