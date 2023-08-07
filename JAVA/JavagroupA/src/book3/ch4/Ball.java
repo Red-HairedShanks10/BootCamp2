@@ -6,5 +6,5 @@ public class Ball {
         return this.weight;
     }
 
-    protected void setWeight(double weight)
+    protected void setWeight(double pWeight)
 }
