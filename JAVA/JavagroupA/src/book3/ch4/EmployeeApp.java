@@ -17,9 +17,11 @@ public class EmployeeApp {
         if (wageType.equals("salary")){
             EmployeeApp emp = new SalariedEmployee(wage);
             ((SalariedEmployee) emp).getFormattedSalary();
+        } else if (wageType.equals("hourly")) {
+            EmployeeApp emp = new HourlyEmployee(wage);
         }
 
-      EmployeeApp emp = new SalariedEmployee(2000);
+        EmployeeApp emp = new SalariedEmployee(2000);
       if (emp instanceof SalariedEmployee){
 
 
