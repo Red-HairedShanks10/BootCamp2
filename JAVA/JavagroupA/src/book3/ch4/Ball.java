@@ -58,7 +58,7 @@ public class Ball {
 
 
   public void hit(BaseBall b){
-        Sys
+        System.out.println("hitting this ball: " );
   }
 
 
