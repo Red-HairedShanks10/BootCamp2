@@ -46,7 +46,7 @@ public class Ball {
     private double weight;
     public Ball(double pWeight){
         //System.out.println("Hello from the Ball constructor");
-        this.weight;
+        this.weight = pWeight;
     }
 
 
