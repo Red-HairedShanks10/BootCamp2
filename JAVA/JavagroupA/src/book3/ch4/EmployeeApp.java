@@ -1,6 +1,7 @@
 package book3.ch4;
 
 import java.text.NumberFormat;
+import java.util.Scanner;
 
 public class EmployeeApp {
     public EmployeeApp getEmployee() {
@@ -8,7 +9,7 @@ public class EmployeeApp {
     }
       static String msg;
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
 
       EmployeeApp emp = new SalariedEmployee(2000);
       if (emp instanceof SalariedEmployee){
