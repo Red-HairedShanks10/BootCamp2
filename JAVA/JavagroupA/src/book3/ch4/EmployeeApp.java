@@ -31,7 +31,7 @@ this.salary = salary;
 public void getFormattedSalary(){
     NumberFormat cf = NumberFormat.getNumberInstance();
     msg = cf.format(this.salary);
-    System.out.println("employee salary is: ");
+    System.out.println("employee salary is: " + msg);
 
 }
 
