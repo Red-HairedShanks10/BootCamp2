@@ -39,4 +39,9 @@ public HourlyEmployee(double rate){
 this.rate = rate;
 }
 
+    public String getFormattedRate(){
+
+        msg = cf.format(this.salary);
+    }
+
 }
