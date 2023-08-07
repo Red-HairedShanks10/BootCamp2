@@ -22,7 +22,7 @@ class HourlyEmployee {
 double rate;
 
 public HourlyEmployee(double rate){
-
+this.rate = rate;
 }
 
 }
