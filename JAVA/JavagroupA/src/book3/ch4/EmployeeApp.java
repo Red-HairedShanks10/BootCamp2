@@ -16,12 +16,13 @@ public class EmployeeApp {
         double wage = sc.nextDouble();
         if (wageType.equals("salary")){
             EmployeeApp emp = new SalariedEmployee(wage);
+            ((SalariedEmployee) emp).getFormattedSalary();
         }
 
       EmployeeApp emp = new SalariedEmployee(2000);
       if (emp instanceof SalariedEmployee){
 
-          ((SalariedEmployee) emp).getFormattedSalary();
+
       } else if (emp instanceof  HourlyEmployee) {
           ((HourlyEmployee) emp).getFormattedRate();
 
