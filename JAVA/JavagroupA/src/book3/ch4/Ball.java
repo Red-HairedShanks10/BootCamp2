@@ -47,3 +47,8 @@ public class Ball {
                 "Hello from the Ball constructor");
     }
 }
+
+
+class BaseBall extends Ball{
+
+}
