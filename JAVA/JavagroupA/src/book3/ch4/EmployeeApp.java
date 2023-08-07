@@ -9,3 +9,7 @@ public class EmployeeApp {
 class SalariedEmployee extends EmployeeApp{
 
 }
+
+class HourlyEmployee {
+
+}
