@@ -43,6 +43,7 @@ class BaseBall extends Ball {
 
 public class Ball {
 
+    private double weight;
     public static void main(String[] args) {
 
         BaseBall baseBall2 = new BaseBall();
