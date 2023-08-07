@@ -29,6 +29,6 @@ class BaseBall extends Ball{
     }
 
     public void hit(){
-
+        System.out.println("You hit it far up");
     }
 }
