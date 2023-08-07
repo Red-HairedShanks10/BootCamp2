@@ -10,6 +10,8 @@ public class EmployeeApp {
       static String msg;
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("eneter salaried or hourly");
+        String wageType = sc.nextLine();
 
       EmployeeApp emp = new SalariedEmployee(2000);
       if (emp instanceof SalariedEmployee){
