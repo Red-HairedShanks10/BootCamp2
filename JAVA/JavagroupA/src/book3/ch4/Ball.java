@@ -12,4 +12,8 @@ public class Ball {
 }
 
 
-public class BaseBall extends Ball
+public class BaseBall extends Ball{
+    public BaseBall(){
+        
+    }
+}
