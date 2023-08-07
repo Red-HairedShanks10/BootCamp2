@@ -16,3 +16,14 @@ public class Player {
     }
 
 }
+
+
+class BetterPlayer extends Player{
+
+
+
+
+
+
+
+}
