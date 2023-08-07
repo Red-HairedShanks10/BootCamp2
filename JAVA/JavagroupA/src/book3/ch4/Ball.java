@@ -45,6 +45,7 @@ public class Ball {
 
     public static void main(String[] args) {
 
+        BaseBall baseBall2 = new BaseBall();
     }
     public Ball(){
         System.out.println(
