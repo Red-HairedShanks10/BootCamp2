@@ -51,6 +51,7 @@ public class Ball {
 
 class BaseBall extends Ball{
     public BaseBall(){
-
+        System.out.println(
+                "Hello from the BaseBall constructor");
     }
 }
