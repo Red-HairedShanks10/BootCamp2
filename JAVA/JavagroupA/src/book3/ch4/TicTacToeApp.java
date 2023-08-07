@@ -10,5 +10,6 @@ public class TicTacToeApp {
 
     public static void playTheGame(Player p1, Player p2){
         p1.move();
+        
     }
 }
