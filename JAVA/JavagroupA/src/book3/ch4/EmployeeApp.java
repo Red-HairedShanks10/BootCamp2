@@ -22,14 +22,7 @@ public class EmployeeApp {
             ((HourlyEmployee) emp).getFormattedRate();
         }
 
-        EmployeeApp emp = new SalariedEmployee(2000);
-      if (emp instanceof SalariedEmployee){
 
-
-      } else if (emp instanceof  HourlyEmployee) {
-          ((HourlyEmployee) emp).getFormattedRate();
-
-      }
 
 
     }
