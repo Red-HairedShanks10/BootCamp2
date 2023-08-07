@@ -12,8 +12,8 @@ public class EmployeeApp {
 
       EmployeeApp emp = new SalariedEmployee(2000);
       if (emp instanceof SalariedEmployee){
-          msg = "employee's salary is ";
-          msg += (((SalariedEmployee) emp).getFormattedSalary());
+
+          ((SalariedEmployee) emp).getFormattedSalary();
       } else if (emp instanceof  HourlyEmployee) {
           msg = "rate is ";
 
