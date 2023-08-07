@@ -41,7 +41,7 @@ this.rate = rate;
 
     public String getFormattedRate(){
         NumberFormat hf = NumberFormat.getPercentInstance();
-        msg = hf.format(this.salary);
+        msg = hf.format(this.rate);
     }
 
 }
