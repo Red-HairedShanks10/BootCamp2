@@ -9,7 +9,7 @@ public class EmployeeApp {
 
     public static void main(String[] args) {
         NumberFormat cf = NumberFormat.getNumberInstance();
-      EmployeeApp emp = new SalariedEmployee();
+      EmployeeApp emp = new SalariedEmployee(2000);
     }
 }
 
