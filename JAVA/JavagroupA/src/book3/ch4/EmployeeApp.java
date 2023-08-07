@@ -19,6 +19,7 @@ public class EmployeeApp {
             ((SalariedEmployee) emp).getFormattedSalary();
         } else if (wageType.equals("hourly")) {
             EmployeeApp emp = new HourlyEmployee(wage);
+            ((HourlyEmployee) emp).getFormattedRate();
         }
 
         EmployeeApp emp = new SalariedEmployee(2000);
