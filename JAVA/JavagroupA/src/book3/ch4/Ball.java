@@ -43,6 +43,7 @@ class BaseBall extends Ball {
 
 public class Ball {
     public Ball(){
-
+        System.out.println(
+                "Hello from the Ball constructor");
     }
 }
