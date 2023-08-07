@@ -32,7 +32,7 @@ public String getFormattedSalary(){
 
 }
 
-class HourlyEmployee {
+class HourlyEmployee  extends EmployeeApp {
 double rate;
 
 public HourlyEmployee(double rate){
@@ -42,6 +42,7 @@ this.rate = rate;
     public String getFormattedRate(){
         NumberFormat hf = NumberFormat.getPercentInstance();
         msg = hf.format(this.rate);
+        return msg;
     }
 
 }
