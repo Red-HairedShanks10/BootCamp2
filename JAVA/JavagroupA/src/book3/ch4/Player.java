@@ -22,6 +22,7 @@ class BetterPlayer extends Player{
     public int move(){
         System.out.println("\nThe better player says:");
         System.out.println("I'm looking for a good move...");
+        return findBestMove();
     }
 
 
