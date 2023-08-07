@@ -1,6 +1,11 @@
 package book3.ch4;
 
 public class Ball {
+
+
+    public static void main(String[] args) {
+
+    }
     private double weight;
     protected double getWeight(){
         return this.weight;
@@ -10,9 +15,7 @@ public class Ball {
         this.weight = pWeight;
     }
 
-    public static void main(String[] args) {
 
-    }
 }
 
 
