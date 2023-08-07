@@ -10,3 +10,6 @@ public class Ball {
         this.weight = pWeight;
     }
 }
+
+
+public class BaseBall extends Ball
