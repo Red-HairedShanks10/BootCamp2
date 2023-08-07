@@ -12,6 +12,10 @@ public class EmployeeApp {
 
 class SalariedEmployee extends EmployeeApp{
 double salary;
+public SalariedEmployee(double){
+
+}
+
 }
 
 class HourlyEmployee {
