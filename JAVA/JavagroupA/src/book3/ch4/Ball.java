@@ -27,4 +27,8 @@ class BaseBall extends Ball{
     public BaseBall(){
         setWeight(60);
     }
+
+    public void hit(){
+
+    }
 }
