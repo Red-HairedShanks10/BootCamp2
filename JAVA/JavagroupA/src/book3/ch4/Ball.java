@@ -15,6 +15,8 @@ public class Ball {
         this.weight = pWeight;
     }
 
+    public void hit()
+
 
 }
 
