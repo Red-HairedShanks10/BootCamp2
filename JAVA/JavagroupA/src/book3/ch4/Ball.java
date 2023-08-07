@@ -74,7 +74,7 @@ class BaseBall extends Ball{
     }*/
 
     public static void hit(BaseBall b){
-        System.out.println("hitting this ball: " );
+        System.out.println("hitting this ball: " + b);
     }
 
 
