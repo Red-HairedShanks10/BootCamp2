@@ -15,7 +15,7 @@ public class EmployeeApp {
         System.out.println("please enter rate or salary");
         double wage = sc.nextDouble();
         if (wageType.equals("salary")){
-
+            EmployeeApp emp = new SalariedEmployee(wage);
         }
 
       EmployeeApp emp = new SalariedEmployee(2000);
