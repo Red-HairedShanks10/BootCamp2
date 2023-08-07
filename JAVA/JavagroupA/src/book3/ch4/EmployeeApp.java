@@ -7,7 +7,7 @@ public class EmployeeApp {
 }
 
 class SalariedEmployee extends EmployeeApp{
-
+double salary;
 }
 
 class HourlyEmployee {
