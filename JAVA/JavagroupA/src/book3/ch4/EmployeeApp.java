@@ -31,7 +31,7 @@ this.salary = salary;
 public void getFormattedSalary(){
     NumberFormat cf = NumberFormat.getNumberInstance();
     msg = cf.format(this.salary);
-    
+
 }
 
 }
@@ -46,6 +46,7 @@ this.rate = rate;
     public void getFormattedRate(){
         NumberFormat hf = NumberFormat.getPercentInstance();
         msg = hf.format(this.rate);
+        System.out.println("the rate is: ");
 
     }
 
