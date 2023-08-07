@@ -25,6 +25,7 @@ class BetterPlayer extends Player{
         return findBestMove();
     }
 
+    private int findBestMove()
 
 
 
