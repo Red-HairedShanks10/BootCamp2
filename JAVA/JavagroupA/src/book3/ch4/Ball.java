@@ -12,8 +12,8 @@ public class Ball {
 }
 
 
-public class BaseBall extends Ball{
+class BaseBall extends Ball{
     public BaseBall(){
-        
+        setWeight(60);
     }
 }
