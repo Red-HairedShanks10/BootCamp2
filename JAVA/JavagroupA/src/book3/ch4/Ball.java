@@ -61,6 +61,6 @@ public class Ball {
 class BaseBall extends Ball{
     public BaseBall(double  baseBallW){
         super(baseBallW);//this calls the base class's constructor//whether implicit ot explicit
-        System.out.println("Hello from the BaseBall constructor");
+        System.out.println("BaseBall constructor weight: " + baseBallW);
     }
 }
