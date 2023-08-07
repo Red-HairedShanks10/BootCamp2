@@ -19,7 +19,9 @@ public class Player {
 
 
 class BetterPlayer extends Player{
-    public int move()
+    public int move(){
+        System.out.println("\nThe better player says:");
+    }
 
 
 
