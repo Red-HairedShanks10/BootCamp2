@@ -41,3 +41,6 @@ class BaseBall extends Ball {
 }
 */
 
+public class Ball {
+
+}
