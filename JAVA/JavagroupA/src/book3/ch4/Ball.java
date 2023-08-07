@@ -9,6 +9,10 @@ public class Ball {
     protected void setWeight(double pWeight){
         this.weight = pWeight;
     }
+
+    public static void main(String[] args) {
+
+    }
 }
 
 
