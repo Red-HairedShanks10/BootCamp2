@@ -59,8 +59,8 @@ public class Ball {
 
 
 class BaseBall extends Ball{
-    public BaseBall(){
-        super();//this calls the base class's constructor//whether implicit ot explicit
+    public BaseBall(double  baseBallW){
+        super(baseBallW);//this calls the base class's constructor//whether implicit ot explicit
         System.out.println("Hello from the BaseBall constructor");
     }
 }
