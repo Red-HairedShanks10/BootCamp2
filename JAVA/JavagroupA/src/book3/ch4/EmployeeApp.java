@@ -48,7 +48,6 @@ this.rate = rate;
         NumberFormat hf = NumberFormat.getPercentInstance();
         msg = hf.format(this.rate);
         System.out.println("the rate is: " + msg);
-
-    }
+}
 
 }
