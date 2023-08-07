@@ -9,7 +9,7 @@ public class Player {
             System.out.println(
                     "I'll take the first open square!");
             return firstOpenSquare();
-        }
+        }return -1;
 
     }
 }
