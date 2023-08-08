@@ -4,3 +4,8 @@ public interface IThrowableBall {
     void throwBall();
     void catchBall();
 }
+
+interface IKickableBall{
+    void kickBall();
+    void catchBall();
+}
