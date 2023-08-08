@@ -4,3 +4,7 @@ public  abstract class Ball {
     public abstract int hit(int batSpeed);
 }
 
+class Baseball extends Ball{
+
+}
+
