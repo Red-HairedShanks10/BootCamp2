@@ -8,6 +8,8 @@ public class TestToString {
 class Employee{
 private String firstName, lastName;
 
+public Employee(){
 
+}
 
 }
