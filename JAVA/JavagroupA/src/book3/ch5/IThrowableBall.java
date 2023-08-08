@@ -9,3 +9,7 @@ interface IKickableBall{
     void kickBall();
     void catchBall();
 }
+
+interface IPlayableBall extends IKickableBall, IThrowableBall{
+
+}
