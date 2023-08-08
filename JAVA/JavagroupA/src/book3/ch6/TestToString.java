@@ -15,5 +15,8 @@ public Employee(String firtsName, String lastName){
     this.lastName = lastName;
 
 }
+String toString(){
+
+}
 
 }
