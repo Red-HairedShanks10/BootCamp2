@@ -10,16 +10,16 @@ public abstract class Ball {
         System.out.println("baseball speed is: " + softball.hit(3));*/
         BallFactoryInstance bf = new BallFactoryInstance();
         Ball ball1 = bf.getBall("baseball");
+        ball1.hit(3);
 
     }
 }
 
 class Baseball extends Ball {
 
-    public int hit(int batSpeed) {
+    public void hit(int batSpeed) {
         int x = 100;
-    return batSpeed * x;
-
+   System.out.println("baseball was hit with a batspeed of : " + batSpeed);
     }
 }
 
