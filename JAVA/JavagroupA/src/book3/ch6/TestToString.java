@@ -15,9 +15,18 @@ public Employee(String firtsName, String lastName){
     this.lastName = lastName;
 
 }
-@Override
-String toString(){
-  return firstName + " " + lastName;
-}
 
+    /*@Override
+    String toString() {
+        return firstName + " " + lastName;
+    }
+*/
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                '}';
+    }
 }
