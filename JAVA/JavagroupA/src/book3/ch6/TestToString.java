@@ -25,6 +25,10 @@ public Employee(String firtsName, String lastName){
     {
         this.lastName = lastName;
     }
+    public String getFirstName()
+    {
+        return this.firstName;
+    }
 
     /*@Override
     String toString() {
