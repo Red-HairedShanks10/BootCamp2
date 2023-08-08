@@ -7,7 +7,8 @@ public  abstract class Ball {
 abstract class Baseball extends Ball{
 
     public int hit(int batSpeed){
-
+int x = 100;
+batSpeed = batSpeed * x;
     }
 }
 
