@@ -4,7 +4,7 @@ public class BallFactoryInstance {
 
     public static Ball getBall(String b){
         if (b.equalsIgnoreCase("BaseBall")){
-
+                   return  new Baseball();
         }
     }
 }
