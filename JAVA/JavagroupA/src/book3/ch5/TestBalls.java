@@ -22,4 +22,9 @@ System.out.println("Throwing ball");
     public void dropBall() {
         System.out.println("Dropping ball");
     }
+
+
+    public static void main(String[] args) {
+        TestBalls t = new TestBalls();
+    }
 }
