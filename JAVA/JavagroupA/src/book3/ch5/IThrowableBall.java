@@ -11,5 +11,5 @@ interface IKickableBall{
 }
 
 interface IPlayableBall extends IKickableBall, IThrowableBall{
-
+    void dropBall();
 }
