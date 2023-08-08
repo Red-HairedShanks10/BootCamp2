@@ -33,5 +33,6 @@ public class CardDeck implements Dealable {
 
         Dealable d = new CardDeck();
         startGame(d, "Hearts");
+        startGame(d, "Poker");
     }
 }
