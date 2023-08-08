@@ -1,7 +1,9 @@
 package book3.ch6;
 
 public class TestToString {
-
+    public static void main(String[] args) {
+        Employee emp = new Employee("Marco", "Red");
+    }
 }
 
 
