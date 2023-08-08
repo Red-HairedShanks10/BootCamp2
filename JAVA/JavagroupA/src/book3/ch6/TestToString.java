@@ -41,6 +41,9 @@ public Employee(String firtsName, String lastName){
     {
         this.salary = salary;
     }
+    public Object clone(){
+
+    }
 
     /*@Override
     String toString() {
