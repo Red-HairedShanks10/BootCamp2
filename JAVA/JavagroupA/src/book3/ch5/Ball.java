@@ -5,11 +5,12 @@ public abstract class Ball {
 
     public static void main(String[] args) {
         Baseball baseball = new Baseball();
+        baseball
 
     }
 }
 
-abstract class Baseball extends Ball {
+class Baseball extends Ball {
 
     public int hit(int batSpeed) {
         int x = 100;
