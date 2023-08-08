@@ -18,7 +18,7 @@ public abstract class Ball {
 class Baseball extends Ball {
 
     public void hit(int batSpeed) {
-        int x = 100;
+       batSpeed = batSpeed * 100;
    System.out.println("baseball was hit with a batspeed of : " + batSpeed);
     }
 }
