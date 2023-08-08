@@ -10,12 +10,15 @@ public class TestToString {
 
 class Employee{
 private String firstName, lastName;
+    private Double salary;
 
 public Employee(String firtsName, String lastName){
     this.firstName = firtsName;
     this.lastName = lastName;
 
 }
+
+
 
     /*@Override
     String toString() {
