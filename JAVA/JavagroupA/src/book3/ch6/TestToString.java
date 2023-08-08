@@ -37,6 +37,10 @@ public Employee(String firtsName, String lastName){
     {
         return this.salary;
     }
+    public void setSalary(Double salary)
+    {
+        this.salary = salary;
+    }
 
     /*@Override
     String toString() {
