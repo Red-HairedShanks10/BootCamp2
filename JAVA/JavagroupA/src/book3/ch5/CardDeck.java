@@ -1,6 +1,6 @@
 package book3.ch5;
 
-public class CardGame_C implements Dealable {
+public class CardDeck implements Dealable {
 
     @Override
     public void deal(int cards) {
