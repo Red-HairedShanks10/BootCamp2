@@ -7,6 +7,12 @@ public class Game implements Playable {
         System.out.println("Playing....");
     };
 
+    public static void main(String[] args) {
+        Game game = new Game();
+        game.play();
+        game.quit();
+    }
+
 
 }
 
