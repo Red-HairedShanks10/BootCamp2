@@ -8,8 +8,8 @@ public class CardDeck implements IDealable {
     }
 
     private static void startGame(IDealable deck, String game) {
-        if (game.equals("Poker"))
-            deck.deal(5);
+        if (game.equals("Poker")){
+            deck.deal(5);}
         else if (game.equals("Hearts"))
             deck.deal(13);
         else if (game.equals("Gin"))
