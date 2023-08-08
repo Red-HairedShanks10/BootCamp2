@@ -27,4 +27,9 @@ public class CardDeck implements Dealable {
         else if (game.equals("Gin"))
             deck.deal(10);
     }
+
+
+    public static void main(String[] args) {
+
+    }
 }
