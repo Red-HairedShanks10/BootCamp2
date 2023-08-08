@@ -15,7 +15,7 @@ System.out.println("Throwing ball");
 
     @Override
     public void catchBall() {
-
+        System.out.println("Catching ball");
     }
 
     @Override
