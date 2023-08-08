@@ -24,9 +24,6 @@ public Employee(String firtsName, String lastName){
 
     @Override
     public String toString() {
-        return "Employee{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                '}';
+        return firstName+ " " + lastName;
     }
 }
