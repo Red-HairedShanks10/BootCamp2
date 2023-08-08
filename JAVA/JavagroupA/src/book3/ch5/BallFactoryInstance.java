@@ -7,6 +7,6 @@ public class BallFactoryInstance {
                    return  new Baseball();
         }else if (b.equalsIgnoreCase("SoftBall")){
             return new SoftBall();
-        }
+        }return null;
     }
 }
