@@ -12,3 +12,8 @@ public abstract class Game implements Playable {
 
 
 }
+
+
+public class TestLambdaCollection{
+
+}
