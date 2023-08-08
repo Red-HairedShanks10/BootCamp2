@@ -6,5 +6,6 @@ public class TestToString {
 
 
 class Employee{
+private String firstName;
 
 }
