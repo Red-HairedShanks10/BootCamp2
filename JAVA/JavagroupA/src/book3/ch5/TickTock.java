@@ -5,7 +5,7 @@ public class TickTock {
     public static void main(String[] args) {
 
         Timer t = new Timer(1000, new Ticker());
-
+        t.start();
     }
 }
 
