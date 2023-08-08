@@ -1,14 +1,14 @@
 package book3.ch5;
 
-public class Game implements Playable {
+public abstract class Game implements Playable {
 
     @Override
-    public void play();
+    public abstract void play();
 
 
 
     @Override
-    public void quit();
+    public abstract void quit();
 
 
 }
