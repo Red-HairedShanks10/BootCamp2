@@ -20,6 +20,6 @@ System.out.println("Throwing ball");
 
     @Override
     public void dropBall() {
-
+        System.out.println("Dropping ball");
     }
 }
