@@ -8,7 +8,7 @@ public class TestToString {
 class Employee{
 private String firstName, lastName;
 
-public Employee(){
+public Employee(String firtsName, String lastName){
 
 }
 
