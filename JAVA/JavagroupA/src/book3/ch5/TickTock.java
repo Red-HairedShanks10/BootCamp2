@@ -9,5 +9,5 @@ public class TickTock {
 
 class Ticker implements ActionListener{
     private boolean tick = true;
-
+    public void actionPerformed(ActionEvent event){}
 }
