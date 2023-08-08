@@ -7,6 +7,7 @@ public class CloneTest {
         Employee emp2 = (Employee)emp1.clone();
         emp1.setLastName("Smith");
         System.out.println(emp1);
+        System.out.println(emp2);
 
     }
 }
