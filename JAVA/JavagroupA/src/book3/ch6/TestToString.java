@@ -33,6 +33,10 @@ public Employee(String firtsName, String lastName){
     {
         this.firstName = firstName;
     }
+    public Double getSalary()
+    {
+        return this.salary;
+    }
 
     /*@Override
     String toString() {
