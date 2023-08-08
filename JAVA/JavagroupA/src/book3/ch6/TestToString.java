@@ -55,7 +55,7 @@ public Employee(String firtsName, String lastName){
 */
     @Override
     public String toString() {
-        return firstName + " " + lastName;
+        return firstName + " " + lastName + " earns " + salary;
     }
 
 
