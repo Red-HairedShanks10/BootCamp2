@@ -6,4 +6,25 @@ public class CardDeck implements Dealable {
     public void deal(int cards) {
         System.out.println("dealing out " + deals + cards);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    private void startGame(Dealable deck, String game)
+    {
+        if (game.equals("Poker"))
+            deck.deal(5);
+        else if (game.equals("Hearts"))
+            deck.deal(13);
+        else if (game.equals("Gin"))
+            deck.deal(10);
+    }
 }
