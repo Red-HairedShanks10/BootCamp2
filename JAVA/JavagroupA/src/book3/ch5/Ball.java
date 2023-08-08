@@ -6,8 +6,8 @@ public abstract class Ball {
     public static void main(String[] args) {
         Baseball baseball = new Baseball();
         System.out.println("baseball speed is: " + baseball.hit(3));
-     Softball softball = new Softball();
-        System.out.println("baseball speed is: " + baseball.hit(3));
+        Softball softball = new Softball();
+        System.out.println("baseball speed is: " + softball.hit(3));
 
     }
 }
