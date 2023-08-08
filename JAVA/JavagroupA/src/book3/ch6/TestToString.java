@@ -15,19 +15,23 @@ private String firstName, lastName;
 public Employee(String firtsName, String lastName){
     this.firstName = firtsName;
     this.lastName = lastName;
-
 }
 
-
+    public String getLastName()
+    {
+        return this.lastName;
+    }
 
     /*@Override
     String toString() {
         return firstName + " " + lastName;
     }
 */
-
     @Override
     public String toString() {
         return firstName + " " + lastName;
     }
+
+
+
 }
