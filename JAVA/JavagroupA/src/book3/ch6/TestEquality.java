@@ -7,7 +7,7 @@ public class TestEquality {
         if(emp1.equals(emp2)){
             System.out.println("Employees are the same");
         }else {
-            System.out.println("Emplooyes are not the same");
+            System.out.println("Emplooyees are not the same");
         }
     }
 }
