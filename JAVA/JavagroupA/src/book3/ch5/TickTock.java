@@ -6,3 +6,7 @@ public class TickTock {
 
     }
 }
+
+class Ticker implements ActionListener{
+
+}
