@@ -13,7 +13,7 @@ class Ticker implements ActionListener{
         if (tick){
           System.out.println("Tick........");
         }else{
-            System.out.println();
+            System.out.println("Tock........");
         }
     }
 }
