@@ -12,8 +12,8 @@ public class CardDeck implements IDealable {
             deck.deal(5);}
         else if (game.equals("Hearts")){
             deck.deal(13);}
-        else if (game.equals("Gin"))
-            deck.deal(10);
+        else if (game.equals("Gin")){
+            deck.deal(10);}
     }
 
 
