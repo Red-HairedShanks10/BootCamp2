@@ -4,6 +4,7 @@ public class CloneTest {
     public static void main(String[] args) {
         Employee emp1 = new Employee("Martinez", "Anthony");
         emp1.setSalary(40000.0);
+        Employee emp2 = (Employee)emp1.clone();
 
     }
 }
