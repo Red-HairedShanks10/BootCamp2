@@ -1,5 +1,5 @@
 package book3.ch5;
 
-public interface Dealable {
+public interface IDealable {
     void deal(int cards);
 }

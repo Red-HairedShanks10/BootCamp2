@@ -1,6 +1,6 @@
 package book3.ch5;
 
-public class CardDeck implements Dealable {
+public class CardDeck implements IDealable {
 
     @Override
     public void deal(int cards) {
@@ -18,7 +18,7 @@ public class CardDeck implements Dealable {
 
 
 
-    private static void startGame(Dealable deck, String game)
+    private static void startGame(IDealable deck, String game)
     {
         if (game.equals("Poker"))
             deck.deal(5);
@@ -31,7 +31,7 @@ public class CardDeck implements Dealable {
 
     public static void main(String[] args) {
 
-        Dealable d = new CardDeck();
+        IDealable d = new CardDeck();
         startGame(d, "Hearts");
         startGame(d, "Poker");
     }
