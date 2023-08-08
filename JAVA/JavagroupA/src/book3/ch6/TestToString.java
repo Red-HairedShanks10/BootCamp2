@@ -21,6 +21,10 @@ public Employee(String firtsName, String lastName){
     {
         return this.lastName;
     }
+    public void setLastName(String lastName)
+    {
+        this.lastName = lastName;
+    }
 
     /*@Override
     String toString() {
