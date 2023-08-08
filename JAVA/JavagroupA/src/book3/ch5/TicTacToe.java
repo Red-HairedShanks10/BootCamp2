@@ -8,6 +8,6 @@ public class TicTacToe implements Playable, CardGame {
 
     @Override
     public void shuffleCards() {
-
+        System.out.println("Shuffling cards");
     }
 }
