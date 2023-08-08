@@ -14,6 +14,7 @@ public class TicTacToe extends Game implements Playable, CardGame {
     public static void main(String[] args) {
        TicTacToe tg = new TicTacToe();
        tg.play();
+       tg.shuffleCards();
     }
 }
 
