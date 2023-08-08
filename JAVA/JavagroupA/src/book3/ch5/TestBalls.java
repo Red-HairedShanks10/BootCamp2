@@ -26,9 +26,10 @@ System.out.println("Throwing ball");
 
     public static void main(String[] args) {
         TestBalls t = new TestBalls();
-        t.catchBall();
-        t.dropBall();
+
         t.kickBall();
         t.throwBall();
+        t.catchBall();
+        t.dropBall();
     }
 }
