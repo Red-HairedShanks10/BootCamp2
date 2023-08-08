@@ -10,7 +10,7 @@ System.out.println("Throwing ball");
 
     @Override
     public void kickBall() {
-
+        System.out.println("Kicking ball");
     }
 
     @Override
