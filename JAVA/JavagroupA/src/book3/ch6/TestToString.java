@@ -3,6 +3,7 @@ package book3.ch6;
 public class TestToString {
     public static void main(String[] args) {
         Employee emp = new Employee("Marco", "Red");
+        System.out.println(emp);
     }
 }
 
@@ -24,6 +25,6 @@ public Employee(String firtsName, String lastName){
 
     @Override
     public String toString() {
-        return firstName+ " " + lastName;
+        return firstName + " " + lastName;
     }
 }
