@@ -5,7 +5,7 @@ public abstract class Ball {
 
     public static void main(String[] args) {
         Baseball baseball = new Baseball();
-        baseball
+        System.out.println("baseball speed is: " + baseball.hit(3));
 
     }
 }
