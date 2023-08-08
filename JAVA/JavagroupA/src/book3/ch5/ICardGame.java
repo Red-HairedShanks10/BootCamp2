@@ -1,5 +1,5 @@
 package book3.ch5;
 
-public interface CardGame {
+public interface ICardGame {
     public void shuffleCards();
 }

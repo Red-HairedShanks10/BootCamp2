@@ -1,6 +1,6 @@
 package book3.ch5;
 
-public class TicTacToe extends Game implements Playable, CardGame {
+public class TicTacToe extends Game implements Playable, ICardGame {
     @Override
     public void play() {
         System.out.println("playing a Tic-Tac-Toe game");
