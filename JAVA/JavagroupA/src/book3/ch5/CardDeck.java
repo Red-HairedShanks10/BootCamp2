@@ -18,7 +18,7 @@ public class CardDeck implements Dealable {
 
 
 
-    private void startGame(Dealable deck, String game)
+    private static void startGame(Dealable deck, String game)
     {
         if (game.equals("Poker"))
             deck.deal(5);
