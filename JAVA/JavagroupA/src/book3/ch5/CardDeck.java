@@ -31,5 +31,7 @@ public class CardDeck implements Dealable {
 
     public static void main(String[] args) {
 
+        Dealable d = new CardDeck();
+        startGame(d, "Hearts");
     }
 }
