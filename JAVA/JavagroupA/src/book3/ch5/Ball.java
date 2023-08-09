@@ -12,7 +12,7 @@ public abstract class Ball {//
         Ball ball1 = bf.getBall("baseball");//
         ball1.hit(3);//
         Ball ball2 = bf.getBall("softball");//
-        ball2.hit(4);//
+        ball2.hit(4);
 
     }
 }
