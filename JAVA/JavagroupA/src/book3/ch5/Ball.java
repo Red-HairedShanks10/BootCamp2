@@ -3,7 +3,7 @@ package book3.ch5;//
 public abstract class Ball {//
     public abstract void hit(int batSpeed);//
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {//
       /*  Baseball baseball = new Baseball();
         System.out.println("baseball speed is: " + baseball.hit(3));
         Softball softball = new Softball();
