@@ -1,7 +1,7 @@
 package book3.ch5;//
 
 public abstract class Ball {//
-    public abstract void hit(int batSpeed);
+    public abstract void hit(int batSpeed);//
 
     public static void main(String[] args) {
       /*  Baseball baseball = new Baseball();
