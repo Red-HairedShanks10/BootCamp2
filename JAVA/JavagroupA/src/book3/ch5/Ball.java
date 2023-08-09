@@ -1,4 +1,4 @@
-package book3.ch5;
+package book3.ch5;//
 
 public abstract class Ball {
     public abstract void hit(int batSpeed);
