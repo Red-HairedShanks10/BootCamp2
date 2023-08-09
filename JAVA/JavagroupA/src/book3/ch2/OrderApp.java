@@ -8,7 +8,7 @@ public class OrderApp {
 
    static Scanner sc = new Scanner(System.in);//
    static NumberFormat cf = NumberFormat.getCurrencyInstance();//
-    public static void main(String[] args) {
+    public static void main(String[] args) {//
 
         System.out.println("Enter quantity of product");
         double qtyOrder = sc.nextDouble();
