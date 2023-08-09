@@ -13,7 +13,7 @@ public class OrderApp {
         System.out.println("Enter quantity of product");//
         double qtyOrder = sc.nextDouble();//
         Order order1 = new Order();//
-        order1.setQuantityOrdered(qtyOrder);
+        order1.setQuantityOrdered(qtyOrder);//
         order1.setUnitPrice(20);
         System.out.println("Total cost of your order: " + cf.format(order1.getOrderTotal()));
 
