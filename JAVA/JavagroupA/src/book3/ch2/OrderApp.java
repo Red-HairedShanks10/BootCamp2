@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class OrderApp {
 
-   static Scanner sc = new Scanner(System.in);
+   static Scanner sc = new Scanner(System.in);//
    static NumberFormat cf = NumberFormat.getCurrencyInstance();
     public static void main(String[] args) {
 
