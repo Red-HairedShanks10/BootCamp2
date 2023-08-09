@@ -10,7 +10,7 @@ public class OrderApp {
    static NumberFormat cf = NumberFormat.getCurrencyInstance();//
     public static void main(String[] args) {//
 
-        System.out.println("Enter quantity of product");
+        System.out.println("Enter quantity of product");//
         double qtyOrder = sc.nextDouble();
         Order order1 = new Order();
         order1.setQuantityOrdered(qtyOrder);
