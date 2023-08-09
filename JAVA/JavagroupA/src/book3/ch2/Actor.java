@@ -13,7 +13,7 @@ public Actor(String cfirstName, String clastName){
 public Actor(String cfirstName, String clastName, boolean cGood){
     this.firstName = cfirstName;
     this.lastName = clastName;
-    this.good = cGood;//
+    this.good = cGood;
 }
 
 /*public void printObject(){
