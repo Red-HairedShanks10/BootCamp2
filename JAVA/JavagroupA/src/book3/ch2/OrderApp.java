@@ -15,7 +15,7 @@ public class OrderApp {
         Order order1 = new Order();//
         order1.setQuantityOrdered(qtyOrder);//
         order1.setUnitPrice(20);//
-        System.out.println("Total cost of your order: " + cf.format(order1.getOrderTotal()));
+        System.out.println("Total cost of your order: " + cf.format(order1.getOrderTotal()));//
 
     }
 
