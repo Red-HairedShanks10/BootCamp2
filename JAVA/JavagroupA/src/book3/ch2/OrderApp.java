@@ -11,7 +11,7 @@ public class OrderApp {
     public static void main(String[] args) {//
 
         System.out.println("Enter quantity of product");//
-        double qtyOrder = sc.nextDouble();//
+        double qtyOrder = sc.nextDouble();
         Order order1 = new Order();
         order1.setQuantityOrdered(qtyOrder);
         order1.setUnitPrice(20);
