@@ -8,7 +8,7 @@ public abstract class Ball {//
         System.out.println("baseball speed is: " + baseball.hit(3));
         Softball softball = new Softball();
         System.out.println("baseball speed is: " + softball.hit(3));*/
-        BallFactoryInstance bf = new BallFactoryInstance();//
+        BallFactoryInstance bf = new BallFactoryInstance();
         Ball ball1 = bf.getBall("baseball");
         ball1.hit(3);
         Ball ball2 = bf.getBall("softball");
