@@ -14,3 +14,45 @@ public class Employee
     /** Represents the employee's address.
      */
     public Address address;
+    /** Creates an employee with the specified name.
+     * @param lastName The employee's last name.
+     * @param firstName The employee's first name.
+     */
+    public Employee(String lastName, String firstName)
+    {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.address = new Address();
+    }
+    /** Gets the employee's last name.
+     * @return A string representing the employee's last
+     * name.
+     */
+    public String getLastName()
+    {
+        return this.lastName;
+    }
+    /** Sets the employee's last name.
+     * @param lastName A String containing the employee's
+     * last name.
+     */
+    public void setLastName(String lastName)
+    {
+        this.lastName = lastName;
+    }
+    /** Gets the employee's first name.
+     * @return A string representing the employee's first
+     * name.
+     */
+    public String getFirstName()
+    {
+        return this.firstName;
+    }
+    /** Sets the employee's first name.
+     * @param firstName A String containing the
+     * employee's first name.
+     */
+    public void setFirstName(String firstName)
+    {
+        this.firstName = firstName;
+    }
