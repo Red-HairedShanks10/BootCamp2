@@ -13,12 +13,12 @@ public class Arrays {
 //        firstArray[2] = "Taipan";
 
 
-        int[] numbers = new int[100];
+       /* int[] numbers = new int[100];
         for (int i = 0; i < 100; i++){
             numbers[i] = (int)(Math.random() * 100) + 1;
             System.out.println(numbers[i]);
         }
-
+*/
 
       //System.out.println(firstArray[0]);
 
@@ -26,7 +26,7 @@ public class Arrays {
         System.out.print("How many players? ");
         int count = sc.nextInt(); // sc is a Scanner
         String[] players = new String[count];
-        System.out.println(players.length);
+
     }
 
 }
