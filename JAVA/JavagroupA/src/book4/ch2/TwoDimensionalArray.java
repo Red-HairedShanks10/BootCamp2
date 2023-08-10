@@ -1,5 +1,7 @@
 package book4.ch2;
 
+import java.text.NumberFormat;
+
 public class TwoDimensionalArray {
     public static void main(String[] args) {
         double[][] sales = new double[5][4];
