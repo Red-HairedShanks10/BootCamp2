@@ -9,7 +9,7 @@ public class EnhancedFor {
     }
     public static String[] getDaysOfWeek(){
         String[] days = {"Sunday", "Monday","Tuesday","Wednesday","Thursday","Friday"};
-
+        return days;
     }
 
 }
