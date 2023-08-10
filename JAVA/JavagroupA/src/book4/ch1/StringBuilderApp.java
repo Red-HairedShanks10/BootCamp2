@@ -15,6 +15,7 @@ public class StringBuilderApp {
             char c = s.toLowerCase().charAt(i);
             if ((c == 'a') || (c == 'e') || (c == 'i') || (c == 'o') || (c == 'u')) {
                 sb.setCharAt(i, '*');
+                vowelCount++;
             }
 
 
