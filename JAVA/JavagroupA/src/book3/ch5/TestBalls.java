@@ -1,6 +1,6 @@
 package book3.ch5;
 
-public class TestBalls implements IPlayableBall {
+public class TestBalls implements IPlayableBall {//
 
 
     @Override
