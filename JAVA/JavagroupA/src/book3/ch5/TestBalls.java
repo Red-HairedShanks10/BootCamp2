@@ -28,7 +28,7 @@ public class TestBalls implements IPlayableBall {
         TestBalls t = new TestBalls();
 
         t.kickBall();
-        t.throwBall();//
+        t.throwBall();
         t.catchBall();
         t.dropBall();
     }
