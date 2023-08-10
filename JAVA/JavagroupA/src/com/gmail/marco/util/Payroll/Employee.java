@@ -1,4 +1,4 @@
-package book3.ch8;
+package com.gmail.marco.util.Payroll;
 
 /** Represents an employee.
  * @author Doug Lowe
