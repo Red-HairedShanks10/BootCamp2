@@ -6,7 +6,7 @@ public class Arrays {
  static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
-        String[] firstArray = new String[5];///declaring an array
+        String[] firstArray = new String[5];///declaring and initialising array
        firstArray[0] = "Black Mamba";
        firstArray[1] = "King Cobra";
         firstArray[2] = "Taipan";
