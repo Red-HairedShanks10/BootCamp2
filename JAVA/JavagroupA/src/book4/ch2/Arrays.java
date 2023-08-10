@@ -16,8 +16,9 @@ public class Arrays {
         int[] numbers = new int[100];
         for (int i = 0; i < 100; i++){
             numbers[i] = (int)(Math.random() * 100) + 1;
+            System.out.println(numbers[i]);
         }
-        System.out.println(numbers);
+
 
       //System.out.println(firstArray[0]);
 
