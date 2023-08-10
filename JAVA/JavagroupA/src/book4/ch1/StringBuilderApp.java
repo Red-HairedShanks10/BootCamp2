@@ -13,7 +13,9 @@ public class StringBuilderApp {
 
         for (int i = 0; i < s.length(); i++){
             char c = s.charAt(i);
-            
+            if ( (c == 'a') || (c == 'E') || (c == 'e')
+                    || (c == 'I') || (c == 'i')
+
         }
     }
 }
