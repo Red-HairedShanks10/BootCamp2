@@ -5,7 +5,7 @@ public class EnhancedFor {
 
         String[] daysOfWeek = getDaysOfWeek();
         for (String d: daysOfWeek){
-            System.out.println(d);
+
         }
     }
     public static String[] getDaysOfWeek(){
@@ -14,7 +14,9 @@ public class EnhancedFor {
     }
 
     public static void printStringArray(String[] array){
-            
+            for(String stringArray: array){
+                System.out.println(stringArray);
+            }
     }
 
 }
