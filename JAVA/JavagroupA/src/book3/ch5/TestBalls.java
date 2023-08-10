@@ -11,12 +11,12 @@ public class TestBalls implements IPlayableBall {
     @Override
     public void kickBall() {
         System.out.println("Kicking ball");
-    }//
+    }
 
     @Override
     public void catchBall() {
         System.out.println("Catching ball");
-    }
+    }//
 
     @Override
     public void dropBall() {
