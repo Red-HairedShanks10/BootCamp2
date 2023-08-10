@@ -4,7 +4,7 @@ import com.gmail.marco.Payroll.Address;
 
 /** Represents an employee.
  * @author Marco
- * @author www.LoweWriter.com
+ * @author www.MarcoWrite.com
  * @version 1.5
  * @since 1.0
  */
