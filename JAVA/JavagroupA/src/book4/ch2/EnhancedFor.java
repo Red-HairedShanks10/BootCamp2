@@ -7,4 +7,8 @@ public class EnhancedFor {
                     System.out.println(d);
                 }
     }
+    public static void getDaysOfWeek(){
+
+    }
+
 }
