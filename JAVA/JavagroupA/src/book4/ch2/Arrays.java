@@ -12,7 +12,9 @@ public class Arrays {
        firstArray[1] = "King Cobra";
         firstArray[2] = "Taipan";
 
-        for ()
+        for (int i = 0; i < 5; i++){
+
+        }
 
       //System.out.println(firstArray[0]);
 
