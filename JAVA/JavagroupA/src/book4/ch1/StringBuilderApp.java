@@ -10,5 +10,7 @@ public class StringBuilderApp {
         String s = sc.nextLine();
         StringBuilder sb = new StringBuilder(s);
         int vowelCount = 0;
+
+        for (int i = 0; i < s.length(); i++)
     }
 }
