@@ -8,5 +8,6 @@ public class CloneTest {
         emp1.setLastName("Smith");
         System.out.println(emp1);
         System.out.println(emp2);
+
     }
 }
