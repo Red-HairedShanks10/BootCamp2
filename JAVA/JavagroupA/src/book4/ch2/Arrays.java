@@ -25,12 +25,14 @@ public class Arrays {
         /**/
         System.out.print("How many players? ");
         int count = sc.nextInt(); // sc is a Scanner
+        sc.nextLine();
         String[] players = new String[count];
 
         for (int i = 0; i < count; i++){
             System.out.println("enter player name: ");
             players[i] = sc.nextLine();
         }
+        System.out.println("this players are: ");
         for(int j = 0; j < count; j++){
             System.out.println("this player is: " + players[j]);
         }
