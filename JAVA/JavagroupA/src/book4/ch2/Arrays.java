@@ -13,9 +13,9 @@ public class Arrays {
 //        firstArray[2] = "Taipan";
 
 
-        int[] numbers = new int[10];
-        for (int i = 0; i < 5; i++){
-
+        int[] numbers = new int[100];
+        for (int i = 0; i < 100; i++){
+            numbers[i] = (int)(Math.random() * 100) + 1;
 
         }
 
