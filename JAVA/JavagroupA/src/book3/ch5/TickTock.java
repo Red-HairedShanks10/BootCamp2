@@ -14,7 +14,7 @@ public class TickTock {
 class Ticker implements ActionListener{
     private boolean tick = true;
     public void actionPerformed(ActionEvent event){
-        if (tick){//
+        if (tick){
           System.out.println("Tick........");
         }else{
             System.out.println("Tock........");
