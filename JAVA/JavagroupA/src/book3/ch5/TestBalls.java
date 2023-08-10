@@ -13,7 +13,7 @@ public class TestBalls implements IPlayableBall {
         System.out.println("Kicking ball");
     }
 
-    @Override//
+    @Override
     public void catchBall() {
         System.out.println("Catching ball");
     }
