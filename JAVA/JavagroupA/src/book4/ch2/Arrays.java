@@ -31,7 +31,7 @@ public class Arrays {
             System.out.println("enter player name: ");
             players[i] = sc.nextLine();
         }
-        for(int j = 0 j < count; j++){
+        for(int j = 0; j < count; j++){
             System.out.println("this player is: " + players[j]);
         }
 
