@@ -4,8 +4,8 @@ public class Arrays {
 
 
     public static void main(String[] args) {
-        String[] firstArray;///declaring an array
-        firstArray
+        String[] firstArray = new String[5];///declaring an array
+        firstArray[0] = "Black Mamba";
     }
 
 }
