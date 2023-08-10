@@ -10,4 +10,8 @@ public class TestingPackages {
     {
         System.out.println("D'oh!");
     }
+
+    public static void main(String[] args) {
+
+    }
 }
