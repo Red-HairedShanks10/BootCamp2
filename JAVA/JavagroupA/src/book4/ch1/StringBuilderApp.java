@@ -9,5 +9,6 @@ public class StringBuilderApp {
         System.out.print("Enter a string: ");
         String s = sc.nextLine();
         StringBuilder sb = new StringBuilder(s);
+        int vowelCount = 0;
     }
 }
