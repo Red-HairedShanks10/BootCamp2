@@ -32,7 +32,7 @@ public class Arrays {
             System.out.println("enter player name: ");
             players[i] = sc.nextLine();
         }
-        System.out.println("this players are: ");
+        System.out.println("the players are: ");
         for(int j = 0; j < count; j++){
             System.out.println(players[j]);
         }
