@@ -4,7 +4,7 @@ public class TestBalls implements IPlayableBall {
 
 
     @Override
-    public void throwBall() {
+    public void throwBall() {//
         System.out.println("Throwing ball");
     }
 
