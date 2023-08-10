@@ -22,5 +22,6 @@ public class StringBuilderApp {
         }System.out.println();
         System.out.println(s);
         System.out.println(sb.toString());
+        System.out.println("vowel count is: " + vowelCount);
     }
 }
