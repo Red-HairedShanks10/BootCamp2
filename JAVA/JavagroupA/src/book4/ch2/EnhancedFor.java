@@ -13,4 +13,8 @@ public class EnhancedFor {
         return days;
     }
 
+    public static void printStringArray(){
+
+    }
+
 }
