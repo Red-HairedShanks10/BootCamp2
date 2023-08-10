@@ -16,10 +16,10 @@ public class StringBuilderApp {
             if ((c == 'a') || (c == 'e') || (c == 'i') || (c == 'o') || (c == 'u')) {
                 sb.setCharAt(i, '*');
             }
-            System.out.println();
-            System.out.println(s);
-            System.out.println(sb.toString());
 
-        }
+
+        }System.out.println();
+        System.out.println(s);
+        System.out.println(sb.toString());
     }
 }
