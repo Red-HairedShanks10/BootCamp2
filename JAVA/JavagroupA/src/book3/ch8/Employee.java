@@ -66,4 +66,26 @@ public class Employee {
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
+    /** Gets the employee's salary.
+     * @return A double representing the employee's salary.
+     */
+    public double getSalary()
+    {
+        return this.salary;
+    }
+    /** Sets the employee's salary.
+     * @param salary A double containing the employee's
+     * salary.
+     */
+    public void setSalary(double salary)
+    {
+        this.salary = salary;
+    }
+}
+public class Address implements Cloneable
+{
+    public String street;
+    public String city;
+    public String state;
+    public String zipCode;
 }
