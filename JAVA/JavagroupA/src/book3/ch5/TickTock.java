@@ -6,7 +6,7 @@ public class TickTock {
     public static void main(String[] args) {
 
         Timer t = new Timer(1000, new Ticker());
-        t.start();
+        t.start();//
         JOptionPane.showMessageDialog(null, "Exit program if you are annoyed!!");
     }
 }
