@@ -1,4 +1,4 @@
-package com.gmail.marco.util.Payroll;
+package com.gmail.marco.Payroll;
 /** Represents an adress of employee.
  * @author Doug Lowe
  * @author www.LoweWriter.com

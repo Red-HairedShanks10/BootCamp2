@@ -1,4 +1,6 @@
-package com.gmail.marco.util.Payroll;
+package com.gmail.marco.Payroll;
+
+import com.gmail.marco.Payroll.Address;
 
 /** Represents an employee.
  * @author Doug Lowe
