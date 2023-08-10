@@ -4,7 +4,9 @@ public class TwoDimensionalArray {
     public static void main(String[] args) {
         double[][] sales = new double[5][4];
         for (int y = 0; y < 5 ; y++){
-
+            for(int r = 0; r < 4; r++){
+                sales[y][r]
+            }
         }
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         System.out.println("\tNorth\t\tSouth\t\tEast\t\tWest");
