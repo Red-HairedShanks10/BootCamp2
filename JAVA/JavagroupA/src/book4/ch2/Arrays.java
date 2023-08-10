@@ -13,7 +13,9 @@ public class Arrays {
 //        firstArray[2] = "Taipan";
 
 
+        int[] numbers = new int[10];
         for (int i = 0; i < 5; i++){
+
 
         }
 
