@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="JavagroupA:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/JavagroupA_jar</output-path>
+  <artifact type="jar" name="JavagroupA:TickTock">
+    <output-path>$PROJECT_DIR$/out/artifacts/JavagroupA_TickTock</output-path>
     <root id="archive" name="JavagroupA.jar">
       <element id="module-output" name="JavagroupA" />
     </root>
