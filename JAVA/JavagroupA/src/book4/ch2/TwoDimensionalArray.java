@@ -3,6 +3,9 @@ package book4.ch2;
 public class TwoDimensionalArray {
     public static void main(String[] args) {
         double[][] sales = new double[5][4];
+        for (int y = 0; y < 5 ; y++){
+
+        }
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         System.out.println("\tNorth\t\tSouth\t\tEast\t\tWest");
         int year = 2004;
