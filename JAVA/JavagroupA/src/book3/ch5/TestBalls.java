@@ -21,7 +21,7 @@ public class TestBalls implements IPlayableBall {
     @Override
     public void dropBall() {
         System.out.println("Dropping ball");
-    }//
+    }
 
 
     public static void main(String[] args) {
