@@ -11,7 +11,7 @@ public class TickTock {
     }
 }
 
-class Ticker implements ActionListener{//
+class Ticker implements ActionListener{
     private boolean tick = true;
     public void actionPerformed(ActionEvent event){
         if (tick){
