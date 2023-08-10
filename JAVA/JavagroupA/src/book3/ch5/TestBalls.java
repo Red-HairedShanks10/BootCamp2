@@ -29,7 +29,7 @@ public class TestBalls implements IPlayableBall {
 
         t.kickBall();
         t.throwBall();
-        t.catchBall();//
+        t.catchBall();
         t.dropBall();
     }
 }
