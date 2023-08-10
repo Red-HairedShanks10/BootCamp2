@@ -11,6 +11,8 @@ public class StringBuilderApp {
         StringBuilder sb = new StringBuilder(s);
         int vowelCount = 0;
 
-        for (int i = 0; i < s.length(); i++)
+        for (int i = 0; i < s.length(); i++){
+            
+        }
     }
 }
