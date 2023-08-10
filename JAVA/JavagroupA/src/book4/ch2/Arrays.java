@@ -22,11 +22,11 @@ public class Arrays {
 
       //System.out.println(firstArray[0]);
 
-        /*
+        /**/
         System.out.print("How many players? ");
         int count = sc.nextInt(); // sc is a Scanner
         String[] players = new String[count];
-        System.out.println(players.length); */
+        System.out.println(players.length);
     }
 
 }
