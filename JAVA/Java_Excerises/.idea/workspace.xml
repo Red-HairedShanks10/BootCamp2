@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c444459b-e812-4c85-a58f-1af465453861" name="Changes" comment="java exercises" />
+    <list default="true" id="c444459b-e812-4c85-a58f-1af465453861" name="Changes" comment="java exercises">
+      <change beforePath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/src/soccer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/src/soccer/Game.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -9,6 +14,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "Red-HairedShanks10"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8da2d28b-8aa2-4ded-9073-0b39e6730667" />
+        <option name="url" value="https://github.com/Red-HairedShanks10/BootCamp2.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -59,7 +78,127 @@
       <option name="project" value="LOCAL" />
       <updated>1691748177855</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691748485154</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1691748485154</updated>
+    </task>
+    <task id="LOCAL-00005" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691749047723</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1691749047723</updated>
+    </task>
+    <task id="LOCAL-00006" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691749077965</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691749077965</updated>
+    </task>
+    <task id="LOCAL-00007" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691749228912</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691749228912</updated>
+    </task>
+    <task id="LOCAL-00008" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691749456965</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1691749456965</updated>
+    </task>
+    <task id="LOCAL-00009" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691749467153</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1691749467153</updated>
+    </task>
+    <task id="LOCAL-00010" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691749560929</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1691749560929</updated>
+    </task>
+    <task id="LOCAL-00011" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691749814039</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1691749814039</updated>
+    </task>
+    <task id="LOCAL-00012" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750020853</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750020853</updated>
+    </task>
+    <task id="LOCAL-00013" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750077836</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750077836</updated>
+    </task>
+    <task id="LOCAL-00014" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750105972</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750105972</updated>
+    </task>
+    <task id="LOCAL-00015" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750174693</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750174693</updated>
+    </task>
+    <task id="LOCAL-00016" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750336407</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750336407</updated>
+    </task>
+    <task id="LOCAL-00017" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750680831</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750680831</updated>
+    </task>
+    <task id="LOCAL-00018" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750740293</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750740293</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
