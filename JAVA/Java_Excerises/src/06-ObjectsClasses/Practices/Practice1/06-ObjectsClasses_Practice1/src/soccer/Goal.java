@@ -9,5 +9,6 @@ package soccer;
  * @author Marco
  */
 public class Goal {
-    
+    public Team theTeam;
+
 }
