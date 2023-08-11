@@ -9,5 +9,5 @@ package soccer;
  * @author Marco
  */
 public class Game {
-    
+    public Team homeTeam;
 }
