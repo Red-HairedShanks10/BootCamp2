@@ -10,5 +10,5 @@ package soccer;
  */
 public class Team {
     public String teamName;
-    public soccer.Player
+    public soccer.Player;
 }
