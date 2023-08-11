@@ -8,8 +8,6 @@ package soccer;
  *
  * @author Marco
  */
-public class Player {
-   public String playerName;
+public class Team {
+    
 }
-
-
