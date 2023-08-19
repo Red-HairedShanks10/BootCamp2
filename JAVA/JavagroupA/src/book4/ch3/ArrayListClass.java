@@ -25,6 +25,7 @@ public class ArrayListClass {
         Iterator e_names = names.iterator();
         while(e_names.hasNext()){
             s = (String)e_names.next();
+            System.out.println(s);
         }
 
     }
