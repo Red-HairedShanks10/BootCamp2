@@ -1,6 +1,6 @@
 package book4.ch3;
 
-import java.util.ArrayList;
+import java.util.*;
 
 public class ArrayListClass {
     public static void main(String[] args) {
@@ -20,6 +20,8 @@ public class ArrayListClass {
         for(Object n : names ){
             System.out.println("name of person is: " + n);
         }
+
+        if (names.)
 
     }
 }
