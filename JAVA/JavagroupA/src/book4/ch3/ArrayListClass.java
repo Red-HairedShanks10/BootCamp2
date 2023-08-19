@@ -1,7 +1,9 @@
 package book4.ch3;
 
+import java.util.ArrayList;
+
 public class ArrayListClass {
     public static void main(String[] args) {
-
+        ArrayList signs = new ArrayList();
     }
 }
