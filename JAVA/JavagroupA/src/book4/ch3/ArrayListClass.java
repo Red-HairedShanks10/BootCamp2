@@ -30,7 +30,7 @@ public class ArrayListClass {
         }*/
 
         //updating values/elements
-        String[]
+        String[] newNames = new String[5];
         for (int i = 0; i < 5; i++){
             names.set(i,)
         }
