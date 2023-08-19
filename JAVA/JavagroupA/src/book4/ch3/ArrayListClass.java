@@ -17,9 +17,9 @@ public class ArrayListClass {
         }*/
 
         ///using enhanced for loop
-        for(Object n : names ){
+       /* for(Object n : names ){
             System.out.println("name of person is: " + n);
-        }
+        }*/
 
         String s;
         Iterator e_names = names.iterator();
