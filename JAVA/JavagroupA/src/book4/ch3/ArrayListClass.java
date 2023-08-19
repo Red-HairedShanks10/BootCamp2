@@ -21,10 +21,8 @@ public class ArrayListClass {
             System.out.println("name of person is: " + n);
         }
 
-        Iterator name = names.iterator();
-        if (){
-            System.out.println("names list has extra items  ");
-        }
+        String s;
+        Iterator e = nums.iterator();
 
     }
 }
