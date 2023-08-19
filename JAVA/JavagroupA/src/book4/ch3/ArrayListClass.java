@@ -32,6 +32,7 @@ public class ArrayListClass {
         //updating values/elements
         names.set(0, "ludo");
         names.set(2, "Drako");
+        System.out.println("new names: " + names);
 
 
     }
