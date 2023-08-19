@@ -8,7 +8,7 @@ public class ArrayListClass {
         names.add("Marco");
         names.add("Muzi");
         names.add("Tumi");
-        names.add("Marco");
+        names.add("Zico");
 
     }
 }
