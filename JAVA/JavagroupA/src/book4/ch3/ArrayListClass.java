@@ -11,5 +11,10 @@ public class ArrayListClass {
         names.add("Zico");
         names.add(2, "Kamo");//specifying the position of this element value
         System.out.println(names);
+    ///
+        for (int i = 0; i < names.size(); i++){
+
+        }
+
     }
 }
