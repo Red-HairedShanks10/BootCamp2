@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 public class ArrayListClass {
     public static void main(String[] args) {
-        ArrayList signs = new ArrayList();
+        ArrayList names = new ArrayList();
+        names.add("Drink Pepsi");
     }
 }
