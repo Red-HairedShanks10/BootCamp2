@@ -21,7 +21,7 @@ public class ArrayListClass {
             System.out.println("name of person is: " + n);
         }*/
 
-        //using the iterator and its methods for testing
+        //using the Iterator interface and its methods for accessing arraylists
         String s;
         Iterator e_names = names.iterator();
         while(e_names.hasNext()){
