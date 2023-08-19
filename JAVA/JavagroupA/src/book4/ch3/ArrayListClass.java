@@ -8,6 +8,7 @@ public class ArrayListClass {
         names.add("Marco");
         names.add("Marco");
         names.add("Marco");
+        names.add("Marco");
 
     }
 }
