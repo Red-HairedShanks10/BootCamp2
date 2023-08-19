@@ -5,6 +5,8 @@ import java.util.ArrayList;
 public class ArrayListClass {
     public static void main(String[] args) {
         ArrayList names = new ArrayList();
-        names.add("Drink Pepsi");
+        names.add("Marco");
+        names.add("Marco");
+
     }
 }
