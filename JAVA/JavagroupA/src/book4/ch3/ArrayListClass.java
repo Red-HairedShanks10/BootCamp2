@@ -22,12 +22,16 @@ public class ArrayListClass {
         }*/
 
         //using the Iterator interface and its methods for accessing arraylists
-        String s;
+        /*String s;
         Iterator e_names = names.iterator();
         while(e_names.hasNext()){
             s = (String)e_names.next();
             System.out.println(s);
-        }
+        }*/
+
+        //updating values/elements
+
+
 
     }
 }
