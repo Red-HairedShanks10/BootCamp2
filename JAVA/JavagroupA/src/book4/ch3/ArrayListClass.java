@@ -9,6 +9,7 @@ public class ArrayListClass {
         names.add("Muzi");
         names.add("Tumi");
         names.add("Zico");
+        names.add(2, "Kamo");
         System.out.println(names);
     }
 }
