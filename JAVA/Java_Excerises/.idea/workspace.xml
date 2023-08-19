@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c444459b-e812-4c85-a58f-1af465453861" name="Changes" comment="java exercises">
-      <change beforePath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/src/soccer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/src/soccer/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/build/classes/soccer/League.class" beforeDir="false" afterPath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/build/classes/soccer/League.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/src/soccer/League.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/06-ObjectsClasses/Practices/Practice1/06-ObjectsClasses_Practice1/src/soccer/League.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +18,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Red-HairedShanks10"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Red-HairedShanks10&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -198,7 +201,55 @@
       <option name="project" value="LOCAL" />
       <updated>1691750740293</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750773197</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750773197</updated>
+    </task>
+    <task id="LOCAL-00020" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750778521</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750778521</updated>
+    </task>
+    <task id="LOCAL-00021" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750813463</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750813463</updated>
+    </task>
+    <task id="LOCAL-00022" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691750961200</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1691750961200</updated>
+    </task>
+    <task id="LOCAL-00023" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691751015576</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1691751015576</updated>
+    </task>
+    <task id="LOCAL-00024" summary="java exercises">
+      <option name="closed" value="true" />
+      <created>1691751121763</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1691751121763</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
