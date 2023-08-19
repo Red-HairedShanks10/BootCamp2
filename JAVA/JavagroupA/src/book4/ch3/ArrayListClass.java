@@ -9,7 +9,7 @@ public class ArrayListClass {
         names.add("Muzi");
         names.add("Tumi");
         names.add("Zico");
-        names.add(2, "Kamo");
+        names.add(2, "Kamo");//specifying the position of this element value
         System.out.println(names);
     }
 }
