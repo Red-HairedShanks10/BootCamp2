@@ -7,7 +7,7 @@ public class ArrayListClass {
         ArrayList names = new ArrayList();
         names.add("Marco");
         names.add("Muzi");
-        names.add("Marco");
+        names.add("Tumi");
         names.add("Marco");
 
     }
