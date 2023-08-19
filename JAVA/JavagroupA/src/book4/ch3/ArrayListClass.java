@@ -13,7 +13,7 @@ public class ArrayListClass {
         System.out.println(names);
     ///
         for (int i = 0; i < names.size(); i++){
-
+            System.out.println("this person is: " + names.get(i));
         }
 
     }
