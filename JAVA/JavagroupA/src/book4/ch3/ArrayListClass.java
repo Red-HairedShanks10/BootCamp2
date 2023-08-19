@@ -10,7 +10,7 @@ public class ArrayListClass {
         names.add("Tumi");
         names.add("Zico");
         names.add(2, "Kamo");//specifying the position of this element value
-        System.out.println(names);
+        System.out.println("current names: " + names);
     ///using regular loop//to process names arrayList
      /*   for (int i = 0; i < names.size(); i++){
             System.out.println("this person is: " + names.get(i));
