@@ -9,6 +9,6 @@ public class ArrayListClass {
         names.add("Muzi");
         names.add("Tumi");
         names.add("Zico");
-
+        System.out.println(names);
     }
 }
