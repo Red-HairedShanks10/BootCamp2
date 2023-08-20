@@ -1,5 +1,5 @@
 package book4.ch4;
-
+ import java.util.*;
 public class GenStack<E> {
     private LinkedList<E> list = new LinkedList<E>();
 
