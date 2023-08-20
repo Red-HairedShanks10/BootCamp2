@@ -14,4 +14,8 @@ public class GenStack<E> {
     public E peek(){
         return list.peek();
     }
+
+    public boolean hasItems(){
+        return !list.isEmpty();
+    }
 }
