@@ -19,6 +19,7 @@ public class GenStackTest {
 
         while (gs.hasItems()){
             System.out.println(gs.pop());
+            System.out.println("There are now " + gs.size() + " items in the stack.\n");
         }
 
     }
