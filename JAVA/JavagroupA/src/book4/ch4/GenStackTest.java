@@ -8,7 +8,7 @@ public class GenStackTest {
         System.out.println("Pushing four items onto the stack.");
         gs.push("One");
         gs.push("Two");
-        gs.push();
+        gs.push("three");
         gs.push();
         gs.push();
 
