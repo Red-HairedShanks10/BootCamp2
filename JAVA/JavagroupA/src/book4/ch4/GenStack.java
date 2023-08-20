@@ -18,4 +18,8 @@ public class GenStack<E> {
     public boolean hasItems(){
         return !list.isEmpty();
     }
+
+    public int size(){
+
+    }
 }
