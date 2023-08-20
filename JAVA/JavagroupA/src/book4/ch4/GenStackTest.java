@@ -9,6 +9,7 @@ public class GenStackTest {
         gs.push("One");
         gs.push("Two");
         gs.push();
+        gs.push();
 
     }
 }
