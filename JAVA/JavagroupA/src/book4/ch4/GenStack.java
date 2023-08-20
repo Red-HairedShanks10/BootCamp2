@@ -6,4 +6,8 @@ public class GenStack<E> {
     public void push(E item){
         list.addFirst(item);
     }
+
+    public E pop(){
+
+    }
 }
