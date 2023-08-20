@@ -12,6 +12,6 @@ public class GenStackTest {
         gs.push("four");
         gs.push("five");
         System.out.println("There are " + gs.size() + " items in the stack.\n");
-
+        System.out.println("The top item is: " +gs.peek() + "\n");
     }
 }
