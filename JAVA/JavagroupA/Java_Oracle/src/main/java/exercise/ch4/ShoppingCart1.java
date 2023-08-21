@@ -4,8 +4,8 @@ package exercise.ch4;//4.2
 public class ShoppingCart1 {
 
     public static void main(String[] args) {
-        String custName = "Mary Smith";
-        String itemDesc = "Shirt";
+        String custName = "Marco";
+        String itemDesc = "Gaming PC";
         String message = custName+" wants to purchase a "+itemDesc;
         
         // Declare and initialize numeric fields: price, tax, quantity, and total
