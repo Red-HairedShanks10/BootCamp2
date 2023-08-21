@@ -10,7 +10,7 @@ public class ShoppingCart1 {
         
         // Declare and initialize numeric fields: price, tax, quantity, and total
         // Do not initialize total.
-        double price = 29.99;
+        double price = 139.99;
         int quantity = 2;
         double tax = 1.04;
         double total;
