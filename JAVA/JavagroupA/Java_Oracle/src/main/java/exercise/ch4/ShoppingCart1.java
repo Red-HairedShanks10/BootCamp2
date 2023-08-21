@@ -12,7 +12,7 @@ public class ShoppingCart1 {
         // Do not initialize total.
         double price = 139.99;
         int quantity = 3;
-        double tax = 1.04;
+        double tax = 1.34;
         double total;
         
         // Modify message to include quantity.
