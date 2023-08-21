@@ -1,5 +1,5 @@
 
-package ex04_1_exercise;
+package exercise.ch4;//exercise 4.1
 
 public class ShoppingCart {
 
