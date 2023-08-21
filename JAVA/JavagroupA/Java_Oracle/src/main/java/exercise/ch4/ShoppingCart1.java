@@ -1,7 +1,7 @@
 
-package ex04_2_exercise;
+package exercise.ch4;//4.2
 
-public class ShoppingCart {
+public class ShoppingCart1 {
 
     public static void main(String[] args) {
         String custName = "Mary Smith";
