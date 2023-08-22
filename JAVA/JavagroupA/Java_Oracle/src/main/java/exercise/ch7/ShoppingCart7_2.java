@@ -18,7 +18,7 @@ public class ShoppingCart7_2 {
 	// Put the full name back together, using StringBuilder append method.
 	//   You can just enter the String literal for the last name.
 	//   Print the full name.
-        sb.append(" Smith");
+        sb.append(" Silver");
 	
 	// Challenge: sb.append(custName.substring(spaceIdx));
 
