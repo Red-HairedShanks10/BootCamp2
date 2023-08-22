@@ -1,7 +1,7 @@
 
 package ex05_3_exercise;
 
-public class ShoppingCart {
+public class ShoppingCart5_3 {
 
     public static void main(String[] args) {
         // local variables
