@@ -3,7 +3,7 @@ package exercise.ch7;//7-1
 
 public class ShoppingCart7_1 {
     public static void main (String[] args){
-        String custName = "Steve Smith";
+        String custName = "Marco";
         String firstName;
         int spaceIdx;
         
