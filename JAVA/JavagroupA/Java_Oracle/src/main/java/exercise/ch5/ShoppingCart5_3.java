@@ -10,7 +10,7 @@ public class ShoppingCart5_3 {
 
         double price = 139.99;
         int quantity = 3;
-        double tax = 1.04;
+        double tax = 1.34;
        
         String items[];
         items = new String[4];
