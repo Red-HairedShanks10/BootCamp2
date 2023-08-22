@@ -4,8 +4,8 @@ package exercise.ch5;//5.1
 public class ShoppingCart {
 
     public static void main(String[] args) {
-        String custName = "Mary Smith";
-        String itemDesc = "Shirt";
+        String custName = "Marco";
+        String itemDesc = "Gaming PC";
 
 	// numeric fields
         double price = 21.99;
