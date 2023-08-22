@@ -5,7 +5,7 @@ public class ShoppingCart5_2 {
 
     public static void main(String[] args) {
          // local variables
-        String custName = "Mary Smith";
+        String custName = "Marco";
         String message = custName + " wants to purchase a several items.";
                     
         //Declare and initialize the items String array
