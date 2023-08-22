@@ -13,7 +13,7 @@ public class Item8_2 {
                 + price + ", "+colorCode);
     }
 
-    // Write a public 3-arg setItemFields method that returns void.
+    // created 3-arg setItemFields method that returns void.
     public void setItemFields(String desc, int qty, double pr) {
         this.desc = desc;
         this.quantity = qty;
