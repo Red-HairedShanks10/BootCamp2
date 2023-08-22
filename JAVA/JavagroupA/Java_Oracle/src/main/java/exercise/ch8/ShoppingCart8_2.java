@@ -1,7 +1,7 @@
 
-package ex08_2_exercise;
+package exercise.ch8;//8-2
 
-public class ShoppingCart {
+public class ShoppingCart8_2 {
 
     public static void main(String[] args) {
         Item item1 = new Item();
