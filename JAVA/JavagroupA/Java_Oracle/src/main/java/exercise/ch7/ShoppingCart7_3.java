@@ -10,7 +10,7 @@ public class ShoppingCart7_3 {
         
         long long1 = 7_000_000_000L;
         float flt1 = 18.43F;
-        char ch1 = 'U';
+        char ch1 = 'G';
         
 	// Print the long variable.
 	System.out.println("long1: "+long1);
