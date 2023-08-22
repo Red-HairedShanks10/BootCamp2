@@ -11,13 +11,8 @@ public class ShoppingCart5_3 {
         double price = 139.99;
         int quantity = 3;
         double tax = 1.34;
-       
-        String items[];
-        items = new String[4];
-        items[0] = "Shirt";
-        items[1] = "Belt";
-        items[2] = "Scarf";
-        items[3] = "Skirt";
+
+        String[] items = {"Gaming PC","Xbox","Phone","SSD"};
         
         message = custName + " wants to purchase "+items.length+" items.";
         System.out.println(message);
