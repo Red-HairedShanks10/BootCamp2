@@ -1,7 +1,7 @@
 
 package exercise.ch6;//6-2
 
-public class ShoppingCart {
+public class ShoppingCart6_2 {
 
     public static void main(String[] args) {
         // Declare and initialize 2 Item objects
