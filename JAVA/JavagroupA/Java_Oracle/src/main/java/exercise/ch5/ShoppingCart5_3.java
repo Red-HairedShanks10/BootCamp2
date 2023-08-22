@@ -10,7 +10,7 @@ public class ShoppingCart5_3 {
 
 
 
-        double tax = 1.34;
+
 
         String[] items = {"Gaming PC","Xbox","Phone","SSD"};
         
