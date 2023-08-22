@@ -8,7 +8,7 @@ public class ShoppingCart7_3 {
         
 	//  Declare and initialize variables of type long, float, and char.
         
-        long long1 = 7000000000L;
+        long long1 = 7_000_000_000L;
         float flt1 = 18.43F;
         char ch1 = 'G';
         
