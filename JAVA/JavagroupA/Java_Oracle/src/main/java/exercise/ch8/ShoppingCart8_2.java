@@ -7,7 +7,7 @@ public class ShoppingCart8_2 {
         Item8_2 item1 = new Item8_2();
 
         // Call the 3-arg setItemFields method and then call displayItem.
-        item1.setItemFields("Gaming PC", 1, 29.50);
+        item1.setItemFields("Gaming PC", 1, 135.95);
         item1.displayItem();
 
         // Call the 4-arg setItemFields method, checking the return value.
