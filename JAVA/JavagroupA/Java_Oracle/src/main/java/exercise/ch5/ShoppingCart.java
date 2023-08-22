@@ -8,7 +8,7 @@ public class ShoppingCart {
         String itemDesc = "Gaming PC";
 
 	// numeric fields
-        double price = 21.99;
+        double price = 139.99;
         int quantity = 2;
         double tax = 1.04;
 	double total;
