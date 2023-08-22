@@ -9,7 +9,7 @@ public class ShoppingCart {
 
 	// numeric fields
         double price = 139.99;
-        int quantity = 2;
+        int quantity = 3;
         double tax = 1.04;
 	double total;
 	String message = custName+" wants to purchase "+quantity+" "+itemDesc;
