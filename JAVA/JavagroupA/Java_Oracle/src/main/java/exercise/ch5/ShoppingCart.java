@@ -1,7 +1,7 @@
 
-package exercise.ch5;
+package exercise.ch5;//5-2
 
-public class ShoppingCart {
+public class ShoppingCart5_2 {
 
     public static void main(String[] args) {
          // local variables
