@@ -5,7 +5,7 @@ public class ShoppingCart5_3 {
 
     public static void main(String[] args) {
         // local variables
-        String custName = "Mary Smith";
+        String custName = "Marco";
         String message;
                 
         double price = 21.99;
