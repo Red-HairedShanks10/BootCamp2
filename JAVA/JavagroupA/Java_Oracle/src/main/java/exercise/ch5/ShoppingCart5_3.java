@@ -7,8 +7,8 @@ public class ShoppingCart5_3 {
         // local variables
         String custName = "Marco";
         String message;
-                
-        double price = 21.99;
+
+        double price = 139.99;
         int quantity = 2;
         double tax = 1.04;
        
