@@ -9,7 +9,7 @@ public class ShoppingCart5_3 {
         String message;
 
 
-        int quantity = 3;
+
         double tax = 1.34;
 
         String[] items = {"Gaming PC","Xbox","Phone","SSD"};
