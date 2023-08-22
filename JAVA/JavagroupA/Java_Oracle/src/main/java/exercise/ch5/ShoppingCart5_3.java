@@ -7,7 +7,7 @@ public class ShoppingCart5_3 {
         // local variables
         String custName = "Marco";
         String message;
-        
+
         String[] items = {"Gaming PC","Xbox","Phone","SSD"};
         
         message = custName + " wants to purchase "+items.length+" items.";
