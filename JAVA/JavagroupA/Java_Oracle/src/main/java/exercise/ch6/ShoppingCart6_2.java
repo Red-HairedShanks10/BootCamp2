@@ -10,8 +10,8 @@ public class ShoppingCart6_2 {
         item2 = new Item();
         
 	// Print both item descriptions and run code
-	item1.desc = "Shirt";
-        item2.desc = "Pants";
+	item1.desc = "PC";
+        item2.desc = "Phone";
 
 	// Assign one item to another and run it again.
         item1 = item2;
