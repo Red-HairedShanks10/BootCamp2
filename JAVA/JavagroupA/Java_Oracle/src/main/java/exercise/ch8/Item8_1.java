@@ -1,7 +1,7 @@
 
 package exercise.ch8;//8-1
 
-public class Item {
+public class Item8_1 {
     char color;
     
     // Declare and code the setColor method.
