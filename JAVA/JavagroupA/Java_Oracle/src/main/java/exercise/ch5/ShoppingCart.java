@@ -9,7 +9,7 @@ public class ShoppingCart5_2 {
         String message = custName + " wants to purchase a several items.";
                     
         //Declare and initialize the items String array
-        String[] items = {"Shirt","Socks","Scarf","Belt"};
+        String[] items = {"Gaming PC","Socks","Scarf","Belt"};
        
         // Change message to show the number of items purchased.  
         message = custName + " wants to purchase "+items.length+" items.";
