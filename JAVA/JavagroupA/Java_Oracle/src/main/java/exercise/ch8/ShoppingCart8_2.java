@@ -4,7 +4,7 @@ package exercise.ch8;//8-2
 public class ShoppingCart8_2 {
 
     public static void main(String[] args) {
-        Item item1 = new Item();
+        Item8_2 item1 = new Item8_2();
 
         // Call the 3-arg setItemFields method and then call displayItem.
         item1.setItemFields("Belt", 1, 29.50);
