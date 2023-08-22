@@ -8,7 +8,7 @@ public class ShoppingCart5_3 {
         String custName = "Marco";
         String message;
 
-        double price = 139.99;
+
         int quantity = 3;
         double tax = 1.34;
 
