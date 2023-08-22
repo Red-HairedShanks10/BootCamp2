@@ -3,7 +3,7 @@ package exercise.ch8;//8-1
 
 public class ShoppingCart8_1 {
     public static void main(String[] args){
-        Item item1 = new Item();
+        Item8_1 item1 = new Item8_1();
         
         // Call the setColor method on item1. Print an appropriate message, 
 	//  depending upon the return value.
