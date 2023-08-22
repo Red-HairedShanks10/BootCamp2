@@ -20,7 +20,7 @@ public class Item8_2 {
         this.price = pr;
     }
 
-    // Write a public 4-arg setItemDisplay method that returns an int.
+    // created 4-arg setItemDisplay method that returns an int.
     public int setItemFields(String desc, int qty, double pr, char c) {
         if (c != ' ') {
             colorCode = c;
