@@ -3,7 +3,7 @@ package exercise.ch7;//7-2
 
 public class ShoppingCart7_2 {
     public static void main (String[] args){
-        String custName = "Steve Smith";
+        String custName = "Marco";
         String firstName;
         int spaceIdx;
         StringBuilder sb;
