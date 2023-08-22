@@ -1,5 +1,5 @@
 
-package exercise.ch5;
+package exercise.ch5;//5-3
 
 public class ShoppingCart5_3 {
 
