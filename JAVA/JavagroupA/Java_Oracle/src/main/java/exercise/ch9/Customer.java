@@ -9,7 +9,9 @@ public class Customer {
     // Encapsulate the class.
     
     public String getName(){
+
         return name;
+
     }
     public void setName(String n){
 
