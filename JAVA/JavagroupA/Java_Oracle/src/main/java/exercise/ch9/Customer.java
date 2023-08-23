@@ -6,7 +6,7 @@ public class Customer {
     private String name;
     private String ssn;
    
-    // Encapsulate this class.  Make ssn read only.
+    // Encapsulate this class.
     
     public String getName(){
         return name;
@@ -16,6 +16,8 @@ public class Customer {
     }
     
     public String getSSN(){
+        // Make ssn read only.
         return ssn;
+
     }
 }
