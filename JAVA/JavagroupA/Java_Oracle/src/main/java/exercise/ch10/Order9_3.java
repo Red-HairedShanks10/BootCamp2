@@ -24,7 +24,7 @@ public class Order9_3 {
     }
 
     public void calcDiscount() {
-        // Replace the if logic with a switch statement. 
+        // using switch statements instead of if statements. 
 
         switch(custType){
             case NONPROFIT:
