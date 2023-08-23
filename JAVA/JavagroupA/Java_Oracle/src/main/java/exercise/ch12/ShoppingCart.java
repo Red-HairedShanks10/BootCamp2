@@ -1,4 +1,4 @@
-package ex12_1_exercise;
+package exercise.ch12;
 
 public class ShoppingCart {
 
