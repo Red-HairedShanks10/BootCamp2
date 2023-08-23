@@ -3,7 +3,7 @@ package exercise.ch10;
 
 public class ShoppingCart {
     public static void main(String args[]){
-        Order order1 = new Order("Marco", 950.00, "GP", Order.NONPROFIT);
+        Order9_2 order1 = new Order9_2("Marco", 950.00, "GP", Order9_2.NONPROFIT);
         System.out.println("For " + order1.name + " Discount is: "+ order1.getDiscount());
         
         Order order2 = new Order("Eze", 840.00, "WC", Order.PRIVATE);
