@@ -1,5 +1,5 @@
 
-package ex09_2_exercise;
+package exercise.ch9;
 
 
 public class Customer {
