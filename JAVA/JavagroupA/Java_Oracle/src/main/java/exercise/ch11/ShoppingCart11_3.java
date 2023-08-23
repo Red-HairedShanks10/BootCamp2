@@ -7,7 +7,7 @@ public class ShoppingCart11_3 {
                     new Item11_3("Pants",35.99)};
     
     public static void main(String[] args){   
-        ShoppingCart11_3 cart = new ShoppingCart();
+        ShoppingCart11_3 cart = new ShoppingCart11_3();
         cart.displayTotal();
     }
     
