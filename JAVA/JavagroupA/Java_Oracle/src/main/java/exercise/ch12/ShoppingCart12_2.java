@@ -1,6 +1,6 @@
-package ex12_2_exercise;
+package exercise.ch12;
 
-public class ShoppingCart {
+public class ShoppingCart12_2{
 
     public static void main(String[] args) {
         // instantiate a Shirt object and call its display method
