@@ -31,8 +31,8 @@ public class Order {
             }else discount = 5.00;//otherwise if equal to or less than 900//set it to 5%
         }
         else if (custType == PRIVATE){//if custType is Private
-            if (total > 900){//and if o
-                discount = 7.00;
+            if (total > 900){//and if total is over 900
+                discount = 7.00;//set dis
             }else discount = 0;
         }else if (custType == CORP){
             if (total < 500){
