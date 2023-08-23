@@ -1,7 +1,7 @@
 
 package exercise.ch10;
 
-public class Order {
+public class Order9_3 {
     static final char CORP = 'C';
     static final char PRIVATE = 'P';
     static final char NONPROFIT = 'N';
@@ -11,7 +11,7 @@ public class Order {
     double discount;
     char custType;
 
-    public Order(String name, double total, String state, char custType) {
+    public Order9_3(String name, double total, String state, char custType) {
         this.name = name;
         this.total = total;
         this.stateCode = state;
