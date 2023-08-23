@@ -1,7 +1,7 @@
 
 package exercise.ch11;
 
-public class ShoppingCart {
+public class ShoppingCart11_2 {
     public static void main(String[] args) {
         String name;
         int age;
