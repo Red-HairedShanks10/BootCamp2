@@ -1,5 +1,5 @@
 
-package ex10_3_exercise;
+package exercise.ch10;
 
 public class Order {
     static final char CORP = 'C';
