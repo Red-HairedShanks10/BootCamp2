@@ -2,7 +2,7 @@ package exercise.ch11;
 
 import java.util.ArrayList;
 
-public class ShoppingCart {
+public class ShoppingCart11_4 {
 
     public static void main(String[] args) {
         ArrayList<String> items = new ArrayList<>();
