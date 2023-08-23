@@ -36,7 +36,7 @@ public class Order {
             }else discount = 0;//otherwise set discount to 0%
         }
         else if (custType == CORP){//if Corp
-            if (total < 500){
+            if (total < 500){//and if total is less than 500 
                 discount = 8.00;
             }else discount = 5.00;
         }        
