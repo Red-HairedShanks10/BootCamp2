@@ -6,7 +6,7 @@ public class Item12_2 {
     private double price;
     static int nextId = 1;
     
-    public Item(){
+    public Item12_2(){
     // set default values
         setId();
         setDesc("No description assigned.");
