@@ -1,7 +1,7 @@
 
 package exercise.ch10;
 
-public class Order {
+public class Order9_2 {
     static final char CORP = 'C';
     static final char PRIVATE = 'P';
     static final char NONPROFIT = 'N';
