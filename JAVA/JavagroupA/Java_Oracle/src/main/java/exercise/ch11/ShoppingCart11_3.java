@@ -13,10 +13,10 @@ public class ShoppingCart11_3 {
     
     public void displayTotal(){
         double total = 0;
-        for(int idx = 0; idx < items.length; idx++){
-            if(items[idx].isBackOrdered()) 
+        for(int i = 0; i< items.length; i++){
+            if(items[i].isBackOrdered()) 
 		continue;
-            total += items[idx].getPrice();
+            total += items[i].getPrice();
         }
         System.out.println("Shopping Cart total: "+total);
     }
