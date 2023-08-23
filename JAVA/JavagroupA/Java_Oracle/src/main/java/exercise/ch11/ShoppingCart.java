@@ -1,5 +1,5 @@
 
-package ex11_3_exercise;
+package exercise.ch11;
 
 public class ShoppingCart {
     Item[] items = {new Item("Shirt",25.60), 
