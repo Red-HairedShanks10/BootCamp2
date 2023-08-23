@@ -10,6 +10,6 @@ public class ShoppingCart {
         System.out.println("For " + order2.name + " Discount is: "+ order2.getDiscount());
         
         Order order3 = new Order("Zeke", 840.00, "EC", Order.CORP);
-        System.out.println("For " + order2.name + " Discount is: "+ order2.getDiscount());
+        System.out.println("For " + order3.name + " Discount is: "+ order3.getDiscount());
     }
 }
