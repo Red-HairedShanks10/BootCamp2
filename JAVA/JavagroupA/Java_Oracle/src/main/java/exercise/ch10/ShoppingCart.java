@@ -9,7 +9,7 @@ public class ShoppingCart {
         Order9_2 order2 = new Order9_2("Eze", 840.00, "WC", Order9_2.PRIVATE);
         System.out.println("For " + order2.name + " Discount is: "+ order2.getDiscount());
         
-        Order order3 = new Order("Zeke", 460.00, "EC", Order.CORP);
+      Order9_2 order3 = new Order9_2("Zeke", 460.00, "EC", Order9_2.CORP);
         System.out.println("For " + order3.name + " Discount is: "+ order3.getDiscount());
     }
 }
