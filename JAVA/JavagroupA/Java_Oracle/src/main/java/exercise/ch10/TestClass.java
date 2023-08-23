@@ -10,10 +10,10 @@ public class TestClass {
         } else {
             x *= y;
         }
-        System.out.println("After if stmt, x = " + x);
+        System.out.println("with if statement, x: " + x);
         
         // Using a ternary operator for same logic.
         x = ((y / x) < 3) ? (x += y) : (x *= y);
-        System.out.println("After ternary op, x = " + x);
+        System.out.println("with ternary op, x: " + x);
     }
 }
