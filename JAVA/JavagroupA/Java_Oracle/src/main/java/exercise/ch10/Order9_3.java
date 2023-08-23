@@ -38,7 +38,7 @@ public class Order9_3 {
                  //and if total is less 500
                 discount = (total < 500)? 8.00 : 5.00;//set discount to 8% otherwise set it to 5%
                 break;
-            default:
+            default://if not any of these custType
                 System.out.println("Invalid custType");
         }   
     }
