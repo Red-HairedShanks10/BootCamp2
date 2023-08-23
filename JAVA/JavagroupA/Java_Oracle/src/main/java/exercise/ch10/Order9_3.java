@@ -30,7 +30,8 @@ public class Order9_3 {
             case NONPROFIT://in the case of Nonprofit
                 discount = (total > 900)? 10.00 : 5.00;//and if total is over 900 //set discount to 10% otherwise set it to 5%
                 break;
-            case PRIVATE:
+            case PRIVATE://in the case of Private
+                //and if total is over 900 //set discount to 10% otherwise set it to 5%
                 discount = (total > 900)? 7.00 : 0;
                 break;
             case (CORP):
