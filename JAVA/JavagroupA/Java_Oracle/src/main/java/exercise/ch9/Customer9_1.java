@@ -2,7 +2,7 @@
 package exercise.ch9;
 
 
-public class Customer {
+public class Customer9_1 {
     private String name;
     private String ssn;
    
