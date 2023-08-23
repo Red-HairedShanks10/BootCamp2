@@ -8,7 +8,7 @@ public class Item11_3 {
     private boolean isBackOrdered;
     private static int nextId = 1;
 
-    public Item(String desc, double price) {
+    public Item11_3(String desc, double price) {
         setId();
         this.desc = desc;
         this.price = price;
