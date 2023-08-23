@@ -7,7 +7,7 @@ public class Item12_1 {
     static int nextId = 1;
     
     public Item12_1(){//this constructor sets default values for new item object
-    // set default values
+    // the default values:
         setId();
         setDesc("No description assigned.");
         setPrice(0.00);
