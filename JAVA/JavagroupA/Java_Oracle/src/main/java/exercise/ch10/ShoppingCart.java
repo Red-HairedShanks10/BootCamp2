@@ -8,5 +8,8 @@ public class ShoppingCart {
         
         Order order2 = new Order("Eze", 840.00, "JH", Order.PRIVATE);
         System.out.println("For " + order2.name + " Discount is: "+ order2.getDiscount());
+        
+        Order order3 = new Order("Eze", 840.00, "JH", Order.PRIVATE);
+        System.out.println("For " + order2.name + " Discount is: "+ order2.getDiscount());
     }
 }
