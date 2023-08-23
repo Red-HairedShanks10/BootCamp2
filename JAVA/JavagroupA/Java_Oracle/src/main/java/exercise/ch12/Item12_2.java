@@ -13,7 +13,7 @@ public class Item12_2 {
         setPrice(0.00);
     }
     
-    public Item(String desc, double price) {
+    public Item12_2(String desc, double price) {
         setId();
         setDesc(desc);
         setPrice(price);
