@@ -12,7 +12,9 @@ public class Customer {
         return name;
     }
     public void setName(String n){
+
         name = n;
+
     }
     
     public String getSSN(){
