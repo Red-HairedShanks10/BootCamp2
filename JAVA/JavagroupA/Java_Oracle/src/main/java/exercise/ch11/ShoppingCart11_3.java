@@ -3,7 +3,7 @@ package exercise.ch11;
 
 public class ShoppingCart11_3 {
     Item11_3[] items = {new Item11_3("Shirt",25.60), 
-                    new Item("WristBand",1.00), 
+                    new Item11_3("WristBand",1.00), 
                     new Item("Pants",35.99)};
     
     public static void main(String[] args){   
