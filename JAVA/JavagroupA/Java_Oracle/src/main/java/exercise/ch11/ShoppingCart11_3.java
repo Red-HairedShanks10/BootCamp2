@@ -1,7 +1,7 @@
 
 package exercise.ch11;
 
-public class ShoppingCart {
+public class ShoppingCart11_3 {
     Item[] items = {new Item("Shirt",25.60), 
                     new Item("WristBand",1.00), 
                     new Item("Pants",35.99)};
