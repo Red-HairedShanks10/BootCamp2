@@ -1,5 +1,5 @@
 
-package ex10_1_exercise;
+package exercise.ch10;
 
 
 public class TestClass {
