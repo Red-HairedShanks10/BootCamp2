@@ -26,8 +26,8 @@ public class Order {
     // Code the calcDiscount method//to determine discount for each custType.
     public void calcDiscount() {
         if (custType == NONPROFIT){//if NonProfit....
-            if (total > 900){// and if
-                discount = 10.00;
+            if (total > 900){// and if order total is over 900
+                discount = 10.00;//set discount to 10%
             }else discount = 5.00;
         }else if (custType == PRIVATE){
             if (total > 900){
