@@ -4,7 +4,7 @@ package exercise.ch9;
 
 public class Customer9_1 {
     private String name;
-    private String ssn;
+    private String ssn;//social securtiy number
    
     //Add a custom constructor
     public Customer9_1(String name, String ssn){
