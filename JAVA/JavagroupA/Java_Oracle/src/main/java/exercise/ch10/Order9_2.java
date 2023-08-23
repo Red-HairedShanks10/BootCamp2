@@ -11,7 +11,7 @@ public class Order9_2 {
     double discount;
     char custType;
 
-    public Order(String name, double total, String state, char custType) {
+    public Order9_2(String name, double total, String state, char custType) {
         this.name = name;
         this.total = total;
         this.stateCode = state;
