@@ -6,7 +6,7 @@ public class Customer {
     private String name;
     private String ssn;
    
-    // Encapsulate this class.
+    // Encapsulate the class.
     
     public String getName(){
         return name;
