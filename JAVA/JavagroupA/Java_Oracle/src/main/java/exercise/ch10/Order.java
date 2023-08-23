@@ -29,8 +29,9 @@ public class Order {
             if (total > 900){// and if order total is over 900
                 discount = 10.00;//set the discount to 10%
             }else discount = 5.00;//otherwise if equal to or less than 900//set it to 5%
-        }else if (custType == PRIVATE){
-            if (total > 900){
+        }
+        else if (custType == PRIVATE){//if custType is Private
+            if (total > 900){//and if o
                 discount = 7.00;
             }else discount = 0;
         }else if (custType == CORP){
