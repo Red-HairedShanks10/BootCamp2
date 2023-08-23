@@ -4,7 +4,7 @@ package exercise.ch9;//9-1
 
 public class Customer {
     private String name;
-    private String ssn;
+    private String ssn;//social security number
    
     // Encapsulate the class.
     
