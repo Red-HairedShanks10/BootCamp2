@@ -1,6 +1,6 @@
-package ex11_3_exercise;
+package exercise.ch11;
 
-public class Item {
+public class Item11_3 {
 
     private int id;
     private String desc;
