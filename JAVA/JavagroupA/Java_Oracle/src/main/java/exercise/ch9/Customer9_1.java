@@ -7,7 +7,7 @@ public class Customer9_1 {
     private String ssn;
    
     //Add a custom constructor
-    public Customer(String name, String ssn){
+    public Customer9_1(String name, String ssn){
         this.name = name;
         this.ssn = ssn;
     }
