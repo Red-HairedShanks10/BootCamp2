@@ -28,7 +28,7 @@ public class Item11_3 {
 
 
     private void setId() {
-        id = Item.nextId++;
+        id = Item11_3.nextId++;
     }
 
     public int getId() {
