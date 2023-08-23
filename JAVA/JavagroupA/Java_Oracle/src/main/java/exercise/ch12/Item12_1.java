@@ -13,7 +13,7 @@ public class Item12_1 {
         setPrice(0.00);
     }
     
-    public Item12_1(String desc, double price) {
+    public Item12_1(String desc, double price) {//this version of the constructor demands values to be set
         setId();
         setDesc(desc);
         setPrice(price);
