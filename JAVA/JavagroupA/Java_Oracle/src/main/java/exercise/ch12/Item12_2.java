@@ -1,6 +1,6 @@
-package ex12_2_exercise;
+package exercise.ch12;
 
-public class Item {
+public class Item12_2 {
     private int id;
     private String desc;
     private double price;
