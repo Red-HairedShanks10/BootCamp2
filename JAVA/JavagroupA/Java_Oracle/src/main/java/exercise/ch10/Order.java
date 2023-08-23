@@ -32,7 +32,7 @@ public class Order {
         }
         else if (custType == PRIVATE){//if custType is Private
             if (total > 900){//and if total is over 900
-                discount = 7.00;//set dis
+                discount = 7.00;//set discount to 7%
             }else discount = 0;
         }else if (custType == CORP){
             if (total < 500){
