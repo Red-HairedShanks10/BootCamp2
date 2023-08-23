@@ -36,7 +36,7 @@ public class Order9_3 {
                 break;
             case (CORP)://in the case of CORP
                  //and if total is less 500
-                discount = (total < 500)? 8.00 : 5.00;//set discount to 10% otherwise set it to 5%
+                discount = (total < 500)? 8.00 : 5.00;//set discount to 8% otherwise set it to 5%
                 break;
             default:
                 System.out.println("Invalid custType");
