@@ -4,7 +4,7 @@ package exercise.ch11;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-public class ShoppingCart {
+public class ShoppingCart11_1 {
     public static void main(String[] args){
 	// Declare a LocalDateTime object
         LocalDateTime orderDate;
