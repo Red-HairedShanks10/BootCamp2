@@ -7,7 +7,7 @@ public class ShoppingCart11_4 {
     public static void main(String[] args) {
         ArrayList<String> items = new ArrayList<>();
         items.add("Gaming PC");
-        items.add("WristBand");
+        items.add("Xbox");
         items.add("Pants");
 
         System.out.println(items);
