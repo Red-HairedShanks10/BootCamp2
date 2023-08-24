@@ -8,8 +8,8 @@ public class ShoppingCart12_3 {
         
         // call the display method on the object, then the getColor method
         item.display();
-         if (item instanceof Shirt) {
-              String color = ((Shirt) item).getColor();
+         if (item instanceof Shirt12_3) {
+              String color = ((Shirt12_3) item).getColor();
                System.out.println("Color: " + color);
                 }else System.out.println("Item is not a Shirt.");
     }
