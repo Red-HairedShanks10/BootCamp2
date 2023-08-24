@@ -1,6 +1,6 @@
 package ex14_1_exercise;
 
-public class ShoppingCart {
+public class ShoppingCart14_1 {
     public static void main(String[] args){
         Calculator calc = new Calculator();
         int addResult = calc.add(43, 79);
