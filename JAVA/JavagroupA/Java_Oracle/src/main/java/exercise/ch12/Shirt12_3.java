@@ -18,5 +18,8 @@ public class Shirt12_3 extends Item12_3{
     
     // Code a public getColor method that converts the colorCode to a the color name
        // Use a switch statement.  Return the color name. 
+    public String getColor(){
+        String color = "";
+    }
 
 }
