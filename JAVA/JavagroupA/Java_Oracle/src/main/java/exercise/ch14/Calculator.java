@@ -1,4 +1,4 @@
-package ex14_1_exercise;
+package exercise.ch14;
 
 public class Calculator {
     public int add(int x, int y){
