@@ -8,6 +8,7 @@ public class ShoppingCart12_3 {
         
         // call the display method on the object, then the getColor method
         item.display();
+         if (item instanceof Shirt) {
 
     }
 }
