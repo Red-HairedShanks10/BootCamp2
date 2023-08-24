@@ -11,7 +11,7 @@ public class ShoppingCart11_4 {
         items.add("Phone");
 
         System.out.println(items);
-        items.add(2, "Belt");
+        items.add(2, "Midi keyboard");
         System.out.println(items);
 
          // Check for the existence of a particular String element.  
