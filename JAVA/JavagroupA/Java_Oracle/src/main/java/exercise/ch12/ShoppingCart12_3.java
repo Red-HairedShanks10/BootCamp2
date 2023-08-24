@@ -1,4 +1,4 @@
-package ex12_3_exercise;
+package exercise.ch12;
 
 public class ShoppingCart {
     public static void main(String[] args) {
