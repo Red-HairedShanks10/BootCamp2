@@ -10,5 +10,6 @@ public class ShoppingCart12_3 {
         item.display();
          if (item instanceof Shirt) {
               String color = ((Shirt) item).getColor();
+               System.out.println("Color: " + color);
     }
 }
