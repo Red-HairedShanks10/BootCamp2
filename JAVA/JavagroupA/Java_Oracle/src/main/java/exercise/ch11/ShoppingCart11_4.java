@@ -8,7 +8,7 @@ public class ShoppingCart11_4 {
         ArrayList<String> items = new ArrayList<>();
         items.add("Gaming PC");
         items.add("Xbox");
-        items.add("Pants");
+        items.add("Phone");
 
         System.out.println(items);
         items.add(2, "Belt");
