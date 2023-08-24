@@ -24,6 +24,9 @@ public class Shirt12_3 extends Item12_3{
             case 'R':
                 color = "Red";
                 break;
+               case 'G':
+                color = "Green";
+                break;
     }
 
 }
