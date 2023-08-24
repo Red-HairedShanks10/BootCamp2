@@ -7,7 +7,7 @@ public class ShoppingCart12_3 {
         Item12_3 item2 = new Shirt12_3(25.95, 'M', 'Y');
         
         // call the display method on the object, then the getColor method
-        item.display(); item2.display();
+        item.display();
          if (item instanceof Shirt12_3) {
               String color = ((Shirt12_3) item).getColor();
                System.out.println("Color: " + color);
