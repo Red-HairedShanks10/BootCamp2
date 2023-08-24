@@ -20,6 +20,10 @@ public class Shirt12_3 extends Item12_3{
        // Use a switch statement.  Return the color name. 
     public String getColor(){
         String color = "";
+         switch (colorCode){
+            case 'R':
+                color = "Red";
+                break;
     }
 
 }
