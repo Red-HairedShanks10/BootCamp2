@@ -5,7 +5,9 @@ public class ShoppingCart12_3 {
          // declare and instantiate a Shirt object using an Item reference type
         Item12_3 item = new Shirt12_3(35.95, 'L', 'R');
         
+        
         // call the display method on the object, then the getColor method
+        item.display();
 
     }
 }
