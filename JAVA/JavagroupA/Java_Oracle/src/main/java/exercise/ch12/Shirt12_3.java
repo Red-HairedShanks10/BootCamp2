@@ -1,6 +1,6 @@
 package exercise.ch12;
 
-public class Shirt extends Item{
+public class Shirt12_3 extends Item12_3{
     private char size;
     private char colorCode;
     
