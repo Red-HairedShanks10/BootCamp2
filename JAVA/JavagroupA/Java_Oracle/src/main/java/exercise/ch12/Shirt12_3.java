@@ -30,6 +30,13 @@ public class Shirt12_3 extends Item12_3{
             case 'B':
                 color = "Blue";
                 break;
+            case 'Y':
+                color = "Yellow";
+                break;
+            default:
+                color = "Invalid code";
+        }
+        return color;     
     }
 
 }
