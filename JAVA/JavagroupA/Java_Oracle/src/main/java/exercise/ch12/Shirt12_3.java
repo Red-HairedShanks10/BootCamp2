@@ -5,7 +5,7 @@ public class Shirt12_3 extends Item12_3{
     private char colorCode;
     
     public Shirt12_3(double price, char size, char colorCode){
-        super ("Shirt", price);
+        super ("Shirt", price);//call overloaded version of constructor
         this.size = size;
         this.colorCode = colorCode;
     }
