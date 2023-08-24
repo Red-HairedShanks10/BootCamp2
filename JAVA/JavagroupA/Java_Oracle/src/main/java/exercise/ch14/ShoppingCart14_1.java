@@ -8,7 +8,7 @@ public class ShoppingCart14_1 {
         
         // Handle possible ArithmeticException
         try {           
-            double divResult = calc.divide(15, 0);
+            double divResult = calc.divide(45, 0);
             System.out.println("Division Result: "+divResult);
         }catch (ArithmeticException ae){
             System.out.println(ae);
