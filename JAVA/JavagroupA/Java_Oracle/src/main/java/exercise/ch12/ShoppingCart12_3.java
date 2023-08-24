@@ -11,6 +11,6 @@ public class ShoppingCart12_3 {
          if (item instanceof Shirt12_3) {
               String color = ((Shirt12_3) item).getColor();
                System.out.println("Color: " + color);
-                }else System.out.println("Item is not a Shirt.");
+                }else System.out.println("this item is not a Shirt.");
     }
 }
