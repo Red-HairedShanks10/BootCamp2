@@ -1,6 +1,6 @@
 package exercise.ch13;
 
-public class Item {
+public class Item13_2 {
     private int id;
     private String desc;
     private double price;
