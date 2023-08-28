@@ -2,7 +2,7 @@ package exercise.ch13;
 
 import java.util.*;
 
-public class ShoppingCart {
+public class ShoppingCart13_1 {
     public static void main(String[] args){
         
             String[] days = {"monday","saturday","tuesday","sunday","friday"};            
