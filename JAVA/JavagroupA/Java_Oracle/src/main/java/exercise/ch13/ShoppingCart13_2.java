@@ -7,7 +7,7 @@ public class ShoppingCart13_2 {
     ArrayList<Item13_2> items = new ArrayList();
     
     public static void main(String[] args){
-        ShoppingCart cart = new ShoppingCart();
+        ShoppingCart13_2 cart = new ShoppingCart13_2();
         cart.fillCart();
         cart.removeItemFromCart("Trousers");
     }
