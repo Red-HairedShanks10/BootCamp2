@@ -1,4 +1,4 @@
-package ex13_2_exercise;
+package exercise.ch13;
 
 public class Shirt extends Item{
     private char size;
