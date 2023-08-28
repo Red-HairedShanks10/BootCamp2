@@ -1,4 +1,4 @@
-package ex13_2_exercise;
+package exercise.ch13;
 
 public class Trousers extends Item {
     private int size;
