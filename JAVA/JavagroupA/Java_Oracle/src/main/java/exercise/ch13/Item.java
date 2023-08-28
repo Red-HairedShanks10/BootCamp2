@@ -16,7 +16,7 @@ public class Item13_2 {
     }
     
     // Overloaded constructor takes description and price
-    public Item(String desc, double price, char cCode) {
+    public Item13_2(String desc, double price, char cCode) {
         setId();
         setDesc(desc);
         setPrice(price);
