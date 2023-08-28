@@ -1,4 +1,4 @@
-package ex13_1_exercise;
+package exercise.ch13;
 
 import java.util.*;
 
