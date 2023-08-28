@@ -1,4 +1,4 @@
-package ex13_2_exercise;
+package exercise.ch13;
 
 import java.util.ArrayList;
 import java.util.function.Predicate;
