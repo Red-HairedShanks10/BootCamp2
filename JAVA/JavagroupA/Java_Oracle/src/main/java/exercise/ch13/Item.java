@@ -32,7 +32,7 @@ public class Item13_2 {
 
     // Getter and Setter methods
     private void setId() {
-        id = Item.nextId++;
+        id = Item13_2.nextId++;
     }
 
     public int getId() {
