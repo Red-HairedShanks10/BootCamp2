@@ -3,7 +3,7 @@ package exercise.ch13;
 public class Shirt13_2 extends Item13_2{
     private char size;
     
-    public Shirt(double price, char size, char colorCode){
+    public Shirt13_2(double price, char size, char colorCode){
         super ("Shirt", price, colorCode);
         this.setSize(size);
     }
