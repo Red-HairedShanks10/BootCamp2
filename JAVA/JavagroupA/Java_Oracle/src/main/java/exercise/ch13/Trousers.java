@@ -1,6 +1,6 @@
 package exercise.ch13;
 
-public class Trousers extends Item {
+public class Trousers extends Item13_2 {
     private int size;
     private char gender;
     private String fit;
