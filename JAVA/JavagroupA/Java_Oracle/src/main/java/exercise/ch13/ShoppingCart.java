@@ -3,7 +3,7 @@ package exercise.ch13;
 import java.util.ArrayList;
 import java.util.function.Predicate;
 
-public class ShoppingCart {
+public class ShoppingCart13_2 {
     ArrayList<Item13_2> items = new ArrayList();
     
     public static void main(String[] args){
