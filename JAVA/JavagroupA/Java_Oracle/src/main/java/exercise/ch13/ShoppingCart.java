@@ -14,7 +14,7 @@ public class ShoppingCart {
     
     public void fillCart(){
         items.add(new Shirt13_2(40.95,'M','R'));
-        items.add(new Shirt(32.99,'M','Y'));
+        items.add(new Shirt13_2(32.99,'M','Y'));
         items.add(new Trousers(59.99,34,'B',"Relaxed",'M'));
         items.add(new Trousers(75.50,8,'G',"Skinny",'F'));
     }
