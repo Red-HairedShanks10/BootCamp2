@@ -5,7 +5,7 @@ public class Trousers13_2 extends Item13_2 {
     private char gender;
     private String fit;
     
-    public Trousers(double price, int size, char colorCode, String fit,char gender){
+    public Trousers13_2 (double price, int size, char colorCode, String fit,char gender){
         super ("Trousers", price, colorCode);
         this.setSize(size);
         this.setGender(gender);
