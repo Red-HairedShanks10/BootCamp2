@@ -60,7 +60,7 @@ public class ArrayListClass {
         Iterator iNums = nums.iterator();
         while(iNums.hasNext()) {//using while to iterate through nums collection//if theres an element(s) remaining...
             n = (int) iNums.next();//...then get next element
-            System.out.println("nums retriever by iterator: " + n);
+            System.out.println("nums retrieved by iterator: " + n);
         }
 
         //updating values/elements
