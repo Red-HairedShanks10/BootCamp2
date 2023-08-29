@@ -43,5 +43,8 @@ public class ArrayListClass {
 class Employee {
 
     String lastName, firstName;
-    public Employee()
+    public Employee(String lastName, String firstName){
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 }
