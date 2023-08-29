@@ -4,7 +4,7 @@ import java.util.*;
 
 public class ArrayListClass {
     public static void main(String[] args) {
-        ArrayList names = new ArrayList();//initial capacity of ArrayList is ten//you can change the capacity later on
+       ArrayList names = new ArrayList();//initial capacity of ArrayList is ten//you can change the capacity later on
         names.add("Marco");
         names.add("Muzi");
         names.add("Tumi");
