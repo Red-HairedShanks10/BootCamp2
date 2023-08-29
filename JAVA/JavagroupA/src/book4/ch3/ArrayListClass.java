@@ -49,4 +49,10 @@ class Employee {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    @Override
+    public String toString(){
+        return this.lastName + " " + firstName;
+    }
+
 }
