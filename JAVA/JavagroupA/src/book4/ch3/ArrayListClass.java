@@ -58,7 +58,7 @@ public class ArrayListClass {
         //Iterator with nums
         String n;
         Iterator iNums = nums.iterator();
-        while(iNums.hasNext()) {//using while to iterate through nums collection//if theres an element(s) remaining...
+        while(iNums.hasNext()) {//using while to iterate through nums collection//if theres at least an element remaining...
           n = (String) iNums.next();//...then get next element
             System.out.println("nums retrieved by iterator: " + n);
         }
