@@ -42,9 +42,10 @@ public class ArrayListClass {
             System.out.println("name of person is: " + n);
         }*/
 
-        for(Object n : nums ){
+        //for numbers
+       /* for(Object n : nums ){
             System.out.println("number is: " + n);
-        }
+        } */
 
         //using the Iterator interface and its methods for accessing arraylists
         /*String s;
