@@ -13,7 +13,7 @@ public class ArrayListClass {
         //adding nums strings
         nums.add("One");
         nums.add("Two");
-        nums.add("One");
+        nums.add("Three");//modifies capacity of Arraylist automatically
         //adding workers:
         workers.add(emp1);
         workers.add(emp2);
