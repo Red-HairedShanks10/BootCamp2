@@ -10,6 +10,8 @@ public class ArrayListClass {
         Employee emp1 = new Employee("Red", "Marco");
         Employee emp2 = new Employee("Jules", "Jones");
 
+        //adding nums strings
+        nums
         //adding workers:
         workers.add(emp1);
         workers.add(emp2);
