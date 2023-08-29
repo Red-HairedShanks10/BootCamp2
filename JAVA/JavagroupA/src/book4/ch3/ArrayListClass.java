@@ -38,7 +38,11 @@ public class ArrayListClass {
         } */
 
         ///using enhanced for loop
-       /**/ for(Object n : names ){
+       /* for(Object n : names ){
+            System.out.println("name of person is: " + n);
+        }*/
+
+        for(Object n : nums ){
             System.out.println("name of person is: " + n);
         }
 
