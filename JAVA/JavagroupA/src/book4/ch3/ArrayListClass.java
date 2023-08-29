@@ -9,7 +9,7 @@ public class ArrayListClass {
         names.add("Muzi");
         names.add("Tumi");
         names.add("Zico");
-        names.add(230);//cant add unspecified type in this String List
+       // names.add(230);//cant add unspecified type in this String List
         names.add(2, "Kamo");//specifying the position of this element value
         System.out.println("current names: " + names);
     ///using regular loop//to process names arrayList
