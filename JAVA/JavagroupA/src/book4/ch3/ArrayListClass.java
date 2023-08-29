@@ -56,10 +56,10 @@ public class ArrayListClass {
             System.out.println(s);
         }*/
         //Iterator with nums
-        int n;
+        String n;
         Iterator iNums = nums.iterator();
         while(iNums.hasNext()) {//using while to iterate through nums collection//if theres an element(s) remaining...
-            n = (int) iNums.next();//...then get next element
+          n = (String) iNums.next();//...then get next element
             System.out.println("nums retrieved by iterator: " + n);
         }
 
