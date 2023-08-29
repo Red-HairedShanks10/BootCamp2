@@ -33,6 +33,10 @@ public class ArrayListClass {
             System.out.println("this person is: " + names.get(i));
         }
 
+        for (int i = 0; i < nums.size(); i++){
+            System.out.println("this number is: " + nums.get(i));
+        }
+
         ///using enhanced for loop
        /* for(Object n : names ){
             System.out.println("name of person is: " + n);
