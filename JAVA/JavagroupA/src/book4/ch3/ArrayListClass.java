@@ -43,11 +43,10 @@ public class ArrayListClass {
         }*/
 
         //for numbers
-       /**/ for(Object n : nums ){
+       /* for(Object n : nums ){
             int i = nums.indexOf(n);
-
             System.out.println("number is: " + n + " at index: " + i);
-        }
+        }*/
 
         //using the Iterator interface and its methods for accessing arraylists
         /* String s;
