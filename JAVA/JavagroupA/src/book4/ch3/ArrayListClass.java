@@ -43,7 +43,7 @@ public class ArrayListClass {
         }*/
 
         //for numbers
-       /* for(Object n : nums ){
+       /* for(Object n : nums ){//using an index of an element
             int i = nums.indexOf(n);
             System.out.println("number is: " + n + " at index: " + i);
         }*/
