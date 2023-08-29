@@ -69,12 +69,11 @@ public class ArrayListClass {
         System.out.println("new names: " + names);*/
 
         ArrayList<String> newItems = new ArrayList<>();
-        newItems.set(0,"Uno");
-        newItems.set(1, "Dos");
-        newItems.set(2,"Tres");
+        newItems.add(0,"Uno");
+        newItems.add(1, "Dos");
+        newItems.add(2,"Tres");
         for (int i = 0; i < newItems.size(); i++){
-
-            nums.set(i,newItems.get(i));
+            nums.set(i, newItems.get(i));
         }
         System.out.println("este numero es: " + nums);
 
