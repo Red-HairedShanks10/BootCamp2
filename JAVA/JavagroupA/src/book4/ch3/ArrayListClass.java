@@ -60,7 +60,7 @@ public class ArrayListClass {
         Iterator iNums = nums.iterator();
         while(iNums.hasNext()) {
             n = (int) iNums.next();
-            System.out.println(n);
+            System.out.println("nums retriever by iterator: " + n);
         }
 
         //updating values/elements
