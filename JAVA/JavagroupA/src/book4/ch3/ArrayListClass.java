@@ -56,12 +56,12 @@ public class ArrayListClass {
             System.out.println(s);
         }*/
         //Iterator with nums
-        String n;
+        /*String n;
         Iterator iNums = nums.iterator();
         while(iNums.hasNext()) {//using while to iterate through nums collection//if theres at least an element remaining...
           n = (String) iNums.next();//...then get next element
             System.out.println("nums retrieved by iterator: " + n);
-        }
+        }*/
 
         //updating values/elements
        /* names.set(0, "ludo");
