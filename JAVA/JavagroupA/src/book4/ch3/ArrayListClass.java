@@ -29,9 +29,9 @@ public class ArrayListClass {
       //  System.out.println("current names: " + names);
 
     ///using regular loop//to process names arrayList
-     /* */   for (int i = 0; i < names.size(); i++){
+     /*   for (int i = 0; i < names.size(); i++){
             System.out.println("this person is: " + names.get(i));
-        }
+        }*/
 
         for (int i = 0; i < nums.size(); i++){
             System.out.println("this number is: " + nums.get(i));
