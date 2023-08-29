@@ -69,7 +69,7 @@ public class ArrayListClass {
         System.out.println("new names: " + names);*/
 
 
-        String first = nums.set(0,"Uno");
+        nums.set(0,"Uno");
         nums.set(1, "Dos");
         nums.set(2,"Tres");
         System.out.println("este numero es: " + nums);
