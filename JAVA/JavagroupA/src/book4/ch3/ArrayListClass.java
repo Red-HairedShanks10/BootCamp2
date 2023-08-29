@@ -58,7 +58,7 @@ public class ArrayListClass {
 
         int n;
         Iterator e_nums = nums.iterator();
-        while(e_nums.hasNext()) {
+        while(iNums.hasNext()) {
             n = (int) e_nums.next();
             System.out.println(n);
         }
