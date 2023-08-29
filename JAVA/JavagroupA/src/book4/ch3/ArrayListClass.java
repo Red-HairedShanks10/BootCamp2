@@ -14,7 +14,7 @@ public class ArrayListClass {
         nums.add("One");
         nums.add("Two");
         nums.add("Three");//modifies capacity of Arraylist automatically
-        nums.add(10,"Ten");
+        nums.add(10,"Ten");//index needs to exist before adding an element to it...
         //adding workers:
         workers.add(emp1);
         workers.add(emp2);
