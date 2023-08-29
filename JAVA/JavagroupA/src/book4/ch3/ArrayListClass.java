@@ -73,7 +73,7 @@ public class ArrayListClass {
         nums.set(1, "Dos");
         nums.set(2,"Tres");
         System.out.println("este numero es: " + nums);
-       // System.out.println("este numero es: " + first);
+       System.out.println("primer número: " + first);
     }
 }
 
