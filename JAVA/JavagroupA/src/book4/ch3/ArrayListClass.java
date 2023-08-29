@@ -11,7 +11,9 @@ public class ArrayListClass {
         Employee emp2 = new Employee("Jules", "Jones");
 
         //adding nums strings
-        nums
+        nums.add("One");
+        nums.add("Two");
+        nums.add("One");
         //adding workers:
         workers.add(emp1);
         workers.add(emp2);
