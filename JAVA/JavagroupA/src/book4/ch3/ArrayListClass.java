@@ -56,11 +56,11 @@ public class ArrayListClass {
             System.out.println(s);
         }*/
 
-        String s;
-        Iterator e_names = names.iterator();
-        while(e_names.hasNext()) {
-            s = (String) e_names.next();
-            System.out.println(s);
+        int n;
+        Iterator e_nums = nums.iterator();
+        while(e_nums.hasNext()) {
+            n = (String) e_names.next();
+            System.out.println(n);
         }
 
         //updating values/elements
