@@ -41,5 +41,7 @@ public class ArrayListClass {
 
 
 class Employee {
-    public
+
+    String lastName, firstName;
+    public Employee()
 }
