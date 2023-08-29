@@ -6,7 +6,6 @@ public class ArrayListClass {
     public static void main(String[] args) {
        ArrayList<Employee> workers = new ArrayList();
        ArrayList<String> nums = new ArrayList<>(2);//setting initial cap to 2
-        ArrayList<String> newItems = new ArrayList<>();
        ArrayList<String> names = new ArrayList();//initial capacity of ArrayList is ten//you can change the capacity later on
         Employee emp1 = new Employee("Red", "Marco");
         Employee emp2 = new Employee("Jules", "Jones");
@@ -69,13 +68,13 @@ public class ArrayListClass {
         names.set(2, "Drako");
         System.out.println("new names: " + names);*/
 
-
+        ArrayList<String> newItems = new ArrayList<>();
         newItems.set(0,"Uno");
         newItems.set(1, "Dos");
         newItems.set(2,"Tres");
-
         for (int i = 0; i < newItems.size(); i++){
-            System.out.println(nums.set(i,newItems.get(i)));
+
+            nums.set(i,newItems.get(i));
         }
         System.out.println("este numero es: " + nums);
 
