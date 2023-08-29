@@ -55,10 +55,10 @@ public class ArrayListClass {
             s = (String)e_names.next();
             System.out.println(s);
         }*/
-
+        //Iterator with nums
         int n;
         Iterator iNums = nums.iterator();
-        while(iNums.hasNext()) {
+        while(iNums.hasNext()) {//using while
             n = (int) iNums.next();
             System.out.println("nums retriever by iterator: " + n);
         }
