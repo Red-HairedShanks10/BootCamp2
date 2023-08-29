@@ -68,6 +68,9 @@ public class ArrayListClass {
         names.set(2, "Drako");
         System.out.println("new names: " + names);*/
 
+        nums.set(0,"Uno");
+        nums.set(1, "Dos");
+        nums.set(2,"Tres");
 
     }
 }
