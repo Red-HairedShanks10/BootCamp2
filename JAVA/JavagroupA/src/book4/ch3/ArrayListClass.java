@@ -43,17 +43,20 @@ public class ArrayListClass {
         }*/
 
         //for numbers
-       /* for(Object n : nums ){
-            System.out.println("number is: " + n);
-        } */
+       /**/ for(Object n : nums ){
+            int i = nums.indexOf(n);
+
+            System.out.println("number is: " + n + " at index: " + i);
+        }
 
         //using the Iterator interface and its methods for accessing arraylists
-        /*String s;
+        /* String s;
         Iterator e_names = names.iterator();
         while(e_names.hasNext()){
             s = (String)e_names.next();
             System.out.println(s);
         }*/
+
 
         //updating values/elements
        /* names.set(0, "ludo");
