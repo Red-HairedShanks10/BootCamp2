@@ -5,6 +5,8 @@ import java.util.*;
 public class ArrayListClass {
     public static void main(String[] args) {
        ArrayList<String> names = new ArrayList();//initial capacity of ArrayList is ten//you can change the capacity later on
+        Employee emp1 = new Employee("Red", "Marco");
+
         names.add("Marco");
         names.add("Muzi");
         names.add("Tumi");
