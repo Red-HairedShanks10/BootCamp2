@@ -70,12 +70,15 @@ public class ArrayListClass {
         System.out.println("new names: " + names);*/
 
 
-        nums.set(0,"Uno");
-        nums.set(1, "Dos");
-        nums.set(2,"Tres");
-        String first = nums.get(0);
+        newItems.set(0,"Uno");
+        newItems.set(1, "Dos");
+        newItems.set(2,"Tres");
+
+        for (int i = 0; i < newItems.size(); i++){
+            System.out.println(nums.set(i,newItems.get(i)));
+        }
         System.out.println("este numero es: " + nums);
-       System.out.println("primer número: " + first);
+
     }
 }
 
