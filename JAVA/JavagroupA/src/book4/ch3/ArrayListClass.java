@@ -7,10 +7,11 @@ public class ArrayListClass {
        ArrayList<Employee> workers = new ArrayList();
        ArrayList<String> names = new ArrayList();//initial capacity of ArrayList is ten//you can change the capacity later on
         Employee emp1 = new Employee("Red", "Marco");
+        Employee emp2 = new Employee("Jules", "Jones");
 
         //adding workers:
         workers.add(emp1);
-
+        System.out.println("current employees: " + workers);
        // names.add("Marco");
         names.add("Muzi");
         names.add("Tumi");
