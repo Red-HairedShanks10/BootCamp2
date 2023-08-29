@@ -38,9 +38,9 @@ public class ArrayListClass {
         } */
 
         ///using enhanced for loop
-       /* for(Object n : names ){
+       /**/ for(Object n : names ){
             System.out.println("name of person is: " + n);
-        }*/
+        }
 
         //using the Iterator interface and its methods for accessing arraylists
         /*String s;
