@@ -10,5 +10,6 @@ public class GenQueueTest {
 
         GenQueue<HourlyEmployee> hList;
         hList = new GenQueue<HourlyEmployee>();
+
     }
 }
