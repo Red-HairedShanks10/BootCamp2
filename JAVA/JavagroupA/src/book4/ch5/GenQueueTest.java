@@ -1,6 +1,5 @@
 package book4.ch5;
 
-import book3.ch4.HourlyEmployee;
 
 
 public class GenQueueTest {
