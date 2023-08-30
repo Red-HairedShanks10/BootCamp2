@@ -21,7 +21,7 @@ public class ArrayListClass {
         emps.add(emp2);
         emps.add(emp3);
         emps.remove(emp2);
-        System.out.println("current employees: " + workers);
+        System.out.println("current employees: " + emps);
        // names.add("Marco");
         names.add("Muzi");
         names.add("Tumi");
