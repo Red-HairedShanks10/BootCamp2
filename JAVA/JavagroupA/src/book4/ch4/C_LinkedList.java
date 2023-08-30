@@ -11,5 +11,9 @@ public class C_LinkedList {
         officers.add("Captain Tumijin");
         officers.add("Major General Kurama");
         officers.add("Captain McIntyre");
+
+        for (String officer : officers){
+
+        }
     }
 }
