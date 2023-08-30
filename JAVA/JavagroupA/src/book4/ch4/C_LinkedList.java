@@ -16,7 +16,7 @@ public class C_LinkedList {
         officers.addFirst("Lieutenant General Blake");
         officers.addFirst("General Marco");
         officers.addFirst("Captain Tumijin");
-        officers.add("Major General Kurama");
+        officers.addFirst("Major General Kurama");
         officers.add("Captain McIntyre");
 
         for (String officer : officers){
