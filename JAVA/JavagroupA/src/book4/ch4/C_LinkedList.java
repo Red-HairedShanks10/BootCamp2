@@ -30,7 +30,7 @@ public class C_LinkedList {
       //  System.out.println("commissioned officer(removed): " + removeOfficer );
         officers.remove(2);
         officers.remove();
-        System.out.println("commissioned officers(Removed):" + officers );
+        System.out.println("commissioned officers(after Removed):" + officers );
 
         officers.clear();
         System.out.println("commissioned officers:" + officers );
