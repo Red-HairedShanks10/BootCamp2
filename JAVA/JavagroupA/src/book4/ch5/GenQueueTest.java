@@ -12,6 +12,12 @@ public class GenQueueTest {
         hList.enqueue(new HourlyEmployee("Zoro", "Roronoa"));
         hList.enqueue(new HourlyEmployee("Vinsmoke", "Sanji"));
         hList.enqueue(new HourlyEmployee("Rocks", "Xebec"));
+        hList.enqueue(new HourlyEmployee(
+                "Trump", "Donald"));
+        hList.enqueue(new HourlyEmployee(
+                "Gates", "Bill"));
+        hList.enqueue(new HourlyEmployee(
+                "Forbes", "Steve"));
 
     }
 }
