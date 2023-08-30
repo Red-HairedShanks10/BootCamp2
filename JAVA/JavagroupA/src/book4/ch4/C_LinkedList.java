@@ -13,7 +13,7 @@ public class C_LinkedList {
         officers.add("Captain McIntyre");
         officers.add(2,"Sergeant Major Tuttle");
         System.out.println("commissioned officers: " + officers );
-       String removeOfficer = officers.set(2,"Murdock");
+       String removeOfficer = officers.set(2,"Murdock");//storing the replaced item to this string variable
        officers.add(5,Rico);//removing with a reference of a string value
         System.out.println("commissioned officers(replacement): " + officers );
         //addFirst
