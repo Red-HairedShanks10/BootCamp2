@@ -11,4 +11,8 @@ public class GenQueue<E> {
         return list.poll();
     }
 
+    public boolean hasItems(){
+        
+    }
+
 }
