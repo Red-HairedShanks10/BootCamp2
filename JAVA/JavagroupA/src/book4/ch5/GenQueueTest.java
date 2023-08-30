@@ -17,5 +17,9 @@ public class GenQueueTest {
         hList.enqueue(new HourlyEmployee("Forbes", "Steve"));
 
         empList.addItems(hList);
+
+        while (empList.hasItems()){
+
+        }
     }
 }
