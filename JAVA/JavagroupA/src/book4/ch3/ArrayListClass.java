@@ -9,6 +9,7 @@ public class ArrayListClass {
        ArrayList<String> names = new ArrayList();//initial capacity of ArrayList is ten//you can change the capacity later on
         Employee emp1 = new Employee("Red", "Marco");
         Employee emp2 = new Employee("Jules", "Jones");
+        Employee emp2 = new Employee("Jules", "Jones");
 
         //adding nums strings
         nums.add("One");
