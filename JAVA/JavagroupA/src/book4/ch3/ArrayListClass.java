@@ -21,13 +21,14 @@ public class ArrayListClass {
         emps1.add(emp1);
         emps1.add(emp2);
         emps1.add(emp3);
-        System.out.println(emps1);//printing emps before remove()...
+     //   System.out.println(emps1);//printing emps before remove()...
         emps1.remove(emp2);
-        System.out.println("current employees: " + emps1);//printing emps after removing an element
+       // System.out.println("current employees: " + emps1);//printing emps after removing an element
 
         //emps2
         emps2.add(emp2);
         emps2.add(emp3);
+        emps1.removeAll(emps2);//removeAll
 
 
 
