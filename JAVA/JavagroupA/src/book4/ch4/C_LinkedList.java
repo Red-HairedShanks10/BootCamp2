@@ -10,5 +10,6 @@ public class C_LinkedList {
         officers.add("General Marco");
         officers.add("Captain Tumijin");
         officers.add("Major General Kurama");
+        officers.add("Captain McIntyre");
     }
 }
