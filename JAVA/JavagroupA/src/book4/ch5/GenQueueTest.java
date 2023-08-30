@@ -9,7 +9,8 @@ public class GenQueueTest {
 
         GenQueue<HourlyEmployee> hList;
         hList = new GenQueue<HourlyEmployee>();
-        hList.enqueue(new HourlyEmployee("Trump", "Donald"));
+        hList.enqueue(new HourlyEmployee("Zoro", "Roronoa"));
+
 
     }
 }
