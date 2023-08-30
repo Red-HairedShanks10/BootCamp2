@@ -8,7 +8,7 @@ public class ArrayListClass {
        ArrayList<String> nums = new ArrayList<>(2);//setting initial cap to 2
        ArrayList<String> names = new ArrayList();//initial capacity of ArrayList is ten//you can change the capacity later on
         Employee emp1 = new Employee("Red", "Marco");
-        Employee emp2 = new Employee("Jules", "Jones");
+        Employee emp2 = new Employee("Kenshin", "Himura");
         Employee emp3 = new Employee("Urameshi", "Yusuke");
 
         //adding nums strings
