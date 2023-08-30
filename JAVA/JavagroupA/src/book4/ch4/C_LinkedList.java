@@ -6,8 +6,9 @@ public class C_LinkedList {
     public static void main(String[] args) {
         LinkedList<String> officers = new LinkedList<>();
 
-        officers.add("Blake");
-        officers.add("Marco");
+        officers.add("Lieutenant Blake");
+        officers.add("General Marco");
         officers.add("Tumijin");
+        officers.add("Blake");
     }
 }
