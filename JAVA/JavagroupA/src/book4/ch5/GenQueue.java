@@ -1,5 +1,6 @@
 package book4.ch5;
-
+import java.util.*;
 public class GenQueue<E> {
     private LinkedList<E> list = new LinkedList<E>();
+
 }
