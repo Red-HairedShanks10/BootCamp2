@@ -1,4 +1,4 @@
-package book4.ch4;
+package book4.ch5;
 
 public class GenStackTest {
     public static void main(String[] args) {
