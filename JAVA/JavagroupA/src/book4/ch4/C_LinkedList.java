@@ -38,6 +38,6 @@ public class C_LinkedList {
         System.out.println("commissioned officers(after Removed):" + officers );
 
         officers.clear();
-        System.out.println("commissioned officers:" + officers );
+        System.out.println("cleared commissioned officers:" + officers );
     }
 }
