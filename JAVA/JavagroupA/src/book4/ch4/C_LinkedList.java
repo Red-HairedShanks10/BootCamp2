@@ -8,5 +8,6 @@ public class C_LinkedList {
 
         officers.add("Blake");
         officers.add("Marco");
+        officers.add("Tumijin");
     }
 }
