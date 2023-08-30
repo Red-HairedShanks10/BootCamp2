@@ -13,8 +13,8 @@ public class C_LinkedList {
         officers.add("Captain McIntyre");
 
         //addFirst
-        officers.add("Lieutenant General Blake");
-        officers.add("General Marco");
+        officers.addFirst("Lieutenant General Blake");
+        officers.addFirst("General Marco");
         officers.add("Captain Tumijin");
         officers.add("Major General Kurama");
         officers.add("Captain McIntyre");
