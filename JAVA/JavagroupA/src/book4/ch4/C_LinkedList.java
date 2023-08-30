@@ -13,7 +13,7 @@ public class C_LinkedList {
         officers.add("Captain McIntyre");
         officers.add(2,"Sergeant Major Tuttle");
         System.out.println("commissioned officers: " + officers );
-        officers.set(2,"Murdock");
+       String removeOfficer = officers.set(2,"Murdock");
         System.out.println("commissioned officers(replacement): " + officers );
         //addFirst
         /*officers.addFirst("Lieutenant General Blake");
@@ -25,5 +25,7 @@ public class C_LinkedList {
         for (String officer : officers){
             System.out.println("this is commissioned officer: " + officer );
         }
+
+        System.out.println("commissioned officer(removed): " + removeOfficer );
     }
 }
