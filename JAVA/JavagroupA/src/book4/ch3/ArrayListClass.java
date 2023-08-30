@@ -17,7 +17,7 @@ public class ArrayListClass {
         //nums.add(10,"Ten");//index needs to exist before adding an element to it...
         //adding workers:
         emps.add(emp1);
-        workers.add(emp2);
+        emps.add(emp2);
        // System.out.println("current employees: " + workers);
        // names.add("Marco");
         names.add("Muzi");
