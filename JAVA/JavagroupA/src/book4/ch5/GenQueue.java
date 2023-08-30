@@ -15,4 +15,8 @@ public class GenQueue<E> {
         return !list.isEmpty();
     }
 
+    public int size(){
+        
+    }
+
 }
