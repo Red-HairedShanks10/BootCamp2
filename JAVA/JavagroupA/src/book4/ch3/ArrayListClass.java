@@ -18,8 +18,8 @@ public class ArrayListClass {
         nums.add("Three");//modifies capacity of Arraylist automatically
         //nums.add(10,"Ten");//index needs to exist before adding an element to it...
         //adding employees into emps arraylist:
-        emps.add(emp1);
-        emps.add(emp2);
+        emps1.add(emp1);
+        emps1.add(emp2);
         emps.add(emp3);
         System.out.println(emps);//printing emps before remove()...
         emps.remove(emp2);
