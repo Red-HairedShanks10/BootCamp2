@@ -19,4 +19,8 @@ public class GenQueue<E> {
         return list.size();
     }
 
+    public void addItems(GenQueue<? extends E> q){
+
+    }
+
 }
