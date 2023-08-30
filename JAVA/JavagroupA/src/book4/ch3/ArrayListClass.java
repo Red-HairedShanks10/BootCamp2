@@ -19,8 +19,8 @@ public class ArrayListClass {
         //nums.add(10,"Ten");//index needs to exist before adding an element to it...
         //adding employees into emps arraylist:
         emps1.add(emp1);
-        emps1.add(emp2);
-        emps1.add(emp3);
+       // emps1.add(emp2);
+       // emps1.add(emp3);
      //   System.out.println(emps1);//printing emps before remove()...
         emps1.remove(emp2);
        // System.out.println("current employees: " + emps1);//printing emps after removing an element
