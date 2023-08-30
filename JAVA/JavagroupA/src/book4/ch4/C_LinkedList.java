@@ -27,6 +27,12 @@ public class C_LinkedList {
             System.out.println("this is commissioned officer: " + officer );
         }
 
-        System.out.println("commissioned officer(removed): " + removeOfficer );
+      //  System.out.println("commissioned officer(removed): " + removeOfficer );
+
+        officers.remove();
+        System.out.println("commissioned officers(First Removed):" + officers );
+
+        officers.clear();
+        System.out.println("commissioned officers:" + officers );
     }
 }
