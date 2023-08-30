@@ -30,7 +30,7 @@ public class ArrayListClass {
         emps2.add(emp3);
       //  emps1.removeAll(emps2);//removeAll, removes the two elements in emps2 that are also in emps1
       //  System.out.println(emps1);//printing after remove all
-        emps1.retainAll(emps2);
+        emps1.retainAll(emps2);//retainAll
         System.out.println(emps1);
 
 
