@@ -13,11 +13,11 @@ public class C_LinkedList {
         officers.add("Captain McIntyre");
 
         //addFirst
-        officers.addFirst("Lieutenant General Blake");
+        /*officers.addFirst("Lieutenant General Blake");
         officers.addFirst("General Marco");
         officers.addFirst("Captain Tumijin");
         officers.addFirst("Major General Kurama");
-        officers.addFirst("Captain McIntyre");
+        officers.addFirst("Captain McIntyre");*/
 
         for (String officer : officers){
             System.out.println("this is commissioned officer: " + officer );
