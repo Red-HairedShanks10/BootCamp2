@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class C_LinkedList {
     public static void main(String[] args) {
         LinkedList<String> officers = new LinkedList<>();
-        String Rico = " Brigadier General Rico";
+        String Rico = "Brigadier General Rico";
         officers.add("Lieutenant General Blake");
         officers.add("General Marco");
         officers.add("Captain Tumijin");
