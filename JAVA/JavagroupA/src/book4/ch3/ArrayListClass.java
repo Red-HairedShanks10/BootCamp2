@@ -68,14 +68,16 @@ public class ArrayListClass {
         names.set(2, "Drako");
         System.out.println("new names: " + names);*/
 
-        ArrayList<String> newItems = new ArrayList<>();
+      /*  ArrayList<String> newItems = new ArrayList<>();
         newItems.add(0,"Uno");
         newItems.add(1, "Dos");
         newItems.add(2,"Tres");
         for (int i = 0; i < newItems.size(); i++){
             nums.set(i, newItems.get(i));
         }
-        System.out.println("este numero es: " + nums);
+        System.out.println("este numero es: " + nums);*/
+
+
     }
 }
 
