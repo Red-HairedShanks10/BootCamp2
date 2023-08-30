@@ -23,9 +23,9 @@ public class C_LinkedList {
         officers.addFirst("Major General Kurama");
         officers.addFirst("Captain McIntyre");*/
 
-        for (String officer : officers){
+       /* for (String officer : officers){
             System.out.println("this is commissioned officer: " + officer );
-        }
+        }*/
 
       //  System.out.println("commissioned officer(removed): " + removeOfficer );
         officers.remove(2);
