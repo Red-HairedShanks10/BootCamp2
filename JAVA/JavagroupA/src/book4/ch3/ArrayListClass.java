@@ -19,6 +19,7 @@ public class ArrayListClass {
         //adding workers:
         emps.add(emp1);
         emps.add(emp2);
+        emps.add(emp2);
        // System.out.println("current employees: " + workers);
        // names.add("Marco");
         names.add("Muzi");
