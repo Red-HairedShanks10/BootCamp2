@@ -9,6 +9,7 @@ public class GenStack<E> {
     }
 
     public E pop(){
+
         return list.poll();
     }
 
