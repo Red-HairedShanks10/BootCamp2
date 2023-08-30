@@ -76,7 +76,6 @@ public class ArrayListClass {
             nums.set(i, newItems.get(i));
         }
         System.out.println("este numero es: " + nums);
-
     }
 }
 
