@@ -20,6 +20,7 @@ public class ArrayListClass {
         emps.add(emp1);
         emps.add(emp2);
         emps.add(emp3);
+        System.out.println(emps);
         emps.remove(emp2);
 
        // names.add("Marco");
