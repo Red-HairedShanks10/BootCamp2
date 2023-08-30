@@ -8,7 +8,7 @@ public class C_LinkedList {
 
         officers.add("Lieutenant General Blake");
         officers.add("General Marco");
-        officers.add("Tumijin");
+        officers.add("Captain Tumijin");
         officers.add("Blake");
     }
 }
