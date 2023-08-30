@@ -7,6 +7,8 @@ public class GenQueue<E> {
         list.addLast(item);
     }
 
-    public E dequeue()
+    public E dequeue(){
+        return list.poll();
+    }
 
 }
