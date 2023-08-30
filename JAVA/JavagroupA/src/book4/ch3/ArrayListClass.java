@@ -30,6 +30,9 @@ public class ArrayListClass {
         emps2.add(emp3);
         emps1.removeAll(emps2);//removeAll
 
+        emps1.retainAll(emps2);
+        System.out.println(emps1);
+
 
 
         //*Names//
