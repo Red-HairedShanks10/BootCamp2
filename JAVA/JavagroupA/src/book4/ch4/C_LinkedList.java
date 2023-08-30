@@ -7,5 +7,6 @@ public class C_LinkedList {
         LinkedList<String> officers = new LinkedList<>();
 
         officers.add("Blake");
+        officers.add("Marco");
     }
 }
