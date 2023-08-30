@@ -27,7 +27,7 @@ public class ArrayListClass {
 
         //emps2
         emps2.add(emp2);
-
+        emps2.add(emp3);
 
 
 
