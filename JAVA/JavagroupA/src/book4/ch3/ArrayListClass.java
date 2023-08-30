@@ -22,7 +22,7 @@ public class ArrayListClass {
         emps.add(emp3);
         System.out.println(emps);
         emps.remove(emp2);
-
+        System.out.println("current employees: " + emps);//printing emps after removing an element
        // names.add("Marco");
         names.add("Muzi");
         names.add("Tumi");
@@ -31,7 +31,7 @@ public class ArrayListClass {
        // names.add(230);//cant add unspecified type in this String List
         names.add(2, "Kamo");//specifying the position of this element value
       //  System.out.println("current names: " + names);
-        System.out.println("current employees: " + emps);
+
     ///using regular loop//to process names arrayList
      /*   for (int i = 0; i < names.size(); i++){
             System.out.println("this person is: " + names.get(i));
