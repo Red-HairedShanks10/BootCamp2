@@ -24,6 +24,7 @@ public class GenStack<E> {
     }
 
     public int size(){
+
         return list.size();
     }
 }
