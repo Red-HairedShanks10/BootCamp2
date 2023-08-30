@@ -23,6 +23,8 @@ public class ArrayListClass {
         System.out.println(emps);//printing emps before remove()...
         emps.remove(emp2);
         System.out.println("current employees: " + emps);//printing emps after removing an element
+
+        //*Names//
        // names.add("Marco");
         names.add("Muzi");
         names.add("Tumi");
