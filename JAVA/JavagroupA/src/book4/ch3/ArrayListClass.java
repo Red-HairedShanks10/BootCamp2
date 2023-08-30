@@ -21,7 +21,7 @@ public class ArrayListClass {
         emps.add(emp2);
         emps.add(emp3);
         emps.remove(emp2);
-        System.out.println("current employees: " + emps);
+
        // names.add("Marco");
         names.add("Muzi");
         names.add("Tumi");
@@ -30,7 +30,7 @@ public class ArrayListClass {
        // names.add(230);//cant add unspecified type in this String List
         names.add(2, "Kamo");//specifying the position of this element value
       //  System.out.println("current names: " + names);
-
+        System.out.println("current employees: " + emps);
     ///using regular loop//to process names arrayList
      /*   for (int i = 0; i < names.size(); i++){
             System.out.println("this person is: " + names.get(i));
