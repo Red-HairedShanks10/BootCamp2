@@ -16,7 +16,7 @@ public class GenQueue<E> {
     }
 
     public int size(){
-        
+        return list.size();
     }
 
 }
