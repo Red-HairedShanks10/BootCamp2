@@ -5,7 +5,7 @@ import java.util.LinkedList;
 public class C_LinkedList {
     public static void main(String[] args) {
         LinkedList<String> officers = new LinkedList<>();
-        String Rico = "Rico";
+        String Rico = " Brigadier General Rico";
         officers.add("Lieutenant General Blake");
         officers.add("General Marco");
         officers.add("Captain Tumijin");
@@ -14,6 +14,7 @@ public class C_LinkedList {
         officers.add(2,"Sergeant Major Tuttle");
         System.out.println("commissioned officers: " + officers );
        String removeOfficer = officers.set(2,"Murdock");
+       officers.add(5,Rico);//removing with a reference of a string value
         System.out.println("commissioned officers(replacement): " + officers );
         //addFirst
         /*officers.addFirst("Lieutenant General Blake");
