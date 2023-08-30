@@ -11,6 +11,7 @@ public class GenQueueTest {
         hList = new GenQueue<HourlyEmployee>();
         hList.enqueue(new HourlyEmployee("Zoro", "Roronoa"));
         hList.enqueue(new HourlyEmployee("Vinsmoke", "Sanji"));
+        hList.enqueue(new HourlyEmployee("Rocks", "Xebec"));
 
     }
 }
