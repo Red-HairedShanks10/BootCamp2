@@ -19,7 +19,8 @@ public class GenQueueTest {
         empList.addItems(hList);
 
         while (empList.hasItems()){
-
+            Employee emp = empList.dequeue();
+            System.out.println(emp);
         }
     }
 }
