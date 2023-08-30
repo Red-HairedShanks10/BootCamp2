@@ -20,7 +20,7 @@ public class ArrayListClass {
         emps.add(emp1);
         emps.add(emp2);
         emps.add(emp3);
-        System.out.println(emps);
+        System.out.println(emps);//printing emps before remove()...
         emps.remove(emp2);
         System.out.println("current employees: " + emps);//printing emps after removing an element
        // names.add("Marco");
