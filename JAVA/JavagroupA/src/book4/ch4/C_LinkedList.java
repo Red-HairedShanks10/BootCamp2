@@ -17,7 +17,7 @@ public class C_LinkedList {
         officers.addFirst("General Marco");
         officers.addFirst("Captain Tumijin");
         officers.addFirst("Major General Kurama");
-        officers.add("Captain McIntyre");
+        officers.addFirst("Captain McIntyre");
 
         for (String officer : officers){
             System.out.println("this is commissioned officer: " + officer );
