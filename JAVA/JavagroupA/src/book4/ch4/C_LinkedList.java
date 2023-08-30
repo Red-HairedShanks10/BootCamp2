@@ -13,7 +13,7 @@ public class C_LinkedList {
         officers.add("Captain McIntyre");
 
         for (String officer : officers){
-            System.out.println("commissioned officer: " + officer );
+            System.out.println("this is commissioned officer: " + officer );
         }
     }
 }
