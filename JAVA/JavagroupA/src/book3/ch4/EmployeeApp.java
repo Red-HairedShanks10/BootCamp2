@@ -42,7 +42,7 @@ public void getFormattedSalary(){
 
 }
 
-class HourlyEmployee  extends EmployeeApp {
+public class HourlyEmployee  extends EmployeeApp {
 double rate;
 
 public HourlyEmployee(double rate){
