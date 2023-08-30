@@ -10,7 +10,7 @@ public class GenQueueTest {
         GenQueue<HourlyEmployee> hList;
         hList = new GenQueue<HourlyEmployee>();
         hList.enqueue(new HourlyEmployee("Zoro", "Roronoa"));
-
+        hList.enqueue(new HourlyEmployee("Vinsmoke", "Sanji"));
 
     }
 }
