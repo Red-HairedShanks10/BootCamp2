@@ -12,7 +12,7 @@ public class GenQueue<E> {
     }
 
     public boolean hasItems(){
-        
+        return !list.isEmpty();
     }
 
 }
