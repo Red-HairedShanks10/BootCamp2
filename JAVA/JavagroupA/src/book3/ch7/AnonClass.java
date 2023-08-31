@@ -11,6 +11,6 @@ public class AnonClass {
     }
 
     interface Ball{
-        void
+        void hit();
     }
 }
