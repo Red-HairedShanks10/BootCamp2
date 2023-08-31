@@ -9,6 +9,9 @@ public class Spell {
 
     public Spell(String spellName, SpellType spellType, String spellDescription){
 
+        name = spellName;
+        type = spellType;
+        description = spellDescription;
     }
 
 }
