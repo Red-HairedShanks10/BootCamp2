@@ -6,4 +6,6 @@ public class Spell {
     public String description;
 
     public enum SpellType {SPELL, CHARM, CURSE}
+
+
 }
