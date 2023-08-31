@@ -28,6 +28,7 @@ public class Spell {
         spells.add(new Spell("Engorgio", Spell.SpellType.CHARM, "Enlarges something."));
         spells.add(new Spell("Fidelius", Spell.SpellType.CHARM, "Hides a secret within someone."));
         spells.add(new Spell("Finite Incatatum", Spell.SpellType.SPELL, "Stops all current spells."));
+        spells.add(new Spell("Locomotor Mortis", Spell.SpellType.CURSE, "Locks an opponent's legs."));
     }
 
 
