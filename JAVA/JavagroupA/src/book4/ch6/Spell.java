@@ -63,8 +63,9 @@ public class Spell {
         double Spellcount = spells.stream()
                 //.filter(s -> s.type == SpellType.SPELL)
                 //.filter(s -> s.name.toLowerCase() //.startsWith("a"))
-                .mapToDouble(s -> s.price )
-                .sum();
+                //.mapToDouble(s -> s.price )
+                .count();
+
         System.out.println("Number of Spells is: " + Spellcount);
     }
 
