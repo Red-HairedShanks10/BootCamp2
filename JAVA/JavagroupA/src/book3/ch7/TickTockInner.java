@@ -27,4 +27,8 @@ public class TickTockInner {
 
 
 
-class Ticker implements ActionListener
+class Ticker implements ActionListener{
+    private boolean tick = true;
+
+
+}
