@@ -73,7 +73,11 @@ public class Spell {
         OptionalDouble avg = spells.stream()
                 .mapToDouble(s -> s.price)
                 .average();
-        System.out.println("average price for all Spells is: " + avg);
+                if (avg.isPresent()){
+
+                    System.out.println("average price for all Spells is: " + avg);
+                }
+
     }
 
 
