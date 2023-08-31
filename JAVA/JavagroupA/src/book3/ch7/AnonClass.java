@@ -4,8 +4,8 @@ public class AnonClass {
     public static void main(String[] args){
 
         //Concrete
-        Ball b3 = new Baseball();
-        b3.hit();
+        Ball b1 = new Baseball();
+        b1.hit();
 
 
         //lambda expression//can have more than one statement in it
