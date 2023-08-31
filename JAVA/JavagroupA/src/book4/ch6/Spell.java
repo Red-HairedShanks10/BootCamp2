@@ -17,7 +17,7 @@ public class Spell {
 
        this.name = spellName;
         this.type = spellType;
-        description = spellDescription;
+        this.description = spellDescription;
     }
 
 }
