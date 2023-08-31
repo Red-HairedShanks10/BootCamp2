@@ -46,6 +46,8 @@ public class Spell {
         }*/
 
         spells.stream().forEach(s -> System.out.println(s) );
+
+        spells.stream().filter(s -> s.type == SpellType.SPELL).forEach(s -> System.out.println(s) );
     }
 
 
