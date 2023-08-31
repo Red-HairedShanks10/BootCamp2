@@ -15,6 +15,6 @@ public class TickTockInner {
     {
 // create a timer that calls the Ticker class
 // at one second intervals
-        Timer t = new Timer(1000, new Ticker()); →19
+        Timer t = new Timer(1000, new Ticker()); 
         t.start();
 }
