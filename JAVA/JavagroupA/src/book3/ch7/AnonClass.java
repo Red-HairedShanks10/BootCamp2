@@ -24,3 +24,7 @@ public class AnonClass {
 interface Ball{
     void hit();
 }
+
+class Baseball implements Ball{
+
+}
