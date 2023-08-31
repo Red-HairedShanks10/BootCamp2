@@ -13,8 +13,7 @@ public class TickTockInner {
 
     private void go()
     {
-// create a timer that calls the Ticker class
-
+        // create a timer that calls the Ticker class
         Timer t = new Timer(1000, new Ticker());
         t.start();
 
