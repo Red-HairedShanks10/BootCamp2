@@ -9,7 +9,7 @@ public class TickTockAnonymous {
 
     public static void main(String[] args)
     {
-        TickTockInner t = new TickTockInner();
+       TickTockAnonymous t = new TickTockAnonymous();
         t.go();
     }
 
