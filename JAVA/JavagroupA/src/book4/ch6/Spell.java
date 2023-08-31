@@ -1,5 +1,7 @@
 package book4.ch6;
 
+import java.util.ArrayList;
+
 public class Spell {
     public String name;
     public SpellType type;
