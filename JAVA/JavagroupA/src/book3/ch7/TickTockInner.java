@@ -38,7 +38,7 @@ class Ticker implements ActionListener{
 
         else
         {
-            System.out.println(tockMessage); →
+            System.out.println(tockMessage);
         }
     }
 }
