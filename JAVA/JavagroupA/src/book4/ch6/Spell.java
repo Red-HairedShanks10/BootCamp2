@@ -16,7 +16,7 @@ public class Spell {
     public Spell(String spellName, SpellType spellType, String spellDescription){
 
        this.name = spellName;
-        type = spellType;
+        this.type = spellType;
         description = spellDescription;
     }
 
