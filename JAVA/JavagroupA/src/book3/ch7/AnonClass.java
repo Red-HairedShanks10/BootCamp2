@@ -10,7 +10,9 @@ public class AnonClass {
         b.hit();
     }
 
-    interface Ball{
-        void hit();
-    }
+}
+
+
+interface Ball{
+    void hit();
 }
