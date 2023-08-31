@@ -22,7 +22,7 @@ public class TickTockInner {
 // program from ending immediately
         JOptionPane.showMessageDialog(null, →24
                 "Click OK to exit program");
-        System.exit(0); →26
+        System.exit(0);
     }
 
 }
