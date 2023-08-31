@@ -38,7 +38,7 @@ public class Spell {
         spells.add(new Spell("Aparecium", Spell.SpellType.SPELL, "Makes invisible ink appear.",4));
         spells.add(new Spell("Avis", Spell.SpellType.SPELL,"Launches birds from your wand.",3));
         spells.add(new Spell("Engorgio", Spell.SpellType.CHARM, "Enlarges something.",25));
-        spells.add(new Spell("Fidelius", Spell.SpellType.CHARM, "Hides a secret within someone.",3));
+        spells.add(new Spell("Fidelius", Spell.SpellType.CHARM, "Hides a secret within someone.",330));
         spells.add(new Spell("Finite Incatatum", Spell.SpellType.SPELL, "Stops all current spells.",3));
         spells.add(new Spell("Locomotor Mortis", Spell.SpellType.CURSE, "Locks an opponent's legs.",3));
 
