@@ -8,6 +8,6 @@ public class TickTockInner {
     public static void main(String[] args)
     {
         TickTockInner t = new TickTockInner(); →11
-        t.go(); →12
+        t.go();
     }
 }
