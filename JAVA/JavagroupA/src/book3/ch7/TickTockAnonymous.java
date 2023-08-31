@@ -16,8 +16,7 @@ public class TickTockAnonymous {
     private void go()
     {
         // create a timer that calls the Ticker class
-        Timer t = new Timer(1000,
-        new ActionListener()
+        Timer t = new Timer(1000, new ActionListener()
         {
             private boolean tick = true;
             public void actionPerformed(ActionEvent event)
@@ -33,30 +32,9 @@ public class TickTockAnonymous {
                 tick = !tick;
             }
         } );
-        // display a message box to prevent the
-        JOptionPane.showMessageDialog(null,
-                "Click OK to exit program");
-        System.exit(0);
-    }
-
-    class Ticker implements ActionListener{//this is a class in another class
-        private boolean tick = true;
-
-        public void actionPerformed(ActionEvent event){
-            if (tick)
-            {
-                System.out.println(tickMessage);
-            }
-
-            else
-            {
-                System.out.println(tockMessage);
-            }tick = !tick;
 
 
-        }
-    }
-
+}
 }
 
 
