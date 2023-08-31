@@ -23,7 +23,7 @@ public class TickTockInner {
         System.exit(0);
     }
 
-    class Ticker implements ActionListener{
+    class Ticker implements ActionListener{//this is a class in another class
         private boolean tick = true;
 
         public void actionPerformed(ActionEvent event){
