@@ -7,6 +7,12 @@ public class Spell {
 
     public enum SpellType {SPELL, CHARM, CURSE}
 
+    @Override
+    public String toString()
+    {
+        return name;
+    }
+
     public Spell(String spellName, SpellType spellType, String spellDescription){
 
         name = spellName;
