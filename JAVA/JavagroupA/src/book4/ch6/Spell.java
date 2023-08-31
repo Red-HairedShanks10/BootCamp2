@@ -1,6 +1,7 @@
 package book4.ch6;
 
 import java.util.ArrayList;
+import java.util.OptionalDouble;
 
 public class Spell {
     public String name;
@@ -69,7 +70,10 @@ public class Spell {
         System.out.println("Number of Spells is: " + Spellcount);*/
 
 
-
+        OptionalDouble avg = spells.stream()
+                .mapToDouble(s -> s.price)
+                .average();
+        System.out.println("average price for all Spells is: " + avg);
     }
 
 
