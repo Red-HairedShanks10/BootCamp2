@@ -23,24 +23,25 @@ public class TickTockInner {
         System.exit(0);
     }
 
-}
+    class Ticker implements ActionListener{
+        private boolean tick = true;
+
+        public void actionPerformed(ActionEvent event){
+            if (tick)
+            {
+                System.out.println(tickMessage);
+            }
+
+            else
+            {
+                System.out.println(tockMessage);
+            }tick = !tick;
 
 
-
-class Ticker implements ActionListener{
-    private boolean tick = true;
-
-    public void actionPerformed(ActionEvent event){
-        if (tick)
-        {
-            System.out.println(tickMessage);
         }
-
-        else
-        {
-            System.out.println(tockMessage);
-        }tick = !tick;
-
-
     }
+
 }
+
+
+
