@@ -16,7 +16,7 @@ public class AnonClass {
                          System.out.println("congrats..."); };
 
         //anon
-        Ball b2 = new Ball(){
+        Ball b3 = new Ball(){
             @Override
             public void hit(){
                 System.out.println("you hit an anonymous ball");
