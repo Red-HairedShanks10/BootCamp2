@@ -20,7 +20,19 @@ public class TickTockAnonymous {
         new ActionListener()
         {
             private boolean tick = true;
-
+            public void actionPerformed(ActionEvent event)
+            {
+                if (tick)
+                {
+                    System.out.println(tickMessage);
+                }
+                else
+                {
+                    System.out.println(tockMessage);
+                }
+                tick = !tick;
+            }
+        } );
         // display a message box to prevent the
         JOptionPane.showMessageDialog(null,
                 "Click OK to exit program");
