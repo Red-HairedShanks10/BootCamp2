@@ -20,7 +20,7 @@ public class TickTockInner {
 
         // display a message box to prevent the
 // program from ending immediately
-        JOptionPane.showMessageDialog(null, →24
+        JOptionPane.showMessageDialog(null, 
                 "Click OK to exit program");
         System.exit(0);
     }
