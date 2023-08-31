@@ -24,5 +24,5 @@ public class Spell {
 
     ArrayList<Spell> spells = new ArrayList<>();
     spells.add(new Spell("Aparecium", Spell.SpellType.SPELL, "Makes invisible ink appear."));
-
+    spells.add(new Spell("Avis", Spell.SpellType.SPELL,"Launches birds from your wand."));
 }
