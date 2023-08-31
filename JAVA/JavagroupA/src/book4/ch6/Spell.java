@@ -7,5 +7,8 @@ public class Spell {
 
     public enum SpellType {SPELL, CHARM, CURSE}
 
+    public Spell(String spellName, SpellType spellType, String spellDescription){
+
+    }
 
 }
