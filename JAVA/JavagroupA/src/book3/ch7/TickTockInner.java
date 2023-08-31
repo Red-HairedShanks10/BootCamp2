@@ -24,3 +24,7 @@ public class TickTockInner {
     }
 
 }
+
+
+
+class Ticker implements ActionListener
