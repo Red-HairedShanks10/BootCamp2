@@ -19,6 +19,8 @@ public class AnonClass {
         };
 
         //Concrete
+        Ball b3 = new Baseball();
+        b3.hit();
 
         b1.hit();
         b2.hit();
