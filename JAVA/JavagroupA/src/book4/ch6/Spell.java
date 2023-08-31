@@ -4,4 +4,6 @@ public class Spell {
     public String name;
     public SpellType type;
     public String description;
+
+    public enum SpellType {SPELL, CHARM, CURSE}
 }
