@@ -3,6 +3,11 @@ package book3.ch7;
 public class AnonClass {
     public static void main(String[] args){
 
+        //Concrete
+        Ball b3 = new Baseball();
+        b3.hit();
+
+
         //lambda expression//can have more than one statement in it
         Ball b1 = () ->  {
                         //statement one...
@@ -18,9 +23,7 @@ public class AnonClass {
             }
         };
 
-        //Concrete
-        Ball b3 = new Baseball();
-        b3.hit();
+
 
         b1.hit();
         b2.hit();
