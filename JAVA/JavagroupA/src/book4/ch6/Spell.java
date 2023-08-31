@@ -34,7 +34,7 @@ public class Spell {
 
         spells.add(new Spell("Amateratsu", Spell.SpellType.SPELL, "Produces inextinguishable black flames.",30));
         spells.add(new Spell("Spirit-Gun", Spell.SpellType.SPELL,"fires heavy spirit energy into a single beam",23));
-        spells.add(new Spell("Koto-amatsukami", Spell.SpellType.SPELL,"Projects Illusions that can inflict physical damage",3));
+        spells.add(new Spell("Koto-amatsukami", Spell.SpellType.SPELL,"Projects Illusions that can inflict physical damage",33));
         spells.add(new Spell("Aparecium", Spell.SpellType.SPELL, "Makes invisible ink appear.",3));
         spells.add(new Spell("Avis", Spell.SpellType.SPELL,"Launches birds from your wand.",3));
         spells.add(new Spell("Engorgio", Spell.SpellType.CHARM, "Enlarges something.",3));
