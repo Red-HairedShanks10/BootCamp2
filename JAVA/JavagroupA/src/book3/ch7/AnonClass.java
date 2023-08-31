@@ -6,7 +6,8 @@ public class AnonClass {
             public void hit(){
                 System.out.println("you hit it");
             }
-        }
+        };
+        b.hit();
 
     }
 }
