@@ -13,7 +13,8 @@ public class AnonClass {
                         //statement one...
                         System.out.println("you hit a lambda ball");
                         //statement two...
-                         System.out.println("congrats..."); };
+                         System.out.println("congrats...");
+        }; b2.hit();
 
         //anon
         Ball b3 = new Ball(){
@@ -25,7 +26,7 @@ public class AnonClass {
 
 
 
-        b2.hit();
+
         b3.hit();
     }
 
