@@ -22,12 +22,7 @@ public class AnonClass {
             public void hit(){
                 System.out.println("you hit an anonymous ball");
             }
-        };
-
-
-
-
-        b3.hit();
+        };b3.hit();
     }
 
 }
