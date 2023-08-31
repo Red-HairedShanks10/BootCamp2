@@ -11,10 +11,10 @@ public class TickTockInner {
         t.go();
     }
 
-    private void go() →15
+    private void go() 
     {
 // create a timer that calls the Ticker class
 // at one second intervals
-        Timer t = new Timer(1000, new Ticker()); 
+        Timer t = new Timer(1000, new Ticker());
         t.start();
 }
