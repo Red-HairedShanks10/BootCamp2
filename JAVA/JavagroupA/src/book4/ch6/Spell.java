@@ -22,8 +22,8 @@ public class Spell {
         return "Spell:" +
                 "name: " + name + '\'' +
                 ", type: " + type +
-                ", description: {'" + description + '}'+'\'' +
-                ' ';
+                ", description: {'" + description + '\'' +
+                '}';
     }
 
 
