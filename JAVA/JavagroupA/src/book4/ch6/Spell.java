@@ -60,13 +60,16 @@ public class Spell {
                 .sum();
        System.out.println("total price for all Spells is: " + Total);
 
-        double Spellcount = spells.stream()
+/*        double Spellcount = spells.stream()
                 //.filter(s -> s.type == SpellType.SPELL)
                 //.filter(s -> s.name.toLowerCase() //.startsWith("a"))
                 //.mapToDouble(s -> s.price )
                 .count();
 
-        System.out.println("Number of Spells is: " + Spellcount);
+        System.out.println("Number of Spells is: " + Spellcount);*/
+
+
+
     }
 
 
