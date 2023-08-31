@@ -19,10 +19,10 @@ public class Spell {
 
     @Override
     public String toString() {
-        return "Spell{" +
-                "name='" + name + '\'' +
-                ", type=" + type +
-                ", description='" + description + '\'' +
+        return "Spell:" +
+                "name: " + name + '\'' +
+                ", type: " + type +
+                ", description: '" + description + '\'' +
                 '}';
     }
 
