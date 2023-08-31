@@ -21,4 +21,7 @@ public class Spell {
         return this.name;
     }
 
+
+    ArrayList<Spell> spells = new ArrayList<>();
+
 }
