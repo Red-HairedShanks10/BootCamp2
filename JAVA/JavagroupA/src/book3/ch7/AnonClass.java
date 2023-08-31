@@ -27,4 +27,8 @@ interface Ball{
 
 class Baseball implements Ball{
 
+    @Override
+    public void hit() {
+        System.out.println("you hit a Baseball");
+    }
 }
