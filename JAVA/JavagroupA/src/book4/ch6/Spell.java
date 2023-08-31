@@ -53,9 +53,10 @@ public class Spell {
                 .filter(s -> s.name.toLowerCase().startsWith("a"))
                 .forEach(s -> System.out.println(s) );
 
-        spells.stream().filter(s -> s.type == SpellType.SPELL)
+       double Total = spells.stream().filter(s -> s.type == SpellType.SPELL)
                 .filter(s -> s.name.toLowerCase().startsWith("a"))
-                .mapToDouble(s -> s.price );
+                .mapToDouble(s -> s.price )
+                .sum();
     }
 
 
