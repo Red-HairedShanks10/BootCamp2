@@ -34,8 +34,7 @@ public class TickTockAnonymous {
         } );
 
         t.start();
-// display a message box to prevent the
-// program from ending immediately
+        // display a message box to prevent the
         JOptionPane.showMessageDialog(null,
                 "Click OK to exit program");
         System.exit(0);
