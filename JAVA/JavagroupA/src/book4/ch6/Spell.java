@@ -18,10 +18,14 @@ public class Spell {
 
 
     @Override
-    public String toString()
-    {
-        return this.name;
+    public String toString() {
+        return "Spell{" +
+                "name='" + name + '\'' +
+                ", type=" + type +
+                ", description='" + description + '\'' +
+                '}';
     }
+
 
     public static void main(String[] args) {
         ArrayList<Spell> spells = new ArrayList<>();
