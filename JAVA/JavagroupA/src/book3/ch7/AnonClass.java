@@ -8,6 +8,9 @@ public class AnonClass {
             }
         };
         b.hit();
+    }
 
+    interface Ball{
+        void
     }
 }
