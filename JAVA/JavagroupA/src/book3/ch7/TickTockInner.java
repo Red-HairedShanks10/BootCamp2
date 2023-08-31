@@ -11,10 +11,18 @@ public class TickTockInner {
         t.go();
     }
 
-    private void go() 
+    private void go()
     {
 // create a timer that calls the Ticker class
 // at one second intervals
         Timer t = new Timer(1000, new Ticker());
         t.start();
+
+        // display a message box to prevent the
+// program from ending immediately
+        JOptionPane.showMessageDialog(null, →24
+                "Click OK to exit program");
+        System.exit(0); →26
+    }
+
 }
