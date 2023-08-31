@@ -57,6 +57,7 @@ public class Spell {
                 .filter(s -> s.name.toLowerCase().startsWith("a"))
                 .mapToDouble(s -> s.price )
                 .sum();
+       System.out.println("total price for all Spells is: " + Total);
     }
 
 
