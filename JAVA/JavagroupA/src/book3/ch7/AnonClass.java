@@ -26,7 +26,7 @@ public class AnonClass {
 
 
         b2.hit();
-        b2.hit();
+        b3.hit();
     }
 
 }
