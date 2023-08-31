@@ -74,7 +74,6 @@ public class Spell {
                 .mapToDouble(s -> s.price)
                 .average();
                 if (avg.isPresent()){
-
                     System.out.println("average price for all Spells is: " + avg);
                 }
 
