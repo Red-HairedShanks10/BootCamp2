@@ -69,14 +69,27 @@ public class Spell {
 
         System.out.println("Number of Spells is: " + Spellcount);*/
 
-
+/*
         OptionalDouble avg = spells.stream()
                 .mapToDouble(s -> s.price)
                 .average();
                 int avgC = (int) avg.getAsDouble();
                 if (avg.isPresent()){
                     System.out.println("average price for all Spells is: " + avgC);
-                }
+                }*/
+
+
+        System.out.println("first paralleStream: ");
+        spells.parallelStream()
+                .forEach(s -> System.out.println(s));
+
+        System.out.println("second paralleStream:");
+        spells.parallelStream()
+                .forEach(s -> System.out.println(s));
+
+        System.out.println("third second paralleStream: ");
+        spells.parallelStream()
+                .forEach(s -> System.out.println(s));
 
     }
 
