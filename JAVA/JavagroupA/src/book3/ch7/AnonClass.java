@@ -9,7 +9,7 @@ public class AnonClass {
 
 
         //lambda expression//can have more than one statement in it
-        Ball b1 = () ->  {
+        Ball b2 = () ->  {
                         //statement one...
                         System.out.println("you hit a lambda ball");
                         //statement two...
