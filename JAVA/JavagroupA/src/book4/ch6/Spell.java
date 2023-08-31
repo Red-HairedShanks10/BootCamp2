@@ -26,7 +26,8 @@ public class Spell {
         spells.add(new Spell("Aparecium", Spell.SpellType.SPELL, "Makes invisible ink appear."));
         spells.add(new Spell("Avis", Spell.SpellType.SPELL,"Launches birds from your wand."));
         spells.add(new Spell("Engorgio", Spell.SpellType.CHARM, "Enlarges something."));
-        spells.add(new Spell("Fidelius", Spell.SpellType.CHARM, Hides a secret within someone."));
+        spells.add(new Spell("Fidelius", Spell.SpellType.CHARM, "Hides a secret within someone."));
+        spells.add(new Spell("Finite Incatatum", Spell.SpellType.SPELL, "Stops all current spells."));
     }
 
 
