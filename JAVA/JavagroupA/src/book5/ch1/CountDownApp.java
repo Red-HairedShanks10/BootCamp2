@@ -11,5 +11,6 @@ public class CountDownApp {
         clock.start();
         new Thread(flood).start();
         new Thread(ignition).start();
+        new Thread(liftoff).start();
     }
 }
