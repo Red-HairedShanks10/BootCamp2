@@ -16,6 +16,7 @@ public class Reg {
             do{
                 System.out.print("\nEnter regex: ");
                 r = sc.nextLine();
+                validRegex = true;
             }
         }
     }
