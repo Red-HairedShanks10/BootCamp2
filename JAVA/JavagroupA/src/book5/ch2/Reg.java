@@ -4,4 +4,5 @@ import java.util.Scanner;
 public class Reg {
     static String r, s;
     static Pattern pattern;
+    static Matcher matcher;
 }
