@@ -33,7 +33,7 @@ public class Reg {
                 if (s.length() == 0){
                     doneMatching = true;
                 }else {
-
+                    matcher = pattern.matcher(s);
                 }
             }
         }
