@@ -14,7 +14,7 @@ public class Reg {
 
         do{
             do{
-
+                System.out.print("\nEnter regex: ");
             }
         }
     }
