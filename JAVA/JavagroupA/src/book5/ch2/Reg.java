@@ -26,7 +26,13 @@ public class Reg {
                 }
             }while (!validRegex);
             doneMatching = false;
-        }while (!doneMatching);
+
+            while (!doneMatching){
+
+            }
+        }
+
+        }
     }
 
 
