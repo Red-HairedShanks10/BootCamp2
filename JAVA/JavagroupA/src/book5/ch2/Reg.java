@@ -30,6 +30,9 @@ public class Reg {
             while (!doneMatching){
                 System.out.print("Enter string: ");
                 s = sc.nextLine();
+                if (s.length() == 0){
+                    doneMatching = true;
+                }
             }
         }
 
