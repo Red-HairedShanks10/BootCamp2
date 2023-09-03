@@ -7,6 +7,7 @@ public class CountDownApp {
         Runnable flood, ignition, liftoff;
         flood = new LaunchEvent(16, "Flood the pad!");
         ignition = new LaunchEvent(6, "Start engines!");
+        liftoff = new LaunchEvent(0, "Liftoff!");
         clock.start();
     }
 }
