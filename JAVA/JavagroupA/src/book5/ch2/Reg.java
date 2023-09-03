@@ -32,6 +32,8 @@ public class Reg {
                 s = sc.nextLine();
                 if (s.length() == 0){
                     doneMatching = true;
+                }else {
+
                 }
             }
         }
