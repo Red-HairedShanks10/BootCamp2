@@ -43,7 +43,7 @@ public class Reg {
         }while(askAgain());
     }
     private static boolean askAgain(){
-
+        System.out.print("Another? (Y or N) ");
     }
 
 
