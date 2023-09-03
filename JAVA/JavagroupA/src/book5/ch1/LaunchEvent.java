@@ -5,16 +5,17 @@ public class LaunchEvent implements Runnable {
     private String message;
 
     public LaunchEvent(int start, String message){
-        this.start = start;
-        this.message = message;
+        this.start = start;//countdown time(seconds)
+        this.message = message;//message displayed when time arrives
     }
-    public void run(){
+    public void run(){//uses Thread.sleep()
 
         try{
+            //this method keeps the thread inactive//until countdown time arrives
             Thread.sleep(20000 - (start * 1000));
         }
-        catch (InterruptedException e){}
-        System.out.println(message);
+        catch (InterruptedException e){}//this only catches the exeception
+        System.out.println(message);//once the thread is activated the message will be displayed
 
     }
 }
