@@ -4,6 +4,7 @@ public class CountDownApp {
     public static void main(String[] args)
     {
         Thread clock = new CountDownClock();
+        Runnable flood, ignition, liftoff;
         clock.start();
     }
 }
