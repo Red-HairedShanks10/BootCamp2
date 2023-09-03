@@ -29,6 +29,7 @@ public class Reg {
 
             while (!doneMatching){
                 System.out.print("Enter string: ");
+                s = sc.nextLine();
             }
         }
 
