@@ -40,7 +40,7 @@ public class Reg {
                         System.out.println("Does not match.");
                 }
             }
-        }
+        }while(askAgain());
 
         }
     }
