@@ -8,4 +8,7 @@ public class LaunchEvent implements Runnable {
         this.start = start;
         this.message = message;
     }
+    public void run(){
+
+    }
 }
