@@ -17,6 +17,9 @@ public class Reg {
                 System.out.print("\nEnter regex: ");
                 r = sc.nextLine();
                 validRegex = true;
+                try{
+
+                }
             }
         }
     }
