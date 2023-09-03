@@ -21,7 +21,8 @@ public class Reg {
                     pattern = Pattern.compile(r);
                 }
                 catch(Exception e){
-
+                    System.out.println(e.getMessage());
+                    validRegex = false;
                 }
             }
         }
