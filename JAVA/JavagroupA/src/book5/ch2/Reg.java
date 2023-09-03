@@ -18,7 +18,7 @@ public class Reg {
                 r = sc.nextLine();
                 validRegex = true;
                 try{
-
+                    pattern = Pattern.compile(r);
                 }
             }
         }
