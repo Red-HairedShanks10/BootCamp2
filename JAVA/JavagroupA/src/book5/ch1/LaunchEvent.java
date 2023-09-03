@@ -5,6 +5,6 @@ public class LaunchEvent implements Runnable {
     private String message;
 
     public LaunchEvent(int start, String message){
-
+        this.start = start;
     }
 }
