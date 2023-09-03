@@ -4,4 +4,7 @@ public class LaunchEvent implements Runnable {
     private int start;
     private String message;
 
+    public LaunchEvent(int start, String message){
+
+    }
 }
