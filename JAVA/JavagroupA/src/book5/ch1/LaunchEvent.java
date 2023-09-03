@@ -1,4 +1,6 @@
 package book5.ch1;
 
-public class LaunchEvent {
+public class LaunchEvent implements Runnable {
+
+
 }
