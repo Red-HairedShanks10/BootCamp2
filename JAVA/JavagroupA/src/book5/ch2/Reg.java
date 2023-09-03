@@ -34,6 +34,7 @@ public class Reg {
                     doneMatching = true;
                 }else {
                     matcher = pattern.matcher(s);
+                    if (matcher.matches())
                 }
             }
         }
