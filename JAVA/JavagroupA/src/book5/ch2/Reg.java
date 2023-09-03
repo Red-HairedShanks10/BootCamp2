@@ -20,6 +20,9 @@ public class Reg {
                 try{
                     pattern = Pattern.compile(r);
                 }
+                catch(Exception e){
+
+                }
             }
         }
     }
