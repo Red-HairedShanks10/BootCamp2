@@ -13,5 +13,6 @@ public class LaunchEvent implements Runnable {
         try{
             Thread.sleep(20000 - (start * 1000));
         }
+        catch (InterruptedException e){}
     }
 }
