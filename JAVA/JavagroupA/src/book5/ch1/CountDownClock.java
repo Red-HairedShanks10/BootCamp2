@@ -6,7 +6,7 @@ public class CountDownClock extends Thread{
         for (int t = 20; t > 0; t--){
             System.out.println("T minus " + t);
             if (t == 1){
-                System.out.println("Operation rescue Mark from another planet,under way");
+                System.out.println("Mars invasion,under way");
             }
             try
             {
