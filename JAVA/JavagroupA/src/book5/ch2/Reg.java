@@ -24,7 +24,8 @@ public class Reg {
                     System.out.println(e.getMessage());
                     validRegex = false;
                 }
-            }
+            }while (!validRegex);
+            doneMatching = false;
         }
     }
 
