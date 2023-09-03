@@ -7,6 +7,8 @@ public class Reg {
     static Matcher matcher;
     static boolean match, validRegex, doneMatching;
 
+    private static Scanner sc = new Scanner(System.in);
+
 
 
 }
