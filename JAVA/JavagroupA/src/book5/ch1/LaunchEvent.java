@@ -14,5 +14,7 @@ public class LaunchEvent implements Runnable {
             Thread.sleep(20000 - (start * 1000));
         }
         catch (InterruptedException e){}
+        System.out.println(message);
+
     }
 }
