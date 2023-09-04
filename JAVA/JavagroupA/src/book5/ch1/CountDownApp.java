@@ -5,7 +5,7 @@ public class CountDownApp {
     {
         Thread clock = new CountDownClock();//instance of CountDownClock
 
-        //created three LaunchEvent obj
+        //created three LaunchEvent obj// with their own start time and message
         Runnable flood, ignition, liftoff;
         flood = new LaunchEvent(16, "Flood the pad!");//to flood the pad
         ignition = new LaunchEvent(6, "Start engines!");//to start the engine
@@ -13,7 +13,7 @@ public class CountDownApp {
 
         clock.start();//clock thread is started, countdown begins
 
-        //starts the LaunchEvent objects by passing them as parameters to the Thread constructor
+        //start(), starts the LaunchEvent objects by passing them as parameters to the Thread constructor
         new Thread(flood).start();
         new Thread(ignition).start();
         new Thread(liftoff).start();
