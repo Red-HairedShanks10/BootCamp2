@@ -36,7 +36,7 @@ public class Reg {
                 if (s.length() == 0){
                     doneMatching = true;
                 }else {
-                    matcher = pattern.matcher(s);
+                    matcssher = pattern.matcher(s);
                     if (matcher.matches()){
                         System.out.println("Match");
                     }else
