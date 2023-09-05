@@ -32,6 +32,8 @@ public class QuickSortApp {
         return a;
     }
 
+    public static void sort(int low, int high)
+
 
 
 
