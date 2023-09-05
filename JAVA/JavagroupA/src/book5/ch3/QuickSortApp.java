@@ -8,7 +8,7 @@ public class QuickSortApp {
         for (int i = 0; i<LEN; i++){
             unsorted[i] = (int)(Math.random() * 100) + 1;
             System.out.println("Unsorted array:");
-
+            printArray(unsorted);
         }
     }
 }
