@@ -12,5 +12,6 @@ public class TimeTester {
         System.out.println("OffsetDateTime: " + OffsetDateTime.now().toString());
         System.out.println("MonthDay: " + MonthDay.now().toString());
         System.out.println("YearMonth: " + YearMonth.now().toString());
+        System.out.println("Instant: " + Instant.now().toString());
     }
 }
