@@ -10,7 +10,8 @@ public class QuickSortApp {
             System.out.println("Unsorted array:");
             printArray(unsorted);
             int[] sorted = sort(unsorted);
-            
+            System.out.println("\n\nSorted array:");
+            printArray(sorted);
         }
     }
 }
