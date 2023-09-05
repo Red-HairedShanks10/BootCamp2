@@ -17,7 +17,11 @@ public class QuickSortApp {
         private static void printArray(int[] array){
             System.out.println();
             for (int i = 0; i < array.length; i++){
-
+                if (array[i] < 10)
+                    System.out.print(" ");
+                System.out.print(array[i] + " ");
+                if ((i+1) % 20 == 0)
+                    System.out.println();
             }
         }
 
