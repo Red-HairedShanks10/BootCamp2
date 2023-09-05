@@ -11,7 +11,7 @@ public class FactorialCompare {
 
 
 
-
+    //non-recursive solution
     //method using a for loop to calculate factoral
     private static long factorial_nRecursive(int n)
     {
