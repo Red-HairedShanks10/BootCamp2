@@ -1,10 +1,11 @@
 package book5.ch3;
 
-public class FactoralCompare {
+public class FactorialCompare {
 
     public static void main(String[] args) {
 
      long nonRecFactorial =  factorial_nRecursive(4);
+     System.out.println("factorial");
     }
 
 
