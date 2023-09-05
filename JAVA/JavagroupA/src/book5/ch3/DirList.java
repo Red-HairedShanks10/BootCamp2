@@ -22,7 +22,7 @@ public class DirList {
                 System.out.println(dir.getPath());//25//if the path exist, we display the name
                 listDirectories(dir, " ");//26//we list sub-folders of the directory here
             }
-        }while(askAgain());//28
+        }while(askAgain());//28//we prompt the user if they want to list another directory
     }
 
 
