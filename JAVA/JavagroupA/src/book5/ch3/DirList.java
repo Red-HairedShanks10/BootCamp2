@@ -13,7 +13,7 @@ public class DirList {
             String path = sc.nextLine();//get file path name from user
             //17//the File class constructor creates new File object
             File dir = new File(path);//we use pathname given by the user
-            if (!dir.exists() || !dir.isDirectory()) {//18//check
+            if (!dir.exists() || !dir.isDirectory()) {//18//check if the path exists
                 System.out.println("\nThat directory doesn't exist.");
             } else {
                 System.out.println("\nListing directory tree of:");
