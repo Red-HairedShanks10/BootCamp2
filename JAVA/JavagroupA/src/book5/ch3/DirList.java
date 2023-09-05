@@ -26,6 +26,9 @@ public class DirList {
 
 
 
-    private static void listDirectories(File dir, String indent)
+    private static void listDirectories(File dir, String indent){
+        File[] dirs = dir.listFiles(); →34
+        for (File f : dirs)
+    }
 
 }
