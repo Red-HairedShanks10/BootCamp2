@@ -10,7 +10,6 @@ public class TimeTester {
         System.out.println("ZonedDateTime: " + ZonedDateTime.now().toString());
         System.out.println("OffsetTime: " + OffsetTime.now().toString());
         System.out.println("OffsetDateTime: " + OffsetDateTime.now().toString());
-        System.out.println("\nMonthDay: "
-                + MonthDay.now().toString());
+        System.out.println("MonthDay: " + MonthDay.now().toString());
     }
 }
