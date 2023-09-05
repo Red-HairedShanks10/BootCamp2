@@ -5,7 +5,7 @@ public class FactorialCompare {
     public static void main(String[] args) {
       int n = 5;
      long nonRecFactorial =  factorial_nRecursive(n);
-     System.out.println("factorial of " + n + " is " + nonRecFactorial);
+     System.out.println("(Non-Recursive)factorial of " + n + " is " + nonRecFactorial);
 
 
         int r = 7;
