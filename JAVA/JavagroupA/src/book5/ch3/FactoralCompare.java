@@ -4,7 +4,7 @@ public class FactoralCompare {
 
     public static void main(String[] args) {
 
-        factorial_nRecursive(4);
+     long nonRecFactorial =  factorial_nRecursive(4);
     }
 
 
