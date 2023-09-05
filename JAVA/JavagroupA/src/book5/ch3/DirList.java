@@ -11,14 +11,16 @@ public class DirList {
         do {
             System.out.print("\nEnter a path: ");
             String path = sc.nextLine();//get file path name from user
+
             //17//the File class constructor creates new File object
             File dir = new File(path);//we use pathname given by the user
+
             if (!dir.exists() || !dir.isDirectory()) {//18//check if the path exists
                 System.out.println("\nThat directory doesn't exist.");
             } else {
                 System.out.println("\nListing directory tree of:");
-                System.out.println(dir.getPath());//25
-                listDirectories(dir, " ");//26
+                System.out.println(dir.getPath());//25//if the path exist, we display the name
+                listDirectories(dir, " ");//26//
             }
         }while(askAgain());//28
     }
