@@ -3,7 +3,7 @@ package book5.ch4;
 import java.util.*;
 import java.time.*;
 
-public class TimeTester {
+public class TimeTester {//using now() with different Date-Time classes
     public static void main(String[] args){
         System.out.println("LocalTime: " + LocalTime.now().toString());
         System.out.println("LocalDateTime: " + LocalDateTime.now().toString());
