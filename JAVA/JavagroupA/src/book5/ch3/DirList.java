@@ -12,5 +12,6 @@ public class DirList {
         {
             System.out.print("\nEnter a path: ");
             String path = sc.nextLine();
+            File dir = new File(path);
     }
 }
