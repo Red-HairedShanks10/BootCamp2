@@ -21,7 +21,7 @@ public class DirList {
                 System.out.println("\nListing directory tree of:");
                 System.out.println(dir.getPath());//25//if the path exist, we display the name
                 //26//we list sub-folders of the directory here...
-                listDirectories(dir, " ");//...using the listDirectory()
+                listDirectories(dir, " ");//...using the listDirectory()that we created
             }
         }while(askAgain());//28//we prompt the user if they want to list another directory
     }
