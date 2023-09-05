@@ -27,6 +27,7 @@ public class FactorialCompare {
         return f;
     }
 
+    //recursive solution
     //using recursion to calculate factorial
     private static long factorialRecursive(int n)
     {
