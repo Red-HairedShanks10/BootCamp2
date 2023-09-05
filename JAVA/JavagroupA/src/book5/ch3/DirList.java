@@ -11,12 +11,11 @@ public class DirList {
         do {
             System.out.print("\nEnter a path: ");
             String path = sc.nextLine();//get file path name from user
-            File dir = new File(path);
-            if (!dir.exists() || !dir.isDirectory()) {
+            File dir = new File(path);//17
+            if (!dir.exists() || !dir.isDirectory()) {//18
                 System.out.println("\nThat directory doesn't exist.");
             } else {
-                System.out.println(
-                        "\nListing directory tree of:");
+                System.out.println("\nListing directory tree of:");
                 System.out.println(dir.getPath());
                 listDirectories(dir, " ");
             }
