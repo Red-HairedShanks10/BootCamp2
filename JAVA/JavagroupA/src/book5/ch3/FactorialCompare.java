@@ -20,4 +20,15 @@ public class FactorialCompare {
             f = f * i;
         return f;
     }
+
+    //using recursion to calculate factorial
+    private static long factorialRecursive(int n)
+    {
+        if (n == 1)
+            return 1;
+        else
+            return n * factorialRecursive(n-1);
+    }
+
+
 }
