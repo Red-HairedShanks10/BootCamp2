@@ -15,9 +15,10 @@ public class DirList {
             File dir = new File(path);
     }       if (!dir.exists() || !dir.isDirectory()) {
             System.out.println("\nThat directory doesn't exist.");
-        }else
-        {
+        }else {
             System.out.println(
                     "\nListing directory tree of:");
             System.out.println(dir.getPath());
+            listDirectories(dir, " ");
+        }
 }
