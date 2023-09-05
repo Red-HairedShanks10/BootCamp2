@@ -25,8 +25,10 @@ public class QuickSortApp {
             }
         }
 
-    private static int[] a; 
-    public static int[] sort(int[] array)
+    private static int[] a;
+    public static int[] sort(int[] array){
+
+    }
 
 
 
