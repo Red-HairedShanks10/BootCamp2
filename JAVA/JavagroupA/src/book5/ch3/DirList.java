@@ -8,17 +8,19 @@ public class DirList {
     public static void main(String[] args) {
         System.out.print("Welcome to the Directory Lister");
 
-        do
-        {
+        do {
             System.out.print("\nEnter a path: ");
             String path = sc.nextLine();
             File dir = new File(path);
-    }       if (!dir.exists() || !dir.isDirectory()) {
-            System.out.println("\nThat directory doesn't exist.");
-        }else {
-            System.out.println(
-                    "\nListing directory tree of:");
-            System.out.println(dir.getPath());
-            listDirectories(dir, " ");
-        }
+            if (!dir.exists() || !dir.isDirectory()) {
+                System.out.println("\nThat directory doesn't exist.");
+            } else {
+                System.out.println(
+                        "\nListing directory tree of:");
+                System.out.println(dir.getPath());
+                listDirectories(dir, " ");
+            }
+        }while(askAgain());
+    }
+
 }
