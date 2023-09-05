@@ -1,5 +1,7 @@
 package book5.ch3;
 
+import static java.util.Collections.swap;
+
 public class QuickSortApp {
 
     public static void main(String[] args) {
