@@ -20,7 +20,8 @@ public class DirList {
             } else {
                 System.out.println("\nListing directory tree of:");
                 System.out.println(dir.getPath());//25//if the path exist, we display the name
-                listDirectories(dir, " ");//26//we list sub-folders of the directory here
+                //26//we list sub-folders of the directory here...
+                listDirectories(dir, " ");//...using the listDirectory()
             }
         }while(askAgain());//28//we prompt the user if they want to list another directory
     }
@@ -28,7 +29,8 @@ public class DirList {
 
 
 
-    private static void listDirectories(File dir, String indent){//31
+    //31//this
+    private static void listDirectories(File dir, String indent){
         File[] dirs = dir.listFiles();//34
         for (File f : dirs){//35
             if (f.isDirectory()){//37
