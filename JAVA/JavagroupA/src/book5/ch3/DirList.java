@@ -29,7 +29,8 @@ public class DirList {
 
 
 
-    //31//this method focuses on listing the Directory that will be entered by the user
+    //this method focuses on listing the Directory that will be entered by the user
+    //and will print any subdirectories found within the directory
     private static void listDirectories(File dir, String indent){
         File[] dirs = dir.listFiles();//listFiles gets an array of all the file objects of the directory
         for (File f : dirs){//enhanced for loop to process directory array
