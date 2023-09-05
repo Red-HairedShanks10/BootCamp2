@@ -6,6 +6,12 @@ public class FactorialCompare {
       int n = 5;
      long nonRecFactorial =  factorial_nRecursive(n);
      System.out.println("factorial of " + n + " is " + nonRecFactorial);
+
+
+        int r = 7;
+        long recursiveFactorial =  factorialRecursive(r);
+        System.out.println("(Recursive)factorial of " + r + " is " + nonRecFactorial);
+
     }
 
 
