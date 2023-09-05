@@ -29,13 +29,13 @@ public class DirList {
 
 
 
-    //31//this
+    //31//this method focuses on listing the Directory that will be entered by the user
     private static void listDirectories(File dir, String indent){
-        File[] dirs = dir.listFiles();//34
-        for (File f : dirs){//35
-            if (f.isDirectory()){//37
-                System.out.println(indent + f.getName());//40
-                listDirectories(f, indent + " ");//41
+        File[] dirs = dir.listFiles();//listFiles gets an array of all the file objects of the directory
+        for (File f : dirs){//enhanced for loop to process directory array
+            if (f.isDirectory()){//check if the file is a directory
+                System.out.println(indent + f.getName());//if so return the name of directory
+                listDirectories(f, indent + " ");//using recursion to add two spaces to right the right of current directory
             }
         }
 
