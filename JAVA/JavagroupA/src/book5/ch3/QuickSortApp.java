@@ -13,5 +13,13 @@ public class QuickSortApp {
             System.out.println("\n\nSorted array:");
             printArray(sorted);
         }
+
+        private static void printArray(int[] array){
+
+        }
+
+
+
+
     }
 }
