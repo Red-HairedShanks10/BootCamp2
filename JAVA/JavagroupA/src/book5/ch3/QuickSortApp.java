@@ -6,6 +6,8 @@ public class QuickSortApp {
         int LEN = 100;
         int[] unsorted = new int[LEN];
         for (int i = 0; i<LEN; i++){
+            unsorted[i] = (int)(Math.random() * 100) + 1;
+
 
         }
     }
