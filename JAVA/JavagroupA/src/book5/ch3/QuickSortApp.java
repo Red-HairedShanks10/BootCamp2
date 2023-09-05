@@ -27,7 +27,9 @@ public class QuickSortApp {
 
     private static int[] a;
     public static int[] sort(int[] array){
-
+        a = array;
+        sort(0, a.length - 1);
+        return a;
     }
 
 
