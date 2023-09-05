@@ -10,7 +10,7 @@ public class FactorialCompare {
 
         int r = 7;
         long recursiveFactorial =  factorialRecursive(r);
-        System.out.println("(Recursive)factorial of " + r + " is " + nonRecFactorial);
+        System.out.println("(Recursive)factorial of " + r + " is " + recursiveFactorial);
 
     }
 
