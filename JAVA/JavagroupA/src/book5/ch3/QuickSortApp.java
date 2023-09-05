@@ -15,6 +15,7 @@ public class QuickSortApp {
         }
 
         private static void printArray(int[] array){
+            System.out.println();
 
         }
 
