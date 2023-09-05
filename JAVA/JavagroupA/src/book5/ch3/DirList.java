@@ -30,7 +30,7 @@ public class DirList {
         File[] dirs = dir.listFiles();
         for (File f : dirs){
             if (f.isDirectory()){
-
+                System.out.println(indent + f.getName());
             }
         }
     }
