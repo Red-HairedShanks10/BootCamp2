@@ -11,26 +11,27 @@ public class DirList {
         do {
             System.out.print("\nEnter a path: ");
             String path = sc.nextLine();//get file path name from user
-            File dir = new File(path);//17
-            if (!dir.exists() || !dir.isDirectory()) {//18
+            //17//the File class constructor creates new File object
+            File dir = new File(path);//we use pathname given by the user
+            if (!dir.exists() || !dir.isDirectory()) {//18//check
                 System.out.println("\nThat directory doesn't exist.");
             } else {
                 System.out.println("\nListing directory tree of:");
-                System.out.println(dir.getPath());
-                listDirectories(dir, " ");
+                System.out.println(dir.getPath());//25
+                listDirectories(dir, " ");//26
             }
-        }while(askAgain());
+        }while(askAgain());//28
     }
 
 
 
 
-    private static void listDirectories(File dir, String indent){
-        File[] dirs = dir.listFiles();
-        for (File f : dirs){
-            if (f.isDirectory()){
-                System.out.println(indent + f.getName());
-                listDirectories(f, indent + " ");
+    private static void listDirectories(File dir, String indent){//31
+        File[] dirs = dir.listFiles();//34
+        for (File f : dirs){//35
+            if (f.isDirectory()){//37
+                System.out.println(indent + f.getName());//40
+                listDirectories(f, indent + " ");//41
             }
         }
 
