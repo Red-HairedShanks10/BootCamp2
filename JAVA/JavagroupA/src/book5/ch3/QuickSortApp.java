@@ -2,5 +2,7 @@ package book5.ch3;
 
 public class QuickSortApp {
 
-    public static void main(String[] args)
+    public static void main(String[] args){
+        int LEN = 100;
+    }
 }
