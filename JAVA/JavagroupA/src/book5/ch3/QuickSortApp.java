@@ -1,7 +1,5 @@
 package book5.ch3;
 
-import static com.sun.java.util.jar.pack.ConstantPool.partition;
-
 public class QuickSortApp {
 
     public static void main(String[] args) {
