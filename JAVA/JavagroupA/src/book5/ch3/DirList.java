@@ -36,7 +36,7 @@ public class DirList {
         for (File f : dirs){//enhanced for loop to process directory array
             if (f.isDirectory()){//check if the file is a directory
                 System.out.println(indent + f.getName());//if so return the name of directory
-                listDirectories(f, indent + " ");//using recursion to add two spaces to right the right of current directory
+                listDirectories(f, indent + " ");//using recursion to add two spaces to right of current directory
             }
         }
 
