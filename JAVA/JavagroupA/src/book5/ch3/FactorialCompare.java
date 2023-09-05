@@ -3,9 +3,9 @@ package book5.ch3;
 public class FactorialCompare {
 
     public static void main(String[] args) {
-
-     long nonRecFactorial =  factorial_nRecursive(4);
-     System.out.println("factorial");
+      long n = 5;
+     long nonRecFactorial =  factorial_nRecursive(n);
+     System.out.println("factorial of " + n + "is " + nonRecFactorial);
     }
 
 
