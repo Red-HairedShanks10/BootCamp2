@@ -32,7 +32,14 @@ public class QuickSortApp {
         return a;
     }
 
-    public static void sort(int low, int high)
+    public static void sort(int low, int high){
+        if (low >= high) {
+            return;
+        }
+        int p = partition(low, high);
+        sort (low, p);
+        sort (p+1, high);
+    }
 
 
 
