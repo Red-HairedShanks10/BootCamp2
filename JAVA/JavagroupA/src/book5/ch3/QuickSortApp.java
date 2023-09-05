@@ -12,8 +12,7 @@ public class QuickSortApp {
             int[] sorted = sort(unsorted);
             System.out.println("\n\nSorted array:");
             printArray(sorted);
-        }
-        ;
+        };
     }
         private static void printArray(int[] array){
             System.out.println();
