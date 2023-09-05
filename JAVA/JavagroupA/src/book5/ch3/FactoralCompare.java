@@ -5,4 +5,17 @@ public class FactoralCompare {
     public static void main(String[] args) {
 
     }
+
+
+
+
+
+    //method using a for loop to calculate factoral
+    private static long factorial_nRecursive(int n)
+    {
+        long f = 1;
+        for (int i = 1; i <=n; i++)
+            f = f * i;
+        return f;
+    }
 }
