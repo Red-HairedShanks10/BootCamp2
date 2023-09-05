@@ -20,7 +20,7 @@ public class DirList {
             } else {
                 System.out.println("\nListing directory tree of:");
                 System.out.println(dir.getPath());//25//if the path exist, we display the name
-                listDirectories(dir, " ");//26//
+                listDirectories(dir, " ");//26//we list sub-folders of the directory here
             }
         }while(askAgain());//28
     }
