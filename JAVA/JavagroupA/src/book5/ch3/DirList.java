@@ -3,4 +3,5 @@ import java.io.File;
 import java.util.Scanner;
 public class DirList {
 
+    static Scanner sc = new Scanner(System.in);
 }
