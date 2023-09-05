@@ -14,4 +14,5 @@ public class DirList {
             String path = sc.nextLine();
             File dir = new File(path);
     }       if (!dir.exists() || !dir.isDirectory())
+            System.out.println("\nThat directory doesn't exist.");
 }
