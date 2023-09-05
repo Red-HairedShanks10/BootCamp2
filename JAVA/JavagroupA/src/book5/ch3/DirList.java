@@ -28,7 +28,11 @@ public class DirList {
 
     private static void listDirectories(File dir, String indent){
         File[] dirs = dir.listFiles();
-        for (File f : dirs)
+        for (File f : dirs){
+            if (f.isDirectory()){
+
+            }
+        }
     }
 
 }
