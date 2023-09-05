@@ -7,5 +7,10 @@ public class DirList {
 
     public static void main(String[] args) {
         System.out.print("Welcome to the Directory Lister");
+
+        do
+        {
+            System.out.print("\nEnter a path: ");
+            String path = sc.nextLine();
     }
 }
