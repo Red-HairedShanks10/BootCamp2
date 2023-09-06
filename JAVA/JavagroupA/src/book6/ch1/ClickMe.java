@@ -1,3 +1,4 @@
+/*
 package book6.ch1;
 
 import javafx.application.*;
@@ -39,4 +40,4 @@ public class ClickMe extends Application
             btn.setText("Click me please!");
         }
     }
-}
+}*/
