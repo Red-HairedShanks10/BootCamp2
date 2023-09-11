@@ -43,7 +43,7 @@ public class ClickMe extends Application {
         primaryStage.show();
     }
 
-    public void buttonClick()
+    public void buttonClick()//this method uses an if statement to change
     {
         if (btn.getText() == "Click me please!")
         {
