@@ -46,7 +46,8 @@ public static void main(String[] args)
     private class ClickHandler →53
             implements EventHandler <ActionEvent>
     {
-        @Override public void handle(ActionEvent e) { //→56
+        @Override
+        public void handle(ActionEvent e) { //→56
             if (e.getSource()==btnAdd)
             {
                 iCounter++;
