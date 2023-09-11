@@ -51,3 +51,8 @@ public class SceneSwitcher extends Application
         // Build the Add-Subtract scene →59
         lblCounter = new Label();
         lblCounter.setText(Integer.toString(iCounter));
+
+        btnAdd = new Button();
+        btnAdd.setText("Add");
+        btnAdd.setOnAction(
+                e -> btnAdd_Click() );
