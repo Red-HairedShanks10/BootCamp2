@@ -18,7 +18,8 @@ public class AddSubtract4 extends Application
     Label lbl;
     int iCounter = 0;
 
-    @Override public void start(Stage primaryStage)
+    @Override
+    public void start(Stage primaryStage)
     {
         // Create the Add button
         btnAdd = new Button();
