@@ -1,16 +1,7 @@
 package com.example.dummies_book6.ch3;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
-
-public class SceneSwitcher extends Application {
-
-    public static void main(String[] args) {
-        launch(args);
-    }
-
-    @Override
-    public void start(Stage primaryStage) {
-
-    }
-}
+import javafx.application.*;
+import javafx.stage.*;
+import javafx.scene.*;
+import javafx.scene.layout.*;
+import javafx.scene.control.*;
