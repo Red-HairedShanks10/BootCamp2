@@ -40,4 +40,18 @@ public class ClickCounter extends Application {
         primaryStage.setTitle("Click Counter"); //→40
         primaryStage.show();//41
     }
+
+    public void buttonClick() →44
+    {
+        iClickCount++; →46
+        if (iClickCount == 1) →47
+        {
+            lbl.setText("You have clicked once."); →49
+        }
+else
+        {
+            lbl.setText("You have clicked " →53
+                    + iClickCount + " times." );
+        }
+    }
 }
