@@ -27,8 +27,9 @@ public class ClickMe extends Application {
     public void start(Stage primaryStage) {
 
         btn.setText("Click me please!");//set the text of the button
-        //
-        btn.setOnAction(e -> buttonClick());
+
+        //using lambda expression for event handling once the button is clicked
+        btn.setOnAction(e -> buttonClick());//call buttonClick
 
         // Add the button to a layout pane
         BorderPane pane = new BorderPane();
