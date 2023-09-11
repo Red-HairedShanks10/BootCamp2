@@ -34,10 +34,11 @@ public class AddSubtract4 extends Application
             iCounter--;
             lbl.setText(Integer.toString(iCounter));
         } );
+
         // Create the Label
         lbl = new Label();
         lbl.setText(Integer.toString(iCounter));
-        
+
         // Add the buttons and label to an HBox pane
         HBox pane = new HBox(10);
         pane.getChildren().addAll(lbl, btnAdd, btnSubtract);
