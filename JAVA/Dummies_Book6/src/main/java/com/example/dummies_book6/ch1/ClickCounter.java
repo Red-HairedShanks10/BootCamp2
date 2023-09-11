@@ -39,6 +39,5 @@ public class ClickCounter extends Application {
         primaryStage.setScene(scene); //→39
         primaryStage.setTitle("Click Counter"); //→40
         primaryStage.show();
-
     }
 }
