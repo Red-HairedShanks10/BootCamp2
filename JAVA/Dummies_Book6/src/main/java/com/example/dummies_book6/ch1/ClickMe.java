@@ -19,7 +19,10 @@ public class ClickMe extends Application {
 
     Button btn;
 
+
     @Override
+    //Mandatory for all JFX programs to have start()
+    //start() is where we create the UI elements the user will interact with
     public void start(Stage primaryStage) {
 
         btn = new Button();
