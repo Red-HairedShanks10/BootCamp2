@@ -20,6 +20,6 @@ public class ClickCounter extends Application {
         // Create the button
         btn = new Button();
         btn.setText("Click me please!");
-        btn.setOnAction(e -> buttonClick()); →23
+        btn.setOnAction(e -> buttonClick());
     }
 }
