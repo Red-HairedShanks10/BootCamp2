@@ -21,6 +21,9 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
 
     @Override
     public void start(Stage primaryStage) {
-
+        // Create the Add button
+        btnAdd = new Button(); //→24
+        btnAdd.setText("Add");
+        btnAdd.setOnAction(this);
     }
 }
