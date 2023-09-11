@@ -55,8 +55,7 @@ public class ClickCounterExit extends Application
         }
         else
         {
-            Alert a = new Alert(Alert.AlertType.INFORMATION, "You
-                    have clicked "
+            Alert a = new Alert(Alert.AlertType.INFORMATION, "You have clicked "
                     + iClickCount + " times.");
             a.showAndWait();
         }
