@@ -32,7 +32,7 @@ public class ClickCounter extends Application {
         pane.setCenter(btn); //→32
 
         // Add the layout pane to a scene
-        Scene scene = new Scene(pane, 250, 150);
+        Scene scene = new Scene(pane, 250, 150);//35
 
     }
 }
