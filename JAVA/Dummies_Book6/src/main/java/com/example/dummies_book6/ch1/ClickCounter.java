@@ -9,6 +9,7 @@ import javafx.scene.control.*;
 public class ClickCounter extends Application {
 
     public static void main(String[] args) {
+
         launch(args);
     }
 
