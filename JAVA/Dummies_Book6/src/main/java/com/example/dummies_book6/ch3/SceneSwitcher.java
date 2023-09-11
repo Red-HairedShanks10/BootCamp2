@@ -56,3 +56,26 @@ public class SceneSwitcher extends Application
         btnAdd.setText("Add");
         btnAdd.setOnAction(
                 e -> btnAdd_Click() );
+
+        btnSubtract = new Button();
+        btnSubtract.setText("Subtract");
+        btnSubtract.setOnAction(
+                e -> btnSubtract_Click() );
+        btnSwitchToScene2 = new Button();
+        btnSwitchToScene2.setText("Switch!");
+        btnSwitchToScene2.setOnAction(
+                e -> btnSwitchToScene1_Click() );
+        HBox pane2 = new HBox(10);
+        pane2.getChildren().addAll(lblCounter, btnAdd,
+                btnSubtract, btnSwitchToScene2);
+        scene2 = new Scene(pane2, 300, 75);
+// Set the stage with scene 1 and show the stage →84
+        primaryStage.setScene(scene1);
+        primaryStage.setTitle("Scene Switcher");
+        primaryStage.show();
+    }
+    // Event handlers for scene 1 →91
+    public void btnClickMe_Click()
+    {
+        iClickCount++;
+        if (iClickCount == 1)
