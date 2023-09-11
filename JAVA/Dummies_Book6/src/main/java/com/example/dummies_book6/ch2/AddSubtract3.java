@@ -38,3 +38,7 @@ public class AddSubtract3 extends Application
                 lbl.setText(Integer.toString(iCounter));
             }
                 } );
+
+        // Create the Label
+        lbl = new Label();
+        lbl.setText(Integer.toString(iCounter));
