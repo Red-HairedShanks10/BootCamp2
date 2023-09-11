@@ -24,7 +24,7 @@ public class ClickCounterExit extends Application
         Button btnClickMe = new Button();
         btnClickMe.setText("Click me please!");
         btnClickMe.setOnAction(e -> btnClickMe_Click());
-// Create the Close button
+        // Create the Close button
         Button btnClose = new Button();
         btnClose.setText("Close");
         btnClose.setOnAction(e -> btnClose_Click());
