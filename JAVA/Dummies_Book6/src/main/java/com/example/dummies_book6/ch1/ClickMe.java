@@ -43,15 +43,15 @@ public class ClickMe extends Application {
         primaryStage.show();
     }
 
-    public void buttonClick()//this method uses an if statement to change
+    public void buttonClick()//this method uses an if statement to change text displayed on the button
     {
-        if (btn.getText() == "Click me please!")
+        if (btn.getText() == "Click me please!")//if the current text is = to...
         {
-            btn.setText("You clicked me!");
+            btn.setText("You clicked me!");//then change text to...
         }
         else
         {
-            btn.setText("Click me please!");
+            btn.setText("Click me please!");//otherwise if set text to original
         }
     }
 
