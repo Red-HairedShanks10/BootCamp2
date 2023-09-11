@@ -59,7 +59,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         {
             iCounter--;
         }
-        lbl.setText(Integer.toString(iCounter));
+        lbl.setText(Integer.toString(iCounter));//64
     }
 
 
