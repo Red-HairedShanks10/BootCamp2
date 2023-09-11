@@ -13,8 +13,12 @@ public class ClickMe extends Application {
     }
 
     Button btn;
+
     @Override
     public void start(Stage primaryStage) {
 
+        btn = new Button();
+        btn.setText("Click me please!");
+        btn.setOnAction(e -> buttonClick());
     }
 }
