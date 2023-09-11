@@ -16,8 +16,7 @@ public static void main(String[] args)
         Button btnSubtract;
         Label lbl;
         int iCounter = 0;
-@Override public void start(Stage primaryStage)
-        {
+@Override public void start(Stage primaryStage) {
         // Create a ClickHandler instance
         ClickHandler ch = new ClickHandler(); //→23
         // Create the Add button
