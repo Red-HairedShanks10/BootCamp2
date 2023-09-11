@@ -43,8 +43,8 @@ public static void main(String[] args)
             primaryStage.setTitle("Add/Sub");
             primaryStage.show();
         }
-    private class ClickHandler →53
-            implements EventHandler <ActionEvent>
+    private class ClickHandler implements EventHandler <ActionEvent>→53
+
     {
         @Override
         public void handle(ActionEvent e) { //→56
