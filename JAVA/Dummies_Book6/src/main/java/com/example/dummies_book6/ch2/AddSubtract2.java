@@ -7,8 +7,7 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.event.*;
 
-public class AddSubtract2 extends Application →8
-        {
+public class AddSubtract2 extends Application {//→8
 public static void main(String[] args)
         {
         launch(args);
