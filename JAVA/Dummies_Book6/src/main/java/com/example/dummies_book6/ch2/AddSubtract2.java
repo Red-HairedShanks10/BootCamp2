@@ -20,7 +20,7 @@ public static void main(String[] args)
 @Override public void start(Stage primaryStage)
         {
 // Create a ClickHandler instance
-        ClickHandler ch = new ClickHandler(); →23
+        ClickHandler ch = new ClickHandler(); //→23
 // Create the Add button
         btnAdd = new Button();
         btnAdd.setText("Add");
