@@ -7,6 +7,8 @@ import javafx.scene.*;//stores all the user interface elements displayed in a pr
 import javafx.scene.layout.*;//using UI element called layout manager to determine the position of each control shown in the UI
 import javafx.scene.control.*;//has individual UI controls such as buttons, text boxes etc
 
+
+//extending Application class
 public class ClickMe extends Application {
 
     public static void main(String[] args) {
