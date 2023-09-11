@@ -26,5 +26,10 @@ public class ClickCounter extends Application {
         lbl = new Label(); //26
         lbl.setText("You have not clicked the button.");//27
 
+        // Add the label and the button to a layout pane
+        BorderPane pane = new BorderPane(); →30
+        pane.setTop(lbl); →31
+        pane.setCenter(btn); →32
+
     }
 }
