@@ -14,8 +14,8 @@ public class C_LinkedList {
         officers.add(2,"Sergeant Major Tuttle");
         System.out.println("commissioned officers: " + officers );
        String removeOfficer = officers.set(2,"Murdock");//storing the replaced item to this string variable
-      // officers.add(5,Rico);//removing with a reference of a string value
-       // System.out.println("commissioned officers(replacement): " + officers );
+       officers.add(5,Rico);//removing with a reference of a string value
+        System.out.println("commissioned officers(replacement): " + officers );
         //addFirst
         /*officers.addFirst("Lieutenant General Blake");
         officers.addFirst("General Marco");
@@ -23,9 +23,9 @@ public class C_LinkedList {
         officers.addFirst("Major General Kurama");
         officers.addFirst("Captain McIntyre");*/
 
-       /* for (String officer : officers){
+        for (String officer : officers){
             System.out.println("this is commissioned officer: " + officer );
-        }*/
+        }
 
       //  System.out.println("commissioned officer(removed): " + removeOfficer );
         officers.remove(2);
