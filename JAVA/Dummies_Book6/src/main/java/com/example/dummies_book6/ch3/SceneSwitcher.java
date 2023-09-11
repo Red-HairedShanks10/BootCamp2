@@ -79,3 +79,32 @@ public class SceneSwitcher extends Application
     {
         iClickCount++;
         if (iClickCount == 1)
+        {
+            lblClicks.setText("You have clicked once.");
+        }
+        else
+        {
+            lblClicks.setText("You have clicked "
+                    + iClickCount + " times." );
+        }
+    }
+    private void btnSwitchToScene2_Click()
+    {
+        stage.setScene(scene2);
+    }
+    // Event handlers for scene 2 →112
+    private void btnAdd_Click()
+    {
+        iCounter++;
+        lblCounter.setText(Integer.toString(iCounter));
+    }
+    private void btnSubtract_Click()
+    {
+        iCounter--;
+        lblCounter.setText(Integer.toString(iCounter));
+    }
+    private void btnSwitchToScene1_Click()
+    {
+        stage.setScene(scene1);
+    }
+}
