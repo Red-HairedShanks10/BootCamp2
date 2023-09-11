@@ -18,7 +18,7 @@ public class ClickCounter extends Application {
     @Override
     public void start(Stage primaryStage) {
         // Create the button
-        btn = new Button(); →21
+        btn = new Button();
         btn.setText("Click me please!"); →22
         btn.setOnAction(e -> buttonClick()); →23
     }
