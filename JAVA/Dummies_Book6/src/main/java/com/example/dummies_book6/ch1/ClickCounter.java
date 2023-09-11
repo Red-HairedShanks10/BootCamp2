@@ -7,15 +7,13 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*;
 
 public class ClickCounter extends Application {
-
     public static void main(String[] args) {
-
         launch(args);
     }
 
-    Button btn;
-    Label lbl;
-    int iClickCount = 0;
+    Button btn; //14
+    Label lbl;//15
+    int iClickCount = 0;//16
 
     @Override
     public void start(Stage primaryStage) {
