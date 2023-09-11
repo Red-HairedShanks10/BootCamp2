@@ -10,7 +10,7 @@ import javafx.event.*;
 public class AddSubtract2 extends Application {//→8
 public static void main(String[] args)
         {
-        launch(args);
+             launch(args);
         }
         Button btnAdd;
         Button btnSubtract;
