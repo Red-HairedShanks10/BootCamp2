@@ -34,7 +34,7 @@ public class ClickCounterExit extends Application
         pane.setAlignment(Pos.CENTER);
         // Add the layout pane to a scene
         Scene scene = new Scene(pane, 250, 150);
-// Finish and show the stage
+        // Finish and show the stage
         primaryStage.setScene(scene);
         primaryStage.setTitle("Click Counter");
         primaryStage.setOnCloseRequest( e ->
