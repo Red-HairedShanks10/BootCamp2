@@ -52,6 +52,12 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
 
     @Override
     public void handle(ActionEvent e){
-
+        if (e.getSource()==btnAdd) //→53
+        {
+            iCounter++;
+        }
     }
+
+
+
 }
