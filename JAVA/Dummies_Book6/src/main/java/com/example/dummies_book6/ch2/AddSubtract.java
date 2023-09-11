@@ -34,5 +34,9 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         // Create the Label →33
         lbl = new Label();
         lbl.setText(Integer.toString(iCounter));
+
+        // Add the buttons and label to an HBox pane
+        HBox pane = new HBox(10); →38
+        pane.getChildren().addAll(lbl, btnAdd, btnSubtract);
     }
 }
