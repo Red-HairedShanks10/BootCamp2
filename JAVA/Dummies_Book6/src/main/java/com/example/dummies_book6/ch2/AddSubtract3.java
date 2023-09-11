@@ -46,3 +46,6 @@ public class AddSubtract3 extends Application
         // Add the buttons and label to an HBox pane
         HBox pane = new HBox(10);
         pane.getChildren().addAll(lbl, btnAdd, btnSubtract);
+
+        // Add the layout pane to a scene
+        Scene scene = new Scene(pane, 200, 75);
