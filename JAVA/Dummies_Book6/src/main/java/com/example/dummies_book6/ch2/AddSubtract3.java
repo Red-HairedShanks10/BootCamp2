@@ -25,7 +25,7 @@ public class AddSubtract3 extends Application
 
             public void handle(ActionEvent e){//→28
 
-                iCounter++; →30
+                iCounter++; //→30
                 lbl.setText(Integer.toString(iCounter));
             }
         } );
