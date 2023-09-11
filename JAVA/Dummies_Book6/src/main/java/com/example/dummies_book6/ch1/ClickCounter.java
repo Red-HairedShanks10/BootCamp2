@@ -23,7 +23,7 @@ public class ClickCounter extends Application {
         btn.setOnAction(e -> buttonClick());//23
 
         // Create the Label
-        lbl = new Label(); →26
+        lbl = new Label(); //26
         lbl.setText("You have not clicked the button.");//27
 
     }
