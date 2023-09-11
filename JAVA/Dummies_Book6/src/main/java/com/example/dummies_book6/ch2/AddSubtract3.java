@@ -33,6 +33,5 @@ public class AddSubtract3 extends Application
         btnSubtract.setText("Subtract");
 
         btnSubtract.setOnAction(
-                new EventHandler<ActionEvent>() →39
-        {
+                new EventHandler<ActionEvent>() {//→39
             public void handle(ActionEvent e) { //→41
