@@ -20,7 +20,7 @@ public class ClickCounterExit extends Application
     @Override public void start(Stage primaryStage)
     {
         stage = primaryStage;
-// Create the Click Me button
+        // Create the Click Me button
         Button btnClickMe = new Button();
         btnClickMe.setText("Click me please!");
         btnClickMe.setOnAction(e -> btnClickMe_Click());
