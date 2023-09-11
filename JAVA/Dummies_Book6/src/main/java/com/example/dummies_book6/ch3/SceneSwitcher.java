@@ -30,7 +30,7 @@ public class SceneSwitcher extends Application
     Stage stage; →31
     @Override public void start(Stage primaryStage)
     {
-        stage = primaryStage; →35
+        stage = primaryStage; //→35
         // Build the Click-Counter scene →37
         lblClicks = new Label();
         lblClicks.setText("You have not clicked the button.");
