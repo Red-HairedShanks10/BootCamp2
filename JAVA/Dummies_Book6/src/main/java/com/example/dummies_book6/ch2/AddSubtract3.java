@@ -24,11 +24,10 @@ public class AddSubtract3 extends Application
         btnAdd.setOnAction(new EventHandler<ActionEvent>(){ //→26
 
             public void handle(ActionEvent e){//→28
-
                 iCounter++; //→30
                 lbl.setText(Integer.toString(iCounter));
             }
         } );
-// Create the Subtract button
+        // Create the Subtract button
         btnSubtract = new Button();
         btnSubtract.setText("Subtract");
