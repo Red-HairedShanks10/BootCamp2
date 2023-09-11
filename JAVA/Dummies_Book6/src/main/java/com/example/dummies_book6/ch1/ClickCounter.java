@@ -34,5 +34,11 @@ public class ClickCounter extends Application {
         // Add the layout pane to a scene
         Scene scene = new Scene(pane, 250, 150);//35
 
+        // Add the scene to the stage, set the title
+        // and show the stage
+        primaryStage.setScene(scene); →39
+        primaryStage.setTitle("Click Counter"); →40
+        primaryStage.show();
+
     }
 }
