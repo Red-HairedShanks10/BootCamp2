@@ -20,7 +20,7 @@ public static void main(String[] args)
         {
 // Create a ClickHandler instance
         ClickHandler ch = new ClickHandler(); //→23
-// Create the Add button
+        // Create the Add button
         btnAdd = new Button();
         btnAdd.setText("Add");
         btnAdd.setOnAction(ch); //→28
