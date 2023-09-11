@@ -4,7 +4,7 @@ package com.example.dummies_book6.ch1;
 import javafx.application.Application;//to use the core class for any Jfx program
 import javafx.stage.Stage;//this package allows JFX applications to have a main window//which UI can be displayed in
 import javafx.scene.*;//stores all the user interface elements displayed in a program
-import javafx.scene.layout.*;
+import javafx.scene.layout.*;//using UI element called layout manager to determine the position of each control shown in the UI
 import javafx.scene.control.*;
 
 public class ClickMe extends Application {
