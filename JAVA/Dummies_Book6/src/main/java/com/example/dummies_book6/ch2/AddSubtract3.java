@@ -49,3 +49,13 @@ public class AddSubtract3 extends Application
 
         // Add the layout pane to a scene
         Scene scene = new Scene(pane, 200, 75);
+
+        // Add the scene to the stage, set the title
+// and show the stage
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Add/Sub");
+        primaryStage.show();
+    }
+}
+
+
