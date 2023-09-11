@@ -21,9 +21,8 @@ public class AddSubtract3 extends Application
 // Create the Add button
         btnAdd = new Button();
         btnAdd.setText("Add");
-        btnAdd.setOnAction(
-                new EventHandler<ActionEvent>() →26
-        {
+        btnAdd.setOnAction(new EventHandler<ActionEvent>() →26
+
             public void handle(ActionEvent e) →28
             {
                 iCounter++; →30
