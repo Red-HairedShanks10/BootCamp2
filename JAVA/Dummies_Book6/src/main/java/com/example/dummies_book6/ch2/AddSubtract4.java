@@ -37,10 +37,11 @@ public class AddSubtract4 extends Application
         // Create the Label
         lbl = new Label();
         lbl.setText(Integer.toString(iCounter));
+        
         // Add the buttons and label to an HBox pane
         HBox pane = new HBox(10);
         pane.getChildren().addAll(lbl, btnAdd, btnSubtract);
-        
+
         // Add the layout pane to a scene
         Scene scene = new Scene(pane, 200, 75);
 
