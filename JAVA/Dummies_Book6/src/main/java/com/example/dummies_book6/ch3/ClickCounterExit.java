@@ -28,7 +28,7 @@ public class ClickCounterExit extends Application
         Button btnClose = new Button();
         btnClose.setText("Close");
         btnClose.setOnAction(e -> btnClose_Click());
-// Add the buttons to a layout pane
+        // Add the buttons to a layout pane
         VBox pane = new VBox(10);
         pane.getChildren().addAll(btnClickMe, btnClose);
         pane.setAlignment(Pos.CENTER);
