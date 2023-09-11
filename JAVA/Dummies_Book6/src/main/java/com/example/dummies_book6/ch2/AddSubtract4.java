@@ -27,6 +27,7 @@ public class AddSubtract4 extends Application
             iCounter++;
             lbl.setText(Integer.toString(iCounter));
         } );
+
         // Create the Subtract button
         btnSubtract = new Button();
         btnSubtract.setText("Subtract");
