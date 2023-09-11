@@ -12,6 +12,7 @@ import javafx.scene.control.*;//has individual UI controls such as buttons, text
 public class ClickMe extends Application {
 
     public static void main(String[] args) {
+
         launch(args);
     }
 
