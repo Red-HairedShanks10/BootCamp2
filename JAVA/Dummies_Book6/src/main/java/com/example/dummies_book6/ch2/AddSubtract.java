@@ -27,7 +27,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         btnAdd.setOnAction(this);
 
         // Create the Subtract button
-        btnSubtract = new Button(); →29
+        btnSubtract = new Button(); //→29
         btnSubtract.setText("Subtract");
         btnSubtract.setOnAction(this);
     }
