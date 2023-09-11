@@ -32,7 +32,6 @@ public class AddSubtract4 extends Application
         btnSubtract = new Button();
         btnSubtract.setText("Subtract");
         btnSubtract.setOnAction( e -> →34
-        {
             iCounter--;
             lbl.setText(Integer.toString(iCounter));
         } );
