@@ -28,7 +28,7 @@ public class ClickCounter extends Application {
 
         // Add the label and the button to a layout pane
         BorderPane pane = new BorderPane(); →30
-        pane.setTop(lbl); →31
+        pane.setTop(lbl); //→31
         pane.setCenter(btn); //→32
 
     }
