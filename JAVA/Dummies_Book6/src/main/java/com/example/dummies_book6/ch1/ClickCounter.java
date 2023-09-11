@@ -47,8 +47,7 @@ public class ClickCounter extends Application {
         if (iClickCount == 1) →47
         {
             lbl.setText("You have clicked once."); →49
-        }
-        else{
+        }else{
             lbl.setText("You have clicked " →53
                     + iClickCount + " times." );
         }
