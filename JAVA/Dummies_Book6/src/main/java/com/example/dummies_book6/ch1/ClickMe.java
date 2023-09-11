@@ -12,6 +12,7 @@ public class ClickMe extends Application {
         launch(args);
     }
 
+    Button btn;
     @Override
     public void start(Stage primaryStage) {
 
