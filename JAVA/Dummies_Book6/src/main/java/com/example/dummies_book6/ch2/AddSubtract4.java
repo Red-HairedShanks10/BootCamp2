@@ -15,3 +15,5 @@ public class AddSubtract4 extends Application
     }
     Button btnAdd;
     Button btnSubtract;
+    Label lbl;
+    int iCounter = 0;
