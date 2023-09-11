@@ -20,7 +20,7 @@ public class AddSubtract4 extends Application
 
     @Override public void start(Stage primaryStage)
     {
-// Create the Add button
+        // Create the Add button
         btnAdd = new Button();
         btnAdd.setText("Add");
         btnAdd.setOnAction( e -> { //→25
