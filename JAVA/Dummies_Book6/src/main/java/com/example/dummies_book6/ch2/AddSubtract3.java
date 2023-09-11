@@ -23,8 +23,8 @@ public class AddSubtract3 extends Application
         btnAdd.setText("Add");
         btnAdd.setOnAction(new EventHandler<ActionEvent>(){ //→26
 
-            public void handle(ActionEvent e) →28
-            {
+            public void handle(ActionEvent e){//→28
+
                 iCounter++; →30
                 lbl.setText(Integer.toString(iCounter));
             }
