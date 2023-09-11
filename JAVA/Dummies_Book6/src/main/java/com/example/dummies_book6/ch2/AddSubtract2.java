@@ -18,7 +18,7 @@ public static void main(String[] args)
         int iCounter = 0;
 @Override public void start(Stage primaryStage)
         {
-// Create a ClickHandler instance
+        // Create a ClickHandler instance
         ClickHandler ch = new ClickHandler(); //→23
         // Create the Add button
         btnAdd = new Button();
