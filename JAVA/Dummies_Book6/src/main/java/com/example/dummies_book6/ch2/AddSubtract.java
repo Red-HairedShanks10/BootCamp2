@@ -7,7 +7,7 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.event.*;
 
-public class AddSubtract extends Application {
+public class AddSubtract extends Application implements EventHandler <ActionEvent> {
 
     public static void main(String[] args) {
 
