@@ -41,7 +41,7 @@ public class ClickCounter extends Application {
         primaryStage.show();//41
     }
 
-    public void buttonClick() →44
+    public void buttonClick() //→44
     {
         iClickCount++; //→46
         if (iClickCount == 1) //→47
