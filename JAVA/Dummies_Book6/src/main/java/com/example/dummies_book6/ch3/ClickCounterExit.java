@@ -44,3 +44,33 @@ public class ClickCounterExit extends Application
         } );
         primaryStage.show();
     }
+    public void btnClickMe_Click()
+    {
+        iClickCount++;
+        if (iClickCount == 1)
+        {
+            Alert a = new Alert(Alert.AlertType.INFORMATION, "You
+                    have clicked once." );
+                    a.showAndWait();
+        }
+        else
+        {
+            Alert a = new Alert(Alert.AlertType.INFORMATION, "You
+                    have clicked "
+                    + iClickCount + " times.");
+            a.showAndWait();
+        }
+    }
+    public void btnClose_Click()
+    {
+        Alert a = new Alert(Alert.AlertType.CONFIRMATION,
+                "Are you sure you want to quit?",
+                ButtonType.YES, ButtonType.NO);
+        Optional<ButtonType> confirm = a.showAndWait();
+        if (confirm.isPresent() && confirm.get() ==
+                ButtonType.YES)
+        {
+            stage.close();
+        }
+    }
+}
