@@ -35,3 +35,7 @@ public class AddSubtract3 extends Application
         btnSubtract.setOnAction(
                 new EventHandler<ActionEvent>() {//→39
             public void handle(ActionEvent e) { //→41
+                iCounter--;
+                lbl.setText(Integer.toString(iCounter));
+            }
+                } );
