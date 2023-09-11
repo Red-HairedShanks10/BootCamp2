@@ -17,7 +17,7 @@ public class ClickMe extends Application {
         launch(args);
     }
 
-    Button btn;
+
 
 
     @Override
@@ -25,8 +25,7 @@ public class ClickMe extends Application {
     //start() is where we create the UI elements the user will interact with
     //JFX framework calls the start() after the Application class is initialised
     public void start(Stage primaryStage) {
-
-        btn = new Button();
+        Button btn = new Button();//create new buttun
         btn.setText("Click me please!");
         btn.setOnAction(e -> buttonClick());
 
