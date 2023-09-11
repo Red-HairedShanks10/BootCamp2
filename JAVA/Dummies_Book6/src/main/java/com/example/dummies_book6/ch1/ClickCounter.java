@@ -19,7 +19,7 @@ public class ClickCounter extends Application {
     public void start(Stage primaryStage) {
         // Create the button
         btn = new Button(); //21
-        btn.setText("Click me please!");
+        btn.setText("Click me please!");//22
         btn.setOnAction(e -> buttonClick());
     }
 }
