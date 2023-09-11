@@ -13,6 +13,10 @@ public class ClickCounter extends Application {
         launch(args);
     }
 
+    Button btn;
+    Label lbl;
+    int iClickCount = 0;
+
     @Override
     public void start(Stage primaryStage) {
 
