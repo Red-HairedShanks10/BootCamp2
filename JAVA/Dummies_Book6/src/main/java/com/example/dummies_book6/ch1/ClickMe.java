@@ -1,8 +1,9 @@
 package com.example.dummies_book6.ch1;
 
-import javafx.application.Application;
-import javafx.stage.Stage;
-import javafx.scene.*;
+//importing multiple JavaFX packages to be used:
+import javafx.application.Application;//to use the core class for any Jfx program
+import javafx.stage.Stage;//this package allows JFX applications to have a main window//which UI can be displayed in
+import javafx.scene.*;//stores all the user interface elements displayed in a program
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 
