@@ -26,5 +26,10 @@ public class ClickMe extends Application {
         pane.setCenter(btn);
         // Add the layout pane to a scene
         Scene scene = new Scene(pane, 300, 250);
+
+        // Finalize and show the stage
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("The Click Me App");
+        primaryStage.show();
     }
 }
