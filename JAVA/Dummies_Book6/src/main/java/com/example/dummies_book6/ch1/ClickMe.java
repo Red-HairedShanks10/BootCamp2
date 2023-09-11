@@ -13,6 +13,7 @@ public class ClickMe extends Application {
 
     public static void main(String[] args) {
 
+        //Launch method is what starts the JFX application...
         launch(args);
     }
 
