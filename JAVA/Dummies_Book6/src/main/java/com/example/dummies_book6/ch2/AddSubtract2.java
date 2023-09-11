@@ -24,7 +24,7 @@ public static void main(String[] args)
         btnAdd = new Button();
         btnAdd.setText("Add");
         btnAdd.setOnAction(ch); //→28
-// Create the Subtract button
+        // Create the Subtract button
         btnSubtract = new Button();
         btnSubtract.setText("Subtract");
         btnSubtract.setOnAction(ch); //→33
