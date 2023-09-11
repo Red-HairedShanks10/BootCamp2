@@ -10,6 +10,7 @@ import javafx.event.*;
 public class AddSubtract extends Application {
 
     public static void main(String[] args) {
+
         launch(args);
     }
 
