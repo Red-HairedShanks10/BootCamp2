@@ -112,7 +112,7 @@ public class PizzaOrder extends Application
         grid.setColumnSpan(txtName,2);
         grid.setColumnSpan(txtPhone,2);
         grid.setColumnSpan(txtAddress,2);
-// Set column widths →127
+        // Set column widths →127
         ColumnConstraints col1 = new ColumnConstraints();
         col1.setPercentWidth(33);
         ColumnConstraints col2 = new ColumnConstraints();
