@@ -18,7 +18,7 @@ public class ClickCounter extends Application {
     int iClickCount = 0;//variable will be used to keep track of number of times user clicks the button
 
     @Override//override the default start method of a JFX application
-    public void start(Stage primaryStage) {
+    public void start(Stage primaryStage) {//takes in primaryStage param,to display the main window of the app
         // Create the button
         btn = new Button(); //21
         btn.setText("Click me please!");//22
