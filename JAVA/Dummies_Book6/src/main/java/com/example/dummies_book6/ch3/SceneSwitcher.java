@@ -7,6 +7,7 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.event.*;
 
+//this program essential switches between two scene of different apps
 public class SceneSwitcher extends Application
 {
     public static void main(String[] args)
