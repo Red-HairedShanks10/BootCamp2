@@ -46,7 +46,7 @@ public static void main(String[] args)
 // Create the Actor pane →52
                 HBox paneActor = new HBox(20, lblActor, txtActor);
                 paneActor.setPadding(new Insets(10));
-// Create the Button pane →56
+                // Create the Button pane →56
                 HBox paneButton = new HBox(20, btnOK);
                 paneButton.setPadding(new Insets(10));
                 paneButton.setAlignment(Pos.BOTTOM_RIGHT);
