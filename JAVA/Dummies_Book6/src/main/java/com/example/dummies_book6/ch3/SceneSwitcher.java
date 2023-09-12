@@ -103,6 +103,7 @@ public class SceneSwitcher extends Application
         }
     }
 
+    //this handler switches between the scene
     private void btnSwitchToScene2_Click()
     {
         stage.setScene(scene2);
