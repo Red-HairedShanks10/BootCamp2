@@ -141,7 +141,8 @@ public class PizzaOrder extends Application
         primaryStage.setMaxWidth(900);
         primaryStage.show();
     }
-    public void btnOK_Click()// →146
+
+    public void btnOK_Click()// →146 this method will called when
     {
         // Create a message string with the customer information
         String msg = "Customer:\n\n";
