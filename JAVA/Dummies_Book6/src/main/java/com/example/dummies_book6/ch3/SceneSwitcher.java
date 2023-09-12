@@ -56,7 +56,7 @@ public class SceneSwitcher extends Application
         //***END of ClickCounter Scene***//
 
         //* Build the Add-Subtract scene
-        //we do the same thing here as we did with the Click-Counter scene
+        //we do a similar thing here as we did with the Click-Counter scene
         lblCounter = new Label();
         lblCounter.setText(Integer.toString(iCounter));
 
