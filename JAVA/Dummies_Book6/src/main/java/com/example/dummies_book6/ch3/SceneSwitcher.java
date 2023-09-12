@@ -84,7 +84,7 @@ public class SceneSwitcher extends Application
         primaryStage.setTitle("Scene Switcher");
         primaryStage.show();
     }
-    // Event handlers for scene 1 →91
+    // Event handlers for scene 1
     public void btnClickMe_Click()
     {
         iClickCount++;
