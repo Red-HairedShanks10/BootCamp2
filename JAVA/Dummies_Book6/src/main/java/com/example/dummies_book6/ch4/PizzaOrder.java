@@ -69,7 +69,7 @@ public class PizzaOrder extends Application
         VBox paneSize = new VBox(lblSize, rdoSmall, rdoMedium, rdoLarge);
         paneSize.setSpacing(10);
 
-        //***Create the crust pane →70
+        //***Create the crust pane
         Label lblCrust = new Label("Crust");
         //created two radio button for Crust style
         rdoThin = new RadioButton("Thin");
