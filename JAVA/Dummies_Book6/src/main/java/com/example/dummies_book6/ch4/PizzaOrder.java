@@ -81,7 +81,7 @@ public class PizzaOrder extends Application
         VBox paneCrust = new VBox(lblCrust, rdoThin, rdoThick);
         paneCrust.setSpacing(10);
 
-        //***Create the toppings pane →82
+        //***Create the toppings pane
         Label lblToppings = new Label("Toppings");
         //created three check Boxes for different Toppings
         chkPepperoni = new CheckBox("Pepperoni");
