@@ -99,3 +99,44 @@ public class PizzaOrder extends Application
         grid.setPrefWidth(500);
         grid.setMaxWidth(800);
 
+        // Add the nodes to the pane →112
+        grid.addRow(0, lblName, txtName);
+        grid.addRow(1, lblPhone, txtPhone);
+        grid.addRow(2, lblAddress, txtAddress);
+        grid.addRow(3, paneSize, paneCrust, paneToppings);
+        grid.add(paneButtons,2,4);
+// Set alignments and spanning →119
+        grid.setHalignment(lblName, HPos.RIGHT);
+        grid.setHalignment(lblPhone, HPos.RIGHT);
+        grid.setHalignment(lblAddress, HPos.RIGHT);
+        grid.setColumnSpan(txtName,2);
+        grid.setColumnSpan(txtPhone,2);
+        grid.setColumnSpan(txtAddress,2);
+// Set column widths →127
+        ColumnConstraints col1 = new ColumnConstraints();
+        col1.setPercentWidth(33);
+        ColumnConstraints col2 = new ColumnConstraints();
+        col2.setPercentWidth(33);
+        ColumnConstraints col3 = new ColumnConstraints();
+        col3.setPercentWidth(33);
+        grid.getColumnConstraints().addAll(col1, col2, col3);
+// Create the scene and the stage →136
+        Scene scene = new Scene(grid);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Pizza Order");
+        primaryStage.setMinWidth(500);
+        primaryStage.setMaxWidth(900);
+        primaryStage.show();
+    }
+    public void btnOK_Click() →146
+    {
+// Create a message string with the customer information
+        String msg = "Customer:\n\n";
+        msg += "\t" + txtName.getText() + "\n";
+        msg += "\t" + txtPhone.getText() + "\n\n";
+        msg += "\t" + txtAddress.getText() + "\n";
+        msg += "You have ordered a ";
+// Add the pizza size
+        if (rdoSmall.isSelected())
+            msg += "small ";
+
