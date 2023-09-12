@@ -8,11 +8,12 @@ import javafx.scene.control.*;
 
 public class ClickCounter extends Application {
     public static void main(String[] args) {
+
         launch(args);
     }
 
-    Button btn; //14
-    Label lbl;//15
+    Button btn; //variable of type Button class//making it a class variable
+    Label lbl;//
     int iClickCount = 0;//16
 
     @Override
