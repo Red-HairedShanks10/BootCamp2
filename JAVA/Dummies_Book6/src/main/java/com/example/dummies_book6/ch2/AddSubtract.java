@@ -16,6 +16,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         launch(args);
     }
 
+    //setting up our control variables
     Button btnAdd; //→16
     Button btnSubtract;
     Label lbl;
