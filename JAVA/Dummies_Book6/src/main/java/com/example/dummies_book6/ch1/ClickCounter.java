@@ -21,8 +21,8 @@ public class ClickCounter extends Application {
     public void start(Stage primaryStage) {//takes in primaryStage param,to display the main window of the app
         // Create the button
         btn = new Button();
-        btn.setText("Click me please!");//using setText to set string to be displayed on the button
-        btn.setOnAction(e -> buttonClick());//23
+        btn.setText("Click me please!");//using setText() to set string to be displayed on the button
+        btn.setOnAction(e -> buttonClick());//use lambda, to create an event handler for when the button is clicked
 
         // Create the Label
         lbl = new Label(); //26
