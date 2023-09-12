@@ -39,8 +39,7 @@ public class SpinOffs extends Application
         tree = new TreeView<String>(root);// →44
         tree.setShowRoot(false);
         tree.getSelectionModel().selectedItemProperty() //→46
-            .addListener( (v, oldValue, newValue) ->
-                    tree_SelectionChanged(newValue) );
+            .addListener( (v, oldValue, newValue) -> tree_SelectionChanged(newValue) );
         lblShowName = new Label();
         VBox pane = new VBox(10);
         pane.setPadding(new Insets(20,20,20,20));
