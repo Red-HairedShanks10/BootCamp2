@@ -43,7 +43,7 @@ public static void main(String[] args)
 // Create the Character pane →48
                 HBox paneCharacter = new HBox(20, lblCharacter, txtCharacter);
                 paneCharacter.setPadding(new Insets(10));
-// Create the Actor pane →52
+                // Create the Actor pane →52
                 HBox paneActor = new HBox(20, lblActor, txtActor);
                 paneActor.setPadding(new Insets(10));
                 // Create the Button pane →56
