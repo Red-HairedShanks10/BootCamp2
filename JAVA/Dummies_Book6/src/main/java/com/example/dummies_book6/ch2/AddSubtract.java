@@ -33,7 +33,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         // Create the Subtract button
         btnSubtract = new Button();
         btnSubtract.setText("Subtract");
-        btnSubtract.setOnAction(this);
+        btnSubtract.setOnAction(this);//same as btnAdd
 
         // Create the Label →33
         lbl = new Label();
