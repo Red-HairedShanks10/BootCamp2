@@ -12,5 +12,5 @@ public static void main(String[] args)
         {
         launch(args);
         }
-        TextField txtCharacter; →15
+        TextField txtCharacter; //→15
         TextField txtActor;
