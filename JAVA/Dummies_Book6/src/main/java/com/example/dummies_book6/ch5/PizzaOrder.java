@@ -110,7 +110,7 @@ public class PizzaOrder extends Application
         paneToppings.setVgap(10);
         paneToppings.setPrefWrapLength(100);
         VBox paneTopping = new VBox(lblToppings, paneToppings);
-// Add the size, crust, and toppings pane to the order pane
+        // Add the size, crust, and toppings pane to the order pane
         HBox paneOrder = new HBox(50, paneSize, paneCrust, paneTopping);
         // Create the center pane
         VBox paneCenter = new VBox(20, paneCustomer, paneOrder);
