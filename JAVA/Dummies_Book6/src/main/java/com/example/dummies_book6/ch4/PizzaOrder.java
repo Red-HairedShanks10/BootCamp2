@@ -165,7 +165,7 @@ public class PizzaOrder extends Application
     }
     public String buildToppings(CheckBox chk, String msg) //→187
     {
-// Helper method for displaying the list of toppings
+        // Helper method for displaying the list of toppings
         if (chk.isSelected())
         {
             if (!msg.equals(""))
