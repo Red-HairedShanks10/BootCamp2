@@ -31,7 +31,7 @@ public class SceneSwitcher extends Application
     Button btnSwitchToScene1;
     Scene scene2;
 
-    // class field for stage
+    // class field used for stage
     Stage stage;
     @Override public void start(Stage primaryStage)
     {
