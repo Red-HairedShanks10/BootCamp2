@@ -105,7 +105,7 @@ public class PizzaOrder extends Application
         grid.addRow(2, lblAddress, txtAddress);
         grid.addRow(3, paneSize, paneCrust, paneToppings);
         grid.add(paneButtons,2,4);
-// Set alignments and spanning →119
+        // Set alignments and spanning →119
         grid.setHalignment(lblName, HPos.RIGHT);
         grid.setHalignment(lblPhone, HPos.RIGHT);
         grid.setHalignment(lblAddress, HPos.RIGHT);
