@@ -20,7 +20,8 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
     Button btnAdd; //→16
     Button btnSubtract;
     Label lbl;
-    int iCounter = 0;
+    //
+    int iCounter = 0;//keeps track of
 
     @Override
     public void start(Stage primaryStage) {
