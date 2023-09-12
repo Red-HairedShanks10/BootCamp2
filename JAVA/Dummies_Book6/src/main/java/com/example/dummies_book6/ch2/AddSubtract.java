@@ -16,12 +16,12 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         launch(args);
     }
 
-    //setting up our control variables
+    //setting up control variables
     Button btnAdd; //→16
     Button btnSubtract;
     Label lbl;
     //
-    int iCounter = 0;//keeps track of
+    int iCounter = 0;//keeps track of values displayed by the label
 
     @Override
     public void start(Stage primaryStage) {
