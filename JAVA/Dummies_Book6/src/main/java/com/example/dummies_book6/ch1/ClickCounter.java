@@ -11,10 +11,11 @@ public class ClickCounter extends Application {
 
         launch(args);
     }
-    //making it a class variable
+
+    //making it class variables
     Button btn; //variable of type Button control class
     Label lbl;//var of type Label control class...
-    int iClickCount = 0;//variable will be
+    int iClickCount = 0;//variable will be used to keep track of number of times user clicks the button
 
     @Override
     public void start(Stage primaryStage) {
