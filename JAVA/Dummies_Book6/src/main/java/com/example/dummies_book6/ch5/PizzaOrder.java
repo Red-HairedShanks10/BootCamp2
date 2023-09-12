@@ -38,7 +38,7 @@ public class PizzaOrder extends Application
     @Override public void start(Stage primaryStage)
     {
         stage = primaryStage;
-// ----- Create the top pane -----
+        // ----- Create the top pane -----
         Text textHeading = new Text("Order Your Pizza Now!");
         textHeading.setFont(new Font(20));
         HBox paneTop = new HBox(textHeading);
