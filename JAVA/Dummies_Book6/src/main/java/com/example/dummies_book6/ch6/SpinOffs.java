@@ -22,8 +22,7 @@ public class SpinOffs extends Application
         happy, george, maude;
         root = new TreeItem<String>("Spin Offs"); →23
         root.setExpanded(true);
-        andy = makeShow( →26
-                "The Andy Griffith Show", root);
+        andy = makeShow("The Andy Griffith Show", root);//→26
         makeShow("Gomer Pyle, U.S.M.C.", andy);
         makeShow("Mayberry R.F.D", andy);
         archie = makeShow("All in the Family", root);// →31
