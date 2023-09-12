@@ -82,7 +82,7 @@ public class PizzaOrder extends Application
         paneCrust.setSpacing(10);
 
         //***Create the toppings pane →82
-
+        
         Label lblToppings = new Label("Toppings");
         chkPepperoni = new CheckBox("Pepperoni");
         chkMushrooms = new CheckBox("Mushrooms");
