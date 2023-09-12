@@ -59,7 +59,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
     //this method is being implemented by the AddSubtract class
     //will be called by button objects when clicked on
     public void handle(ActionEvent e){//takes in ActionEvent param
-        if (e.getSource()==btnAdd) //getSource()
+        if (e.getSource()==btnAdd) //if the event source is btnAdd
         {
             iCounter++;
         }else if (e.getSource()==btnSubtract)//59
