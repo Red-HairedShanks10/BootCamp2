@@ -31,7 +31,7 @@ public static void main(String[] args)
                 Label lblActor = new Label("Actor's Name:");
                 lblActor.setMinWidth(100);
                 lblActor.setAlignment(Pos.BOTTOM_RIGHT);
-// Create the Actor text field →37
+                // Create the Actor text field →37
                 txtActor = new TextField();
                 txtActor.setMinWidth(200);
                 txtActor.setMaxWidth(200);
