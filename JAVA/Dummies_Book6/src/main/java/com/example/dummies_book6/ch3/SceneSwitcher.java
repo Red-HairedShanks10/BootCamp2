@@ -111,7 +111,7 @@ public class SceneSwitcher extends Application
 
 
     //**Event handlers for scene 2
-    //1--increments iCounter value as the add button is clicked
+    //1--increments iCounter value as the add button is clicked on
     private void btnAdd_Click()
     {
         iCounter++;
