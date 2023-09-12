@@ -158,7 +158,7 @@ public class PizzaOrder extends Application
             msg += "thin crust pizza with ";
         if (rdoThick.isSelected())
             msg += "thick crust pizza with ";
-// Add the toppings
+        // Add the toppings
         String toppings = "";
         toppings = buildToppings(chkPepperoni, toppings);
         toppings = buildToppings(chkSausage, toppings);
