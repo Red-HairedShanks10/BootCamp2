@@ -124,7 +124,7 @@ public class PizzaOrder extends Application
         grid.setColumnSpan(txtPhone,2);
         grid.setColumnSpan(txtAddress,2);
 
-        // Set column constraints for even width distribution 
+        // Set column constraints for even width distribution
         ColumnConstraints col1 = new ColumnConstraints();
         col1.setPercentWidth(33);
         ColumnConstraints col2 = new ColumnConstraints();
@@ -132,7 +132,8 @@ public class PizzaOrder extends Application
         ColumnConstraints col3 = new ColumnConstraints();
         col3.setPercentWidth(33);
         grid.getColumnConstraints().addAll(col1, col2, col3);
-        // Create the scene and the stage →136
+
+        // Create the scene and the stage
         Scene scene = new Scene(grid);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Pizza Order");
