@@ -54,7 +54,8 @@ public class SceneSwitcher extends Application
                 btnSwitchToScene2);
         scene1 = new Scene(pane1, 250, 150);
         //***END of ClickCounter Scene***//
-        // Build the Add-Subtract scene →59
+
+        //* Build the Add-Subtract scene 
         lblCounter = new Label();
         lblCounter.setText(Integer.toString(iCounter));
 
