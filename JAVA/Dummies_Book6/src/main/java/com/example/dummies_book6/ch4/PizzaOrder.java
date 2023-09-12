@@ -56,6 +56,7 @@ public class PizzaOrder extends Application
 
         //*Create the pizza size pane
         Label lblSize = new Label("Size");
+        //created three radio buttons for different sizes
         rdoSmall = new RadioButton("Small");
         rdoMedium = new RadioButton("Medium");
         rdoLarge = new RadioButton("Large");
