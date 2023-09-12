@@ -130,13 +130,13 @@ public class PizzaOrder extends Application
     }
     public void btnOK_Click()// →146
     {
-// Create a message string with the customer information
+        // Create a message string with the customer information
         String msg = "Customer:\n\n";
         msg += "\t" + txtName.getText() + "\n";
         msg += "\t" + txtPhone.getText() + "\n\n";
         msg += "\t" + txtAddress.getText() + "\n";
         msg += "You have ordered a ";
-// Add the pizza size
+        // Add the pizza size
         if (rdoSmall.isSelected())
             msg += "small ";
         if (rdoMedium.isSelected())
