@@ -82,3 +82,40 @@ public class PizzaOrder extends Application
         rdoLarge.setToggleGroup(groupSize);
         VBox paneSize = new VBox(lblSize, rdoSmall, rdoMedium, rdoLarge);
         paneSize.setSpacing(10);
+
+        // Create the crust pane
+        Label lblCrust = new Label("Crust");
+        rdoThin = new RadioButton("Thin");
+        rdoThick = new RadioButton("Thick");
+        rdoThin.setSelected(true);
+        ToggleGroup groupCrust = new ToggleGroup();
+        rdoThin.setToggleGroup(groupCrust);
+        rdoThick.setToggleGroup(groupCrust);
+        VBox paneCrust = new VBox(lblCrust, rdoThin, rdoThick);
+        paneCrust.setSpacing(10);
+// Create the toppings pane
+        Label lblToppings = new Label("Toppings");
+        chkPepperoni = new CheckBox("Pepperoni");
+        chkSausage = new CheckBox("Sausage");
+        chkLinguica = new CheckBox("Linguica");
+        chkOlives = new CheckBox("Olives");
+        chkMushrooms = new CheckBox("Mushrooms");
+        chkTomatoes = new CheckBox("Tomatoes");
+        chkAnchovies = new CheckBox("Anchovies");
+        FlowPane paneToppings = new FlowPane(Orientation.VERTICAL,
+                chkPepperoni, chkSausage, chkLinguica, chkOlives,
+                chkMushrooms, chkTomatoes, chkAnchovies);
+        paneToppings.setPadding(new Insets(10, 0, 10, 0));
+        paneToppings.setHgap(20);
+        paneToppings.setVgap(10);
+        paneToppings.setPrefWrapLength(100);
+        VBox paneTopping = new VBox(lblToppings, paneToppings);
+// Add the size, crust, and toppings pane to the order pane
+        HBox paneOrder = new HBox(50, paneSize, paneCrust, paneTopping);
+// Create the center pane
+        VBox paneCenter = new VBox(20, paneCustomer, paneOrder);
+        paneCenter.setPadding(new Insets(0,10, 0, 10));
+// ---------- Create the bottom pane ----------
+        Button btnOK = new Button("OK");
+        btnOK.setPrefWidth(80);
+        btnOK.setOnAction(e -> btnOK_Click() );
