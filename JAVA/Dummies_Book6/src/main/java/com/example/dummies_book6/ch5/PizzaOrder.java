@@ -70,7 +70,7 @@ public class PizzaOrder extends Application
         VBox paneCustomer = new VBox(10, paneName,
                 panePhone, paneAddress);
 // ---------- Create the order pane ----------
-// Create the size pane
+        // Create the size pane
         Label lblSize = new Label("Size");
         rdoSmall = new RadioButton("Small");
         rdoMedium = new RadioButton("Medium");
