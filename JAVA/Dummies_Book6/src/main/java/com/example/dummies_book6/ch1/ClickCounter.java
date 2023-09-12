@@ -20,8 +20,8 @@ public class ClickCounter extends Application {
     @Override//override the default start method of a JFX application
     public void start(Stage primaryStage) {//takes in primaryStage param,to display the main window of the app
         // Create the button
-        btn = new Button(); //21
-        btn.setText("Click me please!");//22
+        btn = new Button();
+        btn.setText("Click me please!");//using setText to set string to be displayed on the button
         btn.setOnAction(e -> buttonClick());//23
 
         // Create the Label
