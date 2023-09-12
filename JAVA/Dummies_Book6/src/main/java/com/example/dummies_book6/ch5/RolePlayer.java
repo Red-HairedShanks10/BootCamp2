@@ -50,9 +50,9 @@ public static void main(String[] args)
                 HBox paneButton = new HBox(20, btnOK);
                 paneButton.setPadding(new Insets(10));
                 paneButton.setAlignment(Pos.BOTTOM_RIGHT);
-// Add the Character, Actor, and Button panes to a VBox →61
+                // Add the Character, Actor, and Button panes to a VBox →61
                 VBox pane = new VBox(10, paneCharacter, paneActor, paneButton);
-// Set the stage →64
+                // Set the stage →64
                 Scene scene = new Scene(pane);
                 primaryStage.setScene(scene);
                 primaryStage.setTitle("Role Player");
