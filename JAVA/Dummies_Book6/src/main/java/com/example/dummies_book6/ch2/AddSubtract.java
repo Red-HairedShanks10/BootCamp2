@@ -62,7 +62,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         if (e.getSource()==btnAdd) //if the event source is btnAdd
         {
             iCounter++;//increment the variable
-        }else if (e.getSource()==btnSubtract)//59
+        }else if (e.getSource()==btnSubtract)//if event source is btnSubtract
         {
             iCounter--;
         }
