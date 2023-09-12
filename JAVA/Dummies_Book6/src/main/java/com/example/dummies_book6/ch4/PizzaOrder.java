@@ -58,3 +58,43 @@ public class PizzaOrder extends Application
         rdoLarge = new RadioButton("Large");
         rdoMedium.setSelected(true);
         ToggleGroup groupSize = new ToggleGroup();
+
+        rdoSmall.setToggleGroup(groupSize);
+        rdoMedium.setToggleGroup(groupSize);
+        rdoLarge.setToggleGroup(groupSize);
+        VBox paneSize = new VBox(lblSize, rdoSmall, rdoMedium, rdoLarge);
+        paneSize.setSpacing(10);
+// Create the crust pane →70
+        Label lblCrust = new Label("Crust");
+        rdoThin = new RadioButton("Thin");
+        rdoThick = new RadioButton("Thick");
+        rdoThin.setSelected(true);
+        ToggleGroup groupCrust = new ToggleGroup();
+        rdoThin.setToggleGroup(groupCrust);
+        rdoThick.setToggleGroup(groupCrust);
+        VBox paneCrust = new VBox(lblCrust, rdoThin, rdoThick);
+        paneCrust.setSpacing(10);
+// Create the toppings pane →82
+        Label lblToppings = new Label("Toppings");
+        chkPepperoni = new CheckBox("Pepperoni");
+        chkMushrooms = new CheckBox("Mushrooms");
+        chkAnchovies = new CheckBox("Anchovies");
+        VBox paneToppings = new VBox(lblToppings, chkPepperoni,
+                chkMushrooms, chkAnchovies);
+        paneToppings.setSpacing(10);
+// Create the buttons →92
+        Button btnOK = new Button("OK");
+        btnOK.setPrefWidth(80);
+        btnOK.setOnAction(e -> btnOK_Click() );
+        Button btnCancel = new Button("Cancel");
+        btnCancel.setPrefWidth(80);
+        btnCancel.setOnAction(e -> btnCancel_Click() );
+        HBox paneButtons = new HBox(10, btnOK, btnCancel);
+// Create the GridPane layout →103
+        GridPane grid = new GridPane();
+        grid.setPadding(new Insets(10));
+        grid.setHgap(10);
+        grid.setVgap(10);
+        grid.setMinWidth(500);
+        grid.setPrefWidth(500);
+        grid.setMaxWidth(800);
