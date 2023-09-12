@@ -8,7 +8,7 @@ import javafx.scene.control.*;
 import javafx.event.*;
 
 //this program essential switches between scenes of two different apps
-//Click Counter app
+//Click Counter app and AddSubtract app
 public class SceneSwitcher extends Application
 {
     public static void main(String[] args)
