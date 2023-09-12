@@ -59,7 +59,7 @@ public class PizzaOrder extends Application
         txtPhone.setPrefColumnCount(20);
         txtPhone.setPromptText("Enter the customer's phone number here");
         HBox panePhone = new HBox(lblPhone, txtPhone);
-// Create the address label and text field
+        // Create the address label and text field
         Label lblAddress = new Label("Address:");
         lblAddress.setPrefWidth(100);
         txtAddress = new TextField();
