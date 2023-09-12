@@ -34,10 +34,10 @@ public class ClickCounter extends Application {
         pane.setCenter(btn); //add the button to the center position of the border pane
 
         // Add the layout pane to a scene
-        Scene scene = new Scene(pane, 250, 150);//35
+        Scene scene = new Scene(pane, 250, 150);
 
         // Add the scene to the stage, set the title
-        // and show the stage
+        // and show the stage//main window
         primaryStage.setScene(scene); //→39
         primaryStage.setTitle("Click Counter"); //→40
         primaryStage.show();//41
