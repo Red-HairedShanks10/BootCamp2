@@ -12,8 +12,8 @@ public class ClickCounter extends Application {
         launch(args);
     }
 
-    Button btn; //variable of type Button class//making it a class variable
-    Label lbl;//
+    Button btn; //variable of type Button control class//making it a class variable
+    Label lbl;//var of type Label control class...
     int iClickCount = 0;//16
 
     @Override
