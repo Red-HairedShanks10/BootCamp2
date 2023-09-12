@@ -156,3 +156,43 @@ public class PizzaOrder extends Application
 // Add the crust style
         if (rdoThin.isSelected())
             msg += "thin crust pizza with ";
+        if (rdoThick.isSelected())
+            msg += "thick crust pizza with ";
+// Add the toppings
+        String toppings = "";
+        toppings = buildToppings(chkPepperoni, toppings);
+        toppings = buildToppings(chkSausage, toppings);
+        toppings = buildToppings(chkLinguica, toppings);
+        toppings = buildToppings(chkOlives, toppings);
+        toppings = buildToppings(chkTomatoes, toppings);
+        toppings = buildToppings(chkMushrooms, toppings);
+        toppings = buildToppings(chkAnchovies, toppings);
+        if (toppings.equals(""))
+            msg += "no toppings.";
+        else
+            msg += "the following toppings:\n"
+                    + toppings;
+// Display the message
+        Alert a = new Alert(Alert.AlertType.INFORMATION,msg);
+        a.setTitle("Order Details");
+        a.showAndWait();
+    }
+    public String buildToppings(CheckBox chk, String msg)
+    {
+// Helper method for displaying the list of toppings
+        if (chk.isSelected())
+        {
+            if (!msg.equals(""))
+            {
+                msg += ", ";
+            }
+            msg += chk.getText();
+        }
+        return msg;
+    }
+    public void btnCancel_Click()
+    {
+        stage.close();
+    }
+}
+
