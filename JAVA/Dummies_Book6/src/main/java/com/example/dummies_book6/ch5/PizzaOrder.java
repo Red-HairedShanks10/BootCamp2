@@ -127,7 +127,7 @@ public class PizzaOrder extends Application
         HBox paneBottom = new HBox(10, spacer, btnOK, btnCancel);
         paneBottom.setHgrow(spacer, Priority.ALWAYS);
         paneBottom.setPadding(new Insets(20, 10, 20, 10));
-// ---------- Finish the scene ----------
+        // ---------- Finish the scene ----------
         BorderPane paneMain = new BorderPane();
         paneMain.setTop(paneTop);
         paneMain.setCenter(paneCenter);
