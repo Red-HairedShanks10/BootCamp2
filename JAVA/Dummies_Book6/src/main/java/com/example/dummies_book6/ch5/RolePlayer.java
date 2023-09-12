@@ -69,7 +69,7 @@ public static void main(String[] args)
                 {
                     errorMessage += "\nActor is a required field.";
                 }
-                if (errorMessage.length() == 0) →85
+                if (errorMessage.length() == 0)// →85
                 {
                     String message = "The role of "
                             + txtCharacter.getText()
@@ -81,7 +81,7 @@ public static void main(String[] args)
                     a.showAndWait();
                 }else
                 {
-                    Alert a = new Alert(Alert.AlertType.WARNING, errorMessage); →98
+                    Alert a = new Alert(Alert.AlertType.WARNING, errorMessage);//→98
                     a.setTitle("Missing Data");
                     a.showAndWait();
                 }
