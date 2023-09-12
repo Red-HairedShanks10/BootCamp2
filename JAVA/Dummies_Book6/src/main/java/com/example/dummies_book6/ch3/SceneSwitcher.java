@@ -13,6 +13,7 @@ public class SceneSwitcher extends Application
 {
     public static void main(String[] args)
     {
+
         launch(args);
     }
     // class fields for Click-Counter scene →15
