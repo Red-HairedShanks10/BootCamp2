@@ -90,7 +90,9 @@ public class PizzaOrder extends Application
         VBox paneToppings = new VBox(lblToppings, chkPepperoni,
                 chkMushrooms, chkAnchovies);
         paneToppings.setSpacing(10);
-        // Create the buttons →92
+
+        //***Create the buttons →92
+
         Button btnOK = new Button("OK");
         btnOK.setPrefWidth(80);
         btnOK.setOnAction(e -> btnOK_Click() );
