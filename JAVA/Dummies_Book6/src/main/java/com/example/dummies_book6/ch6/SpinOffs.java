@@ -45,7 +45,7 @@ public class SpinOffs extends Application
         lblShowName = new Label();
         VBox pane = new VBox(10);
         pane.setPadding(new Insets(20,20,20,20));
-        pane.getChildren().addAll(tree, lblShowName); →54
+        pane.getChildren().addAll(tree, lblShowName);// →54
         Scene scene = new Scene(pane);
         primaryStage.setScene(scene);
         primaryStage.setTitle("My Favorite Spin Offs");
