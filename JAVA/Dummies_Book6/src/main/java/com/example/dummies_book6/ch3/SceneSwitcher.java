@@ -88,6 +88,7 @@ public class SceneSwitcher extends Application
     }
 
     // Event handlers for scene 1
+    //uses an if state to check how many times the button has be clicked
     public void btnClickMe_Click()
     {
         iClickCount++;
