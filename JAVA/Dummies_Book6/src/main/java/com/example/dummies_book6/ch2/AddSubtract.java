@@ -57,7 +57,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
 
     @Override//override default handle()
     //this method is being implemented by the AddSubtract class
-    //will be called
+    //will be called by button objects when clicked on
     public void handle(ActionEvent e){
         if (e.getSource()==btnAdd) //→53
         {
