@@ -25,8 +25,7 @@ public static void main(String[] args)
                 txtCharacter = new TextField();
                 txtCharacter.setMinWidth(200);
                 txtCharacter.setMaxWidth(200);
-                txtCharacter.setPromptText(
-                        "Enter the name of the character here.");
+                txtCharacter.setPromptText("Enter the name of the character here.");
                 // Create the Actor label →32
                 Label lblActor = new Label("Actor's Name:");
                 lblActor.setMinWidth(100);
