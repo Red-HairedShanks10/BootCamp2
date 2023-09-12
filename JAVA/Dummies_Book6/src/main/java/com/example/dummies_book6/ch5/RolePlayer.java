@@ -58,7 +58,7 @@ public static void main(String[] args)
 
                 primaryStage.show();
             }
-            public void btnOK_Click() →71
+            public void btnOK_Click()//→71
             {
                 String errorMessage = "";//→73
                 if (txtCharacter.getText().length() == 0)// →75
