@@ -36,7 +36,7 @@ public static void main(String[] args)
                 txtActor.setMinWidth(200);
                 txtActor.setMaxWidth(200);
                 txtActor.setPromptText("Enter the name of the actor here.");
-// Create the OK button →43
+                // Create the OK button →43
                 Button btnOK = new Button("OK");
                 btnOK.setMinWidth(75);
                 btnOK.setOnAction(e -> btnOK_Click() );
