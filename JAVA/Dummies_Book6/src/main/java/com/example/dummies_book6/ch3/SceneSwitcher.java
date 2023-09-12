@@ -48,7 +48,7 @@ public class SceneSwitcher extends Application
         btnSwitchToScene2.setText("Switch!");
         btnSwitchToScene2.setOnAction(
                 e -> btnSwitchToScene2_Click() );
-        //2--c
+        //2--creates a VBox pane which arranges controls in a vertical stack
         VBox pane1 = new VBox(10);
         pane1.getChildren().addAll(lblClicks, btnClickMe,
                 btnSwitchToScene2);
