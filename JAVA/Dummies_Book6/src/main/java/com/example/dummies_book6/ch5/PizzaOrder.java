@@ -146,7 +146,7 @@ public class PizzaOrder extends Application
         msg += "\t" + txtAddress.getText() + "\n";
         msg += "\t" + txtPhone.getText() + "\n\n";
         msg += "You have ordered a ";
-// Add the pizza size
+        // Add the pizza size
         if (rdoSmall.isSelected())
             msg += "small ";
         if (rdoMedium.isSelected())
