@@ -37,7 +37,7 @@ public class PizzaOrder extends Application
         txtName.setPrefWidth(200);
         txtName.setMaxWidth(300);
         txtName.setPromptText("Enter the name here");
-// Create the phone number label and text field →40
+        // Create the phone number label and text field →40
         Label lblPhone = new Label("Phone Number:");
         txtPhone = new TextField();
         txtPhone.setMinWidth(60);
