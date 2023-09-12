@@ -70,8 +70,8 @@ public class PizzaOrder extends Application
         paneSize.setSpacing(10);
 
         // Create the crust pane →70
-        //
         Label lblCrust = new Label("Crust");
+        //created two radio button for Crust style
         rdoThin = new RadioButton("Thin");
         rdoThick = new RadioButton("Thick");
         rdoThin.setSelected(true);
