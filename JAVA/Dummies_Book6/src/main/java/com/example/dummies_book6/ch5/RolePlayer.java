@@ -55,3 +55,37 @@ public static void main(String[] args)
                 Scene scene = new Scene(pane);
                 primaryStage.setScene(scene);
                 primaryStage.setTitle("Role Player");
+
+                primaryStage.show();
+            }
+            public void btnOK_Click() →71
+            {
+                String errorMessage = ""; →73
+                if (txtCharacter.getText().length() == 0) →75
+                {
+                    errorMessage += "\nCharacter is a required field.";
+                }
+                if (txtActor.getText().length() == 0) →80
+                {
+                    errorMessage += "\nActor is a required field.";
+                }
+                if (errorMessage.length() == 0) →85
+                {
+                    String message = "The role of "
+                            + txtCharacter.getText()
+                            + " will be played by "
+                            + txtActor.getText()
+                            + ".";
+                    Alert a = new Alert(Alert.AlertType.INFORMATION, message);
+                    a.setTitle("Cast");
+                    a.showAndWait();
+                }else
+                {
+                    Alert a = new Alert(Alert.AlertType.WARNING, errorMessage); →98
+                    a.setTitle("Missing Data");
+                    a.showAndWait();
+                }
+            }
+        }
+
+
