@@ -124,7 +124,7 @@ public class PizzaOrder extends Application
         grid.setColumnSpan(txtPhone,2);
         grid.setColumnSpan(txtAddress,2);
 
-        // Set column constraints for even width distribution →127
+        // Set column constraints for even width distribution 
         ColumnConstraints col1 = new ColumnConstraints();
         col1.setPercentWidth(33);
         ColumnConstraints col2 = new ColumnConstraints();
