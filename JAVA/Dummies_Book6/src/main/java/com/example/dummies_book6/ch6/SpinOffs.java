@@ -26,7 +26,7 @@ public class SpinOffs extends Application
                 "The Andy Griffith Show", root);
         makeShow("Gomer Pyle, U.S.M.C.", andy);
         makeShow("Mayberry R.F.D", andy);
-        archie = makeShow("All in the Family", root); →31
+        archie = makeShow("All in the Family", root);// →31
         george = makeShow("The Jeffersons", archie);
         makeShow("Checking In", george);
         maude = makeShow("Maude", archie);
