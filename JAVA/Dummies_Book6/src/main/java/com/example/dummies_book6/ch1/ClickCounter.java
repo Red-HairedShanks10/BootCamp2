@@ -25,8 +25,8 @@ public class ClickCounter extends Application {
         btn.setOnAction(e -> buttonClick());//use lambda, to create an event handler for when the button is clicked
 
         // Create the Label
-        lbl = new Label(); //26
-        lbl.setText("You have not clicked the button.");//27
+        lbl = new Label();
+        lbl.setText("You have not clicked the button.");//set text for the label
 
         // Add the label and the button to a layout pane
         BorderPane pane = new BorderPane(); //→30
