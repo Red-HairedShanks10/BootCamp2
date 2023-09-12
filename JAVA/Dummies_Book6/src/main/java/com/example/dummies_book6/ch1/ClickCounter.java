@@ -29,7 +29,7 @@ public class ClickCounter extends Application {
         lbl.setText("You have not clicked the button.");//set text for the label
 
         // Add the label and the button to a layout pane
-        BorderPane pane = new BorderPane(); //→30
+        BorderPane pane = new BorderPane(); //using Borderpane to manage layout of the controls displayed on screen
         pane.setTop(lbl); //→31
         pane.setCenter(btn); //→32
 
