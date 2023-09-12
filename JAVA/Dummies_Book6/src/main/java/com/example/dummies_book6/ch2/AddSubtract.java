@@ -45,7 +45,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         pane.getChildren().addAll(lbl, btnAdd, btnSubtract);
 
         // Add the layout pane to a scene
-        Scene scene = new Scene(pane, 200, 75); //→42
+        Scene scene = new Scene(pane, 200, 75);
 
         // Add the scene to the stage, set the title
         // and show the stage
