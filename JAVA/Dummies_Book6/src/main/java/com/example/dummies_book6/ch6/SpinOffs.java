@@ -39,7 +39,7 @@ public class SpinOffs extends Application
         makeShow("Joanie Loves Chachi", happy);
         tree = new TreeView<String>(root); →44
         tree.setShowRoot(false);
-        tree.getSelectionModel().selectedItemProperty() →46
+        tree.getSelectionModel().selectedItemProperty() //→46
             .addListener( (v, oldValue, newValue) ->
                     tree_SelectionChanged(newValue) );
         lblShowName = new Label();
