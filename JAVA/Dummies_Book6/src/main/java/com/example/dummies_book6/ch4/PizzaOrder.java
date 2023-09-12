@@ -128,7 +128,7 @@ public class PizzaOrder extends Application
         primaryStage.setMaxWidth(900);
         primaryStage.show();
     }
-    public void btnOK_Click() →146
+    public void btnOK_Click()// →146
     {
 // Create a message string with the customer information
         String msg = "Customer:\n\n";
@@ -158,7 +158,7 @@ public class PizzaOrder extends Application
         else
             msg += "the following toppings:\n"
                     + toppings;
-// Display the message
+        // Display the message
         Alert a = new Alert(Alert.AlertType.INFORMATION, msg);
         a.setTitle("Order Details");
         a.showAndWait();
