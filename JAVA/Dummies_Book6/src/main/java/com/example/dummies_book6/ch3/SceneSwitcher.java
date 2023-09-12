@@ -36,7 +36,7 @@ public class SceneSwitcher extends Application
     @Override public void start(Stage primaryStage)
     {
         stage = primaryStage; //stage class field will reference the primary stage
-        // Build the Click-Counter scene
+        //*Build the Click-Counter scene
         //creates a label and buttons to be display by the scene
         lblClicks = new Label();
         lblClicks.setText("You have not clicked the button.");
@@ -48,7 +48,7 @@ public class SceneSwitcher extends Application
         btnSwitchToScene2.setText("Switch!");
         btnSwitchToScene2.setOnAction(
                 e -> btnSwitchToScene2_Click() );
-
+        //c
         VBox pane1 = new VBox(10);
         pane1.getChildren().addAll(lblClicks, btnClickMe,
                 btnSwitchToScene2);
