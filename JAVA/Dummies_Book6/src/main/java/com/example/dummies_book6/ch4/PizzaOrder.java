@@ -120,7 +120,7 @@ public class PizzaOrder extends Application
         ColumnConstraints col3 = new ColumnConstraints();
         col3.setPercentWidth(33);
         grid.getColumnConstraints().addAll(col1, col2, col3);
-// Create the scene and the stage →136
+        // Create the scene and the stage →136
         Scene scene = new Scene(grid);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Pizza Order");
