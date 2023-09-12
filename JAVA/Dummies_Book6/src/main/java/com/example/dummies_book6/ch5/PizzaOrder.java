@@ -66,7 +66,7 @@ public class PizzaOrder extends Application
         txtAddress.setPrefColumnCount(20);
         txtAddress.setPromptText("Enter the customer's address here");
         HBox paneAddress = new HBox(lblAddress, txtAddress);
-// Create the customer pane
+        // Create the customer pane
         VBox paneCustomer = new VBox(10, paneName,
                 panePhone, paneAddress);
     // ---------- Create the order pane ----------
