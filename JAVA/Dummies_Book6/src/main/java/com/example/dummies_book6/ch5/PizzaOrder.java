@@ -132,7 +132,7 @@ public class PizzaOrder extends Application
         paneMain.setTop(paneTop);
         paneMain.setCenter(paneCenter);
         paneMain.setBottom(paneBottom);
-// Create the scene and the stage
+        // Create the scene and the stage
         Scene scene = new Scene(paneMain);
         primaryStage.setScene(scene);
         primaryStage.setTitle("Pizza Order");
