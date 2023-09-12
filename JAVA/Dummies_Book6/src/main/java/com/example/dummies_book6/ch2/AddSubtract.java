@@ -66,7 +66,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
         {
             iCounter--;//decrement the variable
         }
-        lbl.setText(Integer.toString(iCounter));//64
+        lbl.setText(Integer.toString(iCounter));//convert the int value of icounter to a string for the label
     }
 
 
