@@ -115,7 +115,7 @@ public class PizzaOrder extends Application
 // Create the center pane
         VBox paneCenter = new VBox(20, paneCustomer, paneOrder);
         paneCenter.setPadding(new Insets(0,10, 0, 10));
-// ---------- Create the bottom pane ----------
+        // ---------- Create the bottom pane ----------
         Button btnOK = new Button("OK");
         btnOK.setPrefWidth(80);
         btnOK.setOnAction(e -> btnOK_Click() );
