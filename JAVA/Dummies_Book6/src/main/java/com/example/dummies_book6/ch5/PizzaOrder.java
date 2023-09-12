@@ -44,7 +44,7 @@ public class PizzaOrder extends Application
         HBox paneTop = new HBox(textHeading);
         paneTop.setPadding(new Insets(20, 10, 20, 10));
 // ---------- Create the customer pane ----------
-// Create the name label and text field
+        // Create the name label and text field
         Label lblName = new Label("Name:");
         lblName.setPrefWidth(100);
         txtName = new TextField();
