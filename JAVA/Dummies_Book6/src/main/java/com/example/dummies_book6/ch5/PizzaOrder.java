@@ -140,7 +140,7 @@ public class PizzaOrder extends Application
     }
     public void btnOK_Click()
     {
-// Create a message string with the customer information
+        // Create a message string with the customer information
         String msg = "Customer:\n\n";
         msg += "\t" + txtName.getText() + "\n";
         msg += "\t" + txtAddress.getText() + "\n";
