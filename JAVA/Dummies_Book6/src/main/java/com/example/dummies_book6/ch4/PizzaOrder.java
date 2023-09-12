@@ -91,8 +91,7 @@ public class PizzaOrder extends Application
                 chkMushrooms, chkAnchovies);
         paneToppings.setSpacing(10);
 
-        //***Create the buttons →92
-        //created the OK and cancel buttons
+        //***Create the OK and cancel buttons buttons
         Button btnOK = new Button("OK");
         btnOK.setPrefWidth(80);
         btnOK.setOnAction(e -> btnOK_Click() );
@@ -100,6 +99,7 @@ public class PizzaOrder extends Application
         btnCancel.setPrefWidth(80);
         btnCancel.setOnAction(e -> btnCancel_Click() );
         HBox paneButtons = new HBox(10, btnOK, btnCancel);
+
         // Create the GridPane layout →103
         GridPane grid = new GridPane();
         grid.setPadding(new Insets(10));
