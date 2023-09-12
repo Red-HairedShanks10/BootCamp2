@@ -91,7 +91,7 @@ public class PizzaOrder extends Application
                 chkMushrooms, chkAnchovies);
         paneToppings.setSpacing(10);
 
-        //***Create the OK and cancel buttons buttons
+        //***Create the OK and cancel buttons 
         Button btnOK = new Button("OK");
         btnOK.setPrefWidth(80);
         btnOK.setOnAction(e -> btnOK_Click() );
