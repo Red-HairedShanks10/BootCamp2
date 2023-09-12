@@ -98,3 +98,4 @@ public class PizzaOrder extends Application
         grid.setMinWidth(500);
         grid.setPrefWidth(500);
         grid.setMaxWidth(800);
+
