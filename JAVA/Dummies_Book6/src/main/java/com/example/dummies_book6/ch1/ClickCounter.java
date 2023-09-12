@@ -46,7 +46,7 @@ public class ClickCounter extends Application {
     public void buttonClick() //this method will be used as an event handler for the button clicks
     {
         iClickCount++; //increment click count every time the button is clicked
-        if (iClickCount == 1) //→47
+        if (iClickCount == 1) //if clicked once...
         {
             lbl.setText("You have clicked once."); //→49
         }else{
