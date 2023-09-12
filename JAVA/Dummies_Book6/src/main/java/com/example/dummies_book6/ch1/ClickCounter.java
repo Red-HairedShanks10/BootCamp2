@@ -43,7 +43,7 @@ public class ClickCounter extends Application {
         primaryStage.show();
     }
 
-    public void buttonClick() //→44
+    public void buttonClick() //this method will be used as an event handler for the button clicks
     {
         iClickCount++; //→46
         if (iClickCount == 1) //→47
