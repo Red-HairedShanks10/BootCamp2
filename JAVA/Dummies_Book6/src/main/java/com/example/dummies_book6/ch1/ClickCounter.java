@@ -17,7 +17,7 @@ public class ClickCounter extends Application {
     Label lbl;//var of type Label control class...
     int iClickCount = 0;//variable will be used to keep track of number of times user clicks the button
 
-    @Override
+    @Override//override the default start method of a JFX application
     public void start(Stage primaryStage) {
         // Create the button
         btn = new Button(); //21
