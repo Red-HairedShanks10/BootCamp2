@@ -64,7 +64,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
             iCounter++;//increment the variable
         }else if (e.getSource()==btnSubtract)//if event source is btnSubtract
         {
-            iCounter--;
+            iCounter--;//decrement the variable
         }
         lbl.setText(Integer.toString(iCounter));//64
     }
