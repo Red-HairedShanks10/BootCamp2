@@ -103,7 +103,7 @@ public class SceneSwitcher extends Application
         }
     }
 
-    //this handler switches between the scenes when called
+    //switches to scene 2 when currently in scene 1
     private void btnSwitchToScene2_Click()
     {
         stage.setScene(scene2);
@@ -123,7 +123,7 @@ public class SceneSwitcher extends Application
         iCounter--;
         lblCounter.setText(Integer.toString(iCounter));
     }
-    //3--switches to scene 1 if currently in scene two
+    //3--switches to scene 1 if currently in scene 2
     private void btnSwitchToScene1_Click()
     {
         stage.setScene(scene1);
