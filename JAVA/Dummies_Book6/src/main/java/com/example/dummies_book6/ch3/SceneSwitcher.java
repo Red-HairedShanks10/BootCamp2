@@ -19,6 +19,7 @@ public class SceneSwitcher extends Application
     Button btnClickMe;
     Button btnSwitchToScene2;
     Scene scene1;
+
     // class fields for Add-Subtract scene →22
     int iCounter = 0;
     Label lblCounter;
