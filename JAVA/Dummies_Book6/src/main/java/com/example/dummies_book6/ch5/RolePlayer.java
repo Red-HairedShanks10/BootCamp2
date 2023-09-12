@@ -27,7 +27,7 @@ public static void main(String[] args)
                 txtCharacter.setMaxWidth(200);
                 txtCharacter.setPromptText(
                         "Enter the name of the character here.");
-// Create the Actor label →32
+                // Create the Actor label →32
                 Label lblActor = new Label("Actor's Name:");
                 lblActor.setMinWidth(100);
                 lblActor.setAlignment(Pos.BOTTOM_RIGHT);
