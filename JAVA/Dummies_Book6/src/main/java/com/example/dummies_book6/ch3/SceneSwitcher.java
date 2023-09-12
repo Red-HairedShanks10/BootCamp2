@@ -103,14 +103,15 @@ public class SceneSwitcher extends Application
         }
     }
 
-    //this handler switches between the scene
+    //this handler switches between the scenes when called
     private void btnSwitchToScene2_Click()
     {
         stage.setScene(scene2);
     }
 
 
-    // Event handlers for scene 2 →112
+    //**Event handlers for scene 2
+    //1--increments iCounter value as the add button is clicked
     private void btnAdd_Click()
     {
         iCounter++;
