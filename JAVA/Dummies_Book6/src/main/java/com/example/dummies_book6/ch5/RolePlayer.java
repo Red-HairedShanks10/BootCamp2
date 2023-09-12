@@ -40,7 +40,7 @@ public static void main(String[] args)
                 Button btnOK = new Button("OK");
                 btnOK.setMinWidth(75);
                 btnOK.setOnAction(e -> btnOK_Click() );
-// Create the Character pane →48
+                // Create the Character pane →48
                 HBox paneCharacter = new HBox(20, lblCharacter, txtCharacter);
                 paneCharacter.setPadding(new Insets(10));
                 // Create the Actor pane →52
