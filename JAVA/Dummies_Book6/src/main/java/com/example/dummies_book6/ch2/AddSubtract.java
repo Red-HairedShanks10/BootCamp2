@@ -49,7 +49,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
 
         // Add the scene to the stage, set the title
         // and show the stage
-        primaryStage.setScene(scene); //→46
+        primaryStage.setScene(scene);
         primaryStage.setTitle("Add/Sub");
         primaryStage.show();
     }
