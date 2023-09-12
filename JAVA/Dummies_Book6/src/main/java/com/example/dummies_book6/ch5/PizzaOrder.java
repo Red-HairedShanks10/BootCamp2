@@ -45,3 +45,40 @@ public class PizzaOrder extends Application
         paneTop.setPadding(new Insets(20, 10, 20, 10));
 // ---------- Create the customer pane ----------
 // Create the name label and text field
+        Label lblName = new Label("Name:");
+        lblName.setPrefWidth(100);
+        txtName = new TextField();
+        txtName.setPrefColumnCount(20);
+        txtName.setPromptText("Enter the customer's name here");
+        txtName.setMaxWidth(Double.MAX_VALUE);
+        HBox paneName = new HBox(lblName, txtName);
+// Create the phone number label and text field
+        Label lblPhone = new Label("Phone Number:");
+        lblPhone.setPrefWidth(100);
+        txtPhone = new TextField();
+        txtPhone.setPrefColumnCount(20);
+        txtPhone.setPromptText("Enter the customer's phone number here");
+        HBox panePhone = new HBox(lblPhone, txtPhone);
+// Create the address label and text field
+        Label lblAddress = new Label("Address:");
+        lblAddress.setPrefWidth(100);
+        txtAddress = new TextField();
+        txtAddress.setPrefColumnCount(20);
+        txtAddress.setPromptText("Enter the customer's address here");
+        HBox paneAddress = new HBox(lblAddress, txtAddress);
+// Create the customer pane
+        VBox paneCustomer = new VBox(10, paneName,
+                panePhone, paneAddress);
+// ---------- Create the order pane ----------
+// Create the size pane
+        Label lblSize = new Label("Size");
+        rdoSmall = new RadioButton("Small");
+        rdoMedium = new RadioButton("Medium");
+        rdoLarge = new RadioButton("Large");
+        rdoMedium.setSelected(true);
+        ToggleGroup groupSize = new ToggleGroup();
+        rdoSmall.setToggleGroup(groupSize);
+        rdoMedium.setToggleGroup(groupSize);
+        rdoLarge.setToggleGroup(groupSize);
+        VBox paneSize = new VBox(lblSize, rdoSmall, rdoMedium, rdoLarge);
+        paneSize.setSpacing(10);
