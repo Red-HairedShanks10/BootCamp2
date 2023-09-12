@@ -21,7 +21,7 @@ public static void main(String[] args)
                 Label lblCharacter = new Label("Character's Name:");
                 lblCharacter.setMinWidth(100);
                 lblCharacter.setAlignment(Pos.BOTTOM_RIGHT);
-// Create the Character text field →25
+                // Create the Character text field →25
                 txtCharacter = new TextField();
                 txtCharacter.setMinWidth(200);
                 txtCharacter.setMaxWidth(200);
