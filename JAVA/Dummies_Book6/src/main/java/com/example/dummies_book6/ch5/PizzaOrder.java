@@ -119,3 +119,40 @@ public class PizzaOrder extends Application
         Button btnOK = new Button("OK");
         btnOK.setPrefWidth(80);
         btnOK.setOnAction(e -> btnOK_Click() );
+
+        Button btnCancel = new Button("Cancel");
+        btnCancel.setPrefWidth(80);
+        btnCancel.setOnAction(e -> btnCancel_Click() );
+        Region spacer = new Region();
+        HBox paneBottom = new HBox(10, spacer, btnOK, btnCancel);
+        paneBottom.setHgrow(spacer, Priority.ALWAYS);
+        paneBottom.setPadding(new Insets(20, 10, 20, 10));
+// ---------- Finish the scene ----------
+        BorderPane paneMain = new BorderPane();
+        paneMain.setTop(paneTop);
+        paneMain.setCenter(paneCenter);
+        paneMain.setBottom(paneBottom);
+// Create the scene and the stage
+        Scene scene = new Scene(paneMain);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Pizza Order");
+        primaryStage.show();
+    }
+    public void btnOK_Click()
+    {
+// Create a message string with the customer information
+        String msg = "Customer:\n\n";
+        msg += "\t" + txtName.getText() + "\n";
+        msg += "\t" + txtAddress.getText() + "\n";
+        msg += "\t" + txtPhone.getText() + "\n\n";
+        msg += "You have ordered a ";
+// Add the pizza size
+        if (rdoSmall.isSelected())
+            msg += "small ";
+        if (rdoMedium.isSelected())
+            msg += "medium ";
+        if (rdoLarge.isSelected())
+            msg += "large ";
+// Add the crust style
+        if (rdoThin.isSelected())
+            msg += "thin crust pizza with ";
