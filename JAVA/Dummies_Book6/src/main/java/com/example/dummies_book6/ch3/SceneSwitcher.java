@@ -123,6 +123,7 @@ public class SceneSwitcher extends Application
         iCounter--;
         lblCounter.setText(Integer.toString(iCounter));
     }
+    //3--switches to scene 1 if currently in scene two
     private void btnSwitchToScene1_Click()
     {
         stage.setScene(scene1);
