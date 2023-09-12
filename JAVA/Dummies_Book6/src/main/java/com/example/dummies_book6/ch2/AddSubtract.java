@@ -41,7 +41,7 @@ public class AddSubtract extends Application implements EventHandler <ActionEven
 
         // Add the buttons and label to an HBox pane
         //Hbox is another layout pane, which arranges the controls in a horizontal row
-        HBox pane = new HBox(10);//sep
+        HBox pane = new HBox(10);//separate the controls by 10 pixels
         pane.getChildren().addAll(lbl, btnAdd, btnSubtract);
 
         // Add the layout pane to a scene
