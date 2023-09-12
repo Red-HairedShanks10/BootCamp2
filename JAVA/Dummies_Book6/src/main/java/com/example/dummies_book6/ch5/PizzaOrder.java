@@ -172,7 +172,7 @@ public class PizzaOrder extends Application
         else
             msg += "the following toppings:\n"
                     + toppings;
-// Display the message
+        // Display the message
         Alert a = new Alert(Alert.AlertType.INFORMATION,msg);
         a.setTitle("Order Details");
         a.showAndWait();
