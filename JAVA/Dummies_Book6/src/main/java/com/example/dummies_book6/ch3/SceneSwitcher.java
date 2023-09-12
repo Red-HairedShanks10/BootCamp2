@@ -16,7 +16,7 @@ public class SceneSwitcher extends Application
 
         launch(args);
     }
-    // class fields for Click-Counter scene →15
+    // class fields used for Click-Counter scene
     int iClickCount = 0;
     Label lblClicks;
     Button btnClickMe;
