@@ -54,3 +54,13 @@ public class SpinOffs extends Application
         TreeItem<String> show = new TreeItem<String>(title);
         show.setExpanded(true);
         parent.getChildren().add(show);
+        return show;
+    }
+    public void tree_SelectionChanged(TreeItem<String> item) →73
+    {
+        if (item != null)
+        {
+            lblShowName.setText(item.getValue());
+        }
+    }
+}
