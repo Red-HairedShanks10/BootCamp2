@@ -18,5 +18,5 @@ public class SpinOffs extends Application
     Label lblShowName;
     @Override public void start(Stage primaryStage)
     {
-        TreeItem<String> root, andy, archie, →20
+        TreeItem<String> root, andy, archie,//→20
         happy, george, maude;
