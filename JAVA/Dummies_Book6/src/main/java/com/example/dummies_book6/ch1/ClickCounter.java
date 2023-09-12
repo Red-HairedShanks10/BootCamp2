@@ -40,7 +40,7 @@ public class ClickCounter extends Application {
         // and show the stage//main window
         primaryStage.setScene(scene);
         primaryStage.setTitle("Click Counter");
-        primaryStage.show();//41
+        primaryStage.show();
     }
 
     public void buttonClick() //→44
