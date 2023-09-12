@@ -86,6 +86,7 @@ public class SceneSwitcher extends Application
         primaryStage.setTitle("Scene Switcher");
         primaryStage.show();
     }
+
     // Event handlers for scene 1
     public void btnClickMe_Click()
     {
@@ -100,10 +101,13 @@ public class SceneSwitcher extends Application
                     + iClickCount + " times." );
         }
     }
+
     private void btnSwitchToScene2_Click()
     {
         stage.setScene(scene2);
     }
+
+
     // Event handlers for scene 2 →112
     private void btnAdd_Click()
     {
