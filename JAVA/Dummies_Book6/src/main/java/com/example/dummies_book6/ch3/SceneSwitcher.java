@@ -79,7 +79,8 @@ public class SceneSwitcher extends Application
         pane2.getChildren().addAll(lblCounter, btnAdd,
                 btnSubtract, btnSwitchToScene2);
         scene2 = new Scene(pane2, 300, 75);
-        // Set the stage with scene 1 and show the stage
+        // Set the stage with scene 1 as the initial scene
+        // and show the stage
         primaryStage.setScene(scene1);
         primaryStage.setTitle("Scene Switcher");
         primaryStage.show();
