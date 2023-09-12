@@ -73,6 +73,8 @@ public class SceneSwitcher extends Application
         btnSwitchToScene2.setText("Switch!");
         btnSwitchToScene2.setOnAction(
                 e -> btnSwitchToScene1_Click() );
+
+        //we use Hbox for horizontal control arrangement instead of vertical
         HBox pane2 = new HBox(10);
         pane2.getChildren().addAll(lblCounter, btnAdd,
                 btnSubtract, btnSwitchToScene2);
