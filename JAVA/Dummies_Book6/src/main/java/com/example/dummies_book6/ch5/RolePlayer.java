@@ -65,7 +65,7 @@ public static void main(String[] args)
                 {
                     errorMessage += "\nCharacter is a required field.";
                 }
-                if (txtActor.getText().length() == 0) →80
+                if (txtActor.getText().length() == 0)// →80
                 {
                     errorMessage += "\nActor is a required field.";
                 }
