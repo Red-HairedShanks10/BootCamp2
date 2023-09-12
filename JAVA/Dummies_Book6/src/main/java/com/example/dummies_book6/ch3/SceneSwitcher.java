@@ -32,7 +32,7 @@ public class SceneSwitcher extends Application
     Scene scene2;
 
     // class field for stage
-    Stage stage;// →31
+    Stage stage;
     @Override public void start(Stage primaryStage)
     {
         stage = primaryStage; //→35
