@@ -51,7 +51,7 @@ public class PizzaOrder extends Application
         txtAddress.setPrefWidth(200);
         txtAddress.setMaxWidth(300);
         txtAddress.setPromptText("Enter the address here");
-// Create the size pane →56
+        // Create the size pane →56
         Label lblSize = new Label("Size");
         rdoSmall = new RadioButton("Small");
         rdoMedium = new RadioButton("Medium");
