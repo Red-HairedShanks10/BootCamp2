@@ -50,7 +50,7 @@ public class ClickCounter extends Application {
         {
             lbl.setText("You have clicked once."); //...display this messages
         }else{
-            //otherwise display this message if the button click more than once
+            //otherwise display the click count for the number of times the button is clicked
             lbl.setText("You have clicked " + iClickCount + " times." );
         }
     }
