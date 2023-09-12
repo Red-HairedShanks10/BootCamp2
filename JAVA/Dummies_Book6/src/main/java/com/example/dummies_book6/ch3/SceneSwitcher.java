@@ -117,6 +117,7 @@ public class SceneSwitcher extends Application
         iCounter++;
         lblCounter.setText(Integer.toString(iCounter));
     }
+    //2--decrements iCounter as the subtract button is clicked on
     private void btnSubtract_Click()
     {
         iCounter--;
