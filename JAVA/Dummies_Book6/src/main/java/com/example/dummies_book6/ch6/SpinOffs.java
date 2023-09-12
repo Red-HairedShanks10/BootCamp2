@@ -20,7 +20,7 @@ public class SpinOffs extends Application
     {
         TreeItem<String> root, andy, archie,//→20
         happy, george, maude;
-        root = new TreeItem<String>("Spin Offs"); →23
+        root = new TreeItem<String>("Spin Offs");// →23
         root.setExpanded(true);
         andy = makeShow("The Andy Griffith Show", root);//→26
         makeShow("Gomer Pyle, U.S.M.C.", andy);
