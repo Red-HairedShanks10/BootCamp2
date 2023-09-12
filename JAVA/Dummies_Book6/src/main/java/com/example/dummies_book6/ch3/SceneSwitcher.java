@@ -37,6 +37,7 @@ public class SceneSwitcher extends Application
     {
         stage = primaryStage; //stage class field will reference the primary stage
         // Build the Click-Counter scene
+        //creates a label and buttons to be display by the scene
         lblClicks = new Label();
         lblClicks.setText("You have not clicked the button.");
         btnClickMe = new Button();
