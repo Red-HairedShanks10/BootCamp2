@@ -60,7 +60,7 @@ public static void main(String[] args)
             }
             public void btnOK_Click() →71
             {
-                String errorMessage = ""; →73
+                String errorMessage = "";//→73
                 if (txtCharacter.getText().length() == 0)// →75
                 {
                     errorMessage += "\nCharacter is a required field.";
