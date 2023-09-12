@@ -20,3 +20,40 @@ public class SpinOffs extends Application
     {
         TreeItem<String> root, andy, archie,//→20
         happy, george, maude;
+        root = new TreeItem<String>("Spin Offs"); →23
+        root.setExpanded(true);
+        andy = makeShow( →26
+                "The Andy Griffith Show", root);
+        makeShow("Gomer Pyle, U.S.M.C.", andy);
+        makeShow("Mayberry R.F.D", andy);
+        archie = makeShow("All in the Family", root); →31
+        george = makeShow("The Jeffersons", archie);
+        makeShow("Checking In", george);
+        maude = makeShow("Maude", archie);
+        makeShow("Good Times", maude);
+        makeShow("Gloria", archie);
+        makeShow("Archie Bunker's Place", archie);
+        happy = makeShow("Happy Days", root); →39
+        makeShow("Mork and Mindy", happy);
+        makeShow("Laverne and Shirley", happy);
+        makeShow("Joanie Loves Chachi", happy);
+        tree = new TreeView<String>(root); →44
+        tree.setShowRoot(false);
+        tree.getSelectionModel().selectedItemProperty() →46
+            .addListener( (v, oldValue, newValue) ->
+                    tree_SelectionChanged(newValue) );
+        lblShowName = new Label();
+        VBox pane = new VBox(10);
+        pane.setPadding(new Insets(20,20,20,20));
+        pane.getChildren().addAll(tree, lblShowName); →54
+        Scene scene = new Scene(pane);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("My Favorite Spin Offs");
+        primaryStage.show();
+    }
+    public TreeItem<String> makeShow(String title, →64
+                                     TreeItem<String> parent)
+    {
+        TreeItem<String> show = new TreeItem<String>(title);
+        show.setExpanded(true);
+        parent.getChildren().add(show);
