@@ -51,8 +51,7 @@ public class SpinOffs extends Application
         primaryStage.setTitle("My Favorite Spin Offs");
         primaryStage.show();
     }
-    public TreeItem<String> makeShow(String title, →64
-                                     TreeItem<String> parent)
+    public TreeItem<String> makeShow(String title, TreeItem<String> parent)//→64
     {
         TreeItem<String> show = new TreeItem<String>(title);
         show.setExpanded(true);
