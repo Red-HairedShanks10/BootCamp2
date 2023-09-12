@@ -14,3 +14,7 @@ public static void main(String[] args)
         }
         TextField txtCharacter; //→15
         TextField txtActor;
+
+            @Override public void start(Stage primaryStage)
+            {
+                // Create the Character
