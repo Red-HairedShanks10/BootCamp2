@@ -7,6 +7,8 @@ import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.event.*;
 
+//AddSubtract implements EventHandler interface
+//this interface will help define a method that handles Action events when a button is clicked
 public class AddSubtract extends Application implements EventHandler <ActionEvent> {
 
     public static void main(String[] args) {
