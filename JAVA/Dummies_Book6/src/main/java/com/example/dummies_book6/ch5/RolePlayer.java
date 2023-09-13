@@ -64,6 +64,7 @@ public static void main(String[] args)
 
                 // Add the Character, Actor, and Button panes to a VBox →61
                 VBox pane = new VBox(10, paneCharacter, paneActor, paneButton);
+
                 // Set the stage →64
                 Scene scene = new Scene(pane);
                 primaryStage.setScene(scene);
