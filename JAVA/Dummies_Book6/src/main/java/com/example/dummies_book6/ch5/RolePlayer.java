@@ -80,7 +80,7 @@ public static void main(String[] args)
                 {
                     errorMessage += "\nCharacter is a required field.";//if there is no data errorMessage will be displayed
                 }
-                if (txtActor.getText().length() == 0)// →80
+                if (txtActor.getText().length() == 0)//check if user entered data in Actor field
                 {
                     errorMessage += "\nActor is a required field.";
                 }
