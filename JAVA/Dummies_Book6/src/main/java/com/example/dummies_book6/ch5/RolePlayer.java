@@ -66,7 +66,7 @@ public static void main(String[] args)
                 //to vertically stack all text boxes to their respective labels
                 VBox pane = new VBox(10, paneCharacter, paneActor, paneButton);
 
-                // Setup the stage →64
+                // Setup the stage
                 Scene scene = new Scene(pane);
                 primaryStage.setScene(scene);
                 primaryStage.setTitle("Role Player");
