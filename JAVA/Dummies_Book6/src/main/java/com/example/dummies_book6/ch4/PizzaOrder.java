@@ -197,7 +197,7 @@ public class PizzaOrder extends Application
         return msg;
     }
 
-    //this method closes the Stage when the customer clicks on cancel button
+    //this method closes the Stage when the customer clicks on the cancel button
     public void btnCancel_Click()
     {
         stage.close();
