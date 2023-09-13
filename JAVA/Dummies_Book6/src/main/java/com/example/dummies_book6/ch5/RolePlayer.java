@@ -49,7 +49,7 @@ public static void main(String[] args)
                 btnOK.setMinWidth(75);
                 btnOK.setOnAction(e -> btnOK_Click() );//call the btnOk_CLick event handler
 
-                // Create the Character pane...
+                // Create the Character pane with a horizontal arrangement
                 HBox paneCharacter = new HBox(20, lblCharacter, txtCharacter);
                 paneCharacter.setPadding(new Insets(10));
 
