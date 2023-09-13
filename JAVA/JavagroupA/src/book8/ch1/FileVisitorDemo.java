@@ -1,6 +1,8 @@
 package book8.ch1;
 
 
+import java.nio.file.Path;
+
 public class FileVisitorDemo
 {
     public static void main(String[] args)
