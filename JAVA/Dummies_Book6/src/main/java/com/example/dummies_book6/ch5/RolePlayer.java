@@ -76,9 +76,9 @@ public static void main(String[] args)
             public void btnOK_Click()//event handler button for the Ok button
             {
                 String errorMessage = "";//errorMessage string displayed for missing data
-                if (txtCharacter.getText().length() == 0)// →75
+                if (txtCharacter.getText().length() == 0)//ensuring that there is data entered
                 {
-                    errorMessage += "\nCharacter is a required field.";
+                    errorMessage += "\nCharacter is a required field.";//if there is no data errorMessage will be displayed
                 }
                 if (txtActor.getText().length() == 0)// →80
                 {
