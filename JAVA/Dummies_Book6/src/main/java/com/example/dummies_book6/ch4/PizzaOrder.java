@@ -16,6 +16,7 @@ public class PizzaOrder extends Application
         launch(args);
     }
 
+    //creating the class variables use throughou the program:
     Stage stage;
     TextField txtName;
     TextField txtPhone;
