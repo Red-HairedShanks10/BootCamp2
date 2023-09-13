@@ -13,7 +13,8 @@ public static void main(String[] args)
         {
         launch(args);
         }
-        TextField txtCharacter; //→15
+        //→15
+        TextField txtCharacter;
         TextField txtActor;
 
             @Override public void start(Stage primaryStage)
