@@ -44,7 +44,9 @@ public class SpinOffs extends Application
         //created a TreeView control, with root as the Root node
         tree = new TreeView<String>(root);
         tree.setShowRoot(false);
-        tree.getSelectionModel().selectedItemProperty() //→46
+        //created an event listener for the selected item property
+        //using lambda to call the tree_SelectionChanged() when selection status changes
+        tree.getSelectionModel().selectedItemProperty()
             .addListener( (v, oldValue, newValue) -> tree_SelectionChanged(newValue) );
         lblShowName = new Label();
         VBox pane = new VBox(10);
