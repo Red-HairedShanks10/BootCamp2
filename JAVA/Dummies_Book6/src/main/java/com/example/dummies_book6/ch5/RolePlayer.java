@@ -6,7 +6,8 @@ import javafx.scene.*;
 import javafx.scene.layout.*;
 import javafx.scene.control.*;
 import javafx.geometry.*;
-public class RolePlayer extends Application //→8
+
+public class RolePlayer extends Application
         {
 public static void main(String[] args)
         {
