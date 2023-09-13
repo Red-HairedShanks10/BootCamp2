@@ -84,7 +84,8 @@ public static void main(String[] args)
                 {
                     errorMessage += "\nActor is a required field.";//display errorMessage for Actor field
                 }
-                if (errorMessage.length() == 0)// →85
+                // check if there is any validation errors
+                if (errorMessage.length() == 0)//if the errorMessage has nothing, then there is no error
                 {
                     String message = "The role of "
                             + txtCharacter.getText()
