@@ -98,7 +98,7 @@ public static void main(String[] args)
                     a.showAndWait();
                 }else
                 {   //otherwise we display the message in the alert
-                    Alert a = new Alert(Alert.AlertType.WARNING, errorMessage);//→98
+                    Alert a = new Alert(Alert.AlertType.WARNING, errorMessage);
                     a.setTitle("Missing Data");
                     a.showAndWait();
                 }
