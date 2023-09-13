@@ -144,6 +144,7 @@ public class PizzaOrder extends Application
     }
 
     //this method will called when the OK button is clicked
+    //it creates a summary of the customer's order and displays using the Alert class
     public void btnOK_Click()
     {
         // Create a message string with the customer information
