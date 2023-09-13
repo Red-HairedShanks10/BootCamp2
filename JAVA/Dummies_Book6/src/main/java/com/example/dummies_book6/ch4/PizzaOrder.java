@@ -160,7 +160,7 @@ public class PizzaOrder extends Application
             msg += "medium ";
         if (rdoLarge.isSelected())
             msg += "large ";
-// Add the crust style
+        // Add the crust style
         if (rdoThin.isSelected())
             msg += "thin crust pizza with ";
         if (rdoThick.isSelected())
