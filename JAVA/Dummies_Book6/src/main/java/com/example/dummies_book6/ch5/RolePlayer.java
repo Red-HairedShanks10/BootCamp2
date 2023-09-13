@@ -82,7 +82,7 @@ public static void main(String[] args)
                 }
                 if (txtActor.getText().length() == 0)//check if user entered data in Actor field
                 {
-                    errorMessage += "\nActor is a required field.";
+                    errorMessage += "\nActor is a required field.";//display errorMessage for Actor field
                 }
                 if (errorMessage.length() == 0)// →85
                 {
