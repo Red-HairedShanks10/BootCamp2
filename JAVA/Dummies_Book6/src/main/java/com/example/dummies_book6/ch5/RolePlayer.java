@@ -53,9 +53,10 @@ public static void main(String[] args)
                 HBox paneCharacter = new HBox(20, lblCharacter, txtCharacter);
                 paneCharacter.setPadding(new Insets(10));
 
-                // Create the Actor pane
+                // Create the Actor pane with a horizontal arrangement
                 HBox paneActor = new HBox(20, lblActor, txtActor);
                 paneActor.setPadding(new Insets(10));
+
                 // Create the Button pane →56
                 HBox paneButton = new HBox(20, btnOK);
                 paneButton.setPadding(new Insets(10));
