@@ -41,7 +41,8 @@ public class SpinOffs extends Application
         makeShow("Joanie Loves Chachi", happy);
         //*****************************************//
 
-        tree = new TreeView<String>(root);//created a TreeView control
+        //created a TreeView control, with root as the Root node
+        tree = new TreeView<String>(root);
         tree.setShowRoot(false);
         tree.getSelectionModel().selectedItemProperty() //→46
             .addListener( (v, oldValue, newValue) -> tree_SelectionChanged(newValue) );
