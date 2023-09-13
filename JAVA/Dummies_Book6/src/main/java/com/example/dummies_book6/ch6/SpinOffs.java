@@ -58,7 +58,10 @@ public class SpinOffs extends Application
         primaryStage.setTitle("My Favorite Spin Offs");
         primaryStage.show();
     }
-    public TreeItem<String> makeShow(String title, TreeItem<String> parent)//→64
+
+    //→64 makeShow() creates a node from a String...
+    //...and adds it to another node which is a parent parameter
+    public TreeItem<String> makeShow(String title, TreeItem<String> parent)
     {
         TreeItem<String> show = new TreeItem<String>(title);
         show.setExpanded(true);
