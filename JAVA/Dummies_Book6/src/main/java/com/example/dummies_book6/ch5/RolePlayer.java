@@ -34,6 +34,7 @@ public static void main(String[] args)
 
                 // Create the Actor label
                 Label lblActor = new Label("Actor's Name:");
+                //set the min width of  the label to 100px, align on the bottom right
                 lblActor.setMinWidth(100);
                 lblActor.setAlignment(Pos.BOTTOM_RIGHT);
                 // Create the Actor text field →37
