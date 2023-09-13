@@ -6,10 +6,10 @@ public class Filetest {
     public static void main(String[] args) {
 
         File f = new File(path);
-        if (f.createNewFile())
+        if (f.createNewFile()) {
             System.out.println("File created.");
-        else
+        } else {
             System.out.println("File could not be created.");
+        }
     }
-
 }
