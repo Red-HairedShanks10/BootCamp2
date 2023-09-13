@@ -196,7 +196,9 @@ public class PizzaOrder extends Application
         }
         return msg;
     }
-    public void btnCancel_Click()// →201
+
+    // →201
+    public void btnCancel_Click()
     {
         stage.close();
     }
