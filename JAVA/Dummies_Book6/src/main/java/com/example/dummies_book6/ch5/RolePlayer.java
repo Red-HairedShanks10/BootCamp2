@@ -38,11 +38,12 @@ public static void main(String[] args)
                 lblActor.setMinWidth(100);
                 lblActor.setAlignment(Pos.BOTTOM_RIGHT);
 
-                // Create the Actor text field →37
+                // Create the Actor text field
                 txtActor = new TextField();
                 txtActor.setMinWidth(200);
                 txtActor.setMaxWidth(200);
                 txtActor.setPromptText("Enter the name of the actor here.");
+
                 // Create the OK button →43
                 Button btnOK = new Button("OK");
                 btnOK.setMinWidth(75);
