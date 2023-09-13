@@ -47,7 +47,7 @@ public static void main(String[] args)
                 // Create the OK button
                 Button btnOK = new Button("OK");
                 btnOK.setMinWidth(75);
-                btnOK.setOnAction(e -> btnOK_Click() );
+                btnOK.setOnAction(e -> btnOK_Click() );//call the btnOk_CLick event handler
 
                 // Create the Character pane →48
                 HBox paneCharacter = new HBox(20, lblCharacter, txtCharacter);
