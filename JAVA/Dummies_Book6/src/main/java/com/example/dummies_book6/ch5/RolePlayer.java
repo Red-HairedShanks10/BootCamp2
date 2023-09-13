@@ -87,6 +87,7 @@ public static void main(String[] args)
                 // check if there is any validation errors
                 if (errorMessage.length() == 0)//if the errorMessage has nothing, then there is no error
                 {
+                    //then display the character to be played by the actor
                     String message = "The role of "
                             + txtCharacter.getText()
                             + " will be played by "
