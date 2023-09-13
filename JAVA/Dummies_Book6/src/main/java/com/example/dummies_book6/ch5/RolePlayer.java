@@ -13,7 +13,7 @@ public static void main(String[] args)
         {
         launch(args);
         }
-        //→15
+        //class variables
         TextField txtCharacter;
         TextField txtActor;
 
