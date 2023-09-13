@@ -27,7 +27,7 @@ public static void main(String[] args)
 
                 //***Create the Character text field →25
                 txtCharacter = new TextField();
-                //setting min and max width to 200 pixels
+                //1-setting min and max width to 200 pixels
                 txtCharacter.setMinWidth(200);
                 txtCharacter.setMaxWidth(200);
                 txtCharacter.setPromptText("Enter the name of the character here.");
