@@ -2,6 +2,7 @@ package book8.ch1;
 
 
 import java.nio.file.Path;
+import java.nio.file.Paths;
 
 public class FileVisitorDemo
 {
