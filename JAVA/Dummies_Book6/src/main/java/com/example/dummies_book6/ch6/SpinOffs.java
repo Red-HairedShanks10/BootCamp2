@@ -21,7 +21,7 @@ public class SpinOffs extends Application
         //defined TreeItem variables for the root node and shows with a spinoff
         TreeItem<String> root, andy, archie, happy, george, maude;
 
-        root = new TreeItem<String>("Spin Offs");// →23
+        root = new TreeItem<String>("Spin Offs");//created root node with text
         root.setExpanded(true);
         andy = makeShow("The Andy Griffith Show", root);//→26
         makeShow("Gomer Pyle, U.S.M.C.", andy);
