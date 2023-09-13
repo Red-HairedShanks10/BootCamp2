@@ -39,6 +39,8 @@ public class SpinOffs extends Application
         makeShow("Mork and Mindy", happy);
         makeShow("Laverne and Shirley", happy);
         makeShow("Joanie Loves Chachi", happy);
+        //*****************************************//
+
         tree = new TreeView<String>(root);// →44
         tree.setShowRoot(false);
         tree.getSelectionModel().selectedItemProperty() //→46
