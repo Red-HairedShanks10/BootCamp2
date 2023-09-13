@@ -97,7 +97,7 @@ public static void main(String[] args)
                     a.setTitle("Cast");
                     a.showAndWait();
                 }else
-                {
+                {   //otherwise we display the message in the alert
                     Alert a = new Alert(Alert.AlertType.WARNING, errorMessage);//→98
                     a.setTitle("Missing Data");
                     a.showAndWait();
