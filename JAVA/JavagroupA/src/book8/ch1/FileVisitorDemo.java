@@ -28,3 +28,13 @@ public class FileVisitorDemo
         BasicFileAttributes attr)
         {
             System.out.println(file.toString() + " COULD NOT ACCESS!");
+            return FileVisitResult.CONTINUE;
+        }
+        public FileVisitResult preVisitDirectoryFailed →36
+        (Path dir, IOException e)
+        {
+            System.out.println(dir.toString() + " COULD NOT ACCESS!");
+            return FileVisitResult.CONTINUE;
+        }
+    }
+}
