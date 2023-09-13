@@ -18,8 +18,9 @@ public class SpinOffs extends Application
     Label lblShowName;
     @Override public void start(Stage primaryStage)
     {
-        TreeItem<String> root, andy, archie,//→20
-        happy, george, maude;
+        //defined TreeItem variables for the root node and shows with a spinoff
+        TreeItem<String> root, andy, archie, happy, george, maude;
+
         root = new TreeItem<String>("Spin Offs");// →23
         root.setExpanded(true);
         andy = makeShow("The Andy Griffith Show", root);//→26
