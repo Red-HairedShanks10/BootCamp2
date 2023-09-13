@@ -25,7 +25,7 @@ public static void main(String[] args)
                 lblCharacter.setAlignment(Pos.BOTTOM_RIGHT);
 
 
-                // Create the Character text field →25
+                //***Create the Character text field →25
                 txtCharacter = new TextField();
                 //setting min and max width to 200 pixels
                 txtCharacter.setMinWidth(200);
