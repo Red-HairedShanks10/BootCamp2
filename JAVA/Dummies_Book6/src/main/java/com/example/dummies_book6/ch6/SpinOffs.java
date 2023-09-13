@@ -68,7 +68,9 @@ public class SpinOffs extends Application
         parent.getChildren().add(show);
         return show;
     }
-    public void tree_SelectionChanged(TreeItem<String> item) //→73
+
+    //tree_SelectionChanged() simply displays the title of the selected show
+    public void tree_SelectionChanged(TreeItem<String> item)
     {
         if (item != null)
         {
