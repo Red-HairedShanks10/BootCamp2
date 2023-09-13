@@ -14,7 +14,7 @@ public class SpinOffs extends Application
     {
         launch(args);
     }
-    TreeView<String> tree; //→15
+    TreeView<String> tree; //defined a tree model as class instance variable
     Label lblShowName;
     @Override public void start(Stage primaryStage)
     {
