@@ -23,7 +23,8 @@ public class SpinOffs extends Application
 
         root = new TreeItem<String>("Spin Offs");//created root node with text
         root.setExpanded(true);
-        //created nodes for each show and its spin-offs
+
+        //***created nodes for each show and its spin-offs
         andy = makeShow("The Andy Griffith Show", root);
         makeShow("Gomer Pyle, U.S.M.C.", andy);
         makeShow("Mayberry R.F.D", andy);
