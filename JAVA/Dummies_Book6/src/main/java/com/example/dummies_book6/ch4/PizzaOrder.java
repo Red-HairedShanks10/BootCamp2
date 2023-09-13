@@ -181,8 +181,8 @@ public class PizzaOrder extends Application
         a.showAndWait();
     }
 
-    //this method helps with making a message string
-    //used for displaying the list of toppings
+    //this method helps with making a message string...
+    //...which is used for displaying the list of toppings
     public String buildToppings(CheckBox chk, String msg)
     {
 
