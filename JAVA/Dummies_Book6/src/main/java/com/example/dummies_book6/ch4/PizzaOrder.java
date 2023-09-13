@@ -143,7 +143,7 @@ public class PizzaOrder extends Application
         primaryStage.show();
     }
 
-    public void btnOK_Click()// →146 this method will called when
+    public void btnOK_Click()//this method will called when the OK button is clicked
     {
         // Create a message string with the customer information
         String msg = "Customer:\n\n";
