@@ -56,8 +56,9 @@ public class WriteBinaryFile
         }
         return out;
     }
-    private static void writeMovie(Movie m, →57
-                                   DataOutputStream out)
+
+    //→57
+    private static void writeMovie(Movie m, DataOutputStream out)
     {
         try
         {   out.writeUTF(m.title);
