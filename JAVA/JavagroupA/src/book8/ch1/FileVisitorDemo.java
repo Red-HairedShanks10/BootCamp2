@@ -26,7 +26,7 @@ public class FileVisitorDemo
         //→23
         public FileVisitResult visitFile(Path file, BasicFileAttributes attr) {
             System.out.println(file.toString());
-            return FileVisitResult.CONTINUE; →27
+            return FileVisitResult.CONTINUE; //→27
         }
         public FileVisitResult visitFileFailed(Path file, →30
         BasicFileAttributes attr)
