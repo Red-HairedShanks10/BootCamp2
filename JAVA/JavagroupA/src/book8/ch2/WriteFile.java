@@ -14,8 +14,7 @@ public class WriteFile//writing character streams
     private static Movie[] getMovies(){// →12
 
         Movie[] movies = new Movie[10];
-        movies[0] = new Movie("It's a Wonderful Life",
-                1946, 14.95);
+        movies[0] = new Movie("It's a Wonderful Life", 1946,14.95);
         movies[1] = new Movie("Young Frankenstein",
                 1974, 16.95);
         movies[2] = new Movie("Star Wars",
