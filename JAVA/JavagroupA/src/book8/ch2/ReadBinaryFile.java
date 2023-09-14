@@ -74,8 +74,8 @@ public class ReadBinaryFile
             System.out.println();
         }
     }
-    private static class Movie →76
-    {
+    private static class Movie{// →76
+
         public String title;
         public int year;
         public double price;
