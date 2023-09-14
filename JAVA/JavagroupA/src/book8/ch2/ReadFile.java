@@ -8,7 +8,7 @@ public class ReadFile
     {
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         BufferedReader in = getReader("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch2\\movies.txt");//→8
-        Movie movie = readMovie(in); →9
+        Movie movie = readMovie(in); //→9
         while (movie != null) →10
         {
             String msg = Integer.toString(movie.year);
