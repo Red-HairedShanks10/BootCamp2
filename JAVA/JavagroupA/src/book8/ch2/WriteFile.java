@@ -3,7 +3,7 @@ package book8.ch2;
 import java.io.*;
 public class WriteFile//writing character streams
 {
-    public static void main(String[] args) →4
+    public static void main(String[] args)// →4
     {
         Movie[] movies = getMovies();
         PrintWriter out = openWriter("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch2\\movies.txt");
