@@ -71,8 +71,8 @@ public class WriteBinaryFile
             System.exit(0);
         }
     }
-    private static void closeFile(DataOutputStream out) →73
-    {
+    private static void closeFile(DataOutputStream out){// →73
+
         try
         {
             out.close();
