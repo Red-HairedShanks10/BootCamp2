@@ -11,7 +11,7 @@ public class FileVisitorDemo
     public static void main(String[] args)
     {
         Path start = Paths.get("c:\\Windows\\System32");// →9
-        MyFileVisitor visitor = new MyFileVisitor(); →10
+        MyFileVisitor visitor = new MyFileVisitor(); //→10
         try
         {
             Files.walkFileTree(start, visitor); →13
