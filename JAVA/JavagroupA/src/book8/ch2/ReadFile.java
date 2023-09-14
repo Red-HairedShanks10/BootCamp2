@@ -1,13 +1,13 @@
 package book8.ch2;
 
-import java.io.*; →1
+import java.io.*; //→1
 import java.text.NumberFormat;
 public class ReadFile
 {
     public static void main(String[] args)
     {
         NumberFormat cf = NumberFormat.getCurrencyInstance();
-        BufferedReader in = getReader("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch2\\movies.txt"); →8
+        BufferedReader in = getReader("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch2\\movies.txt");//→8
         Movie movie = readMovie(in); →9
         while (movie != null) →10
         {
