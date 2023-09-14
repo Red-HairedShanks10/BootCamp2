@@ -60,4 +60,39 @@ public class WriteBinaryFile
                                    DataOutputStream out)
     {
         try
+        {   out.writeUTF(m.title);
+            out.writeInt(m.year);
+            out.writeDouble(m.price);
+        }
+        catch (IOException e)
         {
+            System.out.println(
+                    "I/O Exception writing data.");
+            System.exit(0);
+        }
+    }
+    private static void closeFile(DataOutputStream out) →73
+    {
+        try
+        {
+            out.close();
+        }
+        catch (IOException e)
+        {
+            System.out.println("I/O Exception closing file.");
+            System.exit(0);
+        }
+    }
+    private static class Movie →85
+    {
+        public String title;
+        public int year;
+        public double price;
+public Movie(String title, int year, double price)
+        {
+            this.title = title;
+            this.year = year;
+            this.price = price;
+        }
+    }
+}
