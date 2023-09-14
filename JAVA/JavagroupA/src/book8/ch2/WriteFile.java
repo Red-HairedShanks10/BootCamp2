@@ -19,8 +19,7 @@ public class WriteFile//writing character streams
         movies[1] = new Movie("Young Frankenstein", 1974, 16.95);
         movies[2] = new Movie("Star Wars", 1977, 17.95);
         movies[3] = new Movie("The Princess Bride", 1987, 16.95);
-        movies[4] = new Movie("Glory",
-                1989, 14.95);
+        movies[4] = new Movie("Glory", 1989, 14.95);
         movies[5] = new Movie("The Game",
                 1997, 14.95);
         movies[6] = new Movie("Shakespeare in Love",
