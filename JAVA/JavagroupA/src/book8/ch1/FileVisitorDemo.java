@@ -28,8 +28,8 @@ public class FileVisitorDemo
             System.out.println(file.toString());
             return FileVisitResult.CONTINUE; //→27
         }
-        public FileVisitResult visitFileFailed(Path file, →30
-        BasicFileAttributes attr)
+        //→30
+        public FileVisitResult visitFileFailed(Path file, BasicFileAttributes attr)
         {
             System.out.println(file.toString() + " COULD NOT ACCESS!");
             return FileVisitResult.CONTINUE;
