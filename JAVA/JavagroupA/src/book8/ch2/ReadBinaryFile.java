@@ -7,6 +7,7 @@ public class ReadBinaryFile
     public static void main(String[] args){// →5
 
         NumberFormat cf = NumberFormat.getCurrencyInstance();
+
         DataInputStream in = getStream("movies.dat");
         boolean eof = false;
         while (!eof)
