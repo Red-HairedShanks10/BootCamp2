@@ -39,3 +39,39 @@ public class WriteFile
     private static PrintWriter openWriter(String name) →37
     {
         try
+        {
+            File file = new File(name);
+            PrintWriter out =
+                    new PrintWriter(
+                            new BufferedWriter(
+                                    new FileWriter(file) ), true );
+            return out;
+        }
+        catch (IOException e)
+        {
+            System.out.println("I/O Error");
+            System.exit(0);
+        }
+        return null;
+    }
+    private static void writeMovie(Movie m, →55
+                                   PrintWriter out)
+    {
+        String line = m.title;
+        line += "\t" + Integer.toString(m.year);
+        line += "\t" + Double.toString(m.price);
+        out.println(line);
+    }
+    private static class Movie →63
+    {
+        public String title;
+        public int year;
+        public double price;
+public Movie(String title, int year, double price)
+        {
+            this.title = title;
+            this.year = year;
+            this.price = price;
+        }
+    }
+}
