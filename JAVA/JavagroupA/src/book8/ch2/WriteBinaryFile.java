@@ -83,8 +83,7 @@ public class WriteBinaryFile
             System.exit(0);
         }
     }
-    private static class Movie →85
-    {
+    private static class Movie{// →85
         public String title;
         public int year;
         public double price;
