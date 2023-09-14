@@ -23,9 +23,8 @@ public class FileVisitorDemo
     }
     private static class MyFileVisitor extends SimpleFileVisitor <Path> //→21
     {
-        public FileVisitResult visitFile(Path file, →23
-        BasicFileAttributes attr)
-        {
+        //→23
+        public FileVisitResult visitFile(Path file, BasicFileAttributes attr) {
             System.out.println(file.toString());
             return FileVisitResult.CONTINUE; →27
         }
