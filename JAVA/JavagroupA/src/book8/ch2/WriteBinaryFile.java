@@ -11,8 +11,8 @@ public class WriteBinaryFile
             writeMovie(m, out);
         closeFile(out);
     }
-    private static Movie[] getMovies() →12
-    {
+    private static Movie[] getMovies(){// →12
+
         Movie[] movies = new Movie[10];
         movies[0] = new Movie("It's a Wonderful Life",
                 1946, 14.95);
@@ -36,8 +36,9 @@ public class WriteBinaryFile
                 1997, 19.95);
         return movies;
     }
-    private static DataOutputStream
-    openOutputStream(String name){// →38
+
+
+    private static DataOutputStream openOutputStream(String name){// →38
 
         DataOutputStream out = null;
         try
