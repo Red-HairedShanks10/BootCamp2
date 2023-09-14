@@ -3,8 +3,8 @@ package book8.ch2;
 import java.io.*;
 public class WriteBinaryFile
 {
-    public static void main(String[] args) →4
-    {
+    public static void main(String[] args){// →4
+
         Movie[] movies = getMovies();
         DataOutputStream out = openOutputStream("movies.dat");
         for (Movie m : movies)
