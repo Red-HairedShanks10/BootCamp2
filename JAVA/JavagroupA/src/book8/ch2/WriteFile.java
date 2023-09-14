@@ -6,7 +6,7 @@ public class WriteFile//writing character streams
     public static void main(String[] args) →4
     {
         Movie[] movies = getMovies();
-        PrintWriter out = openWriter("movies2.txt");
+        PrintWriter out = openWriter("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8");
         for (Movie m : movies)
             writeMovie(m, out);
         out.close();
