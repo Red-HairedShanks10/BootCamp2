@@ -1,7 +1,7 @@
 package book8.ch2;
 
 import java.io.*;
-public class WriteFile
+public class WriteFile//writing character streams
 {
     public static void main(String[] args) →4
     {
