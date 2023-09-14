@@ -24,8 +24,8 @@ public class ReadBinaryFile
         }
         closeFile(in);
     }
-    private static DataInputStream getStream(String name) →25
-    {
+    private static DataInputStream getStream(String name) {//→25
+
         DataInputStream in = null;
         try
         {
