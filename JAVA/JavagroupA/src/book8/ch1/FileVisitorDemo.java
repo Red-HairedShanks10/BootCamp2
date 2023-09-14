@@ -21,7 +21,7 @@ public class FileVisitorDemo
             System.out.println(e.getMessage());
         }
     }
-    private static class MyFileVisitor extends SimpleFileVisitor <Path> →21
+    private static class MyFileVisitor extends SimpleFileVisitor <Path> //→21
     {
         public FileVisitResult visitFile(Path file, →23
         BasicFileAttributes attr)
