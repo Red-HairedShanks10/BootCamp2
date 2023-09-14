@@ -14,7 +14,7 @@ public class FileVisitorDemo
         MyFileVisitor visitor = new MyFileVisitor(); //→10
         try
         {
-            Files.walkFileTree(start, visitor); →13
+            Files.walkFileTree(start, visitor); //→13
         }
         catch (Exception e)
         {
