@@ -47,4 +47,43 @@ public class ReadBinaryFile
         int year = 0;;
         double price = 0.0;;
         try
+        { title = in.readUTF();
+            year = in.readInt();
+            price = in.readDouble();
+        }
+        catch (EOFException e)
         {
+            return null;
+        }
+        catch (IOException e)
+        {
+            System.out.println("I/O Error");
+            System.exit(0);
+        }
+        return new Movie(title, year, price);
+    }
+    private static void closeFile(DataInputStream in) →64
+    {
+        try
+        {
+            in.close();
+        }
+        catch(IOException e)
+        {
+            System.out.println("I/O Error closing file.");
+            System.out.println();
+        }
+    }
+    private static class Movie →76
+    {
+        public String title;
+        public int year;
+        public double price;
+public Movie(String title, int year, double price)
+        {
+            this.title = title;
+            this.year = year;
+            this.price = price;
+        }
+    }
+}
