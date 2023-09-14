@@ -51,8 +51,7 @@ public class WriteFile//writing character streams
         line += "\t" + Double.toString(m.price);
         out.println(line);
     }
-    private static class Movie →63
-    {
+    private static class Movie {//→63
         public String title;
         public int year;
         public double price;
