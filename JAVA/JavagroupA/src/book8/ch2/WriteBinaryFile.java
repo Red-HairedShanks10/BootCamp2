@@ -37,8 +37,8 @@ public class WriteBinaryFile
         return movies;
     }
     private static DataOutputStream
-    openOutputStream(String name) →38
-    {
+    openOutputStream(String name){// →38
+
         DataOutputStream out = null;
         try
         {
