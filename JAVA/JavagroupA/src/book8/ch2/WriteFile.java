@@ -24,12 +24,11 @@ public class WriteFile//writing character streams
         movies[6] = new Movie("Shakespeare in Love", 1998, 19.95);
         movies[7] = new Movie("Zombieland", 1997, 18.95);
         movies[8] = new Movie("The King's Speech", 1997, 19.95);
-        movies[9] = new Movie("Star Trek Into Darkness",
-                1997, 19.95);
+        movies[9] = new Movie("Star Trek Into Darkness", 1997, 19.95);
         return movies;
     }
-    private static PrintWriter openWriter(String name) →37
-    {
+    private static PrintWriter openWriter(String name){// →37
+
         try
         {
             File file = new File(name);
