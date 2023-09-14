@@ -45,9 +45,7 @@ public class WriteFile//writing character streams
         }
         return null;
     }
-    private static void writeMovie(Movie m, →55
-                                   PrintWriter out)
-    {
+    private static void writeMovie(Movie m, PrintWriter out) {//→55
         String line = m.title;
         line += "\t" + Integer.toString(m.year);
         line += "\t" + Double.toString(m.price);
