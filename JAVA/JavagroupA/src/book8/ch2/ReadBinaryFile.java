@@ -9,7 +9,7 @@ public class ReadBinaryFile {
 
         NumberFormat cf = NumberFormat.getCurrencyInstance();
 
-        DataInputStream in = getStream("movies.dat");
+        DataInputStream in = getStream("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch2\\movies.dat");
         boolean eof = false;
         while (!eof)
         {
