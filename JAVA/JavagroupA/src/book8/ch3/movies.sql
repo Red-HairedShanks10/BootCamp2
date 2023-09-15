@@ -7,7 +7,7 @@ year int,
 price decimal(8,2), 
 primary key(id) 
 );
-insert into movie (title, year, price) →11
+insert into movie (title, year, price) 
 values ("It's a Wonderful Life", 1946, 14.95);
 insert into movie (title, year, price)
 values ("Young Frankenstein", 1974, 16.95);
