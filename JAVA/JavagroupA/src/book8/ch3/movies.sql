@@ -2,7 +2,7 @@ create database movies;
 use movies; 
 create table movie ( 
 id int not null auto_increment, 
-title varchar(50), →6
+title varchar(50), 
 year int, →7
 price decimal(8,2), →8
 primary key(id) →9
