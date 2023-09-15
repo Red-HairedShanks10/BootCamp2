@@ -1,4 +1,4 @@
-create database movies;
+-- create database movies;
 use movies; 
 create table movie ( 
 id int not null auto_increment, 
