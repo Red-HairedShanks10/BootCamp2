@@ -1,6 +1,6 @@
 create database movies;
 use movies; 
-create table movie ( →4
+create table movie ( 
 id int not null auto_increment, →5
 title varchar(50), →6
 year int, →7
