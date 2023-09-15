@@ -5,7 +5,7 @@ id int not null auto_increment,
 title varchar(50), 
 year int, 
 price decimal(8,2), 
-primary key(id) →9
+primary key(id) 
 );
 insert into movie (title, year, price) →11
 values ("It's a Wonderful Life", 1946, 14.95);
