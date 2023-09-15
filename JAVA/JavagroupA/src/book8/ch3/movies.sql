@@ -1,7 +1,7 @@
 create database movies;
 use movies; 
 create table movie ( 
-id int not null auto_increment, →5
+id int not null auto_increment, 
 title varchar(50), →6
 year int, →7
 price decimal(8,2), →8
