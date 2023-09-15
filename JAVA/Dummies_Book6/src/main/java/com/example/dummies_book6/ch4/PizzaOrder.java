@@ -29,6 +29,7 @@ public class PizzaOrder extends Application
     CheckBox chkPepperoni;
     CheckBox chkMushrooms;
     CheckBox chkAnchovies;
+
     @Override public void start(Stage primaryStage)
     {
         stage = primaryStage;
