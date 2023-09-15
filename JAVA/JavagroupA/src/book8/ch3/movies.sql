@@ -19,3 +19,11 @@ insert into movie (title, year, price)
 values ("Glory", 1989, 14.95);
 insert into movie (title, year, price)
 values("The Game",1997,14.95);
+insert into movie (title, year, price)
+values("Shakespeare in Love",1998,19.95);
+insert into movie (title, year, price)
+values("Zombieland",2009,18.95);
+insert into movie (title, year, price)
+values("The King's Speech",2010,17.85);
+insert into movie (title, year, price)
+values("Star Trek Into Darkness",2013,19.95);
