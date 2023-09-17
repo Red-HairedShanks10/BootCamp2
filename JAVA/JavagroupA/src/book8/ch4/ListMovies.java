@@ -1,7 +1,9 @@
 package book8.ch4;
 
+import java.text.NumberFormat;
+
 public class ListMovies {
-    public static void main(String[] args) →6
+    public static void main(String[] args) //→6
     {
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         ResultSet movies = getMovies();
