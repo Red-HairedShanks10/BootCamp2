@@ -34,3 +34,5 @@ Select * from movie; -- selecting every row from movie table
 delete from movie where id = 4; -- deleting a row with specific primary key
 
 update movie set price = 20.45 where id = 5; -- updating row with specific primary key
+
+Select count(*) from movie where year >= 1997; -- counting movies made from 1997 and later in the table
