@@ -75,6 +75,23 @@ public class ListMovies {
             return new Movie(title, year, price);
         }
         catch (SQLException e)
+        {
+            System.out.println(e.getMessage());
+        }
+        return null;
+    }
+    private static class Movie →86
+    {
+        public String title;
+        public int year;
+        public double price;
+public Movie(String title, int year, double price)
+        {
+            this.title = title;
+            this.year = year;
+            this.price = price;
+        }
+    }
 
 
 }
