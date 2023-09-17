@@ -28,6 +28,7 @@ public class JdbcTest {
             System.out.println(e.getMessage());
             System.exit(0);
         }
+        System.out.println("Connection successful");
         return con;
     }
 }
