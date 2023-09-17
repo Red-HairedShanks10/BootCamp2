@@ -4,7 +4,7 @@ import java.sql.*;
 
 public class JdbcTest {
     public static void main(String[] args) {
-       Connection connection = getConnection();
+       Connection con = getConnection();
     }
 
     private static Connection getConnection()
