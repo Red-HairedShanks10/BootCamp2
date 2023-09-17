@@ -22,7 +22,7 @@ public class XmlTest {
             factory.setValidating(true);
             DocumentBuilder builder =
                     factory.newDocumentBuilder();
-            return builder.parse(new InputSource(name));
+            return (Document) builder.parse(new InputSource(name));
         }
         catch (Exception e)
         {
