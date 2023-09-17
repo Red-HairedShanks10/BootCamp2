@@ -2,6 +2,7 @@ package book8.ch5;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
+import org.w3c.dom.Node;
 import org.xml.sax.InputSource;
 
 import javax.xml.parsers.DocumentBuilder;
@@ -13,8 +14,8 @@ public class XmlTest {
         System.out.println("DOM created");
 
         int count = 0;
-       Element root = doc.getDocumentElement();
-        Node movie = root.getFirstChild();
+         Element root = doc.getDocumentElement();
+       Node movie = root.getFirstChild();
         while (movie != null)
         {
             count++;
