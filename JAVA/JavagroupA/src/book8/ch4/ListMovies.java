@@ -65,7 +65,7 @@ public class ListMovies {
         }
         return con;
     }
-    private static Movie getMovie(ResultSet movies) →70
+    private static Movie getMovie(ResultSet movies) //→70
     {
         try
         {
