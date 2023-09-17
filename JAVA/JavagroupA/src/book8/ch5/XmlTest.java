@@ -1,8 +1,8 @@
 package book8.ch5;
 
+import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 
-import javax.swing.text.Document;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
