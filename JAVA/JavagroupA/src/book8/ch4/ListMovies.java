@@ -21,7 +21,7 @@ public class ListMovies {
             System.out.println(e.getMessage());
         }
     }
-    private static ResultSet getMovies() →28
+    private static ResultSet getMovies()// →28
     {
         Connection con = getConnection();
         try
