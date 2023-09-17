@@ -15,7 +15,8 @@ public class XmlTest {
 
         int count = 0;
          Element root = doc.getDocumentElement();
-       Node movie = root.getFirstChild();
+         Node movie = root.getFirstChild();
+         
         while (movie != null)
         {
             count++;
