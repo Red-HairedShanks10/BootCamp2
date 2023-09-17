@@ -1,7 +1,7 @@
 package book8.ch5;
 
 import javax.swing.text.Document;
-import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.*;
 
 public class XmlTest {
     public static void main(String[] args) {
