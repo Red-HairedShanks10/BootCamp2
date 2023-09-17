@@ -15,7 +15,7 @@ public class JdbcTest {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost/Movies";
             String user = "root";
-            String pw = "PassWord";
+            String pw = "password";
             con = DriverManager.getConnection(url, user, pw);
         }
         catch (ClassNotFoundException e)
