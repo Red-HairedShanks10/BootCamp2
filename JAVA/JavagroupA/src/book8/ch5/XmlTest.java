@@ -1,5 +1,7 @@
 package book8.ch5;
 
+import javax.swing.text.Document;
+
 public class XmlTest {
     public static void main(String[] args) {
 
