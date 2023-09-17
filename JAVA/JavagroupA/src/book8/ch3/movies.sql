@@ -30,4 +30,4 @@ values("Star Trek Into Darkness",2013,19.95);
 
 Select * from movie; -- selecting every row from movie table
 
-delete from movie where id = 4;
+delete from movie where id = 4; -- deleting a row with specific id
