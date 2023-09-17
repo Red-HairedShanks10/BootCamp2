@@ -28,4 +28,4 @@ values("The King's Speech",2010,17.85);
 insert into movie (title, year, price)
 values("Star Trek Into Darkness",2013,19.95);
 
-Select * from movie;
+Select * from movie; -- selecting every row from movies table
