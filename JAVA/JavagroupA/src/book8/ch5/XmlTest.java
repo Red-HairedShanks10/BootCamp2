@@ -8,7 +8,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 public class XmlTest {
     public static void main(String[] args) {
-
+        Document document = getDocument();
     }
 
     private static Document getDocument(String name)
