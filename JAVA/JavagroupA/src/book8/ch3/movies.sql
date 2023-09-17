@@ -31,6 +31,6 @@ values("Star Trek Into Darkness",2013,19.95);
 
 Select * from movie; -- selecting every row from movie table
 
-delete from movie where id = 4; -- deleting a row with specific primary key(id)
+delete from movie where id = 4; -- deleting a row with specific primary key
 
-update movie set price = 20.45 where id = 5; 
+update movie set price = 20.45 where id = 5; -- updating row with specific primary key
