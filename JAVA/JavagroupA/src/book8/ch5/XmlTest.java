@@ -9,6 +9,7 @@ import javax.xml.parsers.DocumentBuilderFactory;
 public class XmlTest {
     public static void main(String[] args) {
         Document document = getDocument("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch5\\movies.xml");
+        System.out.println("DOM created");
     }
 
     private static Document getDocument(String name)
