@@ -50,7 +50,7 @@ public class ListMovies {
             Class.forName("com.mysql.jdbc.Driver");
             String url = "jdbc:mysql://localhost/Movies";
             String user = "root";
-            String pw = "PassWord";
+            String pw = "password";
             con = DriverManager.getConnection(url, user, pw);
         }
         catch (ClassNotFoundException e)
@@ -85,7 +85,7 @@ public class ListMovies {
         public String title;
         public int year;
         public double price;
-        
+
         public Movie(String title, int year, double price)
         {
             this.title = title;
