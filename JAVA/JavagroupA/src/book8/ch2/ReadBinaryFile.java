@@ -74,7 +74,8 @@ public class ReadBinaryFile {
         return new Movie(title, year, price);
     }
 
-    private static void closeFile(DataInputStream in){// →64
+    //closeFile() closes the input-Stream
+    private static void closeFile(DataInputStream in){
 
         try
         {
