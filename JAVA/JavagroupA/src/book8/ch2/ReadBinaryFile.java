@@ -50,7 +50,8 @@ public class ReadBinaryFile {
         return in;
     }
 
-   // readMovie
+   // readMovie() returns an object of type Movie
+    //when it reads the data of single movie
     private static Movie readMovie(DataInputStream in){
 
         String title = "";
