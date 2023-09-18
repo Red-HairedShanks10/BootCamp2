@@ -13,8 +13,9 @@ public class ReadBinaryFile {
         DataInputStream in = getStream("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch2\\movies.dat");
         boolean eof = false;
 
-        while (!eof)//
+        while (!eof)
         {
+            //call readMovie() to get a Movies object
             Movie movie = readMovie(in);
             if (movie == null) {
                 eof = true;
