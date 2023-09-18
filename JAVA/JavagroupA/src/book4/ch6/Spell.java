@@ -1,7 +1,6 @@
 package book4.ch6;
 
 import java.util.ArrayList;
-import java.util.OptionalDouble;
 
 public class Spell {
     public String name;
@@ -31,7 +30,7 @@ public class Spell {
 
 
     public static void main(String[] args) {
-        ArrayList<Spell> spells = new ArrayList<>();
+        ArrayList<Spell> spells = new ArrayList<>();//arrayList of spells
 
         spells.add(new Spell("Amateratsu", Spell.SpellType.SPELL, "Produces inextinguishable black flames.",30));
         spells.add(new Spell("Spirit-Gun", Spell.SpellType.SPELL,"fires heavy spirit energy into a single beam",23));
@@ -50,10 +49,10 @@ public class Spell {
 
         //spells.stream().forEach(s -> System.out.println(s) );
 
-       /* spells.stream().filter(s -> s.type == SpellType.SPELL)
+       /**/ spells.stream().filter(s -> s.type == SpellType.SPELL)
                 .filter(s -> s.name.toLowerCase().startsWith("a"))
                 .forEach(s -> System.out.println(s) );
-*/
+
        /*double Total = spells.stream()
                //.filter(s -> s.type == SpellType.SPELL)
                 //.filter(s -> s.name.toLowerCase() //.startsWith("a"))
@@ -79,7 +78,7 @@ public class Spell {
                 }*/
 
 
-        System.out.println("first paralleStream: ");
+        /* System.out.println("first paralleStream: ");
         spells.parallelStream()
                 .forEach(s -> System.out.println(s));
 
@@ -90,6 +89,8 @@ public class Spell {
         System.out.println("third second paralleStream: ");
         spells.parallelStream()
                 .forEach(s -> System.out.println(s));
+
+         */
 
     }
 
