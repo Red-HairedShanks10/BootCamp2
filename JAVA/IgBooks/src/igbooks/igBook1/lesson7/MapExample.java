@@ -14,13 +14,13 @@ public class MapExample {
         partList.put("S002", "Black Addibas shirt");
         partList.put("H002", "Red-white Nikke shoes");
         
-        partList.put("S002", "Black T-Shirt"); // Overwrite value
+        partList.put("S002", "Red Nike track-suit"); // Overwriting value
         Set<String> keys = partList.keySet();
         
        
         for (String key:keys){
-             System.out.println("Part#: " + key  );
-            System.out.println("Value: " +  " " + partList.get(key));
+             System.out.println("Part#: " + key + " " + partList.get(key) );
+            
             
         }
         
