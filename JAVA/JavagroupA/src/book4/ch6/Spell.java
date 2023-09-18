@@ -49,7 +49,8 @@ public class Spell {
 
         //spells.stream().forEach(s -> System.out.println(s) );
 
-       /**/ spells.stream().filter(s -> s.type == SpellType.SPELL)
+            /*using pipeline of methods after converting collection to stream()*/
+            spells.stream().filter(s -> s.type == SpellType.SPELL)
                 .filter(s -> s.name.toLowerCase().startsWith("a"))
                 .forEach(s -> System.out.println(s) );
 
