@@ -8,7 +8,7 @@ package igbooks.igBook1.lesson7;
  *
  * @author Marco
  */
-public class Student implements Comparable{
+public class Student implements Comparable<Student>{
 
     private String name;
     private Long id;
@@ -26,8 +26,41 @@ public class Student implements Comparable{
     
     
     @Override
-    public int compareTo(Object o) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    public int compareTo(Student s) {
+       int result = this.name.compareTo(s.getName());
+       if(result > 0 ){
+           return 1;
+       }
+       else if(result < 0){
+           return -1;
+       }else{
+           return 0;
+       }
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setGpa(Double gpa) {
+        this.gpa = gpa;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public Double getGpa() {
+        return gpa;
+    }
+
     
 }
