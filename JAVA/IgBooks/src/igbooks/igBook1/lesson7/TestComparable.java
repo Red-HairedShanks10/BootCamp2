@@ -12,14 +12,14 @@ import java.util.*;
 public class TestComparable {
     public static void main(String[] args) {
         
-        Set<Student> studentList = new TreeSet<>();
+        Set<ComparableStudent> studentList = new TreeSet<>();
         
         
-        studentList.add(new Student("Ton Djembe", 1000L, 3.9));
-        studentList.add(new Student("Ishe Bongo", 2003L, 3.7));
-        studentList.add(new Student("Amara Conga", 3001L, 3.8));
+        studentList.add(new ComparableStudent("Ton Djembe", 1000L, 3.9));
+        studentList.add(new ComparableStudent("Ishe Bongo", 2003L, 3.7));
+        studentList.add(new ComparableStudent("Amara Conga", 3001L, 3.8));
         
-        for(Student student : studentList){
+        for(ComparableStudent student : studentList){
             System.out.println("student: " + student);
         }
     }
