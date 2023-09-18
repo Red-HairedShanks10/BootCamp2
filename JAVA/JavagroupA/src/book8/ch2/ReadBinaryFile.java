@@ -5,9 +5,9 @@ import java.text.NumberFormat;
 
 
 public class ReadBinaryFile {
-    public static void main(String[] args){// →5
+    public static void main(String[] args){
 
-        NumberFormat cf = NumberFormat.getCurrencyInstance();
+        NumberFormat cf = NumberFormat.getCurrencyInstance();//used to set currency format for movie price
 
         DataInputStream in = getStream("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch2\\movies.dat");
         boolean eof = false;
