@@ -1,6 +1,8 @@
 -- create database movies;
 -- Drop table movie;
+
 use movies; 
+
 create table movie ( 
 id int not null auto_increment, 
 title varchar(50), 
