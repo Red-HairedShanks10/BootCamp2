@@ -28,7 +28,7 @@ public class ReadBinaryFile {
                 System.out.println(msg);
             }
         }
-        closeFile(in);
+        closeFile(in);//close file when loop ends
     }
 
     private static DataInputStream getStream(String name) {//→25
