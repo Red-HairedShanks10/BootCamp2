@@ -20,7 +20,7 @@ public class BirthdayFun {
 
 
             try {
-                birthDate = LocalDate.parse(input);
+                birthDate = LocalDate.parse(input);//30
                 if (birthDate.isAfter(LocalDate.now())) {
                     System.out.println("You haven't been born yet!");
                     continue;
