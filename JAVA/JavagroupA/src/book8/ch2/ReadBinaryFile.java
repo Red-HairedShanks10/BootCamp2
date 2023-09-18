@@ -21,7 +21,7 @@ public class ReadBinaryFile {
                 eof = true;//we set the boolean value to true
             }
             else
-            {
+            {//otherwise we print out the movie object
                 String msg = Integer.toString(movie.year);
                 msg += ": " + movie.title;
                 msg += " (" + cf.format(movie.price) + ")";
