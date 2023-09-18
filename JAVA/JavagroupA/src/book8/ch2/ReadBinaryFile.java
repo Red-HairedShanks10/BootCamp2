@@ -31,7 +31,8 @@ public class ReadBinaryFile {
         closeFile(in);//close file when loop ends
     }
 
-    private static DataInputStream getStream(String name) {//→25
+    //getStream() method returns a DataInputStream object
+    private static DataInputStream getStream(String name) {
 
         DataInputStream in = null;
         try
