@@ -17,7 +17,7 @@ public class Student implements Comparable{
     public Student(String name, Long id, Double gpa){
     
         this.name = name;
-        
+        this.id = id;
     }
     
     
