@@ -17,7 +17,7 @@ public class MapExample {
         partList.put("S002", "Black T-Shirt"); // Overwrite value
         Set<String> keys = partList.keySet();
         
-        System.out.println("=== Part List ===");
+       
         for (String key:keys){
              System.out.println("Part#: " + key  );
             System.out.println("Value: " +  " " + partList.get(key));
