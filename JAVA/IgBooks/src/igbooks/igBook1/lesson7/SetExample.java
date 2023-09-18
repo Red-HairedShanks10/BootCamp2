@@ -4,13 +4,16 @@
  */
 package igbooks.igBook1.lesson7;
 
+import java.util.*;
+
+
 /**
  *
  * @author Marco
  */
 public class SetExample {
     public static void main(String[] args){
-    
+    Set<String> set = new TreeSet<>();
         
     }
 }
