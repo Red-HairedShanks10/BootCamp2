@@ -8,7 +8,7 @@ import java.util.*;
 
 
 /*Using Set interface, which only has unique elements*
- *
+ *Set collection has no index
  * 
  */
 public class SetExample {
