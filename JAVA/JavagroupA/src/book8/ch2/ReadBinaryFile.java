@@ -31,7 +31,7 @@ public class ReadBinaryFile {
         closeFile(in);//close file when loop ends
     }
 
-    //getStream() method returns a DataInputStream object
+    //getStream() method returns a DataInputStream object//for the file-name
     private static DataInputStream getStream(String name) {
 
         DataInputStream in = null;
