@@ -17,8 +17,8 @@ public class ReadBinaryFile {
         {
             //call readMovie() to get a Movies object
             Movie movie = readMovie(in);
-            if (movie == null) {
-                eof = true;
+            if (movie == null) {//if the movie object is null
+                eof = true;//we set the boolean value to true
             }
             else
             {
