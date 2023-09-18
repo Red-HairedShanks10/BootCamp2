@@ -1,8 +1,6 @@
 package igbooks.igBook1.lesson7;
 
-import java.util.Map;
-import java.util.Set;
-import java.util.TreeMap;
+import java.util.*;
 
 public class MapExample {
     public static void main(String[] args){      
