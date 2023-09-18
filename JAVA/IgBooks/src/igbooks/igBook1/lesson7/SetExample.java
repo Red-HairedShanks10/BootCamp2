@@ -17,7 +17,7 @@ public class SetExample {
         set.add("A");
         set.add("B");
         set.add("C");
-        set.add("C");
+        set.add("C");//item value is not unique
         
         for (String item : set) {
             System.out.println("Item is: " + item);
