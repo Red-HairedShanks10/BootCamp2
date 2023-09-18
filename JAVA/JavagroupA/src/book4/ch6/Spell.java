@@ -91,7 +91,7 @@ public class Spell {
         spells.parallelStream()
                 .forEach(s -> System.out.println(s));
 
-        System.out.println("third second paralleStream: ");
+        System.out.println("third second parallelStream: ");
         spells.parallelStream()
                 .forEach(s -> System.out.println(s));
 
