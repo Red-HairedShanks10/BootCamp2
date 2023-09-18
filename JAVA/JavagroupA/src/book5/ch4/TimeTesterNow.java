@@ -15,7 +15,7 @@ public class TimeTesterNow {//using now() with different Date-Time classes
 
 
         System.out.println("MonthDay: " + MonthDay.now().toString());//returns month and day without year value
-        System.out.println("YearMonth: " + YearMonth.now().toString());
+        System.out.println("YearMonth: " + YearMonth.now().toString());//returns year and month without a day or time value
         System.out.println("Instant: " + Instant.now().toString());
     }
 }
