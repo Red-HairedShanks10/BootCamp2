@@ -4,6 +4,8 @@ import java.util.*;
 import java.time.*;
 import java.time.format.*;
 import java.time.temporal.*;
+
+//this program displays information based on the user's birthday
 public class BirthdayFun {
     static Scanner sc = new Scanner(System.in);
 
