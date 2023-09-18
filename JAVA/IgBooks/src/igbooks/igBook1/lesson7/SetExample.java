@@ -7,9 +7,9 @@ package igbooks.igBook1.lesson7;
 import java.util.*;
 
 
-/**
+/*Using Set interface, which only has unique elements*
  *
- * @author Marco
+ * 
  */
 public class SetExample {
     public static void main(String[] args){
