@@ -9,5 +9,8 @@ package igbooks.igBook1.lesson7;
  * @author Marco
  */
 public class SetExample {
+    public static void main(String[] args){
     
+        
+    }
 }
