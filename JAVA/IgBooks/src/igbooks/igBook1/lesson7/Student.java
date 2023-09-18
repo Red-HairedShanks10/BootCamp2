@@ -26,7 +26,6 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Name: " + this.name + "  ID: " + this.id
-                + "  GPA:" + this.gpa;
+        return  this.name +  this.id + "  GPA:" + this.gpa;
     }
 }
