@@ -1,12 +1,10 @@
 package igbooks.igBook1.lesson7;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 public class TestComparator {
     public static void main(String[] args){
+        
         List<Student> studentList = new ArrayList<>(3);
         Comparator<Student> sortName = new StudentSortName();
         Comparator<Student> sortGpa = new StudentSortGpa();
