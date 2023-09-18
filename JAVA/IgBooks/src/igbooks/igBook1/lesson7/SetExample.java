@@ -14,8 +14,8 @@ import java.util.*;
  */
 public class SetExample {
     public static void main(String[] args){
-       Set<String> set = new HashSet<>();
-    //Set<String> set = new TreeSet<>();
+       //Set<String> set = new HashSet<>();
+    Set<String> set = new TreeSet<>();
         set.add("A");
         set.add("C");
         set.add("B");
