@@ -8,7 +8,7 @@ public class TimeTesterNow {//using now() with different Date-Time classes
         System.out.println("LocalTime: " + LocalTime.now().toString());
         System.out.println("LocalDateTime: " + LocalDateTime.now().toString());
         //
-        System.out.println("ZonedDateTime: " + ZonedDateTime.now().toString());
+        System.out.println("ZonedDateTime: " + ZonedDateTime.now().toString());//returns date and time with timezone
         System.out.println("OffsetTime: " + OffsetTime.now().toString());
         System.out.println("OffsetDateTime: " + OffsetDateTime.now().toString());
         System.out.println("MonthDay: " + MonthDay.now().toString());
