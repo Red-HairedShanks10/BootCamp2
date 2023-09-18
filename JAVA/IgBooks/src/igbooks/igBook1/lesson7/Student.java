@@ -12,8 +12,13 @@ public class Student implements Comparable{
 
     private String name;
     private Long id;
-    private double gpa = 0.0;
+    private Double gpa = 0.0;
     
+    public Student(String name, Long id, Double gpa){
+    
+        this.name = name;
+        
+    }
     
     
     
