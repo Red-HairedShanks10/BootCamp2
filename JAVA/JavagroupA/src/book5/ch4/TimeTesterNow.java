@@ -12,7 +12,9 @@ public class TimeTesterNow {//using now() with different Date-Time classes
        //returns date and time with the UTC offset value
         System.out.println("OffsetTime: " + OffsetTime.now().toString());
         System.out.println("OffsetDateTime: " + OffsetDateTime.now().toString());
-        System.out.println("MonthDay: " + MonthDay.now().toString());
+
+
+        System.out.println("MonthDay: " + MonthDay.now().toString());//returns month and day without year
         System.out.println("YearMonth: " + YearMonth.now().toString());
         System.out.println("Instant: " + Instant.now().toString());
     }
