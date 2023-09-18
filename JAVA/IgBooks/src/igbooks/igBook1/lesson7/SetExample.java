@@ -17,5 +17,6 @@ public class SetExample {
         set.add("one");
         set.add("two");
         set.add("three");
+        set.add("three");
     }
 }
