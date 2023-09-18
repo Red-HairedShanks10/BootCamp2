@@ -88,7 +88,8 @@ public class ReadBinaryFile {
         }
     }
 
-    private static class Movie{// →76
+    //Movie class, is defined as a Private inner class
+    private static class Movie{
 
         public String title;
         public int year;
