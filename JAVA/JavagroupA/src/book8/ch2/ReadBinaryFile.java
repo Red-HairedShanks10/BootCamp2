@@ -9,9 +9,11 @@ public class ReadBinaryFile {
 
         NumberFormat cf = NumberFormat.getCurrencyInstance();//used to set currency format for movie price
 
+        //call the getStream() to read the file....
         DataInputStream in = getStream("C:\\Users\\Marco\\Desktop\\BootCamp2\\JAVA\\JavagroupA\\src\\book8\\ch2\\movies.dat");
         boolean eof = false;
-        while (!eof)
+
+        while (!eof)//
         {
             Movie movie = readMovie(in);
             if (movie == null) {
