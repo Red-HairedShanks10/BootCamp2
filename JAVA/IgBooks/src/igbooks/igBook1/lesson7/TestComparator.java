@@ -11,9 +11,9 @@ public class TestComparator {
         Comparator<Student> sortName = new StudentSortName();
         Comparator<Student> sortGpa = new StudentSortGpa();
         
-        studentList.add(new Student("Thomas Jefferson", 1111, 3.8));
-        studentList.add(new Student("George Washington", 3333, 3.4));
-        studentList.add(new Student("John Adams", 2222, 3.9));
+        studentList.add(new Student("Ton Djembe", 1000L, 3.9));
+        studentList.add(new Student("Ishe Bongo", 2003L, 3.7));
+        studentList.add(new Student("Amara Conga", 3001L, 3.8));
         
         Collections.sort(studentList, sortName);       
         for(Student student:studentList){
