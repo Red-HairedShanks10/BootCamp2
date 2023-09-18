@@ -20,8 +20,7 @@ public class MapExample {
        
         for (String key:keys){
              System.out.println("Part#: " + key + " " + partList.get(key) );
-            
-            
+              
         }
         
         
