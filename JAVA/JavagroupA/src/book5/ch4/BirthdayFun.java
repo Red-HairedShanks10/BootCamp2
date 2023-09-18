@@ -13,7 +13,7 @@ public class BirthdayFun {
             DateTimeFormatter fullFormat = DateTimeFormatter.ofPattern("MMMM d, YYYY");//16
             DateTimeFormatter monthDayFormat = DateTimeFormatter.ofPattern("MMMM d");
 
-            System.out.println("Today is " + LocalDate.now().format(fullFormat) + ".");
+            System.out.println("Today is " + LocalDate.now().format(fullFormat) + ".");//21
             System.out.println();
             System.out.print("Please enter your birthdate " + "(yyyy-mm-dd): ");
             String input = sc.nextLine();
