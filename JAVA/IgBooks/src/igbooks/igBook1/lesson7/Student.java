@@ -10,6 +10,15 @@ package igbooks.igBook1.lesson7;
  */
 public class Student implements Comparable{
 
+    private String name;
+    private Long id;
+    private double gpa = 0.0;
+    
+    
+    
+    
+    
+    
     @Override
     public int compareTo(Object o) {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
