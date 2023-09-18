@@ -49,7 +49,7 @@ public class Spell {
 
         //spells.stream().forEach(s -> System.out.println(s) );
 
-            /*using pipeline of methods after converting collection to stream()
+            /*using pipeline of methods after converting, collection to stream()
             * use filter() to specify the type of spell displayed
             * foreach() to print out the specified spell type*/
             spells.stream().filter(s -> s.type == SpellType.SPELL)
@@ -81,7 +81,9 @@ public class Spell {
                 }*/
 
 
-        /* System.out.println("first paralleStream: ");
+        /*using parallel streams which break down elements to two or smaller streams
+
+        System.out.println("first parallelStream: ");
         spells.parallelStream()
                 .forEach(s -> System.out.println(s));
 
