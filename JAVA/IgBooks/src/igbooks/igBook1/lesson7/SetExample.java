@@ -10,13 +10,15 @@ import java.util.*;
 /*Using Set interface, which only has unique elements*
  *Set collection has no index
  * Only unique values allowed
+ *
  */
 public class SetExample {
     public static void main(String[] args){
-    Set<String> set = new TreeSet<>();
+       Set<String> set = new HashSet<>();
+    //Set<String> set = new TreeSet<>();
         set.add("A");
-        set.add("B");
         set.add("C");
+        set.add("B");
         set.add("C");//item value is not unique//wont be added
         
         for (String item : set) {
