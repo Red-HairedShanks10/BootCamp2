@@ -15,7 +15,7 @@ public class ReadBinaryFile {
 
         while (!eof)
         {
-            //call readMovie() to get a Movies object
+            //call readMovie() to get a Movie class object
             Movie movie = readMovie(in);
             if (movie == null) {//if the movie object is null
                 eof = true;//we set the boolean value to true
