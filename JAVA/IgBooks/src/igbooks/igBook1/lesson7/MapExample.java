@@ -1,4 +1,4 @@
-package com.example.collections;
+package igbooks.igBook1.lesson7;
 
 import java.util.Map;
 import java.util.Set;
