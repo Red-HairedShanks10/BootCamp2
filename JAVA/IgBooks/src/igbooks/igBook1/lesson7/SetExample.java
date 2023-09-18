@@ -18,5 +18,9 @@ public class SetExample {
         set.add("two");
         set.add("three");
         set.add("three");
+        
+        for (String item : set) {
+            System.out.println("Item is: " + item);
+        }
     }
 }
