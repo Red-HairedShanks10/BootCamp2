@@ -2,6 +2,11 @@ package igbooks.igBook1.lesson7;
 
 import java.util.*;
 
+/*Using Map interface*
+ *
+ * 
+ */
+
 public class MapExample {
     public static void main(String[] args){      
         Map <String, String> partList = new TreeMap<>();
