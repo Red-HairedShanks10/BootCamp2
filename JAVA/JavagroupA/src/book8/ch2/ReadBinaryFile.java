@@ -50,7 +50,7 @@ public class ReadBinaryFile {
         return in;
     }
 
-    →42
+   // readMovie
     private static Movie readMovie(DataInputStream in){
 
         String title = "";
