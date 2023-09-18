@@ -10,7 +10,7 @@ public class BirthdayFun {
     public static void main(String[] args) {
         do {
             LocalDate birthDate;
-            DateTimeFormatter fullFormat = DateTimeFormatter.ofPattern("MMMM d, YYYY");
+            DateTimeFormatter fullFormat = DateTimeFormatter.ofPattern("MMMM d, YYYY");//16
             DateTimeFormatter monthDayFormat = DateTimeFormatter.ofPattern("MMMM d");
 
             System.out.println("Today is " + LocalDate.now().format(fullFormat) + ".");
