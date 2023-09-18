@@ -18,6 +18,7 @@ public class Student implements Comparable{
     
         this.name = name;
         this.id = id;
+        this.gpa = gpa;
     }
     
     
