@@ -8,13 +8,13 @@ package igbooks.igBook1.lesson7;
  *
  * @author Marco
  */
-public class Student implements Comparable<Student>{
+public class ComparableStudent implements Comparable<ComparableStudent>{
 
     private String name;
     private Long id;
     private Double gpa = 0.0;
     
-    public Student(String name, Long id, Double gpa){
+    public ComparableStudent(String name, Long id, Double gpa){
     
         this.name = name;
         this.id = id;
@@ -26,7 +26,7 @@ public class Student implements Comparable<Student>{
     
     
     @Override
-    public int compareTo(Student s) {
+    public int compareTo(ComparableStudent s) {
        int result = this.gpa.compareTo(s.getGpa());//you can sort by id or name...
        
        if(result > 0 ){
