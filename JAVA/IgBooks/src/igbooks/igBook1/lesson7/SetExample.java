@@ -16,5 +16,6 @@ public class SetExample {
     Set<String> set = new TreeSet<>();
         set.add("one");
         set.add("two");
+        set.add("three");
     }
 }
