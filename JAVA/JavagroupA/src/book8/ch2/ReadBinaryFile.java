@@ -14,8 +14,9 @@ public class ReadBinaryFile {
         while (!eof)
         {
             Movie movie = readMovie(in);
-            if (movie == null)
+            if (movie == null) {
                 eof = true;
+            }
             else
             {
                 String msg = Integer.toString(movie.year);
