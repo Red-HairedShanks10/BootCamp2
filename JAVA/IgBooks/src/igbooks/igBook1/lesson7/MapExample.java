@@ -11,8 +11,8 @@ public class MapExample {
     public static void main(String[] args){      
         Map <String, String> partList = new TreeMap<>();
         partList.put("S001", "Blue Polo Shirt");
-        partList.put("S002", "Black Polo Shirt");
-        partList.put("H002", "Duke Hat");
+        partList.put("S002", "Black Addibas shirt");
+        partList.put("H002", "Red-white Nikke shoes");
         
         partList.put("S002", "Black T-Shirt"); // Overwrite value
         Set<String> keys = partList.keySet();
