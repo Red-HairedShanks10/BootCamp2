@@ -9,7 +9,7 @@ package ocp_practice.ch1;
  *
  */
 public class Animal {
-        
+    public static String species;//static string
     String name;// create a class variable
  
  // get method to return the string vallue name   
