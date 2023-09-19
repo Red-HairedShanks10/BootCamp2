@@ -5,16 +5,19 @@
 package ocp_practice.ch1;
 
 /**
- *Testing out Fields and methods
+ *Understanding members of a class
  *
  */
 public class Animal {
         
-    String name;
+    String name;// create a class variable
+ 
+ // get method to return the string vallue name   
  public String getName() {
- return name;
+ return name;//return the values store in name from the setName()
  }
- public void setName(String newName) {
- name = newName;
+ //set method to set the value of the name
+ public void setName(String newName) {//string parameter of a newName
+ name = newName;//then assign the paramter value to the name variable
  }
 }
