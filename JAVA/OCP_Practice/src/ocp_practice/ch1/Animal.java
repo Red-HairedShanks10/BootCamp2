@@ -13,7 +13,7 @@ public class Animal {
     String name;
 3: public String getName() {
 4: return name;
-5: }
+ }
  public void setName(String newName) {
  name = newName;
  }
