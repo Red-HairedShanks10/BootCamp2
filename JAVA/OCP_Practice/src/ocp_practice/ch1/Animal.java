@@ -6,8 +6,15 @@ package ocp_practice.ch1;
 
 /**
  *Testing out Fields and methods
- * @author Marco
+ *
  */
 public class Animal {
-    
+        
+    String name;
+3: public String getName() {
+4: return name;
+5: }
+6: public void setName(String newName) {
+7: name = newName;
+ }
 }
