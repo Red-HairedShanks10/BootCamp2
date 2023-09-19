@@ -11,7 +11,7 @@ package ocp_practice.ch1;
 public class Animal {
         
     String name;
-3: public String getName() {
+ public String getName() {
  return name;
  }
  public void setName(String newName) {
