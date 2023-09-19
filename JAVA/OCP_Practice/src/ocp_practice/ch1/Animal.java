@@ -14,7 +14,7 @@ public class Animal {
 3: public String getName() {
 4: return name;
 5: }
-6: public void setName(String newName) {
+ public void setName(String newName) {
  name = newName;
  }
 }
