@@ -11,7 +11,7 @@ package ocp_practice.ch1;
 public class Zoo {
 
     /**
-     * @param args the command line arguments
+     * Understanding the main()
      */
     public static void main(String[] args) {
         // TODO code application logic here
