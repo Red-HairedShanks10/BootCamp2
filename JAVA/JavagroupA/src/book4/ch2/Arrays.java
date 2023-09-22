@@ -10,7 +10,7 @@ public class Arrays {
         //adding values to an array....
 //       firstArray[0] = "Black Mamba";
 //       firstArray[1] = "King Cobra";
-        firstArray[2] = "Taipan";
+//        firstArray[2] = "Taipan";
 
 
        /* int[] numbers = new int[100];
