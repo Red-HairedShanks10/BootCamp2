@@ -9,7 +9,7 @@ public class Arrays {
         String[] firstArray = new String[5];///declaring and initialising array
         //adding values to an array....
 //       firstArray[0] = "Black Mamba";
-//       firstArray[1] = "King Cobra";
+       firstArray[1] = "King Cobra";
 //        firstArray[2] = "Taipan";
 
 
