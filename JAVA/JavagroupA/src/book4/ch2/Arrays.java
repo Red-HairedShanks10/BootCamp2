@@ -2,7 +2,7 @@ package book4.ch2;
 
 import java.util.Scanner;
 
-public class Arrays {//
+public class Arrays {
  static Scanner sc = new Scanner(System.in);
 
     public static void main(String[] args) {
