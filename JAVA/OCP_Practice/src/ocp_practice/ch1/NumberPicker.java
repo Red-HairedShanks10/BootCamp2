@@ -4,7 +4,7 @@
  */
 package ocp_practice.ch1;
 
-import java.util.Random;//specify the Random class/interface
+import java.util.Random;//specify the Random class
 
 /**
  *
