@@ -13,8 +13,10 @@ public class NumberPicker {
     /**
      * 
      */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    Random r = new Random(); // DOES NOT COMPILE
+    System.out.println(r.nextInt(10));
+}
     
 }
