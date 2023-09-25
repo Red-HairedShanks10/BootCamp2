@@ -14,4 +14,9 @@ public class Chick {
     System.out.println("constructor");
 }
     
+    public void Chick(){
+            //this is a regular method 
+            //since the theres
+    }
+    
 }
