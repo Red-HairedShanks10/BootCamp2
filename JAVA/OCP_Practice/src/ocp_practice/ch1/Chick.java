@@ -12,6 +12,7 @@ public class Chick {
     
     public Chick() {
         //a constructor does not need to be explicitly specified
+        //it is called by default if there is no custom specification
     System.out.println("constructor");
 }
     
