@@ -10,4 +10,8 @@ package ocp_practice.ch1;
  */
 public class Chick {
     
+    public Chick() {
+    System.out.println("constructor");
+}
+    
 }
