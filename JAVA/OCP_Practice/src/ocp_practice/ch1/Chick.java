@@ -11,12 +11,14 @@ package ocp_practice.ch1;
 public class Chick {
     
     public Chick() {
+        //a constructor does not need to be explicitly specified
     System.out.println("constructor");
 }
     
     public void Chick(){
             //this is a regular method 
-            //since the theres
+            //since theres specification of return type
+            //even though this is void it still applies
     }
     
 }
