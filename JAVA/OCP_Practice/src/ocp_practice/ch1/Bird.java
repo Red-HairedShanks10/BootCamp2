@@ -6,8 +6,16 @@ package ocp_practice.ch1;
 
 /**
  *
- * @author Marco
+ *Testing instance initializers 
  */
 public class Bird {
-    
+    public static void main(String[] args) {
+   //instance initializers cannot exist inside a method 
+   //so the following block of code is not an instance initializer
+ { System.out.println("Feathers"); }
+ }
+  
+ //this is an instance initializer
+    //because it exists outside the method
+ { System.out.println("Snowy"); }
 }
