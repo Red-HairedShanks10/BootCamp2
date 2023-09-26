@@ -16,6 +16,6 @@ public class Bird {
  }
   
  //this is an instance initializer
-    //because it exists outside the method
+ //because it exists outside the method
  { System.out.println("Snowy"); }
 }
