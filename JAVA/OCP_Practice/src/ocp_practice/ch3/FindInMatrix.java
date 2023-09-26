@@ -22,5 +22,16 @@ public class FindInMatrix {
             for(int j=0; j<list[i].length; j++) {
                 if(list[i][j]==searchValue) {
                     positionX = i;
+                    positionY = j;
+        break PARENT_LOOP;
+                }
+            }
+        }
+    if(positionX==-1|| positionY==-1){
+        System.out.println("Value "+searchValue+" not found");
+    }else {
+        System.out.println("Value "+searchValue+" found at: " + "("+positionX+","+positionY+")");
+        }
+    }
     
 }
