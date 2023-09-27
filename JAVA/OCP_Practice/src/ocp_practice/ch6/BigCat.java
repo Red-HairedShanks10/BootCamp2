@@ -11,3 +11,9 @@ package ocp_practice.ch6;
 public class BigCat {
     protected double size;
 }
+
+
+class Jaguar extends BigCat {
+
+
+}
