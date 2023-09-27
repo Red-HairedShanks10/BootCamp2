@@ -13,4 +13,5 @@ public class Hippo {
         new Hippo();
 
     }
+    static { System.out.print("B"); }
 }
