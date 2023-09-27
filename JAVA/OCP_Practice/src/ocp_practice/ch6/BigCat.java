@@ -9,5 +9,5 @@ package ocp_practice.ch6;
  * @author Marco
  */
 public class BigCat {
-    
+    protected double size;
 }
