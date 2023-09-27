@@ -5,4 +5,6 @@ public class ZooTickets {
     { System.out.print(name + "-");}
 
     private static int COUNT = 0;
+    static { System.out.print(COUNT + "-");}
+    static { COUNT += 10; System.out.print(COUNT + "-");}
 }
