@@ -12,6 +12,6 @@ public class ZooTickets {
          System.out.print("z-");
     }
     public static void main(String... patrons) {
-
+        new ZooTickets();
     }
 }
