@@ -14,6 +14,8 @@ public class BigCat {
 
 
 class Jaguar extends BigCat {
+    public Jaguar() {
 
+    }
 
 }
