@@ -6,7 +6,7 @@ package ocp_practice.ch6;
 
 /**
  *
- * @author Marco
+ * Inheritances
  */
 public class BigCat {
     protected double size;
