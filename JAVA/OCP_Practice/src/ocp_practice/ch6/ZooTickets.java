@@ -9,6 +9,6 @@ public class ZooTickets {
     static { COUNT += 10; System.out.print(COUNT + "-");}
 
     public ZooTickets(){
-
+         System.out.print("z-");
     }
 }
