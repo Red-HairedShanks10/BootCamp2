@@ -11,5 +11,5 @@ public class Animal {
     public void setAge(int newAge) {
         age = newAge;
     }
-
 }
+
