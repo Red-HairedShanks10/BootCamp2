@@ -18,4 +18,8 @@ class Jaguar extends BigCat {
         size = 10.2;
     }
 
+    public void printDetails() {
+
+    }
+
 }
