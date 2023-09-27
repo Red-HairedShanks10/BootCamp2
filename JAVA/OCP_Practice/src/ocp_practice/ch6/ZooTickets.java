@@ -7,4 +7,8 @@ public class ZooTickets {
     private static int COUNT = 0;
     static { System.out.print(COUNT + "-");}
     static { COUNT += 10; System.out.print(COUNT + "-");}
+
+    public ZooTickets(){
+
+    }
 }
