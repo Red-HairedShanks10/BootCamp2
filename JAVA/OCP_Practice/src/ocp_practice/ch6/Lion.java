@@ -1,6 +1,6 @@
 package ocp_practice.ch6;
 
-public class Lion {
+public class Lion extends Animal {
 
     protected void setProperties(int age, String n) {
         setAge(age);
