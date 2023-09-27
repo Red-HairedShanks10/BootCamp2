@@ -6,5 +6,7 @@ class Animal2{
 
 
 public class Hippo {
+    public static void main(String[] args) {
 
+    }
 }
