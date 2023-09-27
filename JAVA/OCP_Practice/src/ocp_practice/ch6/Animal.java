@@ -8,4 +8,8 @@ public class Animal {
         return age;
     }
 
+    public void setAge(int newAge) {
+        age = newAge;
+    }
+
 }
