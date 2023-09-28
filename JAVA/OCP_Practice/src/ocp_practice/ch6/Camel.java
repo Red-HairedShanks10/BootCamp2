@@ -5,3 +5,7 @@ public class Camel {
         return 1;
     }
 }
+
+class BactrianCamel extends Camel{
+    
+}
