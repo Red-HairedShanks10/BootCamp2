@@ -5,6 +5,10 @@ public class Bear {
         System.out.println("Bear is eating");
     }
 
+    public static void sneeze() {
+        System.out.println("Bear is sneezing");
+    }
+
 }
 class Panda extends Beetle{
     public static void eat() {
