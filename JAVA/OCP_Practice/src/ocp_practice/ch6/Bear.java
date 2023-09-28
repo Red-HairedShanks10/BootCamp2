@@ -10,4 +10,8 @@ class Panda extends Beetle{
     public static void eat() {
         System.out.println("Panda is chewing bamboo");
     }
+
+    public static void main(String[] args) {
+        eat();
+    }
 }
