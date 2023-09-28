@@ -7,5 +7,5 @@ public class Camel {
 }
 
 class BactrianCamel extends Camel{
-    
+    private int getNumberOfHumps()
 }
