@@ -5,3 +5,7 @@ public class Beetle {
         return "Undefined";
     }
 }
+
+class RhinocerosBeetle extends Beetle{
+
+}
