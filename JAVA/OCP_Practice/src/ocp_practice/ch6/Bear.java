@@ -23,3 +23,7 @@ class Panda extends Beetle{
         eat();
     }
 }
+
+class SunBear extends Bear{
+
+}
