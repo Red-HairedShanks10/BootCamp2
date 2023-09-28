@@ -6,3 +6,6 @@ public class Bear {
     }
 
 }
+class Panda extends Beetle{
+
+}
