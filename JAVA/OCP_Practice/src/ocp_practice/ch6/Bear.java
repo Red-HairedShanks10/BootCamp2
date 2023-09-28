@@ -9,6 +9,10 @@ public class Bear {
         System.out.println("Bear is sneezing");
     }
 
+    public void hibernate() {
+        System.out.println("Bear is hibernating");
+    }
+
 }
 class Panda extends Beetle{
     public static void eat() {
