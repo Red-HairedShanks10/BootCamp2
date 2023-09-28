@@ -8,4 +8,7 @@ public class Marsupial {
 
 class Kangaroo extends Marsupial{
 
+    public double getAverageWeight() {
+        return super.getAverageWeight()+20;
+    }
 }
