@@ -5,3 +5,7 @@ public class Marsupial {
         return 50;
     }
 }
+
+class Kangaroo extends Marsupial{
+
+}
