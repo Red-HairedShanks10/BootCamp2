@@ -10,3 +10,7 @@ class DuckHelper{
         trainer.speak(name);
     }
 }
+
+class Duckling{
+
+}
