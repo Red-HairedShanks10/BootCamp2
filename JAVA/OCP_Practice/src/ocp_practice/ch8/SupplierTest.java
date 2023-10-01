@@ -11,7 +11,7 @@ public class SupplierTest {
         LocalDate d1 = s1.get();
         LocalDate d2 = s2.get();
 
-        System.out.println(d1); // 2022-02-
+        System.out.println(d1); 
         System.out.println(d2);
     }
 }
