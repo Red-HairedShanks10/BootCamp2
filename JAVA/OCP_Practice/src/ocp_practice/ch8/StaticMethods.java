@@ -6,5 +6,8 @@ interface Converter {
 
 
 public class StaticMethods {
+    public static void main(String[] args) {
+
+    }
 }
 
