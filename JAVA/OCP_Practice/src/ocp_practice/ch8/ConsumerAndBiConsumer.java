@@ -1,5 +1,7 @@
 package ocp_practice.ch8;
 
+import java.util.HashMap;
+
 public class ConsumerAndBiConsumer {
     public static void main(String[] args) {
         //Consumer interface
@@ -12,8 +14,7 @@ public class ConsumerAndBiConsumer {
         //BiConsumer Interface
         var map = new HashMap<String, Integer>();
         BiConsumer<String, Integer> b1 = map::put;
-        BiConsumer<String, Integer> b2 = (k, v) ->
-                map.put(k, v);
+        BiConsumer<String, Integer> b2 = (k, v) -> map.put(k, v);
 
 
     }
