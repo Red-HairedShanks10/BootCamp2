@@ -7,7 +7,7 @@ public class ConsumerAndBiConsumer {
         Consumer<String> c2 = x -> System.out.println(x);
 
         c1.accept("Annie"); // Annie
-        c2.accept("Annie"); // Annie
+        c2.accept("Annie");
 
 
     }
