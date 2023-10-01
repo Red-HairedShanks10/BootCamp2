@@ -9,6 +9,12 @@ public class ConsumerAndBiConsumer {
         c1.accept("Annie");
         c2.accept("Annie");
 
+        //BiConsumer Interface
+        var map = new HashMap<String, Integer>();
+        BiConsumer<String, Integer> b1 = map::put;
+        BiConsumer<String, Integer> b2 = (k, v) ->
+                map.put(k, v);
+
 
     }
 }
