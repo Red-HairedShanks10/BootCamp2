@@ -7,6 +7,8 @@ public class InstanceMethods {
         StringStart lambda = s -> str.startsWith(s);
 
         System.out.println(methodRef.beginningCheck("A")); // false
+
+        //implementing StringChecker
     }
 }
 
