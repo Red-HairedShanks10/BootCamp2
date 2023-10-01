@@ -5,6 +5,8 @@ public class InstanceMethods {
         var str = "Zoo";
         StringStart methodRef = str::startsWith;
         StringStart lambda = s -> str.startsWith(s);
+
+        System.out.println(methodRef.beginningCheck("A")); // false
     }
 }
 
