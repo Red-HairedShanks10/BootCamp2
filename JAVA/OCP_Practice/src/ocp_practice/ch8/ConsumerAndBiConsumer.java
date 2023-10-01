@@ -8,8 +8,8 @@ public class ConsumerAndBiConsumer {
         Consumer<String> c1 = System.out::println;
         Consumer<String> c2 = x -> System.out.println(x);
         //
-        c1.accept("Annie");
-        c2.accept("Annie");
+        c1.accept("Kdot");
+        c2.accept("Nas");
 
         //BiConsumer Interface
         var map = new HashMap<String, Integer>();
