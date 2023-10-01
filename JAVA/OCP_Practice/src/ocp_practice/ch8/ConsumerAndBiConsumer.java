@@ -6,3 +6,7 @@ public class ConsumerAndBiConsumer {
 interface Consumer<T> {
     void accept(T t);
 }
+
+interface BiConsumer<T, U>{
+
+}
