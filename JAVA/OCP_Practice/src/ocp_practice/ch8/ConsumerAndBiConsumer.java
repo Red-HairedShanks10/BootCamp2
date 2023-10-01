@@ -16,6 +16,8 @@ public class ConsumerAndBiConsumer {
         BiConsumer<String, Integer> b1 = map::put;
         BiConsumer<String, Integer> b2 = (k, v) -> map.put(k, v);
 
+        //interesting how generic interface methods adapt to the generic type specified
+        //if BiConsumer b2 had different generic types specified will it still work?
         b1.accept("Messi", 10);
         b2.accept("Jude", 5);
 
