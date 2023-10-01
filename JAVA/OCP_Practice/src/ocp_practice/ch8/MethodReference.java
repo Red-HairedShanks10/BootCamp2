@@ -4,4 +4,9 @@ public class MethodReference {
 }
 
 
-class DuckHelper
+class DuckHelper{
+    public static void teacher(String name, LearnToSpeak trainer) {
+// Exercise patience (omitted)
+        trainer.speak(name);
+    }
+}
