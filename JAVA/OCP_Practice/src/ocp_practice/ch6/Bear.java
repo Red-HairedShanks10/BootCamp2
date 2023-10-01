@@ -25,11 +25,11 @@ class Panda extends Beetle{
 }
 
 class SunBear extends Bear{
-    public void sneeze() { // DOES NOT COMPILE
+  /* public void sneeze() { // DOES NOT COMPILE
         System.out.println("Sun Bear sneezes quietly");
-    }
+    }*/
 
-    public static void hibernate() { // DOES NOT COMPILE
+  /*  public static void hibernate() { // DOES NOT COMPILE
         System.out.println("Sun Bear is going to sleep");
-    }
+    }*/
 }
