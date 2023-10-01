@@ -9,6 +9,7 @@ public class InstanceMethods {
         System.out.println(methodRef.beginningCheck("A")); // false
 
         //implementing StringChecker
+        var str = "";
     }
 }
 
