@@ -21,7 +21,7 @@ public class ConsumerAndBiConsumer {
         b1.accept("Messi", 10);
         b2.accept("Jude", 5);
 
-
+        System.out.println(map);
     }
 }
 
