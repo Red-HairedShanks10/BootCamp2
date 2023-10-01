@@ -13,7 +13,7 @@ public class InstanceMethods {
         StringChecker methodRef2 = str::isEmpty;
         StringChecker lambda2 = () -> str.isEmpty();
 
-        System.out.print(methodRef.check()); // true
+        System.out.print(methodRef2.check()); // true
     }
 }
 
