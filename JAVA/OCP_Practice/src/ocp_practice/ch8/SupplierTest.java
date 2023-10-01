@@ -9,5 +9,6 @@ public class SupplierTest {
         Supplier<LocalDate> s2 = () -> LocalDate.now();
 
         LocalDate d1 = s1.get();
+        LocalDate d2 = s2.get();
     }
 }
