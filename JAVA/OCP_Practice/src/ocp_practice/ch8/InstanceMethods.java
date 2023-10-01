@@ -12,6 +12,8 @@ public class InstanceMethods {
         var str2 = "";
         StringChecker methodRef2 = str::isEmpty;
         StringChecker lambda2 = () -> str.isEmpty();
+
+        System.out.print(methodRef.check()); // true
     }
 }
 
