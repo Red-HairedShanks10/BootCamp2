@@ -9,9 +9,9 @@ public class InstanceMethods {
         System.out.println(methodRef.beginningCheck("A")); // false
 
         //implementing StringChecker
-        var str = "";
-        StringChecker methodRef = str::isEmpty;
-        StringChecker lambda = () -> str.isEmpty();
+        var str2 = "";
+        StringChecker methodRef2 = str::isEmpty;
+        StringChecker lambda2 = () -> str.isEmpty();
     }
 }
 
