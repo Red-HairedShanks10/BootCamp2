@@ -8,6 +8,7 @@ interface Converter {
 public class StaticMethods {
     public static void main(String[] args) {
         Converter methodRef = Math::round;
+        Converter lambda = x -> Math.round(x);
     }
 }
 
