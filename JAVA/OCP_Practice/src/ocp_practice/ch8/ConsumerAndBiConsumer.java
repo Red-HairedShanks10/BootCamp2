@@ -16,6 +16,9 @@ public class ConsumerAndBiConsumer {
         BiConsumer<String, Integer> b1 = map::put;
         BiConsumer<String, Integer> b2 = (k, v) -> map.put(k, v);
 
+        b1.accept("Messi", 10);
+        b2.accept("Jude", 5);
+
 
     }
 }
