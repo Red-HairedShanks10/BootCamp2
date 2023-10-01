@@ -10,6 +10,7 @@ public class InstanceMethods {
 
         //implementing StringChecker
         var str = "";
+        StringChecker methodRef = str::isEmpty;
     }
 }
 
