@@ -8,5 +8,6 @@ interface Consumer<T> {
 }
 
 interface BiConsumer<T, U>{
-
+    void accept(T t, U u);
+// omitted default method
 }
