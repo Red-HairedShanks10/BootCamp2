@@ -6,5 +6,5 @@ public class InstanceMethods {
 
 
 interface StringStart{
-
+    boolean beginningCheck(String prefix);
 }
