@@ -10,8 +10,8 @@ public class InstanceMethods {
 
         //implementing StringChecker
         var str2 = "";
-        StringChecker methodRef2 = str::isEmpty;
-        StringChecker lambda2 = () -> str.isEmpty();
+        StringChecker methodRef2 = str2::isEmpty;
+        StringChecker lambda2 = () -> str2.isEmpty();
 
         System.out.print(methodRef2.check()); // true
     }
