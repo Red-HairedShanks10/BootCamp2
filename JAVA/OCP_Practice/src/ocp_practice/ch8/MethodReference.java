@@ -6,7 +6,7 @@ public class MethodReference {
 
 class DuckHelper{
     public static void teacher(String name, LearnToSpeak trainer) {
-// Exercise patience (omitted)
+        // Exercise patience (omitted)
         trainer.speak(name);
     }
 }
