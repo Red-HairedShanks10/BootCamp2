@@ -13,6 +13,7 @@ public class UnaryOperatorTest {
   //Applying BinaryOp..
   BinaryOperator<String> b1 = String::concat;
   BinaryOperator<String> b2 = (string, toAdd) -> string.concat(toAdd);
+  //
  }
 
 
