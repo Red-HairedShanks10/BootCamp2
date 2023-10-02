@@ -10,7 +10,10 @@ public class PredicateTest {
         System.out.println(p2.test(""));
 
         //BiPredicate:
-
+        BiPredicate<String, String> b1 = String::startsWith;
+        BiPredicate<String, String> b2 =
+                (string, prefix) ->
+                        string.startsWith(prefix);
 
 
     }
