@@ -12,8 +12,8 @@ public class MethodsTest {
         System.out.println(brownEggs.test("brown eggs"));
         System.out.println(otherEggs.test("scrambled eggs"));
 
-        Consumer<String> c1 = x -> System.out.println("1: " + x);
-        Consumer<String> c2 = x -> System.out.println("2: " + x);
+        Consumer<String> c1 = x -> System.out.print("1: " + x);
+        Consumer<String> c2 = x -> System.out.print("2: " + x);
 
         Consumer<String> combined = c1.andThen(c2);
         combined.accept("Tiger");
