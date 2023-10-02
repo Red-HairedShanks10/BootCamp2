@@ -9,5 +9,6 @@ public class RemoveIfTest {
         list.add("Magician");
         list.add("Assistant");
         System.out.println(list);
+        list.removeIf(s -> s.startsWith("A"));
     }
 }
