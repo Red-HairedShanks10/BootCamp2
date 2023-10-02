@@ -6,5 +6,5 @@ public class PredicateTest {
 
 
 interface Predicate<T>{
-
+    boolean test(T t);
 }
