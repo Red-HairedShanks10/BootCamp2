@@ -4,5 +4,5 @@ public class BooleanSupplierTest {
 }
 
 interface BooleanSupplier{
-
+    boolean getAsBoolean();
 }
