@@ -14,7 +14,7 @@ public class UnaryOperatorTest {
   BinaryOperator<String> b1 = String::concat;
   BinaryOperator<String> b2 = (string, toAdd) -> string.concat(toAdd);
   //
-  System.out.println(b1.apply("baby ", "dragon"));
+  System.out.println(b1.apply("blue ", "Orca"));
   System.out.println(b2.apply("Nile", "croc"));
  }
 
