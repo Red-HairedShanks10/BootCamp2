@@ -11,5 +11,9 @@ public class RemoveIfTest {
         System.out.println(list);
         list.removeIf(s -> s.startsWith("A"));
         System.out.println(list);
+
+        Collection<String> set = new HashSet<>();
+        set.add("wand");
+        set.add("");
     }
 }
