@@ -10,7 +10,7 @@ public class PredicateTest {
         System.out.println(p2.test(""));
 
 
-        
+
     }
 }
 
@@ -19,3 +19,8 @@ public class PredicateTest {
 interface Predicate<T>{
     boolean test(T t);
 }
+
+interface BiPredicate<T, U>{
+
+}
+
