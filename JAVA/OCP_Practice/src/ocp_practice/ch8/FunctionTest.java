@@ -7,5 +7,5 @@ public class FunctionTest {
 
 
 interface Function<T,R>{
-
+    R apply(T t);
 }
