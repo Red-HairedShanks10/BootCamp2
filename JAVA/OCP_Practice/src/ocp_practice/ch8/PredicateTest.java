@@ -14,7 +14,7 @@ public class PredicateTest {
         BiPredicate<String, String> b2 = (string, prefix) -> string.startsWith(prefix);
         //
         System.out.println(b1.test("chicken", "chick"));
-        System.out.println(b2.test("b2 chicken", "b2 chick"));
+        System.out.println(b2.test("b2-chicken", "b2-chick"));
     }
 }
 
