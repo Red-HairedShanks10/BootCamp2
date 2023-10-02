@@ -5,6 +5,10 @@ public class MethodsTest {
         Predicate<String> egg = s -> s.contains("egg");
         Predicate<String> brown = s -> s.contains("brown");
 
-            Predicate<String> brownEggs = egg.and(brown);
+        Predicate<String> brownEggs = egg.and(brown);
+        Predicate<String> otherEggs = egg.and(brown.negate());
+
+        System.out.println(brownEggs.test("brown eggs"));
+        System.out.println(otherEggs.test("scrambled eggs"));
     }
 }
