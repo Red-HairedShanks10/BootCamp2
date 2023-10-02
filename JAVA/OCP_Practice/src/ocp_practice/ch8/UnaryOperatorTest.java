@@ -4,6 +4,7 @@ public class UnaryOperatorTest {
  //Applying UnaryOp.. interface
  UnaryOperator<String> u1 = String::toUpperCase;
  UnaryOperator<String> u2 = x -> x.toUpperCase();
+ //
 
 }
 
