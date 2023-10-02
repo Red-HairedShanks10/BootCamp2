@@ -8,5 +8,6 @@ public class RemoveIfTest {
         Collection<String> list = new ArrayList<>();
         list.add("Magician");
         list.add("Assistant");
+        System.out.println(list);
     }
 }
