@@ -4,5 +4,5 @@ public class UnaryOperatorTest {
 }
 
  interface UnaryOperator<T> extends Function<T, T> {
-
+  T apply(T t);
 }
