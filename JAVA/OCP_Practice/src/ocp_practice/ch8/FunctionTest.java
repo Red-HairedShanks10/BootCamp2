@@ -6,8 +6,8 @@ public class FunctionTest {
         Function<String, Integer> f1 = String::length;
         Function<String, Integer> f2 = x -> x.length();
         //
-        System.out.println(f1.apply("cluck"));
-        System.out.println(f2.apply("cluck"));
+        System.out.println(f1.apply("fleet"));
+        System.out.println(f2.apply(""));
 
         //using BiFunction:
         BiFunction<String, String, String> b1 = String::concat;
