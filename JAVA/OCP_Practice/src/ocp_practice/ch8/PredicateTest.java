@@ -2,12 +2,12 @@ package ocp_practice.ch8;
 
 public class PredicateTest {
     public static void main(String[] args) {
-        //Testing Predicate
+      /*  //Testing Predicate
         Predicate<String> p1 = String::isEmpty;
         Predicate<String> p2 = x -> x.isEmpty();
         //
         System.out.println(p1.test(""));
-        System.out.println(p2.test(""));
+        System.out.println(p2.test(""));*/
 
         //BiPredicate:
         BiPredicate<String, String> b1 = String::startsWith;
@@ -22,6 +22,8 @@ public class PredicateTest {
 
 interface Predicate<T>{
     boolean test(T t);
+
+   // Predicate<T> and();
 }
 
 interface BiPredicate<T, U>{
