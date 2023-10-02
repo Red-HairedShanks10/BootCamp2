@@ -8,6 +8,13 @@ public class FunctionTest {
         //
         System.out.println(f1.apply("cluck"));
         System.out.println(f2.apply("cluck"));
+
+        //using BiFunction:
+        BiFunction<String, String, String> b1 = String::concat;
+        BiFunction<String, String, String> b2 =
+                (string, toAdd) ->
+                        string.concat(toAdd);
+
     }
 
 }
