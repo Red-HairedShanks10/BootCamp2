@@ -5,7 +5,7 @@ public class UnaryOperatorTest {
  UnaryOperator<String> u1 = String::toUpperCase;
  UnaryOperator<String> u2 = x -> x.toUpperCase();
  //
- System.out.println(u1.apply("chirp")); // CHIRP
+ System.out.println(u1.apply("chirp")); 
  System.out.println(u2.apply("chirp"));
 
 }
