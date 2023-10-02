@@ -15,5 +15,7 @@ public class RemoveIfTest {
         Collection<String> set = new HashSet<>();
         set.add("wand");
         set.add("");
+        set.removeIf(String::isEmpty);
+
     }
 }
