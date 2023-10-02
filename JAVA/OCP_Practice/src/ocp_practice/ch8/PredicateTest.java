@@ -23,7 +23,8 @@ public class PredicateTest {
 interface Predicate<T>{
     boolean test(T t);
 
-   // Predicate<T> and();
+
+    Predicate<T> and(Predicate<T> brown);
 }
 
 interface BiPredicate<T, U>{
