@@ -4,8 +4,7 @@ public class FunctionTest {
     public static void main(String[] args) {
         //using Function interface
         Function<String, Integer> f1 = String::length;
-        Function<String, Integer> f2 = x ->
-                x.length();
+        Function<String, Integer> f2 = x -> x.length();
     }
 
 }
