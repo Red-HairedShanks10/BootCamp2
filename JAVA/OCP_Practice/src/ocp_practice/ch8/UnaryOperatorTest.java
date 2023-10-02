@@ -8,5 +8,5 @@ public class UnaryOperatorTest {
 }
 
  interface BinaryOperator<T> extends BiFunction<T, T, T> {
-// omitted static methods
+
 }
