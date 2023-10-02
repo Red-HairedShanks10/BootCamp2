@@ -6,7 +6,7 @@ public class PredicateTest {
         Predicate<String> p2 = x -> x.isEmpty();
 
         System.out.println(p1.test("")); // true
-        System.out.println(p2.test("")); // true
+        System.out.println(p2.test(""));
     }
 }
 
