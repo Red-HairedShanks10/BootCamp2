@@ -1,6 +1,10 @@
 package ocp_practice.ch8;
 
 public class UnaryOperatorTest {
+ UnaryOperator<String> u1 = String::toUpperCase;
+ UnaryOperator<String> u2 = x ->
+         x.toUpperCase();
+
 }
 
  interface UnaryOperator<T> extends Function<T, T> {
