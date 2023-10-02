@@ -11,8 +11,7 @@ public class UnaryOperatorTest {
   System.out.println(u2.apply("chirp"));
 
   BinaryOperator<String> b1 = String::concat;
-  BinaryOperator<String> b2 = (string, toAdd) ->
-          string.concat(toAdd);
+  BinaryOperator<String> b2 = (string, toAdd) -> string.concat(toAdd);
  }
 
 
