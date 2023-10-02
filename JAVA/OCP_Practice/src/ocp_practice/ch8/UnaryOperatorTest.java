@@ -8,7 +8,7 @@ public class UnaryOperatorTest {
   UnaryOperator<String> u2 = x -> x.toUpperCase();
   //
   System.out.println(u1.apply("chirp"));
-  System.out.println(u2.apply("chirp"));
+  System.out.println(u2.apply("roar"));
 
   //Applying BinaryOp..
   BinaryOperator<String> b1 = String::concat;
