@@ -3,14 +3,14 @@ package ocp_practice.ch8;
 public class UnaryOperatorTest {
 
  public static void main(String[] args) {
-
+//Applying UnaryOp.. interface
+  UnaryOperator<String> u1 = String::toUpperCase;
+  UnaryOperator<String> u2 = x -> x.toUpperCase();
+  //
+  System.out.println(u1.apply("chirp"));
+  System.out.println(u2.apply("chirp"));
  }
- //Applying UnaryOp.. interface
- UnaryOperator<String> u1 = String::toUpperCase;
- UnaryOperator<String> u2 = x -> x.toUpperCase();
- //
- System.out.println(u1.apply("chirp"));
- System.out.println(u2.apply("chirp"));
+
 
 }
 
