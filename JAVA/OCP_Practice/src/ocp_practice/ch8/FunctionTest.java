@@ -9,3 +9,7 @@ public class FunctionTest {
 interface Function<T,R>{
     R apply(T t);
 }
+
+interface BiFunction<T,U, R>{
+
+}
