@@ -11,6 +11,7 @@ public class PredicateTest {
 
 
 
+
     }
 }
 
@@ -21,6 +22,6 @@ interface Predicate<T>{
 }
 
 interface BiPredicate<T, U>{
-
+    boolean test(T t, U u);
 }
 
