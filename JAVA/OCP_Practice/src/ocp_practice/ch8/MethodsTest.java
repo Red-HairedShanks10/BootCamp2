@@ -1,5 +1,6 @@
 package ocp_practice.ch8;
 import java.util.function.Predicate;
+
 public class MethodsTest {
     public static void main(String[] args) {
         Predicate<String> egg = s -> s.contains("egg");
