@@ -11,9 +11,7 @@ public class FunctionTest {
 
         //using BiFunction:
         BiFunction<String, String, String> b1 = String::concat;
-        BiFunction<String, String, String> b2 =
-                (string, toAdd) ->
-                        string.concat(toAdd);
+        BiFunction<String, String, String> b2 = (string, toAdd) -> string.concat(toAdd);
 
     }
 
