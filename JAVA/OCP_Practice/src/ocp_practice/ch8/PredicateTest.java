@@ -9,6 +9,7 @@ public class PredicateTest {
         System.out.println(p1.test(""));
         System.out.println(p2.test(""));
 
+        //BiPredicate:
 
 
 
