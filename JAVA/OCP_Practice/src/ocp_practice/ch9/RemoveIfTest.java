@@ -16,6 +16,6 @@ public class RemoveIfTest {
         set.add("wand");
         set.add("");
         set.removeIf(String::isEmpty);
-
+        System.out.println(set);
     }
 }
