@@ -5,9 +5,12 @@ public class PredicateTest {
         //Testing Predicate
         Predicate<String> p1 = String::isEmpty;
         Predicate<String> p2 = x -> x.isEmpty();
-
+        //
         System.out.println(p1.test(""));
         System.out.println(p2.test(""));
+
+
+        
     }
 }
 
