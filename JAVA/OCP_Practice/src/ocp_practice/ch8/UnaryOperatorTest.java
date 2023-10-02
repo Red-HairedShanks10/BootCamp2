@@ -10,6 +10,7 @@ public class UnaryOperatorTest {
   System.out.println(u1.apply("chirp"));
   System.out.println(u2.apply("chirp"));
 
+  //Applying BinaryOp..
   BinaryOperator<String> b1 = String::concat;
   BinaryOperator<String> b2 = (string, toAdd) -> string.concat(toAdd);
  }
