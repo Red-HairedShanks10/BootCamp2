@@ -16,6 +16,6 @@ public class MethodsTest {
         Consumer<String> c2 = x -> System.out.print("2: " + x);
 
         Consumer<String> combined = c1.andThen(c2);
-        combined.accept("Tiger");
+        combined.accept("Tiger ");
     }
 }
