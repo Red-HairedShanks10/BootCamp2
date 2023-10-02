@@ -6,7 +6,7 @@ public class BooleanSupplierTest {
         BooleanSupplier b2 = () -> Math.random()> .5;
 
         System.out.println(b1.getAsBoolean()); // true
-        System.out.println(b1.getAsBoolean()); 
+        System.out.println(b2.getAsBoolean());
     }
 }
 
