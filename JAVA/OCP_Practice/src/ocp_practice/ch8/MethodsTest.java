@@ -1,6 +1,6 @@
 package ocp_practice.ch8;
 import java.util.function.Predicate;
-
+import java.util.function.Consumer;
 public class MethodsTest {
     public static void main(String[] args) {
         Predicate<String> egg = s -> s.contains("egg");
@@ -11,5 +11,11 @@ public class MethodsTest {
 
         System.out.println(brownEggs.test("brown eggs"));
         System.out.println(otherEggs.test("scrambled eggs"));
+
+        Consumer<String> c1 = x -> System.out.println("1: " + x);
+        Consumer<String> c2 = x -> System.out.println("2: " + x);
+
+        Consumer<String> combined = c1.andThen(c2);
+        combined.accept("Tiger");
     }
 }

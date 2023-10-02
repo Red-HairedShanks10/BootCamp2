@@ -4,13 +4,13 @@ import java.util.HashMap;
 
 public class ConsumerAndBiConsumer {
     public static void main(String[] args) {
-        //Consumer interface
+       /* //Consumer interface
         Consumer<String> c1 = System.out::println;
         Consumer<String> c2 = x -> System.out.println(x);
         //
         c1.accept("Kdot");
         c2.accept("Nas");
-
+*/
         //BiConsumer Interface
         var map = new HashMap<String, Integer>();
         BiConsumer<String, Integer> b1 = map::put;
@@ -27,6 +27,8 @@ public class ConsumerAndBiConsumer {
 
 interface Consumer<T> {
     void accept(T t);
+
+    Consumer<T> andThen(Consumer<T> c2);
 }
 
 interface BiConsumer<T, U>{
