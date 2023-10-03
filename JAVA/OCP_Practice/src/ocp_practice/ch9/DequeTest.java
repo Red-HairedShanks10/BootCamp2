@@ -19,7 +19,7 @@ public class DequeTest {
          stack.peek();
         stack.poll();
 
-         stack.poll(); // 10
+         stack.poll(); 
         stack.peek(); // null
     }
 }
