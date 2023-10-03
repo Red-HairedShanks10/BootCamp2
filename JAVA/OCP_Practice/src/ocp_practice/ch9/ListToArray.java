@@ -3,7 +3,7 @@ import java.util.*;
 public class ListToArray {
     public static void main(String[] args) {
 
-        13: List<String> list = new ArrayList<>();
+         List<String> list = new ArrayList<>();
         14: list.add("hawk");
         15: list.add("robin");
         16: Object[] objectArray = list.toArray();
