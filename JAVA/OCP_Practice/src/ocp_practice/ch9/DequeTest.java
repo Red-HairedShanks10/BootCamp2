@@ -4,11 +4,18 @@ import java.util.*;
 public class DequeTest {
     public static void main(String[] args) {
         Deque<Integer> deque = new LinkedList<>();
+
          deque.offerFirst(10);
          deque.offerLast(7);
-         deque.peekFirst();
-         deque.pollFirst();
 
+        System.out.println("peak first: " + deque.peekFirst());
+        System.out.println("pollFirst" + deque.pollFirst());
+
+
+
+        System.out.println(" " + );
+        System.out.println(" " + );
+        System.out.println(" " + );
          deque.pollLast();
          deque.pollFirst();
          deque.peekFirst();
