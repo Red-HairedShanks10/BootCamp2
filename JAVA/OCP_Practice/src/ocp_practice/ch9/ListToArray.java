@@ -12,6 +12,6 @@ public class ListToArray {
          list.clear();
         System.out.println(objectArray.length);
          System.out.println(stringArray.length);
-        System.out.println("printing list: " + list);
+        System.out.println("printing cleared list: " + list);
     }
 }
