@@ -10,5 +10,9 @@ public class ListTest {
          List<String> copy = List.copyOf(asList);
 
         array[0] = "z";
+
+        System.out.println(asList); // [z, b, c]
+        24: System.out.println(of); // [a, b, c]
+        25: System.out.println(copy);
     }
 }
