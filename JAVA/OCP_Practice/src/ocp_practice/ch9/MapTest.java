@@ -60,7 +60,10 @@ public class MapTest {
         treeMap.clear();
         System.out.println(treeMap.size());
         System.out.println(treeMap.isEmpty());
+        System.out.println(" ");
 
+        //foreach test
+        System.out.println("iterating a map with foreach: ");
         Map<Integer, Character> numChar = new HashMap<>();
        numChar.put(1, 'a');
         numChar.put(2, 'b');
