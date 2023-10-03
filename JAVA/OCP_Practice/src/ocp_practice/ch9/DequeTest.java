@@ -20,7 +20,7 @@ public class DequeTest {
 
 
 
-
+        System.out.println("Stack: ");
         Deque<Integer> stack = new ArrayDeque<>();
          stack.push(11);
         stack.push(2);
