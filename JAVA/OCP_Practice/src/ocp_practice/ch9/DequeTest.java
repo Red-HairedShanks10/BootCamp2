@@ -4,8 +4,8 @@ import java.util.*;
 public class DequeTest {
     public static void main(String[] args) {
         Deque<Integer> deque = new LinkedList<>();
-         deque.offerFirst(10); 
-         deque.offerLast(4); // true 10 4
+         deque.offerFirst(10);
+         deque.offerLast(4);
          deque.peekFirst(); // 10 10 4
          deque.pollFirst();
 
