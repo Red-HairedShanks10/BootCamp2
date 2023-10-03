@@ -4,11 +4,12 @@ import java.util.*;
 public class SetMethodsTest {
     public static void main(String[] args) {
 
+        //HashSet
          Set<Integer> set = new HashSet<>();
         boolean b1 = set.add(66);
         boolean b2 = set.add(10);
          boolean b3 = set.add(66);
-         boolean b4 = set.add(8); 
+         boolean b4 = set.add(8);
         set.forEach(System.out::println);
     }
 }
