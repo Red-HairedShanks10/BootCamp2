@@ -11,6 +11,6 @@ public class DequeTest {
 
         17: deque.pollLast(); // 4
         18: deque.pollFirst(); // null
-        19: deque.peekFirst();
+         deque.peekFirst();
     }
 }
