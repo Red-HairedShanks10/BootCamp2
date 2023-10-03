@@ -9,16 +9,16 @@ public class DequeTest {
          deque.offerLast(7);
 
         System.out.println("peak first: " + deque.peekFirst());
-        System.out.println("pollFirst" + deque.pollFirst());
+        System.out.println("pollFirst: " + deque.pollFirst());
+
+
+        System.out.println("peakFirst: " +  deque.peekFirst());
+        System.out.println("pollLast: " + deque.pollLast());
+        System.out.println("pollFirst: " + deque.pollFirst() );
+        System.out.println("peakFirst: " +  deque.peekFirst());
 
 
 
-        System.out.println(" " + );
-        System.out.println(" " + );
-        System.out.println(" " + );
-         deque.pollLast();
-         deque.pollFirst();
-         deque.peekFirst();
 
         Deque<Integer> stack = new ArrayDeque<>();
          stack.push(11);
