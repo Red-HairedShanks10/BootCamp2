@@ -11,5 +11,12 @@ public class ListConstructorTest {
         for (String s: strings) {
             System.out.println(s);
         }
+
+
+        var list = new ArrayList<>();
+        list.add("a");
+        list.add("b");
+        list.add("a");
+        for (String s: list) { }
     }
 }
