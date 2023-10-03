@@ -16,5 +16,6 @@ public class ListTest {
         System.out.println(copy);
 
         asList.set(0,"x");
+        System.out.println(Arrays.toString(array));
     }
 }
