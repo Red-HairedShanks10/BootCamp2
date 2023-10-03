@@ -8,6 +8,8 @@ public class ListConstructorTest {
         strings.add("a");
         strings.add("b");
         strings.add("c");
-        for (String s: strings) { }
+        for (String s: strings) {
+            System.out.println(s);
+        }
     }
 }
