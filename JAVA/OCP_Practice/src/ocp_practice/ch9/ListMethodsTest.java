@@ -5,7 +5,7 @@ public class ListMethodsTest {
 
         List<String> list = new ArrayList<>();
         4: list.add("SD"); // [SD]
-        5: list.add(0, "NY"); // [NY,SD]
+         list.add(0, "NY"); // [NY,SD]
         list.set(1, "FL"); // [NY,FL]
         System.out.println(list.get(0)); // NY
          list.remove("NY"); // [FL]
