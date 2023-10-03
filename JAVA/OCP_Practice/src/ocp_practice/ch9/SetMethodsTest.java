@@ -4,7 +4,7 @@ import java.util.*;
 public class SetMethodsTest {
     public static void main(String[] args) {
 
-        Set<Character> letters = Set.of('z', 'o');
+        Set<Character> letters = Set.of('z', 'o');//wont allow duplicate values
         Set<Character> copy = Set.copyOf(letters);
         System.out.println(letters);
         System.out.println(copy);
