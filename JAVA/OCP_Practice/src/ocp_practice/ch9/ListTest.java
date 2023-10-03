@@ -12,7 +12,7 @@ public class ListTest {
         array[0] = "z";
 
         System.out.println(asList); // [z, b, c]
-        24: System.out.println(of); // [a, b, c]
+        System.out.println(of); // [a, b, c]
         System.out.println(copy);
     }
 }
