@@ -6,7 +6,7 @@ public class DequeTest {
         Deque<Integer> deque = new LinkedList<>();
          deque.offerFirst(10);
          deque.offerLast(4);
-         deque.peekFirst(); // 10 10 4
+         deque.peekFirst(); 
          deque.pollFirst();
 
          deque.pollLast();
