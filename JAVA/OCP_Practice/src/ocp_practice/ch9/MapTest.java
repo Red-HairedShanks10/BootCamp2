@@ -56,10 +56,10 @@ public class MapTest {
         System.out.println(map.containsKey("lion"));
         System.out.println(map.containsValue("lion"));//will be false...
 
-        System.out.println(map.size());
-        map.clear();
-        System.out.println(map.size());
-        System.out.println(map.isEmpty());
+        System.out.println(treeMap.size());
+        treeMap.clear();
+        System.out.println(treeMap.size());
+        System.out.println(treeMap.isEmpty());
 
     }
 }
