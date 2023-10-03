@@ -17,7 +17,7 @@ public class SetMethodsTest {
         Set<Integer> treeSet = new TreeSet<>();
         boolean t1 = treeSet.add(66);
         boolean t2 = treeSet.add(10);
-        boolean b3 = treeSet.add(66);
+        boolean t3 = treeSet.add(66);
         boolean b4 = treeSet.add(8);
         treeSet.forEach(System.out::println);
     }
