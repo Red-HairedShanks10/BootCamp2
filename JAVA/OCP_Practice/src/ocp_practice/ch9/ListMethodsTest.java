@@ -5,8 +5,8 @@ public class ListMethodsTest {
 
         List<String> list = new ArrayList<>();
          list.add("SD");
-         list.add(0, "NY"); 
-        list.set(1, "FL"); // [NY,FL]
+         list.add(0, "NY");
+        list.set(1, "FL");
         System.out.println(list.get(0)); // NY
          list.remove("NY"); // [FL]
          list.remove(0); // []
