@@ -11,5 +11,10 @@ public class ListMethodsTest {
          list.remove("NY");
          list.remove(0);
         list.set(0, "?");
+
+        var numbers = Arrays.asList(1, 2, 3);
+        numbers.replaceAll(x ->
+                x*2);
+        System.out.println(numbers);
     }
 }
