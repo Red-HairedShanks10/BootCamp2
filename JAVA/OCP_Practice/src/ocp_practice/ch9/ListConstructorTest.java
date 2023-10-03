@@ -4,7 +4,8 @@ import java.util.*;
 
 public class ListConstructorTest {
     public static void main(String[] args) {
-        var linked1 = new LinkedList<String>();
-        var linked2 = new LinkedList<String>(linked1);
+        var strings = new ArrayList<String>();
+        strings.add("a");
+        for (String s: strings) { }
     }
 }
