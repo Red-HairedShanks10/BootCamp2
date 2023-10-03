@@ -4,7 +4,12 @@ import java.util.*;
 public class SetMethodsTest {
     public static void main(String[] args) {
 
-        //HashSet
+        Set<Character> letters = Set.of('z', 'o');
+        Set<Character> copy = Set.copyOf(letters);
+        System.out.println(letters);
+        System.out.println(copy);
+
+        /*//HashSet
          Set<Integer> hashSet = new HashSet<>();
         boolean h1 = hashSet.add(66);
         boolean h2 = hashSet.add(10);
@@ -21,6 +26,6 @@ public class SetMethodsTest {
         boolean t3 = treeSet.add(66);
         boolean t4 = treeSet.add(8);
         System.out.println("Treeset: ");
-        treeSet.forEach(System.out::println);
+        treeSet.forEach(System.out::println);*/
     }
 }
