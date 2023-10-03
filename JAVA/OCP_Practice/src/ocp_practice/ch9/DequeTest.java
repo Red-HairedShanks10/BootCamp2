@@ -9,7 +9,7 @@ public class DequeTest {
          deque.offerLast(7);
         deque.offerLast(4);
         deque.offerLast(11);
-        System.out.println("peak first: " + deque.peekFirst());
+        System.out.println("peak first: " + deque.peekFirst());//get first element
         System.out.println("pollFirst: " + deque.pollFirst());
 
 
@@ -24,10 +24,14 @@ public class DequeTest {
         Deque<Integer> stack = new ArrayDeque<>();
          stack.push(11);
         stack.push(2);
-         stack.peek();
-        stack.poll();
+        System.out.println("peak: " + stack.peek());
+        System.out.println("poll" +  stack.poll());
 
-         stack.poll();
-        stack.peek();
+
+
+        System.out.println("poll2 " +  stack.poll());
+        System.out.println("peak2 " + stack.peek());
+
+
     }
 }
