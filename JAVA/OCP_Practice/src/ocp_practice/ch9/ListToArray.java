@@ -5,7 +5,7 @@ public class ListToArray {
 
          List<String> list = new ArrayList<>();
          list.add("hawk");
-         list.add("robin");
+         list.add("Crow");
          Object[] objectArray = list.toArray();
          String[] stringArray = list.toArray(new String[0]);
          list.clear();
