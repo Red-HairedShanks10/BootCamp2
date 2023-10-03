@@ -14,7 +14,7 @@ public class DequeTest {
          deque.peekFirst();
 
         Deque<Integer> stack = new ArrayDeque<>();
-        13: stack.push(10); 10
+         stack.push(10); 10
         stack.push(4); 4 10
          stack.peek(); // 4 4 10
         stack.poll(); // 4
