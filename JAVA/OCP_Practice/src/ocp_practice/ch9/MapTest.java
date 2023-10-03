@@ -83,5 +83,11 @@ public class MapTest {
 class MapValuesTest{
     public static void main(String[] args) {
 
+        Map<Character, String> map = new HashMap<>();
+         map.put('x', "spot");
+         System.out.println("X marks the " + map.get('x'));
+         System.out.println("X marks the " + map.getOrDefault('x', ""));
+         System.out.println("Y marks the " + map.get('y'));
+         System.out.println("Y marks the " + map.getOrDefault('y', ""));
     }
 }
