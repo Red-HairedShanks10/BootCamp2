@@ -1,5 +1,10 @@
 package ocp_practice.ch9;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
+
 public class MissingDuck {
 
 
@@ -39,10 +44,16 @@ public class MissingDuck {
     public static void main(String[] args) {
         MissingDuck mDuck1 = new MissingDuck("Kurama");
         MissingDuck mDuck2 = new MissingDuck("Kurapika");
+        List<MissingDuck> ducks = new ArrayList<MissingDuck>();
+
+        ducks.add(mDuck1);
+        ducks.add(mDuck2);
 
         mDuck1.compareTo(mDuck1);
         mDuck2.compareTo(mDuck1);
         mDuck1.compareTo(mDuck2);
+        Collections.sort(ducks);
+        System.out.println(ducks);
 
 
     }
