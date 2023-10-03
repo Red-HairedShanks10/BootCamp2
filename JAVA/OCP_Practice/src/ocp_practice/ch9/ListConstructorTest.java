@@ -18,7 +18,7 @@ public class ListConstructorTest {
         list.add("b");
         list.add("a");
         for (Object o: list) {
-            System.out.println("printing list object ": + o);
+            System.out.println("printing list object: " + o );
         }
     }
 }
