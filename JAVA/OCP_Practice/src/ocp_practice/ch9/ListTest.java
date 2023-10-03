@@ -17,5 +17,7 @@ public class ListTest {
 
         asList.set(0,"x");
         System.out.println(Arrays.toString(array));
+
+        copy.add("y");
     }
 }
