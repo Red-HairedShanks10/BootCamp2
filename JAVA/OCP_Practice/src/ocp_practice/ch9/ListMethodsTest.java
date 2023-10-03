@@ -9,7 +9,7 @@ public class ListMethodsTest {
         list.set(1, "FL");
         System.out.println(list.get(0));
          list.remove("NY");
-         list.remove(0); 
-        list.set(0, "?"); // IndexOutOfBoundsException
+         list.remove(0);
+        list.set(0, "?");
     }
 }
