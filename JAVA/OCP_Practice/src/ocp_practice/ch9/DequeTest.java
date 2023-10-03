@@ -7,7 +7,8 @@ public class DequeTest {
 
          deque.offerFirst(10);
          deque.offerLast(7);
-
+        deque.offerLast(4);
+        deque.offerLast(11);
         System.out.println("peak first: " + deque.peekFirst());
         System.out.println("pollFirst: " + deque.pollFirst());
 
