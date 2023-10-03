@@ -9,7 +9,7 @@ public class SetMethodsTest {
         System.out.println(letters);
         System.out.println(copy);
 
-        /*//HashSet
+        //HashSet
          Set<Integer> hashSet = new HashSet<>();
         boolean h1 = hashSet.add(66);
         boolean h2 = hashSet.add(10);
@@ -26,6 +26,6 @@ public class SetMethodsTest {
         boolean t3 = treeSet.add(66);
         boolean t4 = treeSet.add(8);
         System.out.println("Treeset: ");
-        treeSet.forEach(System.out::println);*/
+        treeSet.forEach(System.out::println);
     }
 }
