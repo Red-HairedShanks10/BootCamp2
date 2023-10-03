@@ -17,6 +17,8 @@ public class ListConstructorTest {
         list.add("a");
         list.add("b");
         list.add("a");
-        for (String s: list) { }
+        for (Object o: list) {
+
+        }
     }
 }
