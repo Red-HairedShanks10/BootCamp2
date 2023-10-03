@@ -7,9 +7,9 @@ public class DequeTest {
         13: deque.offerFirst(10); // true 10
         14: deque.offerLast(4); // true 10 4
         15: deque.peekFirst(); // 10 10 4
-        16: deque.pollFirst();
+         deque.pollFirst();
 
-         deque.pollLast(); 
+         deque.pollLast();
          deque.pollFirst();
          deque.peekFirst();
     }
