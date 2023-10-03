@@ -15,7 +15,7 @@ public class SetMethodsTest {
 
         //TreeSet
         3: Set<Integer> set = new TreeSet<>();
-        4: boolean b1 = set.add(66); // true
+        boolean b1 = set.add(66); // true
        boolean b2 = set.add(10); // true
          boolean b3 = set.add(66); // false
          boolean b4 = set.add(8); // true
