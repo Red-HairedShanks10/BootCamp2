@@ -7,7 +7,7 @@ public class SetMethodsTest {
         //HashSet
          Set<Integer> hashSet = new HashSet<>();
         boolean h1 = hashSet.add(66);
-        boolean b2 = hashSet.add(10);
+        boolean h2 = hashSet.add(10);
          boolean b3 = hashSet.add(66);
          boolean b4 = hashSet.add(8);
         hashSet.forEach(System.out::println);
