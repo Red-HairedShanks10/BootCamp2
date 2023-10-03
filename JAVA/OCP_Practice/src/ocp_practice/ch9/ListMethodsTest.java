@@ -13,7 +13,9 @@ public class ListMethodsTest {
         list.set(0, "?");*/
 
         var numbers = Arrays.asList(1, 2, 3);
-        numbers.replaceAll(x -> x*10);
+        numbers.replaceAll(x -> {
+            return x * 10;
+        });
         System.out.println(numbers);
     }
 }
