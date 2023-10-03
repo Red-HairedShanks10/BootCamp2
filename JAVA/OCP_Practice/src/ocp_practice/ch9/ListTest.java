@@ -11,7 +11,7 @@ public class ListTest {
 
         array[0] = "z";
 
-        System.out.println(asList); // [z, b, c]
+        System.out.println(asList);
         System.out.println(of);
         System.out.println(copy);
     }
