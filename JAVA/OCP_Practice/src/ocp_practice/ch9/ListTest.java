@@ -14,5 +14,7 @@ public class ListTest {
         System.out.println(asList);
         System.out.println(of);
         System.out.println(copy);
+
+        asList.set(0,"x");
     }
 }
