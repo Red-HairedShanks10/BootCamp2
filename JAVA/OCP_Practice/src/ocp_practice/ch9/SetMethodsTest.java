@@ -14,11 +14,11 @@ public class SetMethodsTest {
 
 
         //TreeSet
-         Set<Integer> set = new TreeSet<>();
-        boolean b1 = set.add(66); // true
-       boolean b2 = set.add(10); // true
-         boolean b3 = set.add(66); // false
-         boolean b4 = set.add(8); // true
-         set.forEach(System.out::println);
+        Set<Integer> set = new TreeSet<>();
+        boolean b1 = set.add(66); 
+        boolean b2 = set.add(10); // true
+        boolean b3 = set.add(66); // false
+        boolean b4 = set.add(8); // true
+        set.forEach(System.out::println);
     }
 }
