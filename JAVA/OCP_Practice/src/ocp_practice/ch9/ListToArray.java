@@ -7,7 +7,7 @@ public class ListToArray {
          list.add("hawk");
          list.add("robin");
          Object[] objectArray = list.toArray();
-        17: String[] stringArray = list.toArray(new String[0]);
+         String[] stringArray = list.toArray(new String[0]);
         18: list.clear();
         19: System.out.println(objectArray.length); // 2
         20: System.out.println(stringArray.length); //
