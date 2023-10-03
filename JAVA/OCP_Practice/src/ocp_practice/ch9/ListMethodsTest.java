@@ -7,7 +7,7 @@ public class ListMethodsTest {
          list.add("SD");
          list.add(0, "NY");
         list.set(1, "FL");
-        System.out.println(list.get(0)); // NY
+        System.out.println(list.get(0)); 
          list.remove("NY"); // [FL]
          list.remove(0); // []
         list.set(0, "?"); // IndexOutOfBoundsException
