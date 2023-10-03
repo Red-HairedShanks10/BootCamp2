@@ -13,6 +13,6 @@ public class ListTest {
 
         System.out.println(asList); // [z, b, c]
         24: System.out.println(of); // [a, b, c]
-        25: System.out.println(copy);
+        System.out.println(copy);
     }
 }
