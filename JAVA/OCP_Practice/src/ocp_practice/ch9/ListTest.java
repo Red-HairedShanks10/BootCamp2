@@ -19,7 +19,7 @@ public class ListTest {
 
         System.out.println(Arrays.toString(array));
 
-        //
+        //of.set(0,"f")
         //copy.add("y");//error
     }
 }
