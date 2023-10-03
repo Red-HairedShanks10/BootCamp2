@@ -24,23 +24,25 @@ public class MapTest {
 
 
         //HashMaps
+        System.out.println("TreeMap animals: ");
         Map<String, String> hashMap = new HashMap<>();
         hashMap.put("Panda", "bamboo");
         hashMap.put("Tiger", "meat");
         hashMap.put("horse", "hay");
         String foodHash = hashMap.get("Panda");
         for (String key: hashMap.keySet()){
-            System.out.print(key + ",");
+            System.out.println("a " + key + " eats " + hashMap.get(key));
         }
 
         //TreeMaps
+        System.out.println("TreeMap animals: ");
         Map<String, String> treeMap = new TreeMap<>();
         treeMap.put("koala", "bamboo");
         treeMap.put("lion", "meat");
         treeMap.put("giraffe", "leaf");
         String foodTree = treeMap.get("lion");
         for (String key: treeMap.keySet())
-            System.out.print(key + ",");
+            System.out.print("a " + key + " eats " + treeMap.get(key));
 
     }
 }
