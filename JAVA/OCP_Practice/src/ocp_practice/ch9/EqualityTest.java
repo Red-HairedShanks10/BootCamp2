@@ -10,7 +10,7 @@ public class EqualityTest {
          var set2 = Set.of(2, 1);
 
         System.out.println(list1.equals(list2));//false becoz arrangement of values is different
-         System.out.println(set1.equals(set2));
+         System.out.println(set1.equals(set2));//true bcoz same type
          System.out.println(list1.equals(set1));
     }
 }
