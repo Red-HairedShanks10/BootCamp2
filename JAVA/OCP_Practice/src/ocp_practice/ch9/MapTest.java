@@ -60,6 +60,7 @@ public class MapTest {
         treeMap.clear();
         System.out.println(treeMap.size());
         System.out.println(treeMap.isEmpty());
+
         System.out.println(" ");
 
         //foreach test
@@ -68,7 +69,19 @@ public class MapTest {
        numChar.put(1, 'a');
         numChar.put(2, 'b');
         numChar.put(3, 'c');
-        numChar.forEach((k, v) -> System.out.println(v));
+        numChar.forEach((k, v) -> System.out.println(k + "-" + v));
+
+        numChar.values().forEach(System.out::println);
+        numChar.entrySet().forEach(System.out::println);
+        numChar.entrySet().forEach(e -> System.out.println(e.getKey() + "-" + e.getValue()));
+
+
+    }
+}
+
+
+class MapValuesTest{
+    public static void main(String[] args) {
 
     }
 }
