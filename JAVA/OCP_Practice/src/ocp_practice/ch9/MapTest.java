@@ -1,5 +1,6 @@
 package ocp_practice.ch9;
 import java.util.*;
+import java.util.function.BiFunction;
 
 public class MapTest {
     public static void main(String[] args) {
@@ -92,8 +93,45 @@ class MapValuesTest{
          System.out.println("Y marks the " + map.getOrDefault('y', ""));
 
          //replacing Values
+        Map<Integer, Integer> mapR= new HashMap<>();
+         mapR.put(1, 2);
+         mapR.put(2, 4);
+         Integer original = mapR.replace(2, 10);
+        // System.out.println(original);
+         System.out.println(mapR);
+         mapR.replaceAll((k, v) -> k + v);
+         System.out.println(mapR);
 
+        //putting If Absent
+        Map<String, String> favorites = new HashMap<>();
+        favorites.put("Jenny", "Bus Tour");
+        favorites.put("Tom", null);
+        favorites.putIfAbsent("Jenny", "Tram");//key of Jenny is not updated
+        favorites.putIfAbsent("Sam", "Sarr");
+        favorites.putIfAbsent("Tom", "Branco");//updated Tom with value("Branco")
+        System.out.println(favorites);
 
+        //merging Data
+        BiFunction<String, String, String> mapper = (v1, v2) -> v1.length()> v2.length() ? v1: v2;
+        Map<String, String> myFavs = new HashMap<>();
+             myFavs.put("Jenny", "Bus Tour");
+             myFavs.put("Tom", "Tram");
+
+            String jenny = myFavs.merge("Jenny", "Skyride", mapper);
+            String tom = myFavs.merge("Tom", "Skyride", mapper);
+            favorites.put("Sam", null);
+
+            System.out.println(myFavs);
+            System.out.println(jenny);
+            System.out.println(tom);
+            //
+        BiFunction<String, String, String> mapper2 = (v1, v2) -> null;
+        Map<String, String> myFavs2 = new HashMap<>();
+        myFavs2.put("Jenny", "Bus Tour");
+        myFavs2.put("Tom", "Bus Tour");
+        myFavs2.merge("Jenny", "Skyride", mapper2);
+        myFavs2.merge("Sam", "Skyride", mapper2);
+        System.out.println(myFavs2);
 
     }
 }
