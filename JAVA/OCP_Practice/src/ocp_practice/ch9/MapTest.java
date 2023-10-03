@@ -27,11 +27,14 @@ public class MapTest {
         System.out.println("TreeMap animals: ");
         Map<String, String> hashMap = new HashMap<>();
         hashMap.put("Panda", "bamboo");
-        hashMap.put("Tiger", "meat");
+        hashMap.put("Tiger", "horse");
         hashMap.put("horse", "hay");
         String foodHash = hashMap.get("Panda");
         for (String key: hashMap.keySet()){
             System.out.println("a " + key + " eats " + hashMap.get(key));
+            if(key.equals("Tiger")){
+                System.out.println("Rip  horse :(");
+            }
         }
         System.out.println("///////////////");
 
@@ -39,11 +42,24 @@ public class MapTest {
         System.out.println("TreeMap animals: ");
         Map<String, String> treeMap = new TreeMap<>();
         treeMap.put("koala", "bamboo");
-        treeMap.put("lion", "meat");
+        treeMap.put("lion", "giraffe");
         treeMap.put("giraffe", "leaf");
         String foodTree = treeMap.get("lion");
-        for (String key: treeMap.keySet())
+        for (String key: treeMap.keySet()){
             System.out.println("a " + key + " eats " + treeMap.get(key));
+
+            if(key.equals("lion")){
+                System.out.println("Rip Giraffe :(");
+            }
+        }
+
+        System.out.println(map.containsKey("lion"));
+        System.out.println(map.containsValue("lion"));//will be false...
+
+        System.out.println(map.size());
+        map.clear();
+        System.out.println(map.size());
+        System.out.println(map.isEmpty());
 
     }
 }
