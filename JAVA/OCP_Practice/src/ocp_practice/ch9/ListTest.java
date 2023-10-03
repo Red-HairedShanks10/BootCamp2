@@ -16,9 +16,10 @@ public class ListTest {
         System.out.println(copy);
 
         asList.set(0,"x");
-        System.out.println(asList);
+
         System.out.println(Arrays.toString(array));
 
-        copy.add("y");
+        //
+        //copy.add("y");//error
     }
 }
