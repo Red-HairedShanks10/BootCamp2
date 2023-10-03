@@ -10,6 +10,6 @@ public class ListToArray {
          String[] stringArray = list.toArray(new String[0]);
          list.clear();
         System.out.println(objectArray.length);
-         System.out.println(stringArray.length); //
+         System.out.println(stringArray.length);
     }
 }
