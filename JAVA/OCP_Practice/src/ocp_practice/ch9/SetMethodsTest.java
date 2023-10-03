@@ -11,5 +11,9 @@ public class SetMethodsTest {
          boolean b3 = set.add(66);
          boolean b4 = set.add(8);
         set.forEach(System.out::println);
+
+
+        //TreeSet
+
     }
 }
