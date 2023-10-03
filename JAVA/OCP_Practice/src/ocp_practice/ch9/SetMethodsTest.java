@@ -9,6 +9,6 @@ public class SetMethodsTest {
         5: boolean b2 = set.add(10); // true
         6: boolean b3 = set.add(66); // false
         7: boolean b4 = set.add(8); // true
-        8: set.forEach(System.out::println);
+        set.forEach(System.out::println);
     }
 }
