@@ -11,6 +11,6 @@ public class EqualityTest {
 
         System.out.println(list1.equals(list2));
          System.out.println(set1.equals(set2));
-         System.out.println(list1.equals(set1)); // false
+         System.out.println(list1.equals(set1)); 
     }
 }
