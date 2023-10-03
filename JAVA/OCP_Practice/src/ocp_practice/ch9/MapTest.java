@@ -33,6 +33,7 @@ public class MapTest {
         for (String key: hashMap.keySet()){
             System.out.println("a " + key + " eats " + hashMap.get(key));
         }
+        System.out.println("///////////////");
 
         //TreeMaps
         System.out.println("TreeMap animals: ");
@@ -42,7 +43,7 @@ public class MapTest {
         treeMap.put("giraffe", "leaf");
         String foodTree = treeMap.get("lion");
         for (String key: treeMap.keySet())
-            System.out.print("a " + key + " eats " + treeMap.get(key));
+            System.out.println("a " + key + " eats " + treeMap.get(key));
 
     }
 }
