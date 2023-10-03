@@ -10,6 +10,6 @@ public class ListMethodsTest {
         7: System.out.println(list.get(0)); // NY
         8: list.remove("NY"); // [FL]
         9: list.remove(0); // []
-        10: list.set(0, "?"); // IndexOutOfBoundsException
+        list.set(0, "?"); // IndexOutOfBoundsException
     }
 }
