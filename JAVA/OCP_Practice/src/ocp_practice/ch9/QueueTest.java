@@ -7,7 +7,7 @@ public class QueueTest {
          queue.offer(4);
 
         System.out.println("peek : " + queue.peek());
-         System.out.println("remove" + queue.remove());
+         System.out.println("remove: " + queue.remove());
         System.out.println("peek2 : " + queue.peek());
 
     }
