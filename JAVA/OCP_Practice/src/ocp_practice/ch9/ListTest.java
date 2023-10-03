@@ -7,6 +7,8 @@ public class ListTest {
         String[] array = new String[] {"a", "b", "c"};
          List<String> asList = Arrays.asList(array);
         List<String> of = List.of(array);
-         List<String> copy = List.copyOf(asList); 
+         List<String> copy = List.copyOf(asList);
+
+        array[0] = "z";
     }
 }
