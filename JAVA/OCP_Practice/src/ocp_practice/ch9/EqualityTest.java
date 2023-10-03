@@ -1,6 +1,6 @@
 package ocp_practice.ch9;
 
-import java.util.Set;
+import java.util.*;
 
 public class EqualityTest {
     public static void main(String[] args) {
