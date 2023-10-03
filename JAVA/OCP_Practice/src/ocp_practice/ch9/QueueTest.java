@@ -6,6 +6,6 @@ public class QueueTest {
          queue.add(10);
        queue.add(4);
         System.out.println(queue.remove()); // 10
-        8: System.out.println(queue.peek()); // 4
+        System.out.println(queue.peek()); // 4
     }
 }
