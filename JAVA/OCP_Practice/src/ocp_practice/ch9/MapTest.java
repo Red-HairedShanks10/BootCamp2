@@ -48,7 +48,7 @@ public class MapTest {
         for (String key: treeMap.keySet()){
             System.out.println("a " + key + " eats " + treeMap.get(key));
 
-            if(key.equals("lion")){
+            if(key.equals("lion") && treeMap.get(key).equals("giraffe")){
                 System.out.println("Rip Giraffe :(");
             }
         }
@@ -60,6 +60,12 @@ public class MapTest {
         treeMap.clear();
         System.out.println(treeMap.size());
         System.out.println(treeMap.isEmpty());
+
+        Map<Integer, Character> numChar = new HashMap<>();
+       numChar.put(1, 'a');
+        numChar.put(2, 'b');
+        numChar.put(3, 'c');
+        numChar.forEach((k, v) -> System.out.println(v));
 
     }
 }
