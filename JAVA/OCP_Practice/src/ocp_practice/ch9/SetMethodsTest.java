@@ -17,6 +17,7 @@ public class SetMethodsTest {
          boolean h4 = hashSet.add(8);
          System.out.println("Hashset: ");
         hashSet.forEach(System.out::println);
+
         System.out.println("///////////");
 
         //TreeSet
