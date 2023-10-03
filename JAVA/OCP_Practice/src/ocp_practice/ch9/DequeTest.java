@@ -5,8 +5,8 @@ public class DequeTest {
     public static void main(String[] args) {
         Deque<Integer> deque = new LinkedList<>();
          deque.offerFirst(10);
-         deque.offerLast(4);
-         deque.peekFirst(); 
+         deque.offerLast(7);
+         deque.peekFirst();
          deque.pollFirst();
 
          deque.pollLast();
