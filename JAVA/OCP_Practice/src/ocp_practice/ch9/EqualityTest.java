@@ -1,5 +1,7 @@
 package ocp_practice.ch9;
 
+import java.util.Set;
+
 public class EqualityTest {
     public static void main(String[] args) {
         var list1 = List.of(1, 2);
