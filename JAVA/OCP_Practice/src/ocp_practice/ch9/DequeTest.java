@@ -14,12 +14,12 @@ public class DequeTest {
          deque.peekFirst();
 
         Deque<Integer> stack = new ArrayDeque<>();
-         stack.push(10);
+         stack.push(11);
         stack.push(4);
          stack.peek();
         stack.poll();
 
          stack.poll();
-        stack.peek(); 
+        stack.peek();
     }
 }
