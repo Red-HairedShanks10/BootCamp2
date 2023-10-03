@@ -9,7 +9,7 @@ public class ListToArray {
          Object[] objectArray = list.toArray();
          String[] stringArray = list.toArray(new String[0]);
          list.clear();
-        System.out.println(objectArray.length); // 2
+        System.out.println(objectArray.length);
          System.out.println(stringArray.length); //
     }
 }
