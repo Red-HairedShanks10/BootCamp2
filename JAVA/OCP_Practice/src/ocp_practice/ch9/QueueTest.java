@@ -5,7 +5,7 @@ public class QueueTest {
          Queue<Integer> queue = new LinkedList<>();
          queue.add(10);
        queue.add(4);
-        System.out.println(queue.remove()); // 10
-        System.out.println(queue.peek()); 
+        System.out.println(queue.remove()); 
+        System.out.println(queue.peek());
     }
 }
