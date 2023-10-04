@@ -57,5 +57,5 @@ import java.util.ArrayList;
         24: ducks.add(new Duck("Quack", 7));
         25: ducks.add(new Duck("Puddles", 10));
         26: Collections.sort(ducks);
-        27: System.out.println(ducks); // [Puddles, Quack]
+        System.out.println(ducks); // [Puddles, Quack]
      Collections.sort(ducks, byWeight);
