@@ -49,7 +49,7 @@ import java.util.ArrayList;
         17: public static void main(String[] args) {
         18: Comparator<Duck> byWeight = new Comparator<Duck>() {
 19: public int compare(Duck d1, Duck d2) {
-                20: return d1.getWeight()-d2.
+                return d1.getWeight()-d2.
                         getWeight();
                  }
  };
