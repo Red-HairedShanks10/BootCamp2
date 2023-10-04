@@ -59,6 +59,6 @@ import java.util.ArrayList;
          Collections.sort(ducks);
         System.out.println(ducks);
      Collections.sort(ducks, byWeight);
-             System.out.println(ducks); // [Quack, Puddles]
+             System.out.println(ducks); 
              }
  }
