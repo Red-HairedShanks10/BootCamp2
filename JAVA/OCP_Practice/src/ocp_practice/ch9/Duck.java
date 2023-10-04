@@ -34,7 +34,7 @@ import java.util.ArrayList;
 2: import java.util.Collections;
 3: import java.util.Comparator;
 4:
-        5: public class Duck implements Comparable<Duck> {
+         public class Duck implements Comparable<Duck> {
  private String name;
  private int weight;
 
