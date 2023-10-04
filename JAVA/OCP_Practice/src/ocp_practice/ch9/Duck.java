@@ -51,7 +51,7 @@ import java.util.ArrayList;
 19: public int compare(Duck d1, Duck d2) {
                 20: return d1.getWeight()-d2.
                         getWeight();
-                21: }
+                 }
  };
          var ducks = new ArrayList<Duck>();
         ducks.add(new Duck("Quack", 7));
