@@ -41,7 +41,7 @@ public class Duck implements Comparable<Duck> {
     private String name;
     private int weight;
 
-    public Duck(String name, int weight){
+    public Duck(String name, int weight) {
         this.name = name;
         this.weight = weight;
     }
@@ -67,12 +67,10 @@ public class Duck implements Comparable<Duck> {
         var ducks = new ArrayList<Duck>();
         ducks.add(new Duck("Quack", 7));
         ducks.add(new Duck("Puddles", 10));
-        sort(unmodifiableList(ducks));
+      //  ducks.sort(ducks.);
         System.out.println(ducks);
         ducks.sort(byWeight);
         System.out.println(ducks);
     }
-
-    private static void sort(List<Duck> ducks) {
-    }
 }
+
