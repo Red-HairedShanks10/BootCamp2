@@ -3,13 +3,24 @@ package ocp_exam_practice.ch9;
 import java.util.*;
 
 public class Mammal {
-    public List<CharSequence> play() { ... }
-    public CharSequence sleep() { ... }
+    public List<CharSequence> play() {
+        return new ArrayList<>();
+    }
+
+    public CharSequence sleep() {
+        return "zzz";
+    }
 }
-public class Monkey extends Mammal {
-    public ArrayList<CharSequence> play() { ... }
+
+class Monkey extends Mammal {
+    public ArrayList<CharSequence> play() {
+        return new ArrayList<>();
+    }
 }
-public class Goat extends Mammal {
-    public List<String> play() { ... } // DOES NOT COMPILE
-    public String sleep() { ... }
+
+class Goat extends Mammal {
+    // public List<String>  play() {return new ArrayList<>();}
+    public String sleep() {
+        return "brrr";
+    }
 }
