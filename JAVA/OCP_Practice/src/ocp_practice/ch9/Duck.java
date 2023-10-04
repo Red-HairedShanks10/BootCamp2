@@ -43,6 +43,10 @@ public class Duck implements Comparable<Duck> {
         this.weight = weight;
     }
 
+    public int getWeight() {
+        return weight;
+    }
+
     public String toString() {
         return name;
     }
@@ -54,8 +58,7 @@ public class Duck implements Comparable<Duck> {
     public static void main(String[] args) {
         Comparator<Duck> byWeight = new Comparator<Duck>() {
             public int compare(Duck d1, Duck d2) {
-                return d1.getWeight() - d2.
-                        getWeight();
+                return d1.getWeight() - d2.getWeight();
             }
         };
         var ducks = new ArrayList<Duck>();
@@ -63,7 +66,7 @@ public class Duck implements Comparable<Duck> {
         ducks.add(new Duck("Puddles", 10));
         Collections.sort(ducks);
         System.out.println(ducks);
-        Collections.sort(ducks, byWeight);
+        ducks.sort(byWeight);
         System.out.println(ducks);
     }
 }
