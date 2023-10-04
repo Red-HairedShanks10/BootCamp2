@@ -38,8 +38,8 @@ import java.util.ArrayList;
 6: private String name;
 7: private int weight;
 8:
-        9: // Assume getters/setters/constructors provided
-     
+         // Assume getters/setters/constructors provided
+
          public String toString() { return name; }
 
          public int compareTo(Duck d) {
