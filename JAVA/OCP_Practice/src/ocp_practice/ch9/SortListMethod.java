@@ -5,7 +5,7 @@ public class SortListMethod {
         List<String> bunnies = new ArrayList<>();
         4: bunnies.add("long ear");
         5: bunnies.add("floppy");
-        6: bunnies.add("hoppy");
+         bunnies.add("hoppy");
         System.out.println(bunnies); // [long ear, floppy, hoppy]
        bunnies.sort((b1, b2) ->
                 b1.compareTo(b2));
