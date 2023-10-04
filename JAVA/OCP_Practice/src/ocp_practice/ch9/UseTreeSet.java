@@ -1,4 +1,5 @@
 package ocp_practice.ch9;
+import java.util.*;
 
 public class UseTreeSet {
     static class Rabbit{ int id; }
