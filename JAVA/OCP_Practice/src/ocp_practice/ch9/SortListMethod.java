@@ -6,8 +6,8 @@ public class SortListMethod {
         bunnies.add("long ear");
          bunnies.add("floppy");
          bunnies.add("hoppy");
-        System.out.println(bunnies); // [long ear, floppy, hoppy]
+        System.out.println(bunnies); 
        bunnies.sort((b1, b2) -> b1.compareTo(b2));
-      System.out.println(bunnies); 
+      System.out.println(bunnies);
     }
 }
