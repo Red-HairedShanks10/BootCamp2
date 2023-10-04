@@ -41,7 +41,7 @@ import java.util.ArrayList;
         9: // Assume getters/setters/constructors provided
         10:
         11: public String toString() { return name; }
-12:
+
          public int compareTo(Duck d) {
         return name.compareTo(d.name);
          }
