@@ -6,7 +6,7 @@ public class UseTreeSet {
         5: Set<Duck> ducks = new TreeSet<>();
         6: ducks.add(new Duck("Puddles"));
         7:
-        8: Set<Rabbit> rabbits = new TreeSet<>();
+         Set<Rabbit> rabbits = new TreeSet<>();
         rabbits.add(new Rabbit()); // ClassCastException
          }
 }
