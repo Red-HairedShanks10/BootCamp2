@@ -9,7 +9,7 @@ public class UseTreeSet {
 
     public static void main(String[] args) {
         Set<Duck> ducks = new TreeSet<>();
-        ducks.add(new Duck("Puddles"));
+        ducks.add(new Duck("Daffy", 8));
 
         Set<Rabbit> rabbits = new TreeSet<>();
         rabbits.add(new Rabbit());
