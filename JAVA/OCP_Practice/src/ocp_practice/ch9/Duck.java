@@ -34,11 +34,11 @@ import java.util.ArrayList;
  import java.util.Collections;
  import java.util.Comparator;
 
-         public class Duck implements Comparable<Duck> {
+ public class Duck implements Comparable<Duck> {
  private String name;
  private int weight;
 
-         // Assume getters/setters/constructors provided
+         
 
          public String toString() { return name; }
 
