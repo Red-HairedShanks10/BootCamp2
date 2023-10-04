@@ -1,5 +1,7 @@
 package ocp_practice.ch9;
 
+import java.util.*;
+
 public class SortRabbits {
     static record Rabbit(int id) {}
  public static void main(String[] args) {
