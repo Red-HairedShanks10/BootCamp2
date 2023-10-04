@@ -33,6 +33,9 @@ public class Duck implements Comparable<Duck> {
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.List;
+
+import static java.util.Collections.*;
 
 public class Duck implements Comparable<Duck> {
     private String name;
@@ -64,9 +67,12 @@ public class Duck implements Comparable<Duck> {
         var ducks = new ArrayList<Duck>();
         ducks.add(new Duck("Quack", 7));
         ducks.add(new Duck("Puddles", 10));
-        Collections.sort(ducks);
+        sort(unmodifiableList(ducks));
         System.out.println(ducks);
         ducks.sort(byWeight);
         System.out.println(ducks);
+    }
+
+    private static void sort(List<Duck> ducks) {
     }
 }
