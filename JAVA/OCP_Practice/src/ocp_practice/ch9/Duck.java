@@ -45,7 +45,7 @@ import java.util.ArrayList;
         13: public int compareTo(Duck d) {
         14: return name.compareTo(d.name);
         15: }
-16:
+
          public static void main(String[] args) {
          Comparator<Duck> byWeight = new Comparator<Duck>() {
  public int compare(Duck d1, Duck d2) {
