@@ -38,7 +38,7 @@ import java.util.ArrayList;
  private String name;
  private int weight;
 
-         
+
 
          public String toString() { return name; }
 
@@ -57,5 +57,5 @@ import java.util.ArrayList;
         ducks.add(new Duck("Quack", 7));
         ducks.add(new Duck("Puddles", 10));
          Collections.sort(ducks);
-        System.out.println(ducks); // [Puddles, Quack]
+        System.out.println(ducks);
      Collections.sort(ducks, byWeight);
