@@ -67,7 +67,7 @@ public class Duck implements Comparable<Duck> {
         var ducks = new ArrayList<Duck>();
         ducks.add(new Duck("Quack", 7));
         ducks.add(new Duck("Puddles", 10));
-      //  ducks.sort(ducks.);
+       // Collections.sort(ducks);
         System.out.println(ducks);
         ducks.sort(byWeight);
         System.out.println(ducks);
