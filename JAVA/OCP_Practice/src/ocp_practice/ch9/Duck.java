@@ -52,7 +52,7 @@ import java.util.ArrayList;
                 20: return d1.getWeight()-d2.
                         getWeight();
                 21: }
-22: };
+ };
          var ducks = new ArrayList<Duck>();
         ducks.add(new Duck("Quack", 7));
         ducks.add(new Duck("Puddles", 10));
