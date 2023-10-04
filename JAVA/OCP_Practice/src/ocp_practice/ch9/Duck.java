@@ -39,7 +39,8 @@ public class Duck implements Comparable<Duck> {
     private int weight;
 
     public Duck(String name, int weight){
-        this.name
+        this.name = name;
+        this
     }
 
     public String toString() {
