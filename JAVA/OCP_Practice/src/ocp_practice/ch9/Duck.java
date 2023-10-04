@@ -42,7 +42,7 @@ import java.util.ArrayList;
         10:
         11: public String toString() { return name; }
 12:
-        13: public int compareTo(Duck d) {
+         public int compareTo(Duck d) {
         return name.compareTo(d.name);
          }
 
