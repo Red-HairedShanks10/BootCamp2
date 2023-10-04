@@ -32,7 +32,7 @@ public class Duck implements Comparable<Duck> {
 
 import java.util.ArrayList;
 2: import java.util.Collections;
-3: import java.util.Comparator;
+ import java.util.Comparator;
 
          public class Duck implements Comparable<Duck> {
  private String name;
