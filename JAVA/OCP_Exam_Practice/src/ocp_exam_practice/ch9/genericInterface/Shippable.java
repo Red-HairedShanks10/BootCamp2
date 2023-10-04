@@ -11,3 +11,14 @@ class ShippableRobotCrate implements Shippable<Robot>{
 
     }
 }
+
+class ShippableAbstractCrate<U> implements Shippable<U> {
+    public void ship(U t) { }
+}
+
+
+class GenericInterfaceTest{
+    public static void main(String[] args) {
+
+    }
+}
