@@ -10,6 +10,6 @@ public class SortRabbits {
         List<Rabbit> rabbits = new ArrayList<>();
         rabbits.add(new Rabbit(3));
         rabbits.add(new Rabbit(1));
-        Collections.sort(rabbits);
+        //Collections.sort(rabbits);
     }
 }
