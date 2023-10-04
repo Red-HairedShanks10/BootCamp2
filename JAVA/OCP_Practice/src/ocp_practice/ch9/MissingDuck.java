@@ -52,7 +52,7 @@ public class MissingDuck {
         mDuck1.compareTo(mDuck1);
         mDuck2.compareTo(mDuck1);
         mDuck1.compareTo(mDuck2);
-        Collections.sort(ducks);
+       // Collections.sort(ducks);
         System.out.println(ducks);
 
 
