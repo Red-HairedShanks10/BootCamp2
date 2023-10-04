@@ -40,7 +40,7 @@ import java.util.ArrayList;
 8:
         9: // Assume getters/setters/constructors provided
         10:
-        11: public String toString() { return name; }
+         public String toString() { return name; }
 
          public int compareTo(Duck d) {
         return name.compareTo(d.name);
