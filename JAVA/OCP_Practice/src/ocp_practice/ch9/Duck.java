@@ -40,7 +40,7 @@ public class Duck implements Comparable<Duck> {
 
     public Duck(String name, int weight){
         this.name = name;
-        this
+        this.weight = weight;
     }
 
     public String toString() {
