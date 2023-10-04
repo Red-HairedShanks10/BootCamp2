@@ -8,5 +8,5 @@ public class UseTreeSet {
         7:
         8: Set<Rabbit> rabbits = new TreeSet<>();
         9: rabbits.add(new Rabbit()); // ClassCastException
-        10: }
+         }
 }
