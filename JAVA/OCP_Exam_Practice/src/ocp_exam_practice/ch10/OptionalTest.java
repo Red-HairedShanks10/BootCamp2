@@ -41,10 +41,10 @@ public class OptionalTest {
          System.out.println(opt3.orElse(Double.NaN));
          System.out.println(opt3.orElseGet(() -> Math.random()));
 
-        Optional<Double> opt4 = average();
-         System.out.println(opt4.orElseThrow());
+       /* Optional<Double> opt4 = average();
+         System.out.println(opt4.orElseThrow());*/
 
         Optional<Double> opt5 = average();
-         System.out.println(opt.orElseThrow(() -> new IllegalStateException()));
+         System.out.println(opt5.orElseThrow(() -> new IllegalStateException()));
     }
 }
