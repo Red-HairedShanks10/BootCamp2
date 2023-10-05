@@ -27,7 +27,15 @@ public class ReducingStreams {
         threeElements.reduce(op).ifPresent(System.out::println);
 
         Stream<String> stream = Stream.of("w", "o", "l", "f!");
-        int length = stream.reduce(0, (i, s) -> i+s.length(), (a, b) -> a+b);
+        int length = stream.reduce(0, (i, s) -> {
+            System.out.println("i is " + i );
+            System.out.println("streamValue is: " + s);
+            System.out.println("returning: " + i + s.length());
+            return i + s.length();
+        }, (a, b) -> {
+            System
+            return a + b;
+        });
         System.out.println(length);
 
     }
