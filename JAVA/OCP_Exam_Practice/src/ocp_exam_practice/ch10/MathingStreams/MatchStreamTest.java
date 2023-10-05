@@ -9,8 +9,8 @@ public class MatchStreamTest {
         var list = List.of("monkey", "2", "chimp");
         Stream<String> infinite = Stream.generate(() -> "chimp");
         Predicate<String> pred = x -> Character.isLetter(x.charAt(0));
-        System.out.println(list.stream().anyMatch(pred)); // true
-        System.out.println(list.stream().allMatch(pred)); 
+        System.out.println(list.stream().anyMatch(pred));
+        System.out.println(list.stream().allMatch(pred));
         System.out.println(list.stream().noneMatch(pred));
     }
 }
