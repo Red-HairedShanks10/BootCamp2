@@ -29,13 +29,10 @@ public class ReducingStreams {
         Stream<String> stream = Stream.of("w", "o", "l", "f!");
         int length = stream.reduce(0, (i, s) -> {
             System.out.println("i is " + i );
-            System.out.println("streamValue is: " + s);
+            System.out.println("sLength is: " + s.length());
             System.out.println("returning: " + i + s.length());
             return i + s.length();
-        }, (a, b) -> {
-            System
-            return a + b;
-        });
+            }, (a, b) -> {return a + b;});
         System.out.println(length);
 
     }
