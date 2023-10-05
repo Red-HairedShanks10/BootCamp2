@@ -30,7 +30,7 @@ public class ReducingStreams {
         int length = stream.reduce(0, (i, s) ->
                 i+s.length(), (a, b) ->
                 a+b);
-        System.out.println(length); // 5
+        System.out.println(length);
 
     }
 }
