@@ -17,6 +17,6 @@ public class OptionalTest {
         }
 
         Optional<Double> opt2 = average();
-        System.out.println(opt.get());
+        System.out.println(opt2.get());
     }
 }
