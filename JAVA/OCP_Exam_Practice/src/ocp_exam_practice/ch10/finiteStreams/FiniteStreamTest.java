@@ -33,6 +33,11 @@ public class FiniteStreamTest {
             System.out.println(minNotEmpty.get());
         }
 
+        Stream<String> s3 = Stream.of("monkey", "gorilla", "bonobo");
+        Stream<String> infinite = Stream.generate(() -> "chimp");
+        infinite.forEach(e -> System.out.println(e));
 
+        s3.findAny().ifPresent(System.out::println);
+        infinite.findAny().ifPresent(System.out::println);
     }
 }
