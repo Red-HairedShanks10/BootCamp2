@@ -12,6 +12,7 @@ public class FiniteStreamTest {
         var list = List.of("a", "b", "c");
          Stream<String> fromList = list.stream();
 
-       //  Stream<String> s = Stream.of("")
+         Stream<String> s = Stream.of("Monkey", "Gorilla", "Bonobo");
+         System.out.println(s.count());
     }
 }
