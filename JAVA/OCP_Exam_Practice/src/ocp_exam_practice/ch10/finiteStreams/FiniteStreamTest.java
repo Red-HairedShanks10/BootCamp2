@@ -4,8 +4,11 @@ import java.util.stream.Stream;
 
 public class FiniteStreamTest {
     public static void main(String[] args) {
-        Stream<String> empty = Stream.empty(); 
+        Stream<String> empty = Stream.empty();
         Stream<Integer> singleElement = Stream.of(1);
          Stream<Integer> fromArray = Stream.of(1, 2, 3);
+
+        var list = List.of("a", "b", "c");
+        15: Stream<String> fromList = list.stream();
     }
 }
