@@ -23,7 +23,7 @@ public class OptionalTest {
         if (opt2.isPresent()) {
             System.out.println(opt2.get());
         }else {
-            System.out.println(opt2);
+            System.out.println("opt 2 issue: " + opt2);
         }
     }
 }
