@@ -7,6 +7,6 @@ public class OptionalTest {
         if (scores.length == 0) return Optional.empty();
        int sum = 0;
         for (int score: scores) sum += score;
-        14: return Optional.of((double) sum / scores.length);
+        return Optional.of((double) sum / scores.length);
         15: }
 }
