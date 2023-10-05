@@ -37,8 +37,8 @@ public class OptionalTest {
             System.out.println("opt 2 issue: " + opt2);
         }*/
 
-        Optional<Double> opt = average();
-         System.out.println(opt.orElse(Double.NaN));
-         System.out.println(opt.orElseGet(() -> Math.random()));
+        Optional<Double> opt3 = average();
+         System.out.println(opt3.orElse(Double.NaN));
+         System.out.println(opt3.orElseGet(() -> Math.random()));
     }
 }
