@@ -9,4 +9,8 @@ public class OptionalTest {
         for (int score: scores) sum += score;
         return Optional.of((double) sum / scores.length);
          }
+
+    public static void main(String[] args) {
+        Optional<Double> opt = average(90, 100);
+    }
 }
