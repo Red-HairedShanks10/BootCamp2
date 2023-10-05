@@ -6,7 +6,7 @@ public class OptionalTest {
     public static Optional<Double> average(int... scores) {
         if (scores.length == 0) return Optional.empty();
        int sum = 0;
-        13: for (int score: scores) sum += score;
+        for (int score: scores) sum += score;
         14: return Optional.of((double) sum / scores.length);
         15: }
 }
