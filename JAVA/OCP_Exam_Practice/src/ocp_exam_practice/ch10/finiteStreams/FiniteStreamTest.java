@@ -23,5 +23,9 @@ public class FiniteStreamTest {
         Stream<String> sb = Stream.of("monkey", "ape", "bonobo");
         Optional<String> max = sb.max((s1, s2) ->
                 s1.length()-s2.length());max.ifPresent(System.out::println);
+
+        Optional<?> minEmpty = Stream.empty().min((s1, s2) ->
+                0);
+        System.out.println(minEmpty.isPresent());
     }
 }
