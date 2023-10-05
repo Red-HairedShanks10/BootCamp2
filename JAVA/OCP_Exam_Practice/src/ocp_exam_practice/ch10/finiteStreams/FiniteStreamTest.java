@@ -1,6 +1,7 @@
 package ocp_exam_practice.ch10.finiteStreams;
 
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class FiniteStreamTest {
