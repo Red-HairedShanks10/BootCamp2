@@ -46,7 +46,7 @@ public class OptionalTest {
 
         Optional<Double> opt = average();
          System.out.println(opt.orElseThrow(
-                32: () ->
+                 () ->
                 new IllegalStateException()));
     }
 }
