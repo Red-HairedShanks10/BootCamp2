@@ -10,5 +10,7 @@ public class ReducingStreams {
         System.out.println(word);
 
         Stream<Integer> numStream = Stream.of(3, 5, 6);
+        int nStream = numStream.reduce(1, (a,b) -> a*b);
+        System.out.println(nStream);
     }
 }
