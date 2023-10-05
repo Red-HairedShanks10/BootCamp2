@@ -27,7 +27,10 @@ public class FiniteStreamTest {
         Optional<?> minEmpty = Stream.empty().min((s1, s2) -> 0);
         System.out.println(minEmpty.isPresent());
 
-        Optional<String> minNotEmpty = Stream.of("de").min((s1, s2) -> 0);
+        Optional<String> minNotEmpty = Stream.of("de", "erd", "CoO").min((s1, s2) -> 0);
+        if (minNotEmpty.isPresent()){
+            System.out.println(minNotEmpty.get());
+        }
         System.out.println(minNotEmpty.isPresent());
 
     }
