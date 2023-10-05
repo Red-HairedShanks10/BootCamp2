@@ -8,6 +8,7 @@ public class InfinteStreamTest {
          Stream<Integer> oddNumbers = Stream.iterate(1, n  -> n < 100, n -> n + 2);
 
       //  randoms.forEach(num -> System.out.println("random number: " + num));
+      // randoms.findAny()
         oddNumbers.forEach(oddNum -> System.out.println("oddNumber: " + oddNum));
     }
 }
