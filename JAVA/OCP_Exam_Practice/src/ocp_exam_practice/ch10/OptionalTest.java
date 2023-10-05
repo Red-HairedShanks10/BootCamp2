@@ -12,5 +12,8 @@ public class OptionalTest {
 
     public static void main(String[] args) {
         Optional<Double> opt = average(90, 100);
+        if (opt.isPresent()) {
+            System.out.println(opt.get());
+        }
     }
 }
