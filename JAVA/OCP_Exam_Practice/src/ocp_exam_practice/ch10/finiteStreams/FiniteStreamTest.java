@@ -10,6 +10,6 @@ public class FiniteStreamTest {
          Stream<Integer> fromArray = Stream.of(1, 2, 3);
 
         var list = List.of("a", "b", "c");
-         Stream<String> fromList = list.;
+         Stream<String> fromList = list.stream();
     }
 }
