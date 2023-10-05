@@ -42,6 +42,6 @@ public class OptionalTest {
          System.out.println(opt3.orElseGet(() -> Math.random()));
 
         Optional<Double> opt4 = average();
-         System.out.println(opt.orElseThrow());
+         System.out.println(opt4.orElseThrow());
     }
 }
