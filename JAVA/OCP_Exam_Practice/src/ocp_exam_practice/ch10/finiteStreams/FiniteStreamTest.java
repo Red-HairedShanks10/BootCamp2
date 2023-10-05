@@ -19,5 +19,8 @@ public class FiniteStreamTest {
         Stream<String> sa = Stream.of("monkey", "ape", "bonobo");
         Optional<String> min = sa.min((s1, s2) ->
                 s1.length()-s2.length());min.ifPresent(System.out::println);
+
+        Optional<String> max = sa.min((s1, s2) ->
+                s1.length()-s2.length());min.ifPresent(System.out::println);
     }
 }
