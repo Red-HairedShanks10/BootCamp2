@@ -11,6 +11,6 @@ public class MatchStreamTest {
         Predicate<String> pred = x -> Character.isLetter(x.charAt(0));
         System.out.println(list.stream().anyMatch(pred)); // true
         System.out.println(list.stream().allMatch(pred)); // false
-        System.out.println(list.stream().noneMatch(pred)); // false
+        System.out.println(list.stream().noneMatch(pred));
     }
 }
