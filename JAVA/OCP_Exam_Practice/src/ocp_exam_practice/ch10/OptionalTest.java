@@ -11,12 +11,12 @@ public class OptionalTest {
          }
 
     public static void main(String[] args) {
-        Optional<Double> opt = average(90, 100);
+        Optional<Double> opt = average(90, 100,56,80);
         if (opt.isPresent()) {
             System.out.println(opt.get());
         }
 
         Optional<Double> opt2 = average();
-        System.out.println(opt2.get());
+       System.out.println(opt2);
     }
 }
