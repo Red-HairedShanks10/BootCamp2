@@ -8,5 +8,7 @@ public class ReducingStreams {
        // String word = stream.reduce("", (s,c) -> s + c );
        String word = stream.reduce("", String::concat);
         System.out.println(word);
+
+        Stream<Integer> numStream = Stream.of(3, 5, 6);
     }
 }
