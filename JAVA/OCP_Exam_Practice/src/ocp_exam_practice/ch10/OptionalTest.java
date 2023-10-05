@@ -4,18 +4,11 @@ import java.util.Optional;
 
 public class OptionalTest {
     public static Optional<Double> average(int... scores) {
-       /**/ if (scores.length == 0) return Optional.empty();
-       Integer sum = null;
-        Double ave =  null;
-        for (int score: scores){ sum += score;}
-
-        ave = (double) sum/scores.length;
-
-
-        //return Optional.of((double) sum / scores.length);
-         //Optional o = (sum == null) ? Optional.empty() : Optional.of(scores);
-        Optional o = Optional.ofNullable(ave);
-            return o;
+        if (scores.length == 0) return Optional.empty();
+       int sum = 0;
+        for (int score: scores) sum += score;
+        Optional o = (scores.length == 0) ? Optional.empty() : Optional.of((double)sum/scores.length);
+        return o;
          }
 
 
@@ -29,11 +22,13 @@ public class OptionalTest {
         }
 
         Optional<Double> opt2 = average();
+        Optional o = Optional.ofNullable(opt2);
+        System.out.println("opt 2 issue: " + opt2);
 
-        if (opt2.isPresent()) {
+      /*  if (opt2.isPresent()) {
             System.out.println(opt2.get());
         }else {
             System.out.println("opt 2 issue: " + opt2);
-        }
+        }*/
     }
 }
