@@ -17,10 +17,11 @@ public class ReducingStreams {
         ///////////////////////////
 
         BinaryOperator<Integer> op = (a, b) -> a * b;
-        
+
         Stream<Integer> empty = Stream.empty();
         Stream<Integer> oneElement = Stream.of(3);
         Stream<Integer> threeElements = Stream.of(3, 5, 6);
+        
         empty.reduce(op).ifPresent(System.out::println);
         oneElement.reduce(op).ifPresent(System.out::println);
         threeElements.reduce(op).ifPresent(System.out::println);
