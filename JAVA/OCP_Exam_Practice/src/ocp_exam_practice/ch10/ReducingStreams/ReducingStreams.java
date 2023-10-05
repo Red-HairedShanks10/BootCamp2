@@ -1,5 +1,6 @@
 package ocp_exam_practice.ch10.ReducingStreams;
 
+import java.util.function.BinaryOperator;
 import java.util.stream.Stream;
 
 public class ReducingStreams {
