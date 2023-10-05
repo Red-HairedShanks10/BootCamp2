@@ -9,6 +9,6 @@ public class FiniteStreamTest {
          Stream<Integer> fromArray = Stream.of(1, 2, 3);
 
         var list = List.of("a", "b", "c");
-        15: Stream<String> fromList = list.stream();
+         Stream<String> fromList = list.stream();
     }
 }
