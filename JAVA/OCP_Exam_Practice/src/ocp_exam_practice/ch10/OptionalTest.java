@@ -4,11 +4,21 @@ import java.util.Optional;
 
 public class OptionalTest {
     public static Optional<Double> average(int... scores) {
-        if (scores.length == 0) return Optional.empty();
-       int sum = 0;
-        for (int score: scores) sum += score;
-        return Optional.of((double) sum / scores.length);
+       /**/ if (scores.length == 0) return Optional.empty();
+       Integer sum = null;
+        Double ave =  null;
+        for (int score: scores){ sum += score;}
+
+        ave = (double) sum/scores.length;
+
+
+        //return Optional.of((double) sum / scores.length);
+         //Optional o = (sum == null) ? Optional.empty() : Optional.of(scores);
+        Optional o = Optional.ofNullable(ave);
+            return o;
          }
+
+
 
     public static void main(String[] args) {
         Optional<Double> opt = average(90, 100,56,80);
