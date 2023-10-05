@@ -8,5 +8,5 @@ public class OptionalTest {
        int sum = 0;
         for (int score: scores) sum += score;
         return Optional.of((double) sum / scores.length);
-        15: }
+         }
 }
