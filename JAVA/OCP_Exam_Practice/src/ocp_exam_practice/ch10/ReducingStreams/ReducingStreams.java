@@ -22,7 +22,7 @@ public class ReducingStreams {
         Stream<Integer> oneElement = Stream.of(3);
         Stream<Integer> threeElements = Stream.of(3, 5, 6);
         empty.reduce(op).ifPresent(System.out::println); // no output
-        oneElement.reduce(op).ifPresent(System.out::println); // 3
+        oneElement.reduce(op).ifPresent(System.out::println);
         threeElements.reduce(op).ifPresent(System.out::println);
 
     }
