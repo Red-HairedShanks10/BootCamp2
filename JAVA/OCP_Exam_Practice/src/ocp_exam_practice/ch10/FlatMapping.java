@@ -6,6 +6,8 @@ import java.util.stream.Stream;
 public class FlatMapping {
     public static void main(String[] args) {
 
+        List<String> zero = List.of();
+
         var one = List.of("Bonobo");
         var two = List.of("Mama Gorilla", "Baby Gorilla");
         Stream<List<String>> animals = Stream.of(zero, one, two);
