@@ -18,7 +18,7 @@ public class SpliteratorTest {
 
         Spliterator<String> jillsBag = originalBagOfFood.trySplit();
         jillsBag.tryAdvance(System.out::println);
-        jillsBag.forEachRemaining(System.out::print);
+        jillsBag.forEachRemaining(System.out::println);
         originalBagOfFood.forEachRemaining(System.out::print);
 
     }
