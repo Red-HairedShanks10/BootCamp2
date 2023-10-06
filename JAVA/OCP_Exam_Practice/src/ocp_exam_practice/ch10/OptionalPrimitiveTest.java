@@ -1,6 +1,7 @@
 package ocp_exam_practice.ch10;
 
 import java.util.OptionalDouble;
+import java.util.OptionalInt;
 import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
