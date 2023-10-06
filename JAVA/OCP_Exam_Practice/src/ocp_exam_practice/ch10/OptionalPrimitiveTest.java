@@ -9,8 +9,11 @@ public class OptionalPrimitiveTest {
         LongStream longs = LongStream.of(5,10);
         long sum = longs.sum();
          System.out.println(sum);
-         DoubleStream doubles = DoubleStream.generate(() ->
-                Math.PI);
+         DoubleStream doubles = DoubleStream.generate(() -> Math.PI);
          OptionalDouble min = doubles.min();
+
+         DoubleStream stream = DoubleStream.generate(() -> Math.PI);
+                 stream.min();
+
     }
 }
