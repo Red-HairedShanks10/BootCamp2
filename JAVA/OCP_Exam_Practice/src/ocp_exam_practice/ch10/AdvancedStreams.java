@@ -3,7 +3,7 @@ package ocp_exam_practice.ch10;
 public class AdvancedStreams {
         public static void main(String[] args) {
             var cats = new ArrayList<String>();
-            26: cats.add("Annie");
+             cats.add("Annie");
              cats.add("Ripley");
              var stream = cats.stream();
              cats.add("KC");
