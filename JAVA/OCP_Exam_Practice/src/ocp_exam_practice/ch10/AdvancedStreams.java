@@ -6,7 +6,7 @@ public class AdvancedStreams {
             26: cats.add("Annie");
             27: cats.add("Ripley");
             28: var stream = cats.stream();
-            29: cats.add("KC");
+             cats.add("KC");
              System.out.println(stream.count());
         }
 }
