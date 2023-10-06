@@ -29,6 +29,17 @@ public class ExceptionCaseStudy {
         };
     }
 
+    public void wrapped() {
+        Supplier<List<String>> s2 = ExceptionCaseStudy::createSafe;
+    }
+
+    private static List<String> createSafe() {
+        try {
+            return ExceptionCaseStudy.create();
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        } }
+
     public static void main(String[] args) {
 
     }
