@@ -5,7 +5,7 @@ public class AdvancedStreams {
             var cats = new ArrayList<String>();
             26: cats.add("Annie");
             27: cats.add("Ripley");
-            28: var stream = cats.stream();
+             var stream = cats.stream();
              cats.add("KC");
              System.out.println(stream.count());
         }
