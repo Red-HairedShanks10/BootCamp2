@@ -4,11 +4,12 @@ import java.util.ArrayList;
 
 public class AdvancedStreams {
         public static void main(String[] args) {
+
             var cats = new ArrayList<String>();
-             cats.add("Annie");
-             cats.add("Ripley");
+             cats.add("Tora");
+             cats.add("Leo");
              var stream = cats.stream();
-             cats.add("KC");
+             cats.add("Jaggy");
              System.out.println(stream.count());
         }
 }
