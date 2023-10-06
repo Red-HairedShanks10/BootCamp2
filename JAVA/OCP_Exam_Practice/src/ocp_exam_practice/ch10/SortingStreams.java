@@ -11,7 +11,6 @@ public class SortingStreams {
 
         Stream<String> s = Stream.of("brown bear-",
                 "grizzly-");
-        s.sorted(Comparator.reverseOrder())
-                .forEach(System.out::print); 
+        s.sorted(Comparator.reverseOrder()).forEach(System.out::print);
     }
 }
