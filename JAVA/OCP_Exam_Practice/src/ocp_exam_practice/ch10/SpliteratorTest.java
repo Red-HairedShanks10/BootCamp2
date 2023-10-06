@@ -5,7 +5,7 @@ import java.util.*;
 public class SpliteratorTest {
     public static void main(String[] args) {
 
-        var stream = List.of("bird-",
+        /*var stream = List.of("bird-",
                 "bunny-",
                 "cat-",
                 "dog-",
@@ -19,7 +19,14 @@ public class SpliteratorTest {
         Spliterator<String> jillsBag = originalBagOfFood.trySplit();
         jillsBag.tryAdvance(System.out::println);
         jillsBag.forEachRemaining(System.out::println);
-        originalBagOfFood.forEachRemaining(System.out::println);
+        originalBagOfFood.forEachRemaining(System.out::println);*/
+
+        var originalBag = Stream.iterate(1, n -> ++n)
+                .spliterator();
+        Spliterator<Integer> newBag = originalBag.trySplit();
+        newBag.tryAdvance(System.out::print); // 1
+        newBag.tryAdvance(System.out::print); // 2
+        newBag.tryAdvance(System.out::print); // 3
 
     }
 }
