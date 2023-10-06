@@ -20,8 +20,8 @@ public class OptionalPrimitiveTest {
 
         IntStream intStream = IntStream.of(1,2,3,5);
         IntStream intStream2 = IntStream.of();
-        System.out.println(max(intStream));
-        System.out.println(max(intStream2));
+     /*   System.out.println(max(intStream));
+        System.out.println(max(intStream2));*/
 
 
     }
