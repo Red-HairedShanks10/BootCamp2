@@ -1,4 +1,4 @@
-package ocp_exam_practice.ch10.ReducingStreams;
+package ocp_exam_practice.ch10;
 
 import java.util.ArrayList;
 import java.util.List;
