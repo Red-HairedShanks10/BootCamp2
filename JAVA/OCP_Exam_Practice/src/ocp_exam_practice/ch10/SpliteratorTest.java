@@ -9,7 +9,7 @@ public class SpliteratorTest {
                 "dog-",
                 "fish-",
                 "lamb-",
-                13: "mouse-");
+                 "mouse-");
          Spliterator<String> originalBagOfFood = stream.spliterator();
         Spliterator<String> emmasBag = originalBagOfFood.trySplit();
          emmasBag.forEachRemaining(System.out::print); // bird-bunny-
