@@ -10,6 +10,6 @@ public class SortingStreams {
         s.sorted().forEach(System.out::print);
 
         Stream<String> stream = Stream.of("brown bear-", "grizzly-");
-        s.sorted(Comparator.reverseOrder()).forEach(System.out::print);
+        stream.sorted(Comparator.reverseOrder()).forEach(System.out::print);
     }
 }
