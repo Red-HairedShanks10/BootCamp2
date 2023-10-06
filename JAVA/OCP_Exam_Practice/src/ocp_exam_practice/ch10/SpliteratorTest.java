@@ -26,7 +26,7 @@ public class SpliteratorTest {
         Spliterator<Integer> newBag = originalBag.trySplit();
         newBag.tryAdvance(System.out::print); // 1
         newBag.tryAdvance(System.out::print); // 2
-        newBag.tryAdvance(System.out::print); // 3
+        newBag.tryAdvance(System.out::print); 
 
     }
 }
