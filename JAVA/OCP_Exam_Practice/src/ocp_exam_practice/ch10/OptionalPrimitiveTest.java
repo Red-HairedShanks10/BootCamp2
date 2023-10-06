@@ -2,6 +2,7 @@ package ocp_exam_practice.ch10;
 
 import java.util.OptionalDouble;
 import java.util.stream.DoubleStream;
+import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 public class OptionalPrimitiveTest {
@@ -15,5 +16,10 @@ public class OptionalPrimitiveTest {
          DoubleStream stream = DoubleStream.generate(() -> Math.PI);
                  stream.min();
 
+    }
+
+    private static int max(IntStream ints) {
+        OptionalInt optional = ints.max();
+        return optional.orElseThrow(RuntimeException::new);
     }
 }
