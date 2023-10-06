@@ -17,7 +17,7 @@ public class SpliteratorTest {
          emmasBag.forEachRemaining(System.out::print);
 
          Spliterator<String> jillsBag = originalBagOfFood.trySplit();
-        jillsBag.tryAdvance(System.out::print); // dog-20:
+        jillsBag.tryAdvance(System.out::print);
         jillsBag.forEachRemaining(System.out::print); // fish-21:
         originalBagOfFood.forEachRemaining(System.out::print); // lamb-mouse-
 
