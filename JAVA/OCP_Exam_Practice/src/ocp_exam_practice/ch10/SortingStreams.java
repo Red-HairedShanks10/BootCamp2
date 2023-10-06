@@ -7,7 +7,7 @@ public class SortingStreams {
     public static void main(String[] args) {
 
         Stream<String> s = Stream.of("brown-", "bear-");
-        s.sorted().forEach(System.out::print);
+        s.sorted().forEach(System.out::println);
 
         Stream<String> stream = Stream.of("brown bear-", "grizzly-");
         stream.sorted(Comparator.reverseOrder()).forEach(System.out::print);
