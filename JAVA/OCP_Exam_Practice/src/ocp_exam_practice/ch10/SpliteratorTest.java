@@ -24,9 +24,9 @@ public class SpliteratorTest {
         var originalBag = Stream.iterate(1, n -> ++n)
                 .spliterator();
         Spliterator<Integer> newBag = originalBag.trySplit();
-        newBag.tryAdvance(System.out::print); // 1
-        newBag.tryAdvance(System.out::print); // 2
         newBag.tryAdvance(System.out::print); 
+        newBag.tryAdvance(System.out::print);
+        newBag.tryAdvance(System.out::print);
 
     }
 }
