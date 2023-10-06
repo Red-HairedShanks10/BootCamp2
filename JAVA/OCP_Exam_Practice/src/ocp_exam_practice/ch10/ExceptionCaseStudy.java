@@ -38,7 +38,8 @@ public class ExceptionCaseStudy {
             return ExceptionCaseStudy.create();
         } catch (IOException e) {
             throw new RuntimeException(e);
-        } }
+        }
+    }
 
     public static void main(String[] args) {
 
