@@ -12,5 +12,10 @@ public class FlatMapping {
         var two = List.of("Mama Gorilla", "Baby Gorilla");
         Stream<List<String>> animals = Stream.of(zero, one, two);
         animals.flatMap(m -> m.stream()).forEach(System.out::println);
+
+        ///other way to concatenate strings:
+        var oneString = Stream.of("Bonobo");
+        var twoStrings = Stream.of("Mama Gorilla", "Baby Gorilla");
+        Stream.concat(oneString,twoStrings).forEach(System.out::println);
     }
 }
