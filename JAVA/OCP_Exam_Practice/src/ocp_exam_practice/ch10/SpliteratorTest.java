@@ -18,8 +18,8 @@ public class SpliteratorTest {
 
          Spliterator<String> jillsBag = originalBagOfFood.trySplit();
         jillsBag.tryAdvance(System.out::print);
-        jillsBag.forEachRemaining(System.out::print); 
-        originalBagOfFood.forEachRemaining(System.out::print); // lamb-mouse-
+        jillsBag.forEachRemaining(System.out::print);
+        originalBagOfFood.forEachRemaining(System.out::print);
 
     }
 }
