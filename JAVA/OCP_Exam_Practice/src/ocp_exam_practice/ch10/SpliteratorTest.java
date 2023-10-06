@@ -1,6 +1,6 @@
 package ocp_exam_practice.ch10;
 
-import java.util.List;
+import java.util.*;
 
 public class SpliteratorTest {
     public static void main(String[] args) {
