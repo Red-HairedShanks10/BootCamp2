@@ -9,6 +9,6 @@ public class OptionalPrimitiveTest {
          System.out.println(sum); // 15
          DoubleStream doubles = DoubleStream.generate(() ->
                 Math.PI);
-         OptionalDouble min = doubles.min(); // runs infinitely
+         OptionalDouble min = doubles.min(); 
     }
 }
