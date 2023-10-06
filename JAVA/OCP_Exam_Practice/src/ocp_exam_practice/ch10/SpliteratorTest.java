@@ -14,8 +14,7 @@ public class SpliteratorTest {
                  "mouse-");
          Spliterator<String> originalBagOfFood = stream.spliterator();
         Spliterator<String> emmasBag = originalBagOfFood.trySplit();
-         emmasBag.forEachRemaining(System.out::print); // bird-bunny-
-        cat-
+         emmasBag.forEachRemaining(System.out::print); // bird-bunny-cat-
 
          Spliterator<String> jillsBag = originalBagOfFood.trySplit();
         jillsBag.tryAdvance(System.out::print); // dog-20:
