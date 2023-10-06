@@ -6,9 +6,9 @@ import java.util.stream.DoubleStream;
 public class OptionalPrimitiveTest {
     public static void main(String[] args) {
         long sum = longs.sum();
-         System.out.println(sum); // 15
+         System.out.println(sum); 
          DoubleStream doubles = DoubleStream.generate(() ->
                 Math.PI);
-         OptionalDouble min = doubles.min(); 
+         OptionalDouble min = doubles.min();
     }
 }
