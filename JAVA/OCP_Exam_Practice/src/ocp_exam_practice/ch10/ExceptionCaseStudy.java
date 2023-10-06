@@ -1,6 +1,7 @@
 package ocp_exam_practice.ch10;
 import java.io.*;
 import java.util.*;
+import java.util.function.Supplier;
 
 
 public class ExceptionCaseStudy {
@@ -14,7 +15,18 @@ public class ExceptionCaseStudy {
     }
 
     public void bad() throws IOException {
-        Supplier<List<String>> s = ExceptionCaseStudy::create; // DOES NOT COMPILE
+        Supplier<List<String>> s ;
+        //= ExceptionCaseStudy::create;
+    }
+
+    public void ugly() {
+        Supplier<List<String>> s = () -> {
+            try {
+                return ExceptionCaseStudy.create();
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        };
     }
 
     public static void main(String[] args) {
