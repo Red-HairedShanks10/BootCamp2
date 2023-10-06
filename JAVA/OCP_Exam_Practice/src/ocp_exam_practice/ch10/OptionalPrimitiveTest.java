@@ -18,11 +18,13 @@ public class OptionalPrimitiveTest {
          DoubleStream stream = DoubleStream.generate(() -> Math.PI);
                  stream.min();*/
 
-        IntStream intStream = IntStream.of(1,2,3,5);
+        IntStream intStream = IntStream.of(100,200,300);
         IntStream intStream2 = IntStream.of();
      /*   System.out.println(max(intStream));
         System.out.println(max(intStream2));*/
 
+        System.out.println(range(intStream));
+        System.out.println(range(intStream2));
 
     }
 
