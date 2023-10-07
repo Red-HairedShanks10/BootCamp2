@@ -29,8 +29,31 @@ public class SpliteratorTest {
         newBag.tryAdvance(System.out::print);*/
 
         var ohMy = Stream.of("lions", "tigers", "bears");
-        String result = ohMy.collect(Collectors.joining(", "));
-        System.out.println(result);
+        //  String result = ohMy.collect(Collectors.joining(", "));
+       // System.out.println(result);
+
+        var ohMyPanthera = Stream.of("Tigers", "Lions", "Jaguar");
+        Double result2 = ohMyPanthera.collect(Collectors.averagingInt(String::length));
+        System.out.println(result2);
+
+        var ohMyRandoms = Stream.of("badger", "black Mamba", "jackal", "tiger", "taipan");
+        /*TreeSet<String> result3 = ohMyRandoms
+                .filter(s -> s.startsWith("t"))
+                .collect(Collectors.toCollection(TreeSet::new));
+        System.out.println(result3);*/
+
+        //var ohMyRandoms = Stream.of("badger", "black Mamba", "jackal", "tiger", "taipan");
+        Map<String, Integer> result4 = ohMyRandoms
+                .collect(Collectors.toMap(s -> s, String::length));
+
+        System.out.println(result4);
+
+
+        Map<Integer, String> map = ohMy.collect(Collectors.toMap(
+                String::length, k -> k,
+                (s1, s2) -> s1 + "," + s2));
+        System.out.println(map);
+        System.out.println(map.getClass());
 
     }
 }
