@@ -30,7 +30,7 @@ public class SpliteratorTest {
 
         var ohMy = Stream.of("lions", "tigers", "bears");
         //  String result = ohMy.collect(Collectors.joining(", "));
-       // System.out.println(result);
+       /System.out.println(result);
 
         var ohMyPanthera = Stream.of("Tigers", "Lions", "Jaguar");
         Double result2 = ohMyPanthera.collect(Collectors.averagingInt(String::length));
