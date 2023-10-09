@@ -17,7 +17,7 @@ public class TryResourcesTest {
         // finally block
         }*/
 
-        try (MyFileClass ab = new MyFileClass(1); // DOES NOT COMPILE
+        try (MyFileClass ab = new MyFileClass(1);
                 MyFileClass cd = new MyFileClass(2)) {
         }
 
