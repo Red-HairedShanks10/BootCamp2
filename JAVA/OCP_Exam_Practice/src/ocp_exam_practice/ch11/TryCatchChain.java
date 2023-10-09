@@ -11,3 +11,5 @@ public class TryCatchChain {
 class AnimalsOutForAWalk extends RuntimeException {}
 
 class ExhibitClosed extends RuntimeException {}
+
+class ExhibitClosedForLunch extends ExhibitClosed {}
