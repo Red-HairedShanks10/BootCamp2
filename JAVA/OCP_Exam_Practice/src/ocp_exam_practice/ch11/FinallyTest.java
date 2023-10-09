@@ -23,6 +23,7 @@ public class FinallyTest {
     }
 
     void seeMoreAnimals() {
+
     }
 
     void fall(){
@@ -30,7 +31,7 @@ public class FinallyTest {
     }
 
     void seeAnimals(){
-
+        System.out.println("seeing Animals");
     }
 
     void getHugFromPops(){
