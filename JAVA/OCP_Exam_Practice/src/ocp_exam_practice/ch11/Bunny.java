@@ -1,9 +1,9 @@
 package ocp_exam_practice.ch11;
 
 public class Bunny extends Hopper {
-    public static void main(String[] args) throws NoMoreCarrotsException  {
+    public static void main(String[] args)  {
 
-        try{
+        /*try{
             eatCarrot(3);
             }catch (NoMoreCarrotsException e){
                 System.out.println("eatCarrot error: " + e);
@@ -15,7 +15,9 @@ public class Bunny extends Hopper {
             System.out.println("eatCarrot error: no 🥕🥕🥕🥕🥕🥕😒!!");
         }
 
-        eatCarrot(0);
+        eatCarrot(0);*/
+
+
 
     }
 
