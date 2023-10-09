@@ -19,6 +19,9 @@ public class FinallyTest {
          goHome();
     }
 
+    void fall(){
+
+    }
 
 
 }
