@@ -17,10 +17,10 @@ public class TryResourcesTest {
         // finally block
         }*/
 
-        try (MyFileClass ab = new MyFileClass(1);
+       /* try (MyFileClass ab = new MyFileClass(1);
                 MyFileClass cd = new MyFileClass(2)) {
         }
-
+*/
     }
 }
 
