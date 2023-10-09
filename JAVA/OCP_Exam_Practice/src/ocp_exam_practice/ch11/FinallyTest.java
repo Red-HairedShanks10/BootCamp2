@@ -26,7 +26,7 @@ public class FinallyTest {
     }
 
     void fall(){
-
+   throw new RuntimeException();
     }
 
     void seeAnimals(){
