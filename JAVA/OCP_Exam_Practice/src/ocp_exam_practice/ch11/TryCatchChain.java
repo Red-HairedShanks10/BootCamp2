@@ -5,7 +5,7 @@ public class TryCatchChain {
     String animalName;
     public static void main(String[] args) {
         TryCatchChain tcc = new TryCatchChain();
-        tcc.v
+        tcc.visitOrca();
     }
 
     public void visitOrca(){
