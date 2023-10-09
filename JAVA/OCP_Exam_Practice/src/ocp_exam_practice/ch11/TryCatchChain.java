@@ -9,7 +9,7 @@ public class TryCatchChain {
         try{
             seeAnimal();
         }catch (AnimalsOutForAWalk e){
-            
+            System.out.println("sorry out for a swim🐳");
         }
     }
 
