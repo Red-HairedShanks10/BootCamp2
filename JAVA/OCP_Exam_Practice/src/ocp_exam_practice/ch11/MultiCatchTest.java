@@ -5,6 +5,8 @@ public class MultiCatchTest {
 
         try {
             System.out.println(Integer.parseInt(args[1]));
+        }catch (ArrayIndexOutOfBoundsException e){
+            
         }
     }
 }
