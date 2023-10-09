@@ -24,11 +24,11 @@ public class PartitioningTest {
 
 
         //grouping animal name lengths by the counting()
-        Map<Integer, Long> map3 = ohMy.collect(
+       /* Map<Integer, Long> map3 = ohMy.collect(
                 Collectors.groupingBy(
                         String::length,
                         Collectors.counting()));
-        System.out.println(map3);
+        System.out.println(map3);*/
 
         Map<Integer, Optional<Character>> map4 = ohMy.collect(
                 Collectors.groupingBy (
@@ -36,9 +36,12 @@ public class PartitioningTest {
                         Collectors.mapping(
                                 s -> s.charAt(0),
                                 Collectors.minBy((a,b) -> a-b))));
+                    System.out.println(map4);
 
 
-
-
+                  var map5 = ohMy.collect(Collectors.groupingBy(
+                          String::length,
+                          Collectors.mapping(s -> s.charAt(0), Collectors.minBy((a,b) -> a-b))));
+                            System.out.println(map5);
     }
 }
