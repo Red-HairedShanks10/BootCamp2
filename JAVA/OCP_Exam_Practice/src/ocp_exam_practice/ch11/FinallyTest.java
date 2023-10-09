@@ -20,6 +20,7 @@ public class FinallyTest {
     }
 
      void goHome() {
+        System.out.println("lets go home");
     }
 
     void seeMoreAnimals() {
