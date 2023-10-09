@@ -26,9 +26,9 @@ public class TryResourcesTest {
         try (Scanner s = new Scanner(System.in)) {
              s.nextLine();
              } catch(Exception e) {
-             s.nextInt();
+       //      s.nextInt();
         } finally {
-            s.nextInt();
+      //      s.nextInt();
         }
 
 
