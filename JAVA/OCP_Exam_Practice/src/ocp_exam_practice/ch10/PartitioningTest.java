@@ -2,6 +2,7 @@ package ocp_exam_practice.ch10;
 
 import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 import java.util.Set;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -29,7 +30,12 @@ public class PartitioningTest {
                         Collectors.counting()));
         System.out.println(map3);
 
-        Map<>
+        Map<Integer, Optional<Character>> map4 = ohMy.collect(
+                Collectors.groupingBy (
+                        String::length,
+                        Collectors.mapping(
+                                s -> s.charAt(0),
+                                Collectors.minBy((a,b) -> a-b))));
 
 
 
