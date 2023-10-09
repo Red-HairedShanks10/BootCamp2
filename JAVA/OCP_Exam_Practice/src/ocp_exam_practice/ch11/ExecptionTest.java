@@ -10,6 +10,6 @@ public class ExecptionTest {
     }
 
     public static void main(String[] args) {
-
+        fall(20);
     }
 }
