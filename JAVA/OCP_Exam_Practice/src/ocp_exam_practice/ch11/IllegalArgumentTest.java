@@ -6,4 +6,6 @@ public class IllegalArgumentTest {
     }
 
     public void setNumberEggs(int numberEggs) {
+        if(numberEggs < 0)
+    }
 }
