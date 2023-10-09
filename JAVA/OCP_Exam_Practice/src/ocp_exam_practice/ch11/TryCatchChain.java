@@ -18,15 +18,18 @@ public class TryCatchChain {
             System.out.println("sorry not today buddy🤣🤣🤣");
         }
 
-        public void visitOrca(){
-            animalName = "Orca";
-            try{
-                seeAnimal(animalName);
-            }catch (AnimalsOutForAWalk e){
-                System.out.println("sorry out for a swim🐳");
-            }catch (ExhibitClosed e){
-                System.out.println("sorry not today buddy🤣🤣🤣");
-            }
+
+    }
+
+    public void visitLion(){
+        animalName = "Lion";
+        try{
+            seeAnimal(animalName);
+        }catch (AnimalsOutForAWalk e){
+            System.out.println("sorry out for a hunt 🦁");
+        }catch (ExhibitClosed e){
+            System.out.println("sorry not today buddy🤣🤣🤣");
+        }
     }
 
     public void seeAnimal(String animal){
