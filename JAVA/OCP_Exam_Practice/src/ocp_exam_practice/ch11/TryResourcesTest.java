@@ -3,6 +3,7 @@ package ocp_exam_practice.ch11;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.Scanner;
 
 public class TryResourcesTest {
     public static void main(String[] args) throws IOException {
@@ -24,7 +25,7 @@ public class TryResourcesTest {
         try (Scanner s = new Scanner(System.in)) {
              s.nextLine();
              } catch(Exception e) {
-             s.nextInt(); // DOES NOT COMPILE
+             s.nextInt();
         } finally {
             s.nextInt();
         }
