@@ -25,7 +25,7 @@ public class TryCatchChain {
         animalName = "Lion";
         try{
             seeAnimal(animalName);
-        }catch (AnimalsOutForAWalk e){
+        }catch (ExhibitClosedForLunch e){
             System.out.println("sorry out for a hunt 🦁");
         }catch (ExhibitClosed e){
             System.out.println("sorry not today buddy🤣🤣🤣");
