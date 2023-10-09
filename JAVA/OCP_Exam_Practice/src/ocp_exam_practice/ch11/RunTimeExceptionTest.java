@@ -9,7 +9,7 @@ public class RunTimeExceptionTest {
 
 
 class Frog{
-    public void hop(){
+    public static void hop(String name, Integer jump){
 
     }
 }
