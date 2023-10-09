@@ -4,4 +4,11 @@ public class FinallyTest {
     public static void main(String[] args) {
 
     }
+
+    void explore(){
+        try{
+            seeAnimals();
+            fall();
+        }
+    }
 }
