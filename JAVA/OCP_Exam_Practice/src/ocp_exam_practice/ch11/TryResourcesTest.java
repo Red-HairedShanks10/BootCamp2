@@ -25,7 +25,7 @@ public class TryResourcesTest {
             4: s.nextLine();
             5: } catch(Exception e) {
             6: s.nextInt(); // DOES NOT COMPILE
-            7: } finally {
+        } finally {
              s.nextInt(); // DOES NOT COMPILE
 
 
