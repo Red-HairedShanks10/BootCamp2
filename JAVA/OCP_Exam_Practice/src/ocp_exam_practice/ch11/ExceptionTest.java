@@ -3,7 +3,7 @@ package ocp_exam_practice.ch11;
 import java.io.IOException;
 
 public class ExceptionTest {
-   static void fall(int distance) throws IOException {
+   static void fall(int distance){
 
        try {
            if (distance > 10) {
