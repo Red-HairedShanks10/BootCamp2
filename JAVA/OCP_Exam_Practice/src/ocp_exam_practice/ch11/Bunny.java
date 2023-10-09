@@ -1,6 +1,6 @@
 package ocp_exam_practice.ch11;
 
-public class Bunny {
+public class Bunny extends CanNotHopException {
     public static void main(String[] args) throws NoMoreCarrotsException  {
 
         try{
