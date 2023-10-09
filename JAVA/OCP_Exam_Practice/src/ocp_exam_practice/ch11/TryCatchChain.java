@@ -15,7 +15,7 @@ public class TryCatchChain {
         }catch (AnimalsOutForAWalk e){
             System.out.println("sorry out for a swim🐳");
         }catch (ExhibitClosed e){
-            System.out.println("sorry not today buddy🤣🤣🤣");
+            System.out.println("Exhibit closed: sorry not today buddy🤣🤣🤣");
         }
 
 
