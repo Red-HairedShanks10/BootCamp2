@@ -9,7 +9,7 @@ public class TryResourcesTest {
 
         try (var in = new FileInputStream("data.txt");
              var out = new FileOutputStream("output.txt");) {
-// Protected code
+            // Protected code
         } catch (IOException e) {
 // Exception handler
         } finally {
