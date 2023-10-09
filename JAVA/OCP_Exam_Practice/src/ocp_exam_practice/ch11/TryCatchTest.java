@@ -12,8 +12,12 @@ void explore(){
         }catch (RuntimeException e){
             getUp();
         }
+        seeAnimals();
     }
 
+    void seeAnimals(){
+        System.out.println("Seeing Animals");
+    };
     void fall(){throw  new RuntimeException();}
 
     void getUp(){
