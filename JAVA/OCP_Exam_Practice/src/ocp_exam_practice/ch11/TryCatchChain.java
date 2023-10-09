@@ -15,8 +15,8 @@ public class TryCatchChain {
         }
     }
 
-    public void seeAnimal(){
-
+    public void seeAnimal(String animal){
+        System.out.println("Seeing: " + animal);
     }
 
 }
