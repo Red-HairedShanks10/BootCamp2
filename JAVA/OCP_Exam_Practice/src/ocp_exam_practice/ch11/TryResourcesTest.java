@@ -12,6 +12,7 @@ public class TryResourcesTest {
             // Protected code
         } catch (IOException e) {
         // Exception handler
+            System.out.println(e);
         } finally {
         // finally block
         }
