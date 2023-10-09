@@ -16,12 +16,12 @@ public class GroupTesting {
 
         System.out.println(map);*/
 
+        /////TreeMap
         TreeMap<Integer, Set<String>> map2 = ohMy.collect(
               Collectors.groupingBy(
                       String::length,
                       TreeMap::new,
-                      Collectors.toSet()
-              )
-        );
+                      Collectors.toSet()));
+        System.out.println(map2);
     }
 }
