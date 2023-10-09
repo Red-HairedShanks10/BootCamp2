@@ -9,6 +9,12 @@ public class FinallyTest {
         try{
             seeAnimals();
             fall();
-        }
+        }catch (Exception e) {
+            17: getHugFromDaddy();
+            18: } finally {
+            19: seeMoreAnimals();
+            20: }
+        21: goHome();
+        22: }
     }
 }
