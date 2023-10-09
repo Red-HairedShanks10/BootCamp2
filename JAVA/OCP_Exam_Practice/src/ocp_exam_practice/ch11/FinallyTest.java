@@ -35,7 +35,7 @@ public class FinallyTest {
     }
 
     void getHugFromPops(){
-
+        System.out.println("Hugs from pops");
     }
 
 
