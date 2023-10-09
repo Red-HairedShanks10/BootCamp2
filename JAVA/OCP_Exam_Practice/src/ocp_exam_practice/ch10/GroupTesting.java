@@ -12,5 +12,7 @@ public class GroupTesting {
                 Collectors.groupingBy(
                         String::length,
                         Collectors.toSet()));
+
+        System.out.println(map);
     }
 }
