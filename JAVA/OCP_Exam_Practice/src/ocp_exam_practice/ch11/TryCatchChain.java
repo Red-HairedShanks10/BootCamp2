@@ -10,6 +10,8 @@ public class TryCatchChain {
             seeAnimal();
         }catch (AnimalsOutForAWalk e){
             System.out.println("sorry out for a swim🐳");
+        }catch (ExhibitClosed e){
+            System.out.println("sorry not today buddy🤣🤣🤣");
         }
     }
 
