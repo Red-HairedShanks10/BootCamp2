@@ -15,6 +15,10 @@ public class TryCatchChain {
         }
     }
 
+    public void seeAnimal(){
+
+    }
+
 }
 
 class AnimalsOutForAWalk extends RuntimeException {}
