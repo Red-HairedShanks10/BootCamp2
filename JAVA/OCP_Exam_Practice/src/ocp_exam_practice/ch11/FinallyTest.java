@@ -13,7 +13,7 @@ public class FinallyTest {
             17: getHugFromDaddy();
             18: } finally {
             19: seeMoreAnimals();
-            20: }
+             }
          goHome();
          }
     }
