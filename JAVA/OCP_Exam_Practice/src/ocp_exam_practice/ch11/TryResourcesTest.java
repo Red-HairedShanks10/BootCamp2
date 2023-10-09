@@ -1,5 +1,6 @@
 package ocp_exam_practice.ch11;
 
+import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
 public class TryResourcesTest {
