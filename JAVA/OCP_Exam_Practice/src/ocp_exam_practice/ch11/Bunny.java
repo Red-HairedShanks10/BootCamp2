@@ -38,7 +38,7 @@ class Hopper{
     public void hop() throws CanNotHopException{}
 }
 
-class CanNotHopException{
+class CanNotHopException extends Exception{
 
 }
 
