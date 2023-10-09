@@ -28,14 +28,14 @@ public class TryCatchChain {
         }catch (ExhibitClosedForLunch e){
             System.out.println("sorry out for a hunt 🦁");
         }catch (ExhibitClosed e){
-            System.out.println("sorry not today buddy🤣🤣🤣");
+            System.out.println("Exhibit closed: sorry not today buddy🤣🤣🤣");
         }
     }
 
     public void seeAnimal(String animal){
         System.out.println("Seeing: " + animal);
         throw new ExhibitClosed();
-        throw new AnimalsOutForAWalk();
+       // throw new AnimalsOutForAWalk();
     }
 
 }
