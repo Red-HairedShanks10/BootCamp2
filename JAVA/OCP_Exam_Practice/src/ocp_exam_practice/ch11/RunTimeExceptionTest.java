@@ -10,6 +10,6 @@ public class RunTimeExceptionTest {
 
 class Frog{
     public static void hop(String name, Integer jump){
-
+            System.out.println(name.toLowerCase() + " " + jump.intValue());
     }
 }
