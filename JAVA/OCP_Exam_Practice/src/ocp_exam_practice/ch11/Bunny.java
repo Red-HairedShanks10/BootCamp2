@@ -1,7 +1,7 @@
 package ocp_exam_practice.ch11;
 
 public class Bunny {
-    public static void main(String[] args)  {
+    public static void main(String[] args) throws NoMoreCarrotsException  {
 
         try{
             eatCarrot(3);
@@ -12,8 +12,10 @@ public class Bunny {
         try{
             eatCarrot(0);
         }catch (NoMoreCarrotsException e){
-            System.out.println("eatCarrot error: no carrots!!");
+            System.out.println("eatCarrot error: no 🥕🥕🥕🥕🥕🥕😒!!");
         }
+
+        eatCarrot(0);
 
     }
 
@@ -21,7 +23,7 @@ public class Bunny {
        if (carrotsEaten <= 0) {
            throw new NoMoreCarrotsException();
        }else {
-           System.out.println("eating the remaining " + carrotsEaten + " carrots");
+           System.out.println("eating the remaining " + carrotsEaten + " 🥕🥕😊");
        }
 
     }
@@ -31,3 +33,4 @@ public class Bunny {
 class NoMoreCarrotsException extends Exception{
 
 }
+
