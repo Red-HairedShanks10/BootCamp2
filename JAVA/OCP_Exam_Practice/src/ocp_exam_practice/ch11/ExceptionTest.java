@@ -14,7 +14,7 @@ public class ExceptionTest {
        }
     }
 
-    void fall2(int distance) throws IOException {
+   static void fall2(int distance) throws IOException {
         if(distance > 10) {
             throw new IOException();
         }
