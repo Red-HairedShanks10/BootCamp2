@@ -9,3 +9,5 @@ public class TryCatchChain {
 }
 
 class AnimalsOutForAWalk extends RuntimeException {}
+
+class ExhibitClosed extends RuntimeException {}
