@@ -19,7 +19,7 @@ public class FinallyTest {
          goHome();
     }
 
-    private void goHome() {
+     void goHome() {
     }
 
     void seeMoreAnimals() {
