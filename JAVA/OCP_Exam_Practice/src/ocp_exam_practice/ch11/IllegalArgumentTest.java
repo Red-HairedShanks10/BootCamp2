@@ -6,6 +6,8 @@ public class IllegalArgumentTest {
     }
 
     public void setNumberEggs(int numberEggs) {
-        if(numberEggs < 0)
+        if(numberEggs < 0){
+            throw new IllegalArgumentException("num of eggs must not be negative");
+        }
     }
 }
