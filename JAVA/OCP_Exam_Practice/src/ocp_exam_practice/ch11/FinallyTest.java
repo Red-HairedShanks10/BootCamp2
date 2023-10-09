@@ -12,7 +12,7 @@ public class FinallyTest {
         }catch (Exception e) {
             17: getHugFromDaddy();
             18: } finally {
-            19: seeMoreAnimals();
+             seeMoreAnimals();
              }
          goHome();
          }
