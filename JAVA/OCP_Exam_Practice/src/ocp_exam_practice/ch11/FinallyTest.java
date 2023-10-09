@@ -23,7 +23,7 @@ public class FinallyTest {
     }
 
     void seeMoreAnimals() {
-
+        System.out.println("seeing more animals");
     }
 
     void fall(){
