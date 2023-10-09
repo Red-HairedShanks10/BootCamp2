@@ -23,7 +23,7 @@ public class TryResourcesTest {
 */
         try (Scanner s = new Scanner(System.in)) {
             4: s.nextLine();
-            5: } catch(Exception e) {
+             } catch(Exception e) {
              s.nextInt(); // DOES NOT COMPILE
         } finally {
              s.nextInt(); // DOES NOT COMPILE
