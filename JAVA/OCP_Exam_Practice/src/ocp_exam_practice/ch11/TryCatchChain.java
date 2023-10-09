@@ -8,8 +8,9 @@ public class TryCatchChain {
     }
 
     public void visitOrca(){
+        animalName = "Orca";
         try{
-            seeAnimal();
+            seeAnimal(animalName);
         }catch (AnimalsOutForAWalk e){
             System.out.println("sorry out for a swim🐳");
         }catch (ExhibitClosed e){
