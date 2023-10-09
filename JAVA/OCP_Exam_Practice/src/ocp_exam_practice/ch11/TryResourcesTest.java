@@ -13,7 +13,7 @@ public class TryResourcesTest {
         } catch (IOException e) {
         // Exception handler
         } finally {
-// finally block
+        // finally block
         }
 
     }
