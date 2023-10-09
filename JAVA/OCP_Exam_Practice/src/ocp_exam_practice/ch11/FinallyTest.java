@@ -10,7 +10,7 @@ public class FinallyTest {
             seeAnimals();
             fall();
         }catch (Exception e) {
-            17: getHugFromDaddy();
+             getHugFromDaddy();
              } finally {
              seeMoreAnimals();
              }
