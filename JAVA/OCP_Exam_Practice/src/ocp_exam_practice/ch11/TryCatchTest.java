@@ -5,5 +5,10 @@ public class TryCatchTest {
 
     }
 
-
+void explore(){
+        try{
+            fall();
+            System.out.println("never get here");
+        }
+}
 }
