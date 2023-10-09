@@ -5,12 +5,12 @@ public class MultiCatchTest {
 
         try {
             System.out.println(Integer.parseInt(args[1]));
-        }catch (ArrayIndexOutOfBoundsException e){
+        }catch (ArrayIndexOutOfBoundsException | NumberFormatException e){
             System.out.println(e);
             System.out.println("Missing or invalid input");
-        }catch (NumberFormatException e){
+        }/*catch (NumberFormatException e){
             System.out.println(e);
             System.out.println("Missing or invalid input");
-        }
+        }*/
     }
 }
