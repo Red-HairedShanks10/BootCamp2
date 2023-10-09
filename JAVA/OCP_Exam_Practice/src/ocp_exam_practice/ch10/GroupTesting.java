@@ -1,7 +1,7 @@
 package ocp_exam_practice.ch10;
 
-import java.util.List;
-import java.util.Map;
+
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
