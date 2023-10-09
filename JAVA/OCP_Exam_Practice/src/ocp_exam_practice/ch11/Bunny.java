@@ -34,3 +34,11 @@ class NoMoreCarrotsException extends Exception{
 
 }
 
+class Hopper{
+    public void hop() throws CanNotHopException{}
+}
+
+class CanNotHopException{
+
+}
+
