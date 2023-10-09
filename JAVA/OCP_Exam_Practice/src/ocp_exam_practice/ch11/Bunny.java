@@ -18,8 +18,9 @@ public class Bunny extends Hopper {
         eatCarrot(0);*/
 
 
-
     }
+
+    public void hop() throws CanNotHopException{}
 
     private static void eatCarrot(int carrotsEaten)throws  NoMoreCarrotsException{
        if (carrotsEaten <= 0) {
