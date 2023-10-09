@@ -29,7 +29,7 @@ public class PartitioningTest {
                         Collectors.counting()));
         System.out.println(map3);
 
-        
+        Map<>
 
 
 
