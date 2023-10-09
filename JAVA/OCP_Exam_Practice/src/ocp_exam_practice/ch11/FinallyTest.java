@@ -29,7 +29,7 @@ public class FinallyTest {
 
     void fall(){
         System.out.println("falling");
-   throw new RuntimeException();
+        throw new RuntimeException();
     }
 
     void seeAnimals(){
