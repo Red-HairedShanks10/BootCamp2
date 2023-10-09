@@ -11,9 +11,9 @@ public class FinallyTest {
             fall();
         }catch (Exception e) {
              getHugFromDaddy();
-             } finally {
+        } finally {
              seeMoreAnimals();
-             }
+            }
          goHome();
     }
 }
