@@ -14,7 +14,7 @@ public class FinallyTest {
             18: } finally {
             19: seeMoreAnimals();
             20: }
-        21: goHome();
+         goHome();
          }
     }
 }
