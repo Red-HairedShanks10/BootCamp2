@@ -6,7 +6,11 @@ public class TryCatchChain {
     }
 
     public void visitOrca(){
-        
+        try{
+            seeAnimal();
+        }catch (AnimalsOutForAWalk e){
+            
+        }
     }
 
 }
