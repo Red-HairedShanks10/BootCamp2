@@ -1,6 +1,7 @@
 package ocp_exam_practice.ch11;
 
 public class IllegalArgumentTest {
+    int numberOfEggs;
     public static void main(String[] args) {
 
     }
@@ -9,5 +10,6 @@ public class IllegalArgumentTest {
         if(numberEggs < 0){
             throw new IllegalArgumentException("num of eggs must not be negative");
         }
+        this.numberOfEggs = numberEggs;
     }
 }
