@@ -9,6 +9,12 @@ public class Bunny {
                 System.out.println("eatCarrot error: " + e);
             }
 
+        try{
+            eatCarrot(0);
+        }catch (NoMoreCarrotsException e){
+            System.out.println("eatCarrot error: no carrots!!");
+        }
+
     }
 
     private static void eatCarrot(int carrotsEaten)throws  NoMoreCarrotsException{
