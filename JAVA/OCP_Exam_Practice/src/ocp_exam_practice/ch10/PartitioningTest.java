@@ -22,12 +22,16 @@ public class PartitioningTest {
         System.out.println(map2);*/
 
 
-        //grouping animal name lengths by the count()
+        //grouping animal name lengths by the counting()
         Map<Integer, Long> map3 = ohMy.collect(
                 Collectors.groupingBy(
                         String::length,
                         Collectors.counting()));
         System.out.println(map3);
+
+        
+
+
 
 
     }
