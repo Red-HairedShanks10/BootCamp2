@@ -17,12 +17,12 @@ public class GroupTesting {
         System.out.println(map);*/
 
         /////TreeMap
-        TreeMap<Integer, Set<String>> map2 = ohMy.collect(
+      /*  TreeMap<Integer, Set<String>> map2 = ohMy.collect(
               Collectors.groupingBy(
                       String::length,
                       TreeMap::new,
                       Collectors.toSet()));
-        System.out.println(map2);
+        System.out.println(map2);*/
 
 
         TreeMap<Integer, List<String>> map3 = ohMy.collect(
@@ -30,5 +30,13 @@ public class GroupTesting {
                         String::length,
                         TreeMap::new,
                         Collectors.toList()));
+        System.out.println(map3);
+
+        TreeMap<Integer, List<String>> map4 = ohMy.collect(
+                Collectors.groupingBy(
+                        String::length,
+                        TreeMap::new,
+                        Collectors.toList()));
+        System.out.println(map4);
     }
 }
