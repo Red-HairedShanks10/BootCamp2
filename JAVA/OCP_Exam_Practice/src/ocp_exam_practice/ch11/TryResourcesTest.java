@@ -2,6 +2,7 @@ package ocp_exam_practice.ch11;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class TryResourcesTest {
     public static void main(String[] args) {
