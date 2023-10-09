@@ -11,7 +11,7 @@ public class TryResourcesTest {
              var out = new FileOutputStream("output.txt");) {
             // Protected code
         } catch (IOException e) {
-// Exception handler
+        // Exception handler
         } finally {
 // finally block
         }
