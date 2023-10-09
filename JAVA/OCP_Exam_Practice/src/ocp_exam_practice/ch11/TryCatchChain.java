@@ -1,6 +1,8 @@
 package ocp_exam_practice.ch11;
 
 public class TryCatchChain {
+
+    String animalName;
     public static void main(String[] args) {
 
     }
