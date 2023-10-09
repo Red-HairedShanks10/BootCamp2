@@ -8,9 +8,13 @@ public class ExceptionTest {
        try {
            if (distance > 10) {
                throw new IOException();
+           }else {
+               System.out.println("fall successful");
            }
        }catch (Exception e){
-           e.printStackTrace();
+          // e.printStackTrace();
+
+           System.out.println("fall error: " + e);
        }
     }
 
@@ -20,7 +24,19 @@ public class ExceptionTest {
         }
     }
 
+    void fall(String input) {
+        System.out.println(input.toLowerCase());
+    }
+
     public static void main(String[] args) {
-        fall(20);
+        fall(9);
+
+        //fall(null);
+
+        try{
+            fall2(23);
+        }catch (IOException e){
+            System.out.println("fall 2 error: " + e);
+        }
     }
 }
