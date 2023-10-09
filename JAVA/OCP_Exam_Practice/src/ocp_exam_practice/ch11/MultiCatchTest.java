@@ -8,7 +8,8 @@ public class MultiCatchTest {
         }catch (ArrayIndexOutOfBoundsException | NumberFormatException e){
             System.out.println(e);
             System.out.println("Missing or invalid input");
-        }/*catch (NumberFormatException e){
+        }
+        /*catch (NumberFormatException e){
             System.out.println(e);
             System.out.println("Missing or invalid input");
         }*/
