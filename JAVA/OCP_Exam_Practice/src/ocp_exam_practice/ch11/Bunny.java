@@ -1,9 +1,25 @@
 package ocp_exam_practice.ch11;
 
 public class Bunny {
-    public static void main(String[] args) {
+    public static void main(String[] args)  {
+
+        try{
+            eatCarrot(0);
+            }catch (NoMoreCarrotsException e){
+                System.out.println(e);
+            }
 
     }
 
-    private static void eatCarrot()throws  NoMoreCarrotsException{}
+    private static void eatCarrot(int carrotsEaten)throws  NoMoreCarrotsException{
+       if (carrotsEaten == 0) {
+           throw new NoMoreCarrotsException();
+       }
+
+    }
+}
+
+
+class NoMoreCarrotsException extends Exception{
+
 }
