@@ -17,6 +17,16 @@ public class TryCatchChain {
         }catch (ExhibitClosed e){
             System.out.println("sorry not today buddy🤣🤣🤣");
         }
+
+        public void visitOrca(){
+            animalName = "Orca";
+            try{
+                seeAnimal(animalName);
+            }catch (AnimalsOutForAWalk e){
+                System.out.println("sorry out for a swim🐳");
+            }catch (ExhibitClosed e){
+                System.out.println("sorry not today buddy🤣🤣🤣");
+            }
     }
 
     public void seeAnimal(String animal){
