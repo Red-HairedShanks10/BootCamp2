@@ -23,5 +23,12 @@ public class GroupTesting {
                       TreeMap::new,
                       Collectors.toSet()));
         System.out.println(map2);
+
+
+        TreeMap<Integer, List<String>> map3 = ohMy.collect(
+                Collectors.groupingBy(
+                        String::length,
+                        TreeMap::new,
+                        Collectors.toList()));
     }
 }
