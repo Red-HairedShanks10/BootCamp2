@@ -8,7 +8,7 @@ import java.util.stream.Stream;
 public class GroupTesting {
     public static void main(String[] args) {
 
-        var ohMy = Stream.of("lions", "tigers", "bears");
+        var ohMy = Stream.of("lions", "tigers", "bears", "Honey Badger", "Rock Python");
       /*  Map<Integer, Set<String>> map = ohMy.collect(
                 Collectors.groupingBy(
                         String::length,
@@ -25,12 +25,12 @@ public class GroupTesting {
         System.out.println(map2);*/
 
 
-        TreeMap<Integer, List<String>> map3 = ohMy.collect(
+       /* TreeMap<Integer, List<String>> map3 = ohMy.collect(
                 Collectors.groupingBy(
                         String::length,
                         TreeMap::new,
                         Collectors.toList()));
-        System.out.println(map3);
+        System.out.println(map3);*/
 
         TreeMap<Integer, List<String>> map4 = ohMy.collect(
                 Collectors.groupingBy(
@@ -38,5 +38,7 @@ public class GroupTesting {
                         TreeMap::new,
                         Collectors.toList()));
         System.out.println(map4);
+
+
     }
 }
