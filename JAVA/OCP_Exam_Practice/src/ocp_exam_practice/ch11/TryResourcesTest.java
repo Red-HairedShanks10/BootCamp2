@@ -7,10 +7,10 @@ import java.io.IOException;
 public class TryResourcesTest {
     public static void main(String[] args) throws IOException {
 
-        try (var in = new FileInputStream("data.txt");
+      /*  try (var in = new FileInputStream("data.txt");
              var out = new FileOutputStream("output.txt");) {
             // Protected code
-        } /*catch (IOException e) {
+        } catch (IOException e) {
         // Exception handler
             System.out.println(e);
         } finally {
