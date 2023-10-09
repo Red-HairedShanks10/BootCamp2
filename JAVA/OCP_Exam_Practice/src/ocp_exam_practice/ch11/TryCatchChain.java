@@ -6,6 +6,7 @@ public class TryCatchChain {
     public static void main(String[] args) {
         TryCatchChain tcc = new TryCatchChain();
         tcc.visitOrca();
+        tcc.visitLion();
     }
 
     public void visitOrca(){
@@ -26,7 +27,7 @@ public class TryCatchChain {
         try{
             seeAnimal(animalName);
         }catch (ExhibitClosedForLunch e){
-            System.out.println("sorry out for a hunt 🦁");
+            System.out.println("Exhibit closed for lunch: sorry out for a hunt 🦁");
         }catch (ExhibitClosed e){
             System.out.println("Exhibit closed: sorry not today buddy🤣🤣🤣");
         }
@@ -34,8 +35,9 @@ public class TryCatchChain {
 
     public void seeAnimal(String animal){
         System.out.println("Seeing: " + animal);
-        throw new ExhibitClosed();
+      //  throw new ExhibitClosed();
        // throw new AnimalsOutForAWalk();
+        throw new ExhibitClosedForLunch();
     }
 
 }
