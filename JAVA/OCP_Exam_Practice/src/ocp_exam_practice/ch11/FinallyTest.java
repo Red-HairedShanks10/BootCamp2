@@ -15,6 +15,6 @@ public class FinallyTest {
             19: seeMoreAnimals();
             20: }
         21: goHome();
-        22: }
+         }
     }
 }
