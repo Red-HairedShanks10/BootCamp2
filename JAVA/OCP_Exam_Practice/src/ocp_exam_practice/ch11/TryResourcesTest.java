@@ -27,9 +27,9 @@ public class TryResourcesTest {
            s2 = s;
              s.nextLine();
              } catch(Exception e) {
-       //      s.nextInt();
+            s2.nextInt();
         } finally {
-      //      s.nextInt();
+           s2.nextInt();
         }
 
 
