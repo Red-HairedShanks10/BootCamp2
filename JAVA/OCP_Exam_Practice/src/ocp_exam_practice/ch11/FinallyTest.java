@@ -12,7 +12,7 @@ public class FinallyTest {
             seeAnimals();
             fall();
         }catch (Exception e) {
-             getHugFromDaddy();
+             getHugFromPops();
         } finally {
              seeMoreAnimals();
             }
@@ -24,7 +24,11 @@ public class FinallyTest {
     }
 
     void seeAnimals(){
-        
+
+    }
+
+    void getHugFromPops(){
+
     }
 
 
