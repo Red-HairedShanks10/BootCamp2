@@ -6,7 +6,7 @@ public class Bunny {
         try{
             eatCarrot(0);
             }catch (NoMoreCarrotsException e){
-                System.out.println(e);
+                System.out.println("eatCarrot error: " + e);
             }
 
     }
@@ -14,6 +14,8 @@ public class Bunny {
     private static void eatCarrot(int carrotsEaten)throws  NoMoreCarrotsException{
        if (carrotsEaten == 0) {
            throw new NoMoreCarrotsException();
+       }else {
+           System.out.println("eating the remaining carrots");
        }
 
     }
