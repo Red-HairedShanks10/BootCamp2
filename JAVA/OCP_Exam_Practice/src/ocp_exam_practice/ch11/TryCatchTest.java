@@ -14,4 +14,6 @@ void explore(){
         }
     }
 
+    void fall(){throw  new RuntimeException();}
+
 }
