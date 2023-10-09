@@ -10,7 +10,7 @@ void explore(){
             fall();
             System.out.println("never get here");
         }catch (RuntimeException e){
-
+            getUp();
         }
     }
 
