@@ -110,6 +110,7 @@ public class Formating {
 
     public static void print(DateTimeFormatter dtf, LocalDateTime dateTime, Locale locale){
         System.out.println(dtf.format(dateTime) + "---"
+                + dtf.withLocale(locale).format(dateTime));
     }
 
 
