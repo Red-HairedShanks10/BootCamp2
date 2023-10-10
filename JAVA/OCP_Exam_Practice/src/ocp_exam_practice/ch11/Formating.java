@@ -7,7 +7,7 @@ import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
 import java.util.stream.Stream;
-
+import static java.time.format.FormatStyle.*;
 
 
 public class Formating {
