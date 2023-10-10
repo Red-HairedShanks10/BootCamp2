@@ -70,5 +70,10 @@ public class Formating {
 
         var gr = NumberFormat.getPercentInstance(Locale.GERMANY);
         System.out.println(gr.format(successRate));
+
+
+        String s = "40.45";
+        var en = NumberFormat.getInstance(Locale.US);
+
     }
 }
