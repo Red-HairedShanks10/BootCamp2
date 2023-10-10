@@ -1,10 +1,12 @@
 package ocp_exam_practice.ch11;
 
 import java.text.NumberFormat;
+import java.text.ParseException;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
+
 
 public class Formating {
     public static void main(String[] args) {
@@ -72,8 +74,12 @@ public class Formating {
         System.out.println(gr.format(successRate));
 
 
-        String s = "40.45";
-        var en = NumberFormat.getInstance(Locale.US);
+        try{
+            String s = "40.45";
+            var en = NumberFormat.getInstance(Locale.US);
+        }catch (ParseException e){
+            System.out.println(e);
+        }
 
     }
 }
