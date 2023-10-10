@@ -13,7 +13,10 @@ public class Formating {
         var f2 = DateTimeFormatter.ofPattern(" hh:mm");
         System.out.println(dt.format(f1) + "at" + dt.format(f2));*/
 
-        var g1 = DateTimeFormatter.ofPattern("MMMM dd', Party''s at' hh:mm");
-        System.out.println(dt.format(g1));
+        /*var g1 = DateTimeFormatter.ofPattern("MMMM dd', Party''s at' hh:mm");
+        System.out.println(dt.format(g1));*/
+
+        Locale locale = Locale.getDefault();
+        System.out.println(locale);
     }
 }
