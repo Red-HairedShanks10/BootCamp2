@@ -7,8 +7,9 @@ public class PropertiesTest {
     public static void main(String[] args) {
     var us = new Locale("en", "US");
     var fr = new Locale("fr", "FR");
-    
+
     printWelcomeMessage(us);
+    printWelcomeMessage(fr);
     }
 
 
