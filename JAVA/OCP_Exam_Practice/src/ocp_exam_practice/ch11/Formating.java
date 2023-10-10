@@ -104,6 +104,7 @@ public class Formating {
             formatters.map(s -> s.format(745_123_456)).forEach(System.out::println);
 */
 
+        Locale.setDefault(new Locale("en", "US"));
 
     }
 
