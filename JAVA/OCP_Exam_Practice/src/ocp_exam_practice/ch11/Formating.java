@@ -17,7 +17,10 @@ public class Formating {
         /*var g1 = DateTimeFormatter.ofPattern("MMMM dd', Party''s at' hh:mm");
         System.out.println(dt.format(g1));*/
 
-        Locale locale = Locale.getDefault();
-        System.out.println(locale);
+        /*Locale locale = Locale.getDefault();
+        System.out.println(locale);*/
+
+        System.out.println(Locale.GERMAN); // de
+        System.out.println(Locale.JAPAN); // de_DE
     }
 }
