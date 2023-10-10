@@ -123,7 +123,7 @@ public class Formating {
 
     public static void printCurrency(Locale locale, double money) {
         System.out.println(
-                12: NumberFormat.getCurrencyInstance().format(money)
+                 NumberFormat.getCurrencyInstance().format(money)
          + ", " + locale.getDisplayLanguage());
          }
 
