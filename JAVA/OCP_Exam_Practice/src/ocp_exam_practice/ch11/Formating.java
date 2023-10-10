@@ -42,10 +42,15 @@ public class Formating {
         int attendeesPerMonth = attendeesPerYear / 12;
 
         var us = NumberFormat.getInstance(Locale.US);
-        System.out.println(us.format(attendeesPerMonth)); 
+        System.out.println(us.format(attendeesPerMonth));
         var gr = NumberFormat.getInstance(Locale.GERMANY);
         System.out.println(gr.format(attendeesPerMonth));
         var za = NumberFormat.getInstance();
         System.out.println(za.format(attendeesPerMonth));
+
+
+        double price = 48;
+        var myLocale = NumberFormat.getCurrencyInstance();
+        System.out.println(myLocale.format(price));
     }
 }
