@@ -77,6 +77,16 @@ public class Formating {
         try{
             String s = "40.45";
             var en = NumberFormat.getInstance(Locale.US);
+            System.out.println(en.parse(s));
+        }catch (ParseException e){
+            System.out.println(e);
+        }
+
+        try{
+            String income = "$92,807.99";
+            var cf = NumberFormat.getCurrencyInstance(Locale.US);
+            double value = (Double) cf.parse(income);
+            System.out.println(value);
         }catch (ParseException e){
             System.out.println(e);
         }
