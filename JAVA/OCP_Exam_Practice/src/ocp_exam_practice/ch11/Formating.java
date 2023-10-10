@@ -118,6 +118,7 @@ public class Formating {
 
 
         var spain = new Locale("es", "ES");
+        var money = 1.23;
     }
 
 
