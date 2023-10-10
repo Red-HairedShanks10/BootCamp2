@@ -44,7 +44,7 @@ public class Formating {
         var us = NumberFormat.getInstance(Locale.US);
         System.out.println(us.format(attendeesPerMonth)); // 266,666
         var gr = NumberFormat.getInstance(Locale.GERMANY);
-        System.out.println(gr.format(attendeesPerMonth)); // 266.666
+        System.out.println(gr.format(attendeesPerMonth));
         var za = NumberFormat.getInstance();
         System.out.println(za.format(attendeesPerMonth));
     }
