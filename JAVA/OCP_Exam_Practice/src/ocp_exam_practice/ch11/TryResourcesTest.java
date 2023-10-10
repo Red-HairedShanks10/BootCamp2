@@ -22,6 +22,7 @@ public class TryResourcesTest {
                 MyFileClass cd = new MyFileClass(2)) {
         }
 */
+
         Scanner s2 = null;
         try (Scanner s = new Scanner(System.in)) {
            s2 = s;
@@ -30,6 +31,7 @@ public class TryResourcesTest {
             s2.nextInt();
         } finally {
            s2.nextInt();
+        //   System.out.println();
         }
 
 
