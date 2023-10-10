@@ -23,6 +23,8 @@ public class Formating {
         System.out.println(Locale.GERMAN);
         System.out.println(Locale.JAPAN);
 
-
+        Locale lang1 = new Locale.Builder()
+                .setLanguage("pt")
+                .
     }
 }
