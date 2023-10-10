@@ -22,5 +22,7 @@ public class Formating {
 
         System.out.println(Locale.GERMAN);
         System.out.println(Locale.JAPAN);
+
+
     }
 }
