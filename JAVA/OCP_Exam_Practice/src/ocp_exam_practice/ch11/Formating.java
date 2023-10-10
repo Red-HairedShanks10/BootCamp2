@@ -121,6 +121,12 @@ public class Formating {
                 + dtf.withLocale(locale).format(dateTime));
     }
 
+    public static void printCurrency(Locale locale, double money) {
+        11: System.out.println(
+                12: NumberFormat.getCurrencyInstance().format(money)
+        13: + ", " + locale.getDisplayLanguage());
+         }
+
 
 
 }
