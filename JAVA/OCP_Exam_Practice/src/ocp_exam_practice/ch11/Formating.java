@@ -62,8 +62,8 @@ public class Formating {
 
         double successRate = 0.802;
 
-        var za = NumberFormat.getPercentInstance(Locale.US);
-        System.out.println(us.format(successRate));
+        var za = NumberFormat.getPercentInstance();
+        System.out.println(za.format(successRate));
 
         var us = NumberFormat.getPercentInstance(Locale.US);
         System.out.println(us.format(successRate));
