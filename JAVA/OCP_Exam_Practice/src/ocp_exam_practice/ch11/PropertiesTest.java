@@ -13,6 +13,7 @@ public class PropertiesTest {
                     .map(k -> k + ": " + resourceBundle.getString(k))
                             .forEach(System.out::println);*/
 
+
     //printWelcomeMessage(us);
    // printWelcomeMessage(fr);
     }
