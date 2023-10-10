@@ -18,7 +18,7 @@ public class PropertiesTest {
         13: ResourceBundle rb = ResourceBundle.getBundle("Zoo", locale);
         14: System.out.print(rb.getString("hello"));
         15: System.out.print(". ");
-        16: System.out.print(rb.getString("name"));
+         System.out.print(rb.getString("name"));
          System.out.print(" ");
          System.out.print(rb.getString("open"));
          System.out.print(" ");
