@@ -3,6 +3,7 @@ import java.util.*;
 public class ZooOptions {
     public static void main(String[] args) {
         var props = new Properties();
+        props.setProperty("name", "Our zoo");
 
     }
 }
