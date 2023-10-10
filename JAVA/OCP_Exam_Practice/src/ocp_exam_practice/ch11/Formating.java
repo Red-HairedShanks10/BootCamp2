@@ -4,6 +4,8 @@ import java.time.format.DateTimeFormatter;
 
 public class Formating {
     public static void main(String[] args) {
+
+        var dt = LocalDateTime.of(2022, Month.OCTOBER, 20, 6, 15, 30);
 /*
         var f1 = DateTimeFormatter.ofPattern("MMMM dd, yyyy ");
         var f2 = DateTimeFormatter.ofPattern(" hh:mm");
