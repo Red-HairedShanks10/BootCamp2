@@ -125,6 +125,9 @@ public class Formating {
 
         Locale.setDefault(Locale.Category.DISPLAY, spain);
         printCurrency(spain,money);
+
+        Locale.setDefault(Locale.Category.FORMAT, spain);
+        printCurrency(spain, money);
     }
 
 
