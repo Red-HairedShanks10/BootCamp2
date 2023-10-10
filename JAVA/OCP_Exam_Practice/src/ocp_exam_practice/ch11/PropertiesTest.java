@@ -1,8 +1,13 @@
 package ocp_exam_practice.ch11;
 
+import java.util.Locale;
+import java.util.ResourceBundle;
+
 public class PropertiesTest {
     public static void main(String[] args) {
-
+    var us = new Locale("en", "US");
+    
+    printWelcomeMessage(us);
     }
 
 
