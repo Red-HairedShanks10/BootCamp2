@@ -109,6 +109,8 @@ public class Formating {
         var dt = LocalDateTime.of(2022, Month.OCTOBER, 20, 15, 12, 34);
 
         print(DateTimeFormatter.ofLocalizedDate(SHORT),dt,italy);
+
+
     }
 
 
