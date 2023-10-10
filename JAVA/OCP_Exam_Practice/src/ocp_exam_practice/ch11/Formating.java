@@ -52,5 +52,10 @@ public class Formating {
         double price = 48;
         var myLocale = NumberFormat.getCurrencyInstance();
         System.out.println(myLocale.format(price));
+
+        double successRate = 0.802;
+        var us = NumberFormat.getPercentInstance(Locale.US);
+        System.out.println(us.format(successRate));
+        var gr = NumberFormat.getPercentInstance(Locale.GERMANY);
     }
 }
