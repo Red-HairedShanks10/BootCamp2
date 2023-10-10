@@ -21,6 +21,6 @@ public class Formating {
         System.out.println(locale);*/
 
         System.out.println(Locale.GERMAN); // de
-        System.out.println(Locale.JAPAN); // de_DE
+        System.out.println(Locale.JAPAN);
     }
 }
