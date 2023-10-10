@@ -21,7 +21,7 @@ public class PropertiesTest {
         16: System.out.print(rb.getString("name"));
         17: System.out.print(" ");
         18: System.out.print(rb.getString("open"));
-        19: System.out.print(" ");
+         System.out.print(" ");
          System.out.print(rb.getString("visitors"));
 
     //printWelcomeMessage(us);
