@@ -4,7 +4,7 @@ import  static java.text.NumberFormat.*;
 import java.text.ParseException;
 import java.time.LocalDateTime;
 import java.time.Month;
-import java.time.format.DateTimeFormatter;
+import static java.time.format.DateTimeFormatter.*;
 import java.util.Locale;
 import java.util.stream.Stream;
 import static java.time.format.FormatStyle.*;
@@ -108,7 +108,7 @@ public class Formating {
         var italy = new Locale("it", "IT");
         var dt = LocalDateTime.of(2022, Month.OCTOBER, 20, 15, 12, 34);
 
-        print(DateTimeFormatter.ofLocalizedDate(SHORT),dt,italy);
+        print(ofLocalizedDate(SHORT),dt,italy);
 
         print(DateTimeFormatter.ofLocalizedTime(SHORT),dt,italy);
 
