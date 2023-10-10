@@ -106,4 +106,10 @@ public class Formating {
 
 
     }
+
+
+    public static void print(DateTimeFormatter dtf,
+                             LocalDateTime dateTime, Locale locale)
+
+
 }
