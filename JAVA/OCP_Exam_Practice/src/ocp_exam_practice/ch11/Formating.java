@@ -60,10 +60,11 @@ public class Formating {
         var jpLocal = NumberFormat.getCurrencyInstance(Locale.JAPAN);
         System.out.println(jpLocal.format(price));
 
-       /* double successRate = 0.802;
+        double successRate = 0.802;
         var us = NumberFormat.getPercentInstance(Locale.US);
         System.out.println(us.format(successRate));
+
         var gr = NumberFormat.getPercentInstance(Locale.GERMANY);
-        System.out.println(gr.format(price));*/
+        System.out.println(gr.format());
     }
 }
