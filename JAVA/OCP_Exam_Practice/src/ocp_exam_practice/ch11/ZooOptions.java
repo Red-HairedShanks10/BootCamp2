@@ -7,6 +7,7 @@ public class ZooOptions {
         props.setProperty("open", "10am");
 
         System.out.println(props.getProperty("camel", "Bob"));
+        System.out.println(props.getProperty("name", "Bob"));
         System.out.println(props.get("open"));
     }
 }
