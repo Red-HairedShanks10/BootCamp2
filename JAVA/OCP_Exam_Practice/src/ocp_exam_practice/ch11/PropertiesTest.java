@@ -16,7 +16,7 @@ public class PropertiesTest {
         Locale.setDefault(new Locale("en", "US"));
          Locale locale = new Locale("en", "CA");
          Locale us = new Locale("en", "US");
-         ResourceBundle rb = ResourceBundle.getBundle("Zoo", locale);
+         ResourceBundle rb = ResourceBundle.getBundle("Zoo", us);
          System.out.print(rb.getString("hello"));
          System.out.print(". ");
          System.out.print(rb.getString("name"));
