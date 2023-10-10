@@ -29,8 +29,8 @@ public class Formating {
                 .build();
 
         Locale lang2 = new Locale.Builder()
-                .setLanguage("AR")
-                .setRegion("BR")
+                .setLanguage("en")
+                .setRegion("US")
                 .build();
     }
 }
