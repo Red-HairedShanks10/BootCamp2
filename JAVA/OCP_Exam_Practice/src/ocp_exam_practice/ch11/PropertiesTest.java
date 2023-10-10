@@ -8,6 +8,10 @@ public class PropertiesTest {
     var us = new Locale("en", "US");
     var fr = new Locale("fr", "FR");
 
+    ResourceBundle resourceBundle = ResourceBundle.getBundle("Zoo", "us");
+    resourceBundle.keySet().stream()
+                    .map(k -> k + ": " + resourceBundle.getString(k));
+
     printWelcomeMessage(us);
     printWelcomeMessage(fr);
     }
