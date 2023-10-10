@@ -4,9 +4,12 @@ import java.time.format.DateTimeFormatter;
 
 public class Formating {
     public static void main(String[] args) {
-
+/*
         var f1 = DateTimeFormatter.ofPattern("MMMM dd, yyyy ");
         var f2 = DateTimeFormatter.ofPattern(" hh:mm");
-        System.out.println(dt.format(f1) + "at" + dt.format(f2));
+        System.out.println(dt.format(f1) + "at" + dt.format(f2));*/
+
+        var g1 = DateTimeFormatter.ofPattern("MMMM dd', Party''s at' hh:mm");
+        System.out.println(dt.format(g1));
     }
 }
