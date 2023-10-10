@@ -57,10 +57,13 @@ public class Formating {
         var grLocal = NumberFormat.getCurrencyInstance(Locale.GERMANY);
         System.out.println(grLocal.format(price));
 
-        double successRate = 0.802;
+        var jpLocal = NumberFormat.getCurrencyInstance(Locale.JAPAN);
+        System.out.println(jpLocal.format(price));
+
+       /* double successRate = 0.802;
         var us = NumberFormat.getPercentInstance(Locale.US);
         System.out.println(us.format(successRate));
         var gr = NumberFormat.getPercentInstance(Locale.GERMANY);
-        System.out.println(gr.format(price));
+        System.out.println(gr.format(price));*/
     }
 }
