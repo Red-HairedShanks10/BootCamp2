@@ -115,6 +115,9 @@ public class Formating {
         print(DateTimeFormatter.ofLocalizedTime(SHORT),dt,italy);
 
         print(DateTimeFormatter.ofLocalizedDateTime(SHORT,SHORT),dt,italy);
+
+
+        var spain = new Locale("es", "ES");
     }
 
 
@@ -124,8 +127,7 @@ public class Formating {
     }
 
     public static void printCurrency(Locale locale, double money) {
-        System.out.println(
-                 NumberFormat.getCurrencyInstance().format(money)
+        System.out.println(NumberFormat.getCurrencyInstance().format(money)
          + ", " + locale.getDisplayLanguage());
          }
 
