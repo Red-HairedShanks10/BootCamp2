@@ -20,7 +20,7 @@ public class Formating {
         /*Locale locale = Locale.getDefault();
         System.out.println(locale);*/
 
-        System.out.println(Locale.GERMAN); // de
+        System.out.println(Locale.GERMAN);
         System.out.println(Locale.JAPAN);
     }
 }
