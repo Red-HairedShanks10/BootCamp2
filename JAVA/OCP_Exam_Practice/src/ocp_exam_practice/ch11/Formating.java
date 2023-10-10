@@ -101,7 +101,7 @@ public class Formating {
          //       getCompactNumberInstance(Locale.GERMAN, Style.SHORT),
            //     getCompactNumberInstance(Locale.GERMAN, Style.LONG),
              //   getNumberInstance());
-         //   formatters.map(s -> s.format(745_123_456)).forEach(System.out::println);
+            formatters.map(s -> s.format(745_123_456)).forEach(System.out::println);
 
 
 
