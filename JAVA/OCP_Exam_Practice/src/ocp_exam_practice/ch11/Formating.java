@@ -55,7 +55,7 @@ public class Formating {
 
 
         var grLocal = NumberFormat.getCurrencyInstance();
-        System.out.println(myLocale.format(price));
+        System.out.println(grLocal.format(price));
 
         double successRate = 0.802;
         var us = NumberFormat.getPercentInstance(Locale.US);
