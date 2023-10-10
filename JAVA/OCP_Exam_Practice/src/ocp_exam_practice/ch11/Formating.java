@@ -105,6 +105,7 @@ public class Formating {
 */
 
         Locale.setDefault(new Locale("en", "US"));
+        var italy = new Locale("it", "IT");
 
     }
 
