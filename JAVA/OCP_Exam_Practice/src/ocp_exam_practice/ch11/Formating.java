@@ -111,6 +111,8 @@ public class Formating {
         print(DateTimeFormatter.ofLocalizedDate(SHORT),dt,italy);
 
         print(DateTimeFormatter.ofLocalizedTime(SHORT),dt,italy);
+
+        print(DateTimeFormatter.ofLocalizedDateTime(SHORT,SHORT),dt,italy);
     }
 
 
