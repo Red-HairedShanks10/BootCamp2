@@ -28,7 +28,7 @@ public class Formating {
                 .setRegion("BR")
                 .build();
 
-        Locale lang1 = new Locale.Builder()
+        Locale lang2 = new Locale.Builder()
                 .setLanguage("pt")
                 .setRegion("BR")
                 .build();
