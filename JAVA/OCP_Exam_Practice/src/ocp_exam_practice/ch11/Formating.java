@@ -61,7 +61,10 @@ public class Formating {
         System.out.println(jpLocal.format(price));
 
         double successRate = 0.802;
-        
+
+        var us = NumberFormat.getPercentInstance(Locale.US);
+        System.out.println(us.format(successRate));
+
         var us = NumberFormat.getPercentInstance(Locale.US);
         System.out.println(us.format(successRate));
 
