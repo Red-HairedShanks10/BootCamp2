@@ -65,6 +65,6 @@ public class Formating {
         System.out.println(us.format(successRate));
 
         var gr = NumberFormat.getPercentInstance(Locale.GERMANY);
-        System.out.println(gr.format());
+        System.out.println(gr.format(successRate));
     }
 }
