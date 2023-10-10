@@ -13,6 +13,16 @@ public class PropertiesTest {
                     .map(k -> k + ": " + resourceBundle.getString(k))
                             .forEach(System.out::println);*/
 
+        Locale.setDefault(new Locale("en", "US"));
+        12: Locale locale = new Locale("en", "CA");
+        13: ResourceBundle rb = ResourceBundle.getBundle("Zoo", locale);
+        14: System.out.print(rb.getString("hello"));
+        15: System.out.print(". ");
+        16: System.out.print(rb.getString("name"));
+        17: System.out.print(" ");
+        18: System.out.print(rb.getString("open"));
+        19: System.out.print(" ");
+         System.out.print(rb.getString("visitors"));
 
     //printWelcomeMessage(us);
    // printWelcomeMessage(fr);
