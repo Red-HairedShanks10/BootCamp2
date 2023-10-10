@@ -42,7 +42,7 @@ public class Formating {
         int attendeesPerMonth = attendeesPerYear / 12;
 
         var us = NumberFormat.getInstance(Locale.US);
-        System.out.println(us.format(attendeesPerMonth)); // 266,666
+        System.out.println(us.format(attendeesPerMonth)); 
         var gr = NumberFormat.getInstance(Locale.GERMANY);
         System.out.println(gr.format(attendeesPerMonth));
         var za = NumberFormat.getInstance();
