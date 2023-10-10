@@ -45,7 +45,7 @@ public class Formating {
         System.out.println(us.format(attendeesPerMonth)); // 266,666
         var gr = NumberFormat.getInstance(Locale.GERMANY);
         System.out.println(gr.format(attendeesPerMonth)); // 266.666
-        var za = NumberFormat.getInstance(Locale.CANADA_FRENCH);
-        System.out.println(ca.format(attendeesPerMonth));
+        var za = NumberFormat.getInstance();
+        System.out.println(za.format(attendeesPerMonth));
     }
 }
