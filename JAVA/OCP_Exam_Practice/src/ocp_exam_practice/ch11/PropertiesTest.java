@@ -8,7 +8,7 @@ public class PropertiesTest {
 
      public static void printWelcomeMessage(Locale locale) {
         var rb = ResourceBundle.getBundle("Zoo", locale);
-        12: System.out.println(rb.getString("hello")
+         System.out.println(rb.getString("hello")
                  + ", " + rb.getString("open"));
          }
 }
