@@ -1,5 +1,6 @@
 package ocp_exam_practice.ch11;
 
+import java.text.NumberFormat;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
@@ -35,5 +36,16 @@ public class Formating {
 
         System.out.println(lang1);
         System.out.println(lang2);
+
+
+        int attendeesPerYear = 3_200_000;
+        int attendeesPerMonth = attendeesPerYear / 12;
+
+        var us = NumberFormat.getInstance(Locale.US);
+        System.out.println(us.format(attendeesPerMonth)); // 266,666
+        var gr = NumberFormat.getInstance(Locale.GERMANY);
+        System.out.println(gr.format(attendeesPerMonth)); // 266.666
+        var ca = NumberFormat.getInstance(Locale.CANADA_FRENCH);
+        System.out.println(ca.format(attendeesPerMonth));
     }
 }
