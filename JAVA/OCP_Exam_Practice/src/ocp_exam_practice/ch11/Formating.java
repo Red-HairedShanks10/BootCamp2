@@ -1,17 +1,19 @@
 package ocp_exam_practice.ch11;
 
-import java.text.NumberFormat;
+import  static java.text.NumberFormat.*;
 import java.text.ParseException;
 import java.time.LocalDateTime;
 import java.time.Month;
 import java.time.format.DateTimeFormatter;
 import java.util.Locale;
+import java.util.stream.Stream;
+
 
 
 public class Formating {
     public static void main(String[] args) {
 
-        var dt = LocalDateTime.of(2022, Month.OCTOBER, 20, 6, 15, 30);
+      //  var dt = LocalDateTime.of(2022, Month.OCTOBER, 20, 6, 15, 30);
 /*
         var f1 = DateTimeFormatter.ofPattern("MMMM dd, yyyy ");
         var f2 = DateTimeFormatter.ofPattern(" hh:mm");
@@ -22,7 +24,7 @@ public class Formating {
 
         /*Locale locale = Locale.getDefault();
         System.out.println(locale);*/
-
+/*
         System.out.println(Locale.GERMAN);
         System.out.println(Locale.JAPAN);
 
@@ -41,7 +43,7 @@ public class Formating {
 
 
         int attendeesPerYear = 3_200_000;
-        int attendeesPerMonth = attendeesPerYear / 12;
+        int attendeesPerMonth = attendeesPerYear / 12;*/
 
         /*var us = NumberFormat.getInstance(Locale.US);
         System.out.println(us.format(attendeesPerMonth));
@@ -51,7 +53,7 @@ public class Formating {
         System.out.println(za.format(attendeesPerMonth));
 
 */
-        double price = 48;
+        /*double price = 48;
         var myLocale = NumberFormat.getCurrencyInstance();
         System.out.println(myLocale.format(price));
 
@@ -89,7 +91,19 @@ public class Formating {
             System.out.println(value);
         }catch (ParseException e){
             System.out.println(e);
-        }
+        }*/
+
+
+
+        var formatters = Stream.of(getCompactNumberInstance(),
+                getCompactNumberInstance(Locale.getDefault(), Style.SHORT),
+                getCompactNumberInstance(Locale.getDefault(), Style.LONG),
+                getCompactNumberInstance(Locale.GERMAN, Style.SHORT),
+                getCompactNumberInstance(Locale.GERMAN, Style.LONG),
+                getNumberInstance());
+            formatters.map(s -> s.format(745_123_456)).forEach(System.out::println);
+
+
 
     }
 }
