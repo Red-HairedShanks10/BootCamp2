@@ -98,7 +98,7 @@ public class Formating {
         var formatters = Stream.of(getCompactNumberInstance(),
           //      getCompactNumberInstance(Locale.getDefault(), Style.SHORT),
          //       getCompactNumberInstance(Locale.getDefault(), Style.LONG),
-                getCompactNumberInstance(Locale.GERMAN, Style.SHORT),
+         //       getCompactNumberInstance(Locale.GERMAN, Style.SHORT),
                 getCompactNumberInstance(Locale.GERMAN, Style.LONG),
                 getNumberInstance());
             formatters.map(s -> s.format(745_123_456)).forEach(System.out::println);
