@@ -124,7 +124,7 @@ public class Formating {
     public static void printCurrency(Locale locale, double money) {
         11: System.out.println(
                 12: NumberFormat.getCurrencyInstance().format(money)
-        13: + ", " + locale.getDisplayLanguage());
+         + ", " + locale.getDisplayLanguage());
          }
 
 
