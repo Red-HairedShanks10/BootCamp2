@@ -29,7 +29,7 @@ public class Formating {
                 .build();
 
         Locale lang2 = new Locale.Builder()
-                .setLanguage("pt")
+                .setLanguage("AR")
                 .setRegion("BR")
                 .build();
     }
