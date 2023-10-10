@@ -32,5 +32,7 @@ public class Formating {
                 .setLanguage("en")
                 .setRegion("US")
                 .build();
+
+        System.out.println(lang1);
     }
 }
