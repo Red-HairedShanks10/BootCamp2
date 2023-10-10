@@ -106,6 +106,7 @@ public class Formating {
 
         Locale.setDefault(new Locale("en", "US"));
         var italy = new Locale("it", "IT");
+        var dt = LocalDateTime.of(2022, Month.OCTOBER, 20, 15, 12, 34);
 
     }
 
