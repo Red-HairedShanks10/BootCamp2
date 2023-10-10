@@ -34,5 +34,6 @@ public class Formating {
                 .build();
 
         System.out.println(lang1);
+        System.out.println(lang2);
     }
 }
