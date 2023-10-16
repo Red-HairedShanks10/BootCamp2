@@ -43,7 +43,7 @@ public class CommitRollbackTest {
 39: SET num_acres = num_acres + ?
 40: WHERE name = ?""";
         41:
-        42: try (PreparedStatement ps = conn.prepareStatement(updateSql)) {
+         try (PreparedStatement ps = conn.prepareStatement(updateSql)) {
              ps.setInt(1, numToAdd);
              ps.setString(2, name);
              return ps.executeUpdate() > 0;
