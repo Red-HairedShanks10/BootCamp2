@@ -34,7 +34,7 @@ public class CommitRollbackTest {
                       } } } }
 
     private static boolean updateRow(Connection conn,
-33: int numToAdd, String name)
+ int numToAdd, String name)
 
         throws SQLException {
 
