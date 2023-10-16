@@ -1,8 +1,7 @@
 package ocp_exam_practice.ch15;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
+
 
 public class CommitRollbackTest {
     public static void main(String[] args) throws SQLException {
@@ -24,13 +23,12 @@ public class CommitRollbackTest {
                     WHERE num_acres <= 0""";
                   try (PreparedStatement ps = conn.prepareStatement(selectSql);
                      ResultSet rs = ps.executeQuery()) {
-
                       rs.next();
                       int count = rs.getInt(1);
-                      if (count == 0)
+                      if(count == 0) {
                           conn.commit();
-                      else
-                      conn.rollback();
+                      }else{
+                      conn.rollback();}
                       } } } }
 
     private static boolean updateRow(Connection conn,
