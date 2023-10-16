@@ -10,8 +10,7 @@ public class CommitRollbackTest {
              conn.setAutoCommit(false);
 
              var elephantRowsUpdated = updateRow(conn, 5, "African Elephant");
-             var zebraRowsUpdated = updateRow(conn, -5,
-                     "Zebra");
+             var zebraRowsUpdated = updateRow(conn, -5, "Zebra");
 
              if (! elephantRowsUpdated || ! zebraRowsUpdated)
                   conn.rollback();
