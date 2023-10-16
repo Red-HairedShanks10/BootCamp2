@@ -39,7 +39,7 @@ public class CommitRollbackTest {
         35: throws SQLException {
         36:
         37: String updateSql = """
-38: UPDATE exhibits
+     UPDATE exhibits
     SET num_acres = num_acres + ?
     WHERE name = ?""";
 
