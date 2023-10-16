@@ -14,7 +14,7 @@ public class CommitRollbackTest {
              var elephantRowsUpdated = updateRow(conn, 5, "African Elephant");
              var zebraRowsUpdated = updateRow(conn, -5,
                      "Zebra");
-             13:
+             
              if (! elephantRowsUpdated || ! zebraRowsUpdated)
                   conn.rollback();
               else {
