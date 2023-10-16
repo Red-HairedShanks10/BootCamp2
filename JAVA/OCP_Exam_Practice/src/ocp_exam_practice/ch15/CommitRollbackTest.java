@@ -22,9 +22,9 @@ public class CommitRollbackTest {
 18: SELECT COUNT(*)
 19: FROM exhibits
 20: WHERE num_acres <= 0""";
-                 21: try (PreparedStatement ps = conn.prepareStatement(selectSql);
+                  try (PreparedStatement ps = conn.prepareStatement(selectSql);
 22: ResultSet rs = ps.executeQuery()) {
-                     
+
                       rs.next();
                       int count = rs.getInt(1);
                       if (count == 0)
