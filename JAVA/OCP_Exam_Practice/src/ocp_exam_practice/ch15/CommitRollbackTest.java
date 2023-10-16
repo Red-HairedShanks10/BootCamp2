@@ -5,8 +5,7 @@ import java.sql.*;
 
 public class CommitRollbackTest {
     public static void main(String[] args) throws SQLException {
-         try (Connection conn =
-                         DriverManager.getConnection("jdbc:hsqldb:file:zoo")) {
+         try (Connection conn = DriverManager.getConnection("jdbc:hsqldb:file:zoo")) {
 
              conn.setAutoCommit(false);
 
@@ -37,9 +36,9 @@ public class CommitRollbackTest {
         throws SQLException {
 
          String updateSql = """
-     UPDATE exhibits
-    SET num_acres = num_acres + ?
-    WHERE name = ?""";
+          UPDATE exhibits
+           SET num_acres = num_acres + ?
+           WHERE name = ?""";
 
          try (PreparedStatement ps = conn.prepareStatement(updateSql)) {
              ps.setInt(1, numToAdd);
