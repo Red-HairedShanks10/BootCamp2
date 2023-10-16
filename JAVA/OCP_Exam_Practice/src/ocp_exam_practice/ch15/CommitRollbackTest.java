@@ -10,6 +10,6 @@ public class CommitRollbackTest {
                         7: DriverManager.getConnection("jdbc:hsqldb:file:zoo")) {
             8:
             9: conn.setAutoCommit(false);
-            10:
+            
              var elephantRowsUpdated = updateRow(conn, 5, "African Elephant");
 }
