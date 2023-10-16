@@ -29,7 +29,7 @@ public class CommitRollbackTest {
                      25: int count = rs.getInt(1);
                      26: if (count == 0)
                          27: conn.commit();
-                     28: else
+                      else
                       conn.rollback();
                       } } } }
 
