@@ -44,7 +44,7 @@ public class CommitRollbackTest {
 40: WHERE name = ?""";
         41:
         42: try (PreparedStatement ps = conn.prepareStatement(updateSql)) {
-            43: ps.setInt(1, numToAdd);
+             ps.setInt(1, numToAdd);
              ps.setString(2, name);
              return ps.executeUpdate() > 0;
              } }
