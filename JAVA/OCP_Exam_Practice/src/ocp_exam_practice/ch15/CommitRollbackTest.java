@@ -28,7 +28,7 @@ public class CommitRollbackTest {
                      24: rs.next();
                      25: int count = rs.getInt(1);
                      26: if (count == 0)
-                         27: conn.commit();
+                          conn.commit();
                       else
                       conn.rollback();
                       } } } }
