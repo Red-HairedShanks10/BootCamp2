@@ -14,14 +14,14 @@ public class CommitRollbackTest {
              var elephantRowsUpdated = updateRow(conn, 5, "African Elephant");
              var zebraRowsUpdated = updateRow(conn, -5,
                      "Zebra");
-             
+
              if (! elephantRowsUpdated || ! zebraRowsUpdated)
                   conn.rollback();
               else {
                   String selectSql = """
-18: SELECT COUNT(*)
-19: FROM exhibits
-20: WHERE num_acres <= 0""";
+                SELECT COUNT(*)
+                19: FROM exhibits
+                20: WHERE num_acres <= 0""";
                   try (PreparedStatement ps = conn.prepareStatement(selectSql);
 22: ResultSet rs = ps.executeQuery()) {
 
