@@ -19,11 +19,11 @@ public class CommitRollbackTest {
                   conn.rollback();
               else {
                   String selectSql = """
-                SELECT COUNT(*)
-                 FROM exhibits
-                WHERE num_acres <= 0""";
+                     SELECT COUNT(*)
+                     FROM exhibits
+                    WHERE num_acres <= 0""";
                   try (PreparedStatement ps = conn.prepareStatement(selectSql);
-22: ResultSet rs = ps.executeQuery()) {
+ ResultSet rs = ps.executeQuery()) {
 
                       rs.next();
                       int count = rs.getInt(1);
