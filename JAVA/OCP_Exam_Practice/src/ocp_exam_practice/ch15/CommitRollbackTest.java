@@ -24,7 +24,7 @@ public class CommitRollbackTest {
 20: WHERE num_acres <= 0""";
                  21: try (PreparedStatement ps = conn.prepareStatement(selectSql);
 22: ResultSet rs = ps.executeQuery()) {
-                     23:
+                     
                       rs.next();
                       int count = rs.getInt(1);
                       if (count == 0)
