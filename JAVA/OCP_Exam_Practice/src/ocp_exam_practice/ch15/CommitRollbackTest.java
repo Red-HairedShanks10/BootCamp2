@@ -26,7 +26,7 @@ public class CommitRollbackTest {
 22: ResultSet rs = ps.executeQuery()) {
                      23:
                      24: rs.next();
-                     25: int count = rs.getInt(1);
+                      int count = rs.getInt(1);
                       if (count == 0)
                           conn.commit();
                       else
