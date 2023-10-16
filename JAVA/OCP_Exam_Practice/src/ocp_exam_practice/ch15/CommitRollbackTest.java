@@ -37,7 +37,7 @@ public class CommitRollbackTest {
 33: int numToAdd, String name)
 34:
         35: throws SQLException {
-        36:
+        
          String updateSql = """
      UPDATE exhibits
     SET num_acres = num_acres + ?
