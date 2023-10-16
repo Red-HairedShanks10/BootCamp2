@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class CommitRollbackTest {
     public static void main(String[] args) throws SQLException {
-        6: try (Connection conn =
+         try (Connection conn =
                          DriverManager.getConnection("jdbc:hsqldb:file:zoo")) {
 
              conn.setAutoCommit(false);
