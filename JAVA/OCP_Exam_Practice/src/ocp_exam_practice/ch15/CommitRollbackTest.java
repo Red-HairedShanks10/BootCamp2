@@ -35,7 +35,7 @@ public class CommitRollbackTest {
 
     private static boolean updateRow(Connection conn,
 33: int numToAdd, String name)
-34:
+
         throws SQLException {
 
          String updateSql = """
