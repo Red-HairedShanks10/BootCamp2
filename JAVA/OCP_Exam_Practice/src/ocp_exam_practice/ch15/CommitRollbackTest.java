@@ -15,7 +15,7 @@ public class CommitRollbackTest {
              var zebraRowsUpdated = updateRow(conn, -5,
                      "Zebra");
              13:
-             14: if (! elephantRowsUpdated || ! zebraRowsUpdated)
+             if (! elephantRowsUpdated || ! zebraRowsUpdated)
                   conn.rollback();
               else {
                   String selectSql = """
