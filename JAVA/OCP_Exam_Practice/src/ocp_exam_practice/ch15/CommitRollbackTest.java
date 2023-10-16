@@ -18,7 +18,7 @@ public class CommitRollbackTest {
              14: if (! elephantRowsUpdated || ! zebraRowsUpdated)
                  15: conn.rollback();
              16: else {
-                 17: String selectSql = """
+                  String selectSql = """
 18: SELECT COUNT(*)
 19: FROM exhibits
 20: WHERE num_acres <= 0""";
