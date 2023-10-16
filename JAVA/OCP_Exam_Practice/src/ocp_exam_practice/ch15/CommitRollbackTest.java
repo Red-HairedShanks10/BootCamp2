@@ -30,7 +30,7 @@ public class CommitRollbackTest {
                      26: if (count == 0)
                          27: conn.commit();
                      28: else
-                     29: conn.rollback();
+                      conn.rollback();
                       } } } }
 
 }
