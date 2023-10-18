@@ -34,7 +34,8 @@ public class FileVisitorDemo
     //which we specify the Path type so that the SimpleFileVisitor class can process Path objects
     private static class MyFileVisitor extends SimpleFileVisitor <Path>
     {
-        //23
+        //override the visitFile() which is called each time a new file is accessed
+        //..then prints the file to the console
         public FileVisitResult visitFile(Path file, BasicFileAttributes attr) {
             System.out.println(file.toString());
             return FileVisitResult.CONTINUE; //→27
