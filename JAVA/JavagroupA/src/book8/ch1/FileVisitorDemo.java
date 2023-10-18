@@ -5,7 +5,7 @@ import java.io.*;
 import java.nio.file.attribute.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-//recording 12/09/23 --> 2:04:20
+
 public class FileVisitorDemo
 {
     public static void main(String[] args)
