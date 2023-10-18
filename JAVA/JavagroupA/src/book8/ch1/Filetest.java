@@ -6,7 +6,7 @@ import java.io.IOException;
 public class Filetest {
     public static void main(String[] args) {
 
-        File f = new File("C:\\Users\\Marco\\Documents\\Learn\\hits.log");
+        File f = new File("C:\\Users\\Marco\\Desktop\\Bootcamp\\Java_Bootcamp\\New Folder\\hits.log");
         try {
             if (f.createNewFile()) {
                 System.out.println("File created.");
