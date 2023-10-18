@@ -18,7 +18,9 @@ public class FileVisitorDemo
         MyFileVisitor visitor = new MyFileVisitor();
         try
         {
-            Files.walkFileTree(start, visitor); //
+            //use the walkFileTree()to go through the file tree
+            //...starting at the directory store in start
+            Files.walkFileTree(start, visitor);
         }
         catch (Exception e)
         {
