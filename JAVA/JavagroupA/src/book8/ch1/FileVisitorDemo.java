@@ -42,7 +42,7 @@ public class FileVisitorDemo
             return FileVisitResult.CONTINUE;
         }
 
-        //
+        //override visitFileFailed() called whenever a file cannot be access
         public FileVisitResult visitFileFailed(Path file, BasicFileAttributes attr)
         {
             System.out.println(file.toString() + " COULD NOT ACCESS!");
