@@ -38,7 +38,7 @@ public class FileVisitorDemo
         //...then prints the file to the console
         public FileVisitResult visitFile(Path file, BasicFileAttributes attr) {
             System.out.println(file.toString());
-            //return the continue value to indicate
+            //return the continue value to indicate that the file-walk should continue proccessing the files
             return FileVisitResult.CONTINUE;
         }
 
