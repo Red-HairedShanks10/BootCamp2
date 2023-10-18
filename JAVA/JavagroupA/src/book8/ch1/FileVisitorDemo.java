@@ -35,10 +35,11 @@ public class FileVisitorDemo
     private static class MyFileVisitor extends SimpleFileVisitor <Path>
     {
         //override the visitFile() which is called each time a new file is accessed
-        //..then prints the file to the console
+        //...then prints the file to the console
         public FileVisitResult visitFile(Path file, BasicFileAttributes attr) {
             System.out.println(file.toString());
-            return FileVisitResult.CONTINUE; //→27
+            //return the continue value to indicate
+            return FileVisitResult.CONTINUE;
         }
 
         //→30
