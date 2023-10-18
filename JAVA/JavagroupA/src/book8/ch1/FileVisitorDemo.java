@@ -45,6 +45,7 @@ public class FileVisitorDemo
         //override visitFileFailed() called whenever a file cannot be access
         public FileVisitResult visitFileFailed(Path file, BasicFileAttributes attr)
         {
+            //print error message
             System.out.println(file.toString() + " COULD NOT ACCESS!");
             return FileVisitResult.CONTINUE;
         }
