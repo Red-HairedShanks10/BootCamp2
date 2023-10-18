@@ -14,7 +14,7 @@ public class FileVisitorDemo
         //create Path instance, that starts the file tree of this specified directory
         Path start = Paths.get("c:\\Windows\\System32");
 
-        //create Vistor class instance
+        //create instance of the MyFileVistor class we made
         MyFileVisitor visitor = new MyFileVisitor();
         try
         {
@@ -28,9 +28,11 @@ public class FileVisitorDemo
             System.out.println(e.getMessage());
         }
     }
+
+
     private static class MyFileVisitor extends SimpleFileVisitor <Path> //→21
     {
-        //→23
+        //
         public FileVisitResult visitFile(Path file, BasicFileAttributes attr) {
             System.out.println(file.toString());
             return FileVisitResult.CONTINUE; //→27
