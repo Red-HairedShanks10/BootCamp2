@@ -10,7 +10,7 @@ public class FileVisitorDemo
 {
     public static void main(String[] args)
     {
-        Path start = Paths.get("c:\\Windows\\System32");// →9
+        Path start = Paths.get("c:\\Windows\\System32");//
         MyFileVisitor visitor = new MyFileVisitor(); //→10
         try
         {
