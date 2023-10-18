@@ -50,7 +50,8 @@ public class FileVisitorDemo
             return FileVisitResult.CONTINUE;
         }
 
-        //
+        //override preVisitDirectoryFailed()
+        // does a similar action as visitFileFail(), focuses on unavailable directories
         public FileVisitResult preVisitDirectoryFailed(Path dir, IOException e)
         {
             System.out.println(dir.toString() + " COULD NOT ACCESS!");
