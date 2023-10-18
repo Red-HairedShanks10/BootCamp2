@@ -30,7 +30,9 @@ public class FileVisitorDemo
     }
 
 
-    private static class MyFileVisitor extends SimpleFileVisitor <Path> //
+    //MyFileVisitor class extends a generic class
+    //which we specify the Path type
+    private static class MyFileVisitor extends SimpleFileVisitor <Path>
     {
         //23
         public FileVisitResult visitFile(Path file, BasicFileAttributes attr) {
