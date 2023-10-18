@@ -24,6 +24,7 @@ public class FileVisitorDemo
         }
         catch (Exception e)
         {
+            //print any error/exception caught
             System.out.println(e.getMessage());
         }
     }
