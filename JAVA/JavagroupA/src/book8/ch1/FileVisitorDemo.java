@@ -6,11 +6,14 @@ import java.nio.file.attribute.*;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+//This program list every file found in the System32 directory
 public class FileVisitorDemo
 {
     public static void main(String[] args)
     {
-        Path start = Paths.get("c:\\Windows\\System32");//
+        //create Path instance, that starts the file tree of this specified directory
+        Path start = Paths.get("c:\\Windows\\System32");
+
         MyFileVisitor visitor = new MyFileVisitor(); //→10
         try
         {
