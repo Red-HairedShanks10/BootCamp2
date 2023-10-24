@@ -1,0 +1,17 @@
+package tacos;
+
+import lombok.Data;
+//Ingredient domain class
+
+@Data //anontation for lombok to generate essential methods at compile time
+public class Ingredient {
+  
+  private final String id;
+  private final String name;
+  private final Type type;
+  
+  public enum Type {
+    WRAP, PROTEIN, VEGGIES, CHEESE, SAUCE
+  }
+
+}
