@@ -106,7 +106,6 @@ INDEX VERSION 1.134+C:\Users\Marco\Desktop\BootCamp2\Spring_BootCamp\Taco_Cloud_
 831898132.index
 1846858434.index
 1523454415.index
-3243188863.index
 2771192512.index
 2801443125.index
 1989461262.index
