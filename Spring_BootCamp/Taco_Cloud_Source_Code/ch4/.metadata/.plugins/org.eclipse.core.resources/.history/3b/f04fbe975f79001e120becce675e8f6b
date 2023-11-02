@@ -1,0 +1,12 @@
+package tacos.data;
+
+import org.springframework.data.repository.CrudRepository;
+
+import tacos.Ingredient;
+
+
+//this is similar to how we create repo interfaces in Spring Data JPA
+public interface IngredientRepository 
+         extends CrudRepository<Ingredient, String> {
+  
+}

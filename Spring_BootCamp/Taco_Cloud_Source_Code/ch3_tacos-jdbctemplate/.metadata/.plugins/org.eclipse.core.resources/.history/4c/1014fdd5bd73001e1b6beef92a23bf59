@@ -1,0 +1,16 @@
+package tacos.data;
+
+import java.util.Optional;
+
+import tacos.Ingredient;
+
+//ingredient Repository  interface with methods to be used for query
+public interface IngredientRepository {
+
+  Iterable<Ingredient> findAll();
+  
+  Optional<Ingredient> findById(String id);
+  
+  Ingredient save(Ingredient ingredient);
+  
+}

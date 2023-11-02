@@ -1,0 +1,13 @@
+package tacos.data;
+
+import org.springframework.data.repository.CrudRepository;
+
+import tacos.Ingredient;
+
+//defining Repository interfaces, same as the JDBCtemplate project
+//Spring will generate implementations of our interface... 
+//...as long as it extends one of Springs own repo-interfaces 
+public interface IngredientRepository 
+         extends CrudRepository<Ingredient, String> {
+
+}

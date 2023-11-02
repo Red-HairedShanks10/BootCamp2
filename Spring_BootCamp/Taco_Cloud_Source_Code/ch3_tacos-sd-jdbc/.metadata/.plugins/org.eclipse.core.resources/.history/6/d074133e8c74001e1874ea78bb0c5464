@@ -1,0 +1,13 @@
+package tacos;
+
+import lombok.Data;
+
+//No need to annotate this domain with @Table
+//..because it automatically maps to a table named "Ingredient_Ref"
+
+@Data
+public class IngredientRef {
+
+  private final String ingredient;
+  
+}
