@@ -1,4 +1,6 @@
 <?xml version='1.0'?>
+<!-- -Stores movies in this format
+   - Will be used by XMLtest program -->
 <!DOCTYPE Movies SYSTEM "movies.dtd">
 <Movies>
     <Movie year="1946">
