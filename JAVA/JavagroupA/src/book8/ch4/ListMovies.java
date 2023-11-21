@@ -4,15 +4,18 @@ import java.text.NumberFormat;
 import java.sql.*;
 
 public class ListMovies {
-    public static void main(String[] args) //→6
+    public static void main(String[] args)
     {
         NumberFormat cf = NumberFormat.getCurrencyInstance();
         ResultSet movies = getMovies();
+
         try
         {
+            //while loop will go through each row of movies
             while (movies.next())
             {
-                Movie m = getMovie(movies);
+                Movie m = getMovie(movies);//create movie object
+                //add all the properties of a movie object to create a message/summary string
                 String msg = Integer.toString(m.year);
                 msg += ": " + m.title;
                 msg += " (" + cf.format(m.price) + ")";
@@ -24,7 +27,11 @@ public class ListMovies {
             System.out.println(e.getMessage());
         }
     }
-    private static ResultSet getMovies()// →28
+
+
+    //getMovies() connects to a database and queries the database to get Movies
+    //will return a Result set
+    private static ResultSet getMovies()
     {
         Connection con = getConnection();
         try
@@ -42,7 +49,9 @@ public class ListMovies {
         }
         return null;
     }
-    private static Connection getConnection() //→46
+
+    //this method connects to the Database being queried
+    private static Connection getConnection()
     {
         Connection con = null;
         try
@@ -65,7 +74,10 @@ public class ListMovies {
         }
         return con;
     }
-    private static Movie getMovie(ResultSet movies) //→70
+
+    //getMovie() extracts a Movie object's fields
+    //and then returns a Movie object with its appropriate fields
+    private static Movie getMovie(ResultSet movies)
     {
         try
         {
@@ -80,7 +92,9 @@ public class ListMovies {
         }
         return null;
     }
-    private static class Movie // →86
+
+    //Movie Class
+    private static class Movie
     {
         public String title;
         public int year;
