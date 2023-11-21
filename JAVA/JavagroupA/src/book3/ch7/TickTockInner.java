@@ -1,6 +1,9 @@
 package book3.ch7;
-import java.awt.event.*;
+
 import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
 public class TickTockInner {
     private String tickMessage = "Tick...";
     private String tockMessage = "Tock...";
@@ -23,7 +26,7 @@ public class TickTockInner {
         System.exit(0);
     }
 
-    class Ticker implements ActionListener{//this is a class in another class
+    class Ticker implements ActionListener{//this is an inner class
         private boolean tick = true;
 
         public void actionPerformed(ActionEvent event){
