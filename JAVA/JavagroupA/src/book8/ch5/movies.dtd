@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- DTD file specifies what elements need to appear
+    and specifies the order in which the elements appear
+     in an XML document-->
         <!ELEMENT Movies (Movie*)>
         <!ELEMENT Movie (Title, Price)>
         <!ATTLIST Movie year CDATA #REQUIRED>
