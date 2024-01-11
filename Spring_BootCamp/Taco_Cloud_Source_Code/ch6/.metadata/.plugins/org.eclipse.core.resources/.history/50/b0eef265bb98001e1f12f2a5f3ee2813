@@ -1,0 +1,40 @@
+spring:
+  security:
+    user:
+      name: buzz
+      password: infinity
+  datasource:
+    generate-unique-name: false
+    name: tacocloud
+
+taco:
+  orders:
+    pageSize: 10
+
+
+  discount:
+    codes:
+      abcdef: 10
+
+
+---
+spring:
+  profiles: prod
+
+  datasource:
+    url: jdbc:mysql://localhost/tacocloud
+    username: tacouser
+    password: tacopassword
+
+logging:
+  level:
+    tacos: WARN
+    
+---
+#created a keystore
+server :
+ port: 8443
+ ssl:
+  key-store: ///C:/Users/Marco/Desktop/BootCamp/()Spring/spring-in-action-6-samples-main/ch06/taco-cloud/mykeys.jks
+  key-store-password: ketana
+  key-password: ketana
