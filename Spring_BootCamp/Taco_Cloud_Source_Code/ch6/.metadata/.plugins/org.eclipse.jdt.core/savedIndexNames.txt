@@ -8,8 +8,8 @@ INDEX VERSION 1.134+C:\Users\Marco\Desktop\BootCamp2\Spring_BootCamp\Taco_Cloud_
 222237734.index
 11725813.index
 4195619591.index
-4025976343.index
 2037418193.index
+4025976343.index
 484900523.index
 2332333458.index
 3635068306.index
@@ -31,8 +31,8 @@ INDEX VERSION 1.134+C:\Users\Marco\Desktop\BootCamp2\Spring_BootCamp\Taco_Cloud_
 3185925505.index
 2982904988.index
 193735289.index
-934486594.index
 1422878618.index
+934486594.index
 2516469579.index
 2048367518.index
 627380330.index
@@ -50,11 +50,11 @@ INDEX VERSION 1.134+C:\Users\Marco\Desktop\BootCamp2\Spring_BootCamp\Taco_Cloud_
 267622669.index
 2617059627.index
 3302678637.index
-2983581197.index
-1748661296.index
 31406861.index
-2798483795.index
 1665231357.index
+1748661296.index
+2798483795.index
+2983581197.index
 1846858434.index
 1946333722.index
 3426595981.index
@@ -69,8 +69,8 @@ INDEX VERSION 1.134+C:\Users\Marco\Desktop\BootCamp2\Spring_BootCamp\Taco_Cloud_
 2771192512.index
 3349223714.index
 141417434.index
-3634640275.index
 3243188863.index
+3634640275.index
 2801443125.index
 933027484.index
 1605156906.index
@@ -114,9 +114,9 @@ INDEX VERSION 1.134+C:\Users\Marco\Desktop\BootCamp2\Spring_BootCamp\Taco_Cloud_
 2381844281.index
 1828833013.index
 2831528871.index
-2432548076.index
-831898132.index
 3818224642.index
+831898132.index
+2432548076.index
 1245536910.index
 2516893569.index
 1563713919.index
